@@ -1,0 +1,170 @@
+{
+	"schema_version": "1.6.0",
+	"id": "GHSA-7w53-hfpw-rg3g",
+	"modified": "2023-11-08T03:57:14.033819Z",
+	"published": "2022-05-17T01:36:49Z",
+	"aliases": [
+		"CVE-2013-1397"
+	],
+	"summary": "Symfony Arbitrary PHP code Execution",
+	"details": "Symfony 2.0.x before 2.0.22, 2.1.x before 2.1.7, and 2.2.x remote attackers to execute arbitrary PHP code via a serialized PHP object to the (1) Yaml::parse or (2) Yaml\\Parser::parse function, a different vulnerability than CVE-2013-1348.",
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "symfony/symfony",
+				"purl": "pkg:composer/symfony/symfony"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.0"
+						},
+						{
+							"fixed": "2.0.22"
+						}
+					]
+				}
+			],
+			"versions": [
+				"2.0.4",
+				"2.0.5",
+				"2.0.6",
+				"2.0.7",
+				"v2.0.10",
+				"v2.0.11",
+				"v2.0.12",
+				"v2.0.13",
+				"v2.0.14",
+				"v2.0.15",
+				"v2.0.16",
+				"v2.0.17",
+				"v2.0.18",
+				"v2.0.19",
+				"v2.0.20",
+				"v2.0.21",
+				"v2.0.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-7w53-hfpw-rg3g/GHSA-7w53-hfpw-rg3g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "symfony/symfony",
+				"purl": "pkg:composer/symfony/symfony"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.1"
+						},
+						{
+							"fixed": "2.1.7"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v2.1.0",
+				"v2.1.0-BETA1",
+				"v2.1.0-BETA2",
+				"v2.1.0-BETA3",
+				"v2.1.0-BETA4",
+				"v2.1.0-RC1",
+				"v2.1.0-RC2",
+				"v2.1.1",
+				"v2.1.2",
+				"v2.1.3",
+				"v2.1.4",
+				"v2.1.5",
+				"v2.1.6"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-7w53-hfpw-rg3g/GHSA-7w53-hfpw-rg3g.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "symfony/symfony",
+				"purl": "pkg:composer/symfony/symfony"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.2"
+						},
+						{
+							"fixed": "2.2.12"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v2.2.0",
+				"v2.2.0-BETA1",
+				"v2.2.0-BETA2",
+				"v2.2.0-RC1",
+				"v2.2.0-RC2",
+				"v2.2.0-RC3",
+				"v2.2.1",
+				"v2.2.10",
+				"v2.2.11",
+				"v2.2.2",
+				"v2.2.3",
+				"v2.2.4",
+				"v2.2.5",
+				"v2.2.6",
+				"v2.2.7",
+				"v2.2.8",
+				"v2.2.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-7w53-hfpw-rg3g/GHSA-7w53-hfpw-rg3g.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1397"
+		},
+		{
+			"type": "WEB",
+			"url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/81551"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/symfony/symfony"
+		},
+		{
+			"type": "WEB",
+			"url": "http://secunia.com/advisories/51980"
+		},
+		{
+			"type": "WEB",
+			"url": "http://symfony.com/blog/security-release-symfony-2-0-22-and-2-1-7-released"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.securityfocus.com/bid/57574"
+		}
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-94"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2023-08-28T23:40:22Z",
+		"nvd_published_at": "2014-06-02T15:55:00Z",
+		"severity": "HIGH"
+	}
+}
