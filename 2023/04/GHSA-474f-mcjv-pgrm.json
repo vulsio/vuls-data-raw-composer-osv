@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-474f-mcjv-pgrm",
-	"modified": "2023-11-22T16:40:59.446742Z",
+	"modified": "2023-12-08T19:18:04.270770Z",
 	"published": "2023-04-28T15:30:19Z",
 	"aliases": [
 		"CVE-2023-28819"
@@ -62,6 +62,7 @@
 				"8.5.11",
 				"8.5.12",
 				"8.5.13",
+				"8.5.14",
 				"8.5.2",
 				"8.5.3",
 				"8.5.4",
@@ -99,6 +100,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/concretecms/concretecms/releases/tag/8.5.13"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.concretecms.org/about/project-news/security/2023-11-09-security-blog-about-updated-cves-and-new-release"
 		},
 		{
 			"type": "WEB",
