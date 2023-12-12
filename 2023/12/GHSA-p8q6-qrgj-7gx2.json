@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p8q6-qrgj-7gx2",
-	"modified": "2023-12-08T15:41:25.827766Z",
+	"modified": "2023-12-11T22:14:58.161279Z",
 	"published": "2023-12-08T06:30:37Z",
 	"aliases": [
 		"CVE-2023-48122"
 	],
 	"summary": "Microweber allows a remote attacker to obtain sensitive information via the HTTP GET method",
 	"details": "An issue present in microweber v.2.0.1 and fixed in v.2.0.4 allows a remote attacker to obtain sensitive information via the HTTP GET method.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -62,6 +68,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-12-08T15:24:24Z",
 		"nvd_published_at": "2023-12-08T04:15:06Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
