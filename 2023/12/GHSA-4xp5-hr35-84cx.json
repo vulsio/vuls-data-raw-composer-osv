@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4xp5-hr35-84cx",
-	"modified": "2023-12-13T23:18:45.114229Z",
+	"modified": "2023-12-13T23:26:45.431675Z",
 	"published": "2023-12-13T23:11:54Z",
+	"aliases": [
+		"CVE-2023-50459"
+	],
 	"summary": "Broken Access Control in extension \"femanager\" ",
 	"details": "The extension fails to check access permissions for the edit user component. An authenticated frontend user can use the vulnerability to either edit data of various frontend users or to delete various frontend user accounts.\n\nAnother missing access check in the backend module of the extensions allows an authenticated backend user to perform various actions (userLogout, confirmUser, refuseUser and resendUserConfirmation) for any frontend user in the system.",
 	"severity": [

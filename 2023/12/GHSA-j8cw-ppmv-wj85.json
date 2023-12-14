@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j8cw-ppmv-wj85",
-	"modified": "2023-12-13T23:17:34.278107Z",
+	"modified": "2023-12-13T23:26:45.567155Z",
 	"published": "2023-12-13T23:12:32Z",
+	"aliases": [
+		"CVE-2023-50462"
+	],
 	"summary": "Insecure Direct Object Reference in extension \"Content Consent\" (content_consent)",
 	"details": "The extension fails to verify whether a specified content element identifier is permitted by the plugin. This enables an unauthenticated user to display various content elements, leading to an insecure direct object reference (IDOR) vulnerability with the potential to expose internal content elements.",
 	"severity": [
