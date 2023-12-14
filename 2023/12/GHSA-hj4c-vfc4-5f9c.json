@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hj4c-vfc4-5f9c",
-	"modified": "2023-12-11T22:26:45.609314Z",
+	"modified": "2023-12-13T19:17:18.338737Z",
 	"published": "2023-12-10T21:30:27Z",
 	"aliases": [
 		"CVE-2022-48614"
 	],
 	"summary": "Cross-site Scripting in Semantic MediaWiki",
 	"details": "Special:Ask in Semantic MediaWiki before 4.0.2 allows Reflected XSS.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
