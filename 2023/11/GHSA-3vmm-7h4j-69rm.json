@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3vmm-7h4j-69rm",
-	"modified": "2023-11-22T08:11:24.217915Z",
+	"modified": "2023-12-15T22:33:08.143409Z",
 	"published": "2023-11-14T18:30:21Z",
 	"aliases": [
 		"BIT-typo3-2023-47127",
@@ -326,6 +326,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/TYPO3/typo3/commit/535dfbdc54fd5362e0bc08d911db44eac7f64019"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2023-47127.yaml"
 		},
 		{
 			"type": "PACKAGE",
