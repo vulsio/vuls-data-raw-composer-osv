@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3qx2-6f78-w2j2",
-	"modified": "2023-12-13T23:26:45.363066Z",
+	"modified": "2023-12-18T17:50:02.538721Z",
 	"published": "2023-12-13T23:09:04Z",
 	"aliases": [
 		"CVE-2023-50262"
@@ -79,6 +79,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/dompdf/dompdf/commit/41cbac16f3cf56affa49f06e8dae66d0eac2b593"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/dompdf/dompdf/CVE-2023-50262.yaml"
 		},
 		{
 			"type": "PACKAGE",
