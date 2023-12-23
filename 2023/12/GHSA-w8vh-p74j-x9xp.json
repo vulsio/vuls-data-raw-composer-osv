@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w8vh-p74j-x9xp",
-	"modified": "2023-12-18T20:26:36.777004Z",
+	"modified": "2023-12-22T22:31:37.907290Z",
 	"published": "2023-12-18T20:01:00Z",
 	"aliases": [
 		"CVE-2023-50708"
@@ -81,6 +81,10 @@
 			"url": "https://github.com/yiisoft/yii2-authclient/security/advisories/GHSA-w8vh-p74j-x9xp"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50708"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/yiisoft/yii2-authclient/commit/dabddf2154ab7e7703740205a069202554089248"
 		},
@@ -102,10 +106,12 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-203"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2023-12-18T20:01:00Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2023-12-22T19:15:08Z",
 		"severity": "LOW"
 	}
 }
