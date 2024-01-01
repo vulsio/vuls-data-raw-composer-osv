@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wxmh-65f7-jcvw",
-	"modified": "2023-12-06T01:02:05.243825Z",
+	"modified": "2024-01-01T03:55:53.378102Z",
 	"published": "2023-04-19T18:25:53Z",
 	"aliases": [
 		"BIT-drupal-2022-24775",
@@ -132,6 +132,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/guzzle/psr7"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2023/12/msg00028.html"
 		},
 		{
 			"type": "WEB",
