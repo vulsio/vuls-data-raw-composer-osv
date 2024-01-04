@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jpr7-q523-hx25",
-	"modified": "2023-12-05T00:35:11.592207Z",
+	"modified": "2024-01-03T19:34:14.029238Z",
 	"published": "2023-11-27T18:31:14Z",
 	"aliases": [
 		"CVE-2023-49316"
@@ -74,6 +74,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/phpseclib/phpseclib/commit/964d78101a70305df33f442f5490f0adb3b7e77f"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpseclib/phpseclib/CVE-2023-49316.yaml"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-jpr7-q523-hx25"
 		},
 		{
 			"type": "PACKAGE",
