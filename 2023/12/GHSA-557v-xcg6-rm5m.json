@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-557v-xcg6-rm5m",
-	"modified": "2023-12-22T22:33:07.414665Z",
+	"modified": "2024-01-08T16:12:43.554602Z",
 	"published": "2023-12-21T23:16:13Z",
 	"aliases": [
 		"CVE-2023-51651"
@@ -1884,6 +1884,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/aws/aws-sdk-php/commit/aebc9f801438746ac4ade327551576cb75f635f2"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/aws/aws-sdk-php/CVE-2023-51651.yaml"
 		},
 		{
 			"type": "PACKAGE",
