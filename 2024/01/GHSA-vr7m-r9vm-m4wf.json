@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vr7m-r9vm-m4wf",
-	"modified": "2024-01-03T22:11:29.540101Z",
+	"modified": "2024-01-09T08:11:40.139996Z",
 	"published": "2024-01-03T21:48:56Z",
 	"aliases": [
+		"BIT-prestashop-2024-21628",
 		"CVE-2024-21628"
 	],
 	"summary": "PrestaShop XSS can be stored in DB from \"add a message form\" in order detail page (FO)",
