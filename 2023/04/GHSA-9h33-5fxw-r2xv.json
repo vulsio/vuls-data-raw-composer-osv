@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9h33-5fxw-r2xv",
-	"modified": "2023-11-11T05:19:53.995672Z",
+	"modified": "2024-01-09T16:46:43.383310Z",
 	"published": "2023-04-28T15:30:18Z",
 	"aliases": [
 		"CVE-2023-28471"
@@ -62,6 +62,7 @@
 				"8.5.11",
 				"8.5.12",
 				"8.5.13",
+				"8.5.14",
 				"8.5.2",
 				"8.5.3",
 				"8.5.4",
@@ -96,6 +97,14 @@
 		{
 			"type": "WEB",
 			"url": "https://concretecms.com"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/concretecms/concretecms"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.concretecms.org/about/project-news/security/2023-12-05-concrete-cms-new-cves-and-cve-updates"
 		},
 		{
 			"type": "WEB",
