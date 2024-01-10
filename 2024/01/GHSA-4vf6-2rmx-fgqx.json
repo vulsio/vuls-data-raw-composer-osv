@@ -1,17 +1,17 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-rpjw-97p8-p2xp",
-	"modified": "2024-01-03T21:58:13.483372Z",
+	"id": "GHSA-4vf6-2rmx-fgqx",
+	"modified": "2024-01-09T18:56:53.867185Z",
 	"published": "2024-01-03T00:30:22Z",
 	"aliases": [
-		"CVE-2020-26623"
+		"CVE-2020-26624"
 	],
-	"summary": "Gila CMS SQL Injection",
-	"details": "SQL Injection vulnerability discovered in Gila CMS 1.15.4 and earlier allows a remote attacker to execute arbitrary web scripts via the Area parameter under the Administration>Widget tab after the login portal.",
+	"summary": "Gila CMS SQL Injection vulnerability",
+	"details": "A SQL injection vulnerability was discovered in Gila CMS 1.15.4 and earlier which allows a remote attacker to execute arbitrary web scripts via the ID parameter after the login portal.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N"
+			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
 		}
 	],
 	"affected": [
@@ -35,14 +35,14 @@
 				}
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/01/GHSA-rpjw-97p8-p2xp/GHSA-rpjw-97p8-p2xp.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/01/GHSA-4vf6-2rmx-fgqx/GHSA-4vf6-2rmx-fgqx.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26623"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26624"
 		},
 		{
 			"type": "PACKAGE",
@@ -66,8 +66,8 @@
 			"CWE-89"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2024-01-03T21:39:18Z",
+		"github_reviewed_at": "2024-01-09T18:43:43Z",
 		"nvd_published_at": "2024-01-02T22:15:07Z",
-		"severity": "MODERATE"
+		"severity": "LOW"
 	}
 }
