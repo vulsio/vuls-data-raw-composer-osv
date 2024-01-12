@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-93p6-9cxv-5rpq",
-	"modified": "2024-01-09T17:42:05.494927Z",
+	"modified": "2024-01-12T17:04:07.705048Z",
 	"published": "2024-01-09T03:30:22Z",
 	"aliases": [
 		"CVE-2023-46906"
 	],
 	"summary": "juzawebCMS Incorrect Access Control vulnerability",
 	"details": "juzaweb <= 3.4 is vulnerable to Incorrect Access Control, resulting in an application outage after a 500 HTTP status code. The payload in the timezone field was not correctly validated.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+		}
+	],
 	"affected": [
 		{
 			"package": {
