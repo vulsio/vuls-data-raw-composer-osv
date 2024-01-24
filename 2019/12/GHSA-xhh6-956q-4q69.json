@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xhh6-956q-4q69",
-	"modified": "2023-11-08T04:01:26.822761Z",
+	"modified": "2024-01-24T00:46:20.827817Z",
 	"published": "2019-12-02T18:08:19Z",
 	"aliases": [
 		"CVE-2019-18888"
@@ -1085,6 +1085,18 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/symfony/symfony/releases/tag/v4.3.8"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/DZNXRVHDQBNZQUCNRVZICPPBFRAUWUJX/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UED22BOXTL2SSFMGYKA64ZFHGLLJG3EA/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VXEAOEANNIVYANTMOJ42NKSU6BGNBULZ/"
 		},
 		{
 			"type": "WEB",
