@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xjp4-6w75-qrj7",
-	"modified": "2023-12-06T01:02:04.700662Z",
+	"modified": "2024-01-24T10:49:13.126938Z",
 	"published": "2022-03-01T21:44:13Z",
 	"aliases": [
 		"BIT-codeigniter-2022-24711",
@@ -81,6 +81,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/codeigniter4/CodeIgniter4/commit/202f41ad522ba1d414b9d9c35aba1cb0c156b781"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/codeigniter4/framework/CVE-2022-24711.yaml"
 		},
 		{
 			"type": "PACKAGE",

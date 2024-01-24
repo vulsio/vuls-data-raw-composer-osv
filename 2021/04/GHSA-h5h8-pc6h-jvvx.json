@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h5h8-pc6h-jvvx",
-	"modified": "2023-12-06T01:01:02.951483Z",
+	"modified": "2024-01-24T11:01:01.813459Z",
 	"published": "2021-04-29T21:52:04Z",
 	"aliases": [
 		"BIT-composer-2021-29472",
@@ -142,7 +142,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "2.0"
+							"introduced": "2.0.0-alpha1"
 						},
 						{
 							"fixed": "2.0.13"
@@ -191,6 +191,10 @@
 		{
 			"type": "WEB",
 			"url": "https://getcomposer.org/"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/composer/composer/CVE-2021-29472.yaml"
 		},
 		{
 			"type": "PACKAGE",

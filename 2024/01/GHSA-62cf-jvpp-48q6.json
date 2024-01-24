@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-62cf-jvpp-48q6",
-	"modified": "2024-01-19T22:41:36.057740Z",
+	"modified": "2024-01-24T08:13:29.324094Z",
 	"published": "2024-01-16T06:30:30Z",
 	"aliases": [
+		"BIT-drupal-2024-22362",
 		"CVE-2024-22362"
 	],
 	"summary": "Drupal Denial of Service vulnerability",

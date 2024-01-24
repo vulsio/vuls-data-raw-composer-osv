@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7528-7jg5-6g62",
-	"modified": "2023-12-06T01:01:55.597709Z",
+	"modified": "2024-01-24T10:34:25.604686Z",
 	"published": "2022-01-27T15:09:00Z",
 	"aliases": [
 		"BIT-codeigniter-2022-21715",
@@ -84,6 +84,10 @@
 		{
 			"type": "WEB",
 			"url": "https://codeigniter4.github.io/userguide/incoming/routing.html#use-defined-routes-only"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/codeigniter4/framework/CVE-2022-21715.yaml"
 		},
 		{
 			"type": "PACKAGE",
