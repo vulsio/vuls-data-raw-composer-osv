@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hjrj-7wcj-7j3c",
-	"modified": "2023-12-07T16:34:03.076111Z",
+	"modified": "2024-01-26T17:00:45.811513Z",
 	"published": "2022-05-13T01:12:38Z",
 	"aliases": [
 		"CVE-2016-0724"
@@ -220,6 +220,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2016-0724"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/moodle/moodle/commit/4323a973d57a41e19e039a850ad71ebcabae73c1"
 		},
 		{
 			"type": "PACKAGE",
