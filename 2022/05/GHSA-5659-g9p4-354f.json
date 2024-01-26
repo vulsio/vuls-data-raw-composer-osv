@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-cp39-43xr-2wrp",
-	"modified": "2024-01-25T19:01:49.876909Z",
+	"id": "GHSA-5659-g9p4-354f",
+	"modified": "2024-01-25T21:26:34.885528Z",
 	"published": "2022-05-13T01:12:45Z",
 	"aliases": [
-		"CVE-2015-2269"
+		"CVE-2015-2272"
 	],
-	"summary": "Moodle XSS Vulnerability",
-	"details": "Multiple cross-site scripting (XSS) vulnerabilities in lib/javascript-static.js in Moodle through 2.5.9, 2.6.x before 2.6.9, 2.7.x before 2.7.6, and 2.8.x before 2.8.4 allow remote authenticated users to inject arbitrary web script or HTML via a (1) alt or (2) title attribute in an IMG element.",
+	"summary": "Moodle allows attackers to bypass a forced-password-change requirement",
+	"details": "login/token.php in Moodle through 2.5.9, 2.6.x before 2.6.9, 2.7.x before 2.7.6, and 2.8.x before 2.8.4 allows remote authenticated users to bypass a forced-password-change requirement by creating a web-services token.",
 	"affected": [
 		{
 			"package": {
@@ -23,7 +23,7 @@
 							"introduced": "0"
 						},
 						{
-							"last_affected": "2.5.9"
+							"fixed": "2.6.9"
 						}
 					]
 				}
@@ -61,33 +61,10 @@
 				"v2.5.6",
 				"v2.5.7",
 				"v2.5.8",
-				"v2.5.9"
-			],
-			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-cp39-43xr-2wrp/GHSA-cp39-43xr-2wrp.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Packagist",
-				"name": "moodle/moodle",
-				"purl": "pkg:composer/moodle/moodle"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "2.6.0"
-						},
-						{
-							"fixed": "2.6.9"
-						}
-					]
-				}
-			],
-			"versions": [
+				"v2.5.9",
 				"v2.6.0",
+				"v2.6.0-beta",
+				"v2.6.0-rc1",
 				"v2.6.1",
 				"v2.6.2",
 				"v2.6.3",
@@ -98,7 +75,7 @@
 				"v2.6.8"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-cp39-43xr-2wrp/GHSA-cp39-43xr-2wrp.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5659-g9p4-354f/GHSA-5659-g9p4-354f.json"
 			}
 		},
 		{
@@ -129,7 +106,7 @@
 				"v2.7.5"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-cp39-43xr-2wrp/GHSA-cp39-43xr-2wrp.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5659-g9p4-354f/GHSA-5659-g9p4-354f.json"
 			}
 		},
 		{
@@ -158,18 +135,26 @@
 				"v2.8.3"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-cp39-43xr-2wrp/GHSA-cp39-43xr-2wrp.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5659-g9p4-354f/GHSA-5659-g9p4-354f.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2269"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2015-2272"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/moodle/moodle/commit/ead8b28f92da72fb836cf9183aaf6f11a7eb1a21"
+			"url": "https://github.com/moodle/moodle/commit/0899c0adc036e34e0c37ea1a8d3551610cdb4233"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/moodle/moodle/commit/6e284d55b234287169f21e6ef8a9a237d6eedfe4"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/moodle/moodle/commit/b0abcbda170b57649e0ed39ac5aca91dbc30337f"
 		},
 		{
 			"type": "PACKAGE",
@@ -177,24 +162,26 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://moodle.org/mod/forum/discuss.php?d=307383"
+			"url": "https://moodle.org/mod/forum/discuss.php?d=307386"
 		},
 		{
 			"type": "WEB",
-			"url": "http://git.moodle.org/gw?p=moodle.git&a=search&h=HEAD&st=commit&s=MDL-49144"
+			"url": "https://web.archive.org/web/20200227182455/http://www.securityfocus.com/bid/73166"
 		},
 		{
 			"type": "WEB",
-			"url": "http://openwall.com/lists/oss-security/2015/03/16/1"
+			"url": "http://git.moodle.org/gw?p=moodle.git&a=search&h=HEAD&st=commit&s=MDL-48691"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.securityfocus.com/bid/73166"
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [
-			"CWE-79"
-		],
+		"cwe_ids": [],
 		"github_reviewed": true,
-		"github_reviewed_at": "2023-08-01T20:33:11Z",
+		"github_reviewed_at": "2024-01-25T20:57:47Z",
 		"nvd_published_at": "2015-06-01T19:59:00Z",
-		"severity": "LOW"
+		"severity": "MODERATE"
 	}
 }
