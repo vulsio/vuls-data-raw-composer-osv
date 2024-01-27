@@ -1,17 +1,17 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-5xp2-rv4h-mm2q",
-	"modified": "2024-01-26T18:16:33.549384Z",
-	"published": "2022-05-24T16:48:40Z",
+	"id": "GHSA-c3pr-h96w-2jjg",
+	"modified": "2024-01-26T18:28:39.020711Z",
+	"published": "2022-05-13T01:34:31Z",
 	"aliases": [
-		"CVE-2019-10133"
+		"CVE-2018-14630"
 	],
-	"summary": "Moodle Open Redirect Vulnerability",
-	"details": "A flaw was found in Moodle before 3.7, 3.6.4, 3.5.6, 3.4.9 and 3.1.18. The form to upload cohorts contained a redirect field, which was not restricted to internal URLs.",
+	"summary": "Moodle XML import of ddwtos could lead to intentional remote code execution",
+	"details": "moodle before versions 3.5.2, 3.4.5, 3.3.8, 3.1.14 is vulnerable to an XML import of ddwtos could lead to intentional remote code execution. When importing legacy 'drag and drop into text' (ddwtos) type quiz questions, it was possible to inject and execute PHP code from within the imported questions, either intentionally or by importing questions from an untrusted source.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+			"score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
 		}
 	],
 	"affected": [
@@ -26,55 +26,20 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.6.0"
-						},
-						{
-							"fixed": "3.6.4"
-						}
-					]
-				}
-			],
-			"versions": [
-				"v3.6.0",
-				"v3.6.1",
-				"v3.6.2",
-				"v3.6.3"
-			],
-			"database_specific": {
-				"last_known_affected_version_range": "<= 3.6.3",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5xp2-rv4h-mm2q/GHSA-5xp2-rv4h-mm2q.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Packagist",
-				"name": "moodle/moodle",
-				"purl": "pkg:composer/moodle/moodle"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
 							"introduced": "3.5.0"
 						},
 						{
-							"fixed": "3.5.6"
+							"fixed": "3.5.2"
 						}
 					]
 				}
 			],
 			"versions": [
 				"v3.5.0",
-				"v3.5.1",
-				"v3.5.2",
-				"v3.5.3",
-				"v3.5.4",
-				"v3.5.5"
+				"v3.5.1"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "<= 3.5.5",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5xp2-rv4h-mm2q/GHSA-5xp2-rv4h-mm2q.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c3pr-h96w-2jjg/GHSA-c3pr-h96w-2jjg.json"
 			}
 		},
 		{
@@ -91,7 +56,7 @@
 							"introduced": "3.4.0"
 						},
 						{
-							"fixed": "3.4.9"
+							"fixed": "3.4.5"
 						}
 					]
 				}
@@ -101,15 +66,57 @@
 				"v3.4.1",
 				"v3.4.2",
 				"v3.4.3",
-				"v3.4.4",
-				"v3.4.5",
-				"v3.4.6",
-				"v3.4.7",
-				"v3.4.8"
+				"v3.4.4"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "<= 3.4.8",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5xp2-rv4h-mm2q/GHSA-5xp2-rv4h-mm2q.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c3pr-h96w-2jjg/GHSA-c3pr-h96w-2jjg.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "moodle/moodle",
+				"purl": "pkg:composer/moodle/moodle"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "3.2.0"
+						},
+						{
+							"fixed": "3.3.8"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v3.2.0",
+				"v3.2.1",
+				"v3.2.2",
+				"v3.2.3",
+				"v3.2.4",
+				"v3.2.5",
+				"v3.2.6",
+				"v3.2.7",
+				"v3.2.8",
+				"v3.2.9",
+				"v3.3.0",
+				"v3.3.0-beta",
+				"v3.3.0-rc1",
+				"v3.3.0-rc2",
+				"v3.3.0-rc3",
+				"v3.3.1",
+				"v3.3.2",
+				"v3.3.3",
+				"v3.3.4",
+				"v3.3.5",
+				"v3.3.6",
+				"v3.3.7"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c3pr-h96w-2jjg/GHSA-c3pr-h96w-2jjg.json"
 			}
 		},
 		{
@@ -126,7 +133,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.1.18"
+							"fixed": "3.1.14"
 						}
 					]
 				}
@@ -257,10 +264,6 @@
 				"v3.1.11",
 				"v3.1.12",
 				"v3.1.13",
-				"v3.1.14",
-				"v3.1.15",
-				"v3.1.16",
-				"v3.1.17",
 				"v3.1.2",
 				"v3.1.3",
 				"v3.1.4",
@@ -271,39 +274,38 @@
 				"v3.1.9"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "<= 3.1.17",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-5xp2-rv4h-mm2q/GHSA-5xp2-rv4h-mm2q.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c3pr-h96w-2jjg/GHSA-c3pr-h96w-2jjg.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-10133"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14630"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/moodle/moodle/commit/5a89ac9640b3a695720845b6ddeff65e69a289fc"
+			"url": "https://github.com/moodle/moodle/commit/09cbca8566a388e8f0a1a0cfd86cd0667088ed2c"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/moodle/moodle/commit/a6258d0934f707b1d033f50fb41ffbcf45bb2102"
+			"url": "https://github.com/moodle/moodle/commit/be092b730910ad97fff0511e177a097ec1cc4b1c"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/moodle/moodle/commit/c509d108216524887c7ca08b1c451054d669ea75"
+			"url": "https://github.com/moodle/moodle/commit/cb8aefa658cf7ad8f002a480343afb2dea94cc08"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/moodle/moodle/commit/cd6fb4322b6b1914c05f05033a71ed060f875fd4"
+			"url": "https://github.com/moodle/moodle/commit/cfc4393aa689c277a27b9a040ff7dcbdac4e41dd"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/moodle/moodle/commit/d5067bffd230d733ad24f6aeaa56aaa17eca5bfb"
+			"url": "https://github.com/moodle/moodle/commit/da1eeea0ff3d292b7669e478abc114872dd9cc8f"
 		},
 		{
 			"type": "WEB",
-			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-10133"
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-14630"
 		},
 		{
 			"type": "PACKAGE",
@@ -311,16 +313,32 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://moodle.org/mod/forum/discuss.php?d=386523"
+			"url": "https://moodle.org/mod/forum/discuss.php?d=376023"
+		},
+		{
+			"type": "WEB",
+			"url": "https://seclists.org/fulldisclosure/2018/Sep/28"
+		},
+		{
+			"type": "WEB",
+			"url": "https://web.archive.org/web/20200227111301/https://www.securityfocus.com/bid/105354"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.sec-consult.com/en/blog/advisories/remote-code-execution-php-unserialize-moodle-open-source-learning-platform-cve-2018-14630/"
+		},
+		{
+			"type": "WEB",
+			"url": "http://git.moodle.org/gw?p=moodle.git&a=search&h=HEAD&st=commit&s=MDL-62880"
 		}
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-601"
+			"CWE-94"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2023-08-01T23:29:14Z",
-		"nvd_published_at": "2019-06-26T19:15:00Z",
-		"severity": "MODERATE"
+		"github_reviewed_at": "2024-01-26T18:00:32Z",
+		"nvd_published_at": "2018-09-17T18:29:00Z",
+		"severity": "HIGH"
 	}
 }
