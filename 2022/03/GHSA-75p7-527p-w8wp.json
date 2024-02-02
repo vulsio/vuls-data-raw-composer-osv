@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-75p7-527p-w8wp",
-	"modified": "2023-11-08T04:08:34.574908Z",
+	"modified": "2024-02-02T17:17:16.433895Z",
 	"published": "2022-03-09T15:17:31Z",
 	"aliases": [
 		"CVE-2022-24739"
@@ -118,6 +118,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/Rudloff/alltube/commit/bc14b6e45c766c05757fb607ef8d444cbbfba71a"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/rudloff/alltube/CVE-2022-24739.yaml"
 		},
 		{
 			"type": "PACKAGE",

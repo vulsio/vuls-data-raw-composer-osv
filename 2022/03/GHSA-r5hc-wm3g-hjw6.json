@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r5hc-wm3g-hjw6",
-	"modified": "2023-11-08T04:07:40.415871Z",
+	"modified": "2024-02-02T17:16:30.217761Z",
 	"published": "2022-03-01T22:01:30Z",
 	"aliases": [
 		"CVE-2022-0768"
@@ -109,6 +109,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/rudloff/alltube/commit/148a171b240e7ceb076b9e198bef412de14ac55d"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/rudloff/alltube/CVE-2022-0768.yaml"
 		},
 		{
 			"type": "PACKAGE",
