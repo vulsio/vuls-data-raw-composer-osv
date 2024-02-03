@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xv69-f7x5-r4qw",
-	"modified": "2023-11-08T04:01:45.036899Z",
+	"modified": "2024-02-02T18:17:34.092563Z",
 	"published": "2019-11-12T22:59:43Z",
 	"aliases": [
 		"CVE-2019-8145"
@@ -64,7 +64,7 @@
 							"introduced": "2.3"
 						},
 						{
-							"fixed": "2.3.3"
+							"fixed": "2.3.2-p1"
 						}
 					]
 				}
@@ -72,8 +72,7 @@
 			"versions": [
 				"2.3.0",
 				"2.3.1",
-				"2.3.2",
-				"2.3.2-p2"
+				"2.3.2"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/11/GHSA-xv69-f7x5-r4qw/GHSA-xv69-f7x5-r4qw.json"
@@ -104,7 +103,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2019-11-12T22:12:58Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2019-11-06T01:15:25Z",
 		"severity": "MODERATE"
 	}
 }

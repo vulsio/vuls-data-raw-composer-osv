@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xgcp-59g2-wm8g",
-	"modified": "2023-11-08T04:01:44.612381Z",
+	"modified": "2024-02-02T17:36:16.200753Z",
 	"published": "2022-05-24T17:00:26Z",
 	"aliases": [
 		"CVE-2019-8136"
@@ -85,8 +85,16 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-8136"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-8136.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/magento/magento2"
+		},
+		{
+			"type": "WEB",
+			"url": "https://magento.com/security/patches/magento-2.3.3-and-2.2.10-security-update"
 		},
 		{
 			"type": "WEB",

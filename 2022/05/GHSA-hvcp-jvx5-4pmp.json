@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hvcp-jvx5-4pmp",
-	"modified": "2023-11-08T04:01:42.093130Z",
+	"modified": "2024-02-02T18:32:01.998565Z",
 	"published": "2022-05-24T16:52:27Z",
 	"aliases": [
 		"CVE-2019-7923"
@@ -124,6 +124,14 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7923"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-7923.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-13"
 		},
 		{
 			"type": "WEB",

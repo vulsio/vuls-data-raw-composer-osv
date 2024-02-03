@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7pr3-34rg-g53m",
-	"modified": "2024-01-10T16:26:59.997714Z",
+	"modified": "2024-02-02T17:31:18.117418Z",
 	"published": "2022-05-24T17:00:27Z",
 	"aliases": [
 		"CVE-2019-8140"
@@ -84,6 +84,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-8140"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-8140.yaml"
 		},
 		{
 			"type": "PACKAGE",
