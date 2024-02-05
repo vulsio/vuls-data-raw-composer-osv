@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-657m-v5vm-f6rw",
-	"modified": "2023-12-06T01:01:32.665974Z",
+	"modified": "2024-02-05T11:31:00.301616Z",
 	"published": "2021-10-05T20:23:47Z",
 	"aliases": [
 		"BIT-typo3-2021-41113",
@@ -21,6 +21,37 @@
 				"ecosystem": "Packagist",
 				"name": "typo3/cms-core",
 				"purl": "pkg:composer/typo3/cms-core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "11.2.0"
+						},
+						{
+							"fixed": "11.5.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v11.2.0",
+				"v11.3.0",
+				"v11.3.1",
+				"v11.3.2",
+				"v11.3.3",
+				"v11.4.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/10/GHSA-657m-v5vm-f6rw/GHSA-657m-v5vm-f6rw.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
 			},
 			"ranges": [
 				{
@@ -66,12 +97,24 @@
 			"url": "https://github.com/TYPO3/typo3/commit/fa51999203c5e5d913ecae5ea843ccb2b95fa33f"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2021-41113.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2021-41113.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/TYPO3/typo3"
 		},
 		{
 			"type": "WEB",
 			"url": "https://typo3.org/security/advisory/typo3-core-sa-2020-006"
+		},
+		{
+			"type": "WEB",
+			"url": "https://typo3.org/security/advisory/typo3-core-sa-2021-014"
 		}
 	],
 	"database_specific": {
@@ -82,6 +125,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2021-10-05T18:48:07Z",
 		"nvd_published_at": "2021-10-05T18:15:00Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }

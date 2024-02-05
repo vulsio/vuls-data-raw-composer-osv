@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x7g2-wrrp-r6h3",
-	"modified": "2023-11-08T04:05:26.687126Z",
+	"modified": "2024-02-05T16:01:14.131941Z",
 	"published": "2021-09-01T18:41:06Z",
 	"aliases": [
 		"CVE-2021-27913"
@@ -155,6 +155,34 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-x7g2-wrrp-r6h3/GHSA-x7g2-wrrp-r6h3.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "mautic/core",
+				"purl": "pkg:composer/mautic/core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.0.0-alpha1"
+						},
+						{
+							"fixed": "4.0.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.0.0-alpha1",
+				"4.0.0-beta",
+				"4.0.0-rc"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-x7g2-wrrp-r6h3/GHSA-x7g2-wrrp-r6h3.json"
+			}
 		}
 	],
 	"references": [
@@ -169,6 +197,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/mautic/mautic/commit/d1cad766a2de74e6c6b89d6d78c2a5f2e36ba91c"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/mautic/core/CVE-2021-27913.yaml"
 		},
 		{
 			"type": "PACKAGE",

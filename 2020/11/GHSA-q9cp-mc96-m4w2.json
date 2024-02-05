@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q9cp-mc96-m4w2",
-	"modified": "2023-12-06T01:00:27.569707Z",
+	"modified": "2024-02-05T11:30:59.550893Z",
 	"published": "2020-11-23T21:18:44Z",
 	"aliases": [
 		"BIT-typo3-2020-26229",
@@ -27,7 +27,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "10.4.0"
+							"introduced": "10.0.0"
 						},
 						{
 							"fixed": "10.4.10"
@@ -36,6 +36,53 @@
 				}
 			],
 			"versions": [
+				"v10.0.0",
+				"v10.1.0",
+				"v10.2.0",
+				"v10.2.1",
+				"v10.2.2",
+				"v10.3.0",
+				"v10.4.0",
+				"v10.4.1",
+				"v10.4.2",
+				"v10.4.3",
+				"v10.4.4",
+				"v10.4.5",
+				"v10.4.6",
+				"v10.4.7",
+				"v10.4.8",
+				"v10.4.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/11/GHSA-q9cp-mc96-m4w2/GHSA-q9cp-mc96-m4w2.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "10.0.0"
+						},
+						{
+							"fixed": "10.4.10"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v10.0.0",
+				"v10.1.0",
+				"v10.2.0",
+				"v10.2.1",
+				"v10.2.2",
+				"v10.3.0",
 				"v10.4.0",
 				"v10.4.1",
 				"v10.4.2",
@@ -63,6 +110,14 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2020-26229.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2020-26229.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://typo3.org/security/advisory/typo3-core-sa-2020-012"
 		}
 	],
@@ -72,7 +127,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-11-23T21:16:32Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2020-11-23T22:15:12Z",
 		"severity": "LOW"
 	}
 }

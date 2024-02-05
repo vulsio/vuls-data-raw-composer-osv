@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6rmq-x2hv-vxpp",
-	"modified": "2023-11-08T04:01:37.568650Z",
+	"modified": "2024-02-05T15:46:33.317937Z",
 	"published": "2019-12-02T18:11:25Z",
 	"aliases": [
 		"CVE-2019-6338"
@@ -201,7 +201,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2019-12-02T00:34:49Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2019-01-22T14:29:00Z",
 		"severity": "HIGH"
 	}
 }

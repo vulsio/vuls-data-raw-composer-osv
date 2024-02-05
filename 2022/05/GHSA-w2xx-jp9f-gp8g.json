@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w2xx-jp9f-gp8g",
-	"modified": "2023-11-08T03:57:54.131995Z",
+	"modified": "2024-02-05T15:50:13.516654Z",
 	"published": "2022-05-17T03:30:00Z",
 	"aliases": [
 		"CVE-2015-3397"
@@ -49,11 +49,23 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/yiisoft/yii2/CVE-2015-3397.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/yiisoft/yii2/blob/2.0.4/framework/CHANGELOG.md"
 		},
 		{
 			"type": "WEB",
 			"url": "https://web.archive.org/web/20210122155403/http://www.securityfocus.com/bid/74663"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.yiiframework.com/news/86/yii-2-0-4-is-released/"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.securityfocus.com/bid/74663"
 		},
 		{
 			"type": "WEB",
