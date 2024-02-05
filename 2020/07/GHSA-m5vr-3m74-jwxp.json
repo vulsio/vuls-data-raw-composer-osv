@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m5vr-3m74-jwxp",
-	"modified": "2023-12-06T01:00:15.197183Z",
+	"modified": "2024-02-05T11:16:04.088668Z",
 	"published": "2020-07-29T16:15:19Z",
 	"aliases": [
 		"BIT-typo3-2020-15098",
@@ -106,6 +106,97 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/07/GHSA-m5vr-3m74-jwxp/GHSA-m5vr-3m74-jwxp.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "10.0.0"
+						},
+						{
+							"fixed": "10.4.6"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v10.0.0",
+				"v10.1.0",
+				"v10.2.0",
+				"v10.2.1",
+				"v10.2.2",
+				"v10.3.0",
+				"v10.4.0",
+				"v10.4.1",
+				"v10.4.2",
+				"v10.4.3",
+				"v10.4.4",
+				"v10.4.5"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/07/GHSA-m5vr-3m74-jwxp/GHSA-m5vr-3m74-jwxp.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "9.0.0"
+						},
+						{
+							"fixed": "9.5.20"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v9.0.0",
+				"v9.1.0",
+				"v9.2.0",
+				"v9.2.1",
+				"v9.3.0",
+				"v9.3.1",
+				"v9.3.2",
+				"v9.3.3",
+				"v9.4.0",
+				"v9.5.0",
+				"v9.5.1",
+				"v9.5.10",
+				"v9.5.11",
+				"v9.5.12",
+				"v9.5.13",
+				"v9.5.14",
+				"v9.5.15",
+				"v9.5.16",
+				"v9.5.17",
+				"v9.5.18",
+				"v9.5.19",
+				"v9.5.2",
+				"v9.5.3",
+				"v9.5.4",
+				"v9.5.5",
+				"v9.5.6",
+				"v9.5.7",
+				"v9.5.8",
+				"v9.5.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/07/GHSA-m5vr-3m74-jwxp/GHSA-m5vr-3m74-jwxp.json"
+			}
 		}
 	],
 	"references": [
@@ -124,6 +215,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/TYPO3/TYPO3.CMS/commit/85d3e70dff35a99ef53f4b561114acfa9e5c47e1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2020-15098.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2020-15098.yaml"
 		},
 		{
 			"type": "PACKAGE",

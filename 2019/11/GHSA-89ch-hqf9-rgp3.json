@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-89ch-hqf9-rgp3",
-	"modified": "2023-11-08T04:01:44.001353Z",
+	"modified": "2024-02-05T11:04:07.978042Z",
 	"published": "2019-11-12T22:59:28Z",
 	"aliases": [
 		"CVE-2019-8121"
@@ -68,6 +68,52 @@
 				"2.3.1",
 				"2.3.2",
 				"2.3.2-p2"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/11/GHSA-89ch-hqf9-rgp3/GHSA-89ch-hqf9-rgp3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "magento/product-community-edition",
+				"purl": "pkg:composer/magento/product-community-edition"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.2"
+						},
+						{
+							"fixed": "2.2.10"
+						}
+					]
+				}
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/11/GHSA-89ch-hqf9-rgp3/GHSA-89ch-hqf9-rgp3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "magento/product-community-edition",
+				"purl": "pkg:composer/magento/product-community-edition"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.3"
+						},
+						{
+							"fixed": "2.3.2-p2"
+						}
+					]
+				}
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/11/GHSA-89ch-hqf9-rgp3/GHSA-89ch-hqf9-rgp3.json"

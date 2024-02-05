@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f7wm-x4gw-6m23",
-	"modified": "2023-11-08T04:03:12.422077Z",
+	"modified": "2024-02-05T11:19:01.411882Z",
 	"published": "2020-09-24T16:23:54Z",
 	"aliases": [
 		"CVE-2020-25768"
@@ -219,6 +219,160 @@
 		{
 			"package": {
 				"ecosystem": "Packagist",
+				"name": "contao/contao",
+				"purl": "pkg:composer/contao/contao"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.0.0"
+						},
+						{
+							"fixed": "4.4.52"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.4.22",
+				"4.4.23",
+				"4.4.24",
+				"4.4.25",
+				"4.4.26",
+				"4.4.27",
+				"4.4.28",
+				"4.4.29",
+				"4.4.30",
+				"4.4.31",
+				"4.4.32",
+				"4.4.33",
+				"4.4.34",
+				"4.4.35",
+				"4.4.36",
+				"4.4.37",
+				"4.4.38",
+				"4.4.39",
+				"4.4.40",
+				"4.4.41",
+				"4.4.42",
+				"4.4.43",
+				"4.4.44",
+				"4.4.45",
+				"4.4.46",
+				"4.4.47",
+				"4.4.48",
+				"4.4.49",
+				"4.4.50",
+				"4.4.51"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/09/GHSA-f7wm-x4gw-6m23/GHSA-f7wm-x4gw-6m23.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "contao/contao",
+				"purl": "pkg:composer/contao/contao"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.5.0"
+						},
+						{
+							"fixed": "4.9.6"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.5.13",
+				"4.5.14",
+				"4.6.0",
+				"4.6.1",
+				"4.6.10",
+				"4.6.11",
+				"4.6.12",
+				"4.6.13",
+				"4.6.14",
+				"4.6.2",
+				"4.6.3",
+				"4.6.4",
+				"4.6.5",
+				"4.6.6",
+				"4.6.7",
+				"4.6.8",
+				"4.6.9",
+				"4.7.0",
+				"4.7.0-RC1",
+				"4.7.0-RC2",
+				"4.7.0-RC3",
+				"4.7.0-RC4",
+				"4.7.1",
+				"4.7.2",
+				"4.7.3",
+				"4.7.4",
+				"4.7.5",
+				"4.7.6",
+				"4.7.7",
+				"4.8.0",
+				"4.8.0-RC1",
+				"4.8.0-RC2",
+				"4.8.1",
+				"4.8.2",
+				"4.8.3",
+				"4.8.4",
+				"4.8.5",
+				"4.8.6",
+				"4.8.7",
+				"4.8.8",
+				"4.9.0",
+				"4.9.0-RC1",
+				"4.9.0-RC2",
+				"4.9.1",
+				"4.9.2",
+				"4.9.3",
+				"4.9.4",
+				"4.9.5"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/09/GHSA-f7wm-x4gw-6m23/GHSA-f7wm-x4gw-6m23.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "contao/contao",
+				"purl": "pkg:composer/contao/contao"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.10.0"
+						},
+						{
+							"fixed": "4.10.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.10.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/09/GHSA-f7wm-x4gw-6m23/GHSA-f7wm-x4gw-6m23.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
 				"name": "contao/core-bundle",
 				"purl": "pkg:composer/contao/core-bundle"
 			},
@@ -259,6 +413,14 @@
 		{
 			"type": "WEB",
 			"url": "https://contao.org/en/security-advisories/insert-tag-injection-in-forms.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/contao/CVE-2020-25768.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/core-bundle/CVE-2020-25768.yaml"
 		},
 		{
 			"type": "PACKAGE",

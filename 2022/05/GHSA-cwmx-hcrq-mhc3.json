@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cwmx-hcrq-mhc3",
-	"modified": "2023-12-06T01:02:15.033858Z",
+	"modified": "2024-02-05T11:04:39.922446Z",
 	"published": "2022-05-25T18:09:55Z",
 	"aliases": [
 		"BIT-drupal-2022-29248",
@@ -211,6 +211,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/guzzle/guzzle/commit/74a8602c6faec9ef74b7a9391ac82c5e65b1cdab"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/guzzlehttp/guzzle/CVE-2022-29248.yaml"
 		},
 		{
 			"type": "PACKAGE",

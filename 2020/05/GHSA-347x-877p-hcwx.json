@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-347x-877p-hcwx",
-	"modified": "2023-12-06T01:00:01.226981Z",
+	"modified": "2024-02-05T11:16:50.243349Z",
 	"published": "2020-05-13T22:19:21Z",
 	"aliases": [
 		"BIT-typo3-2020-11063",
@@ -27,7 +27,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "10.4.0"
+							"introduced": "10.0.0"
 						},
 						{
 							"fixed": "10.4.2"
@@ -36,11 +36,49 @@
 				}
 			],
 			"versions": [
+				"v10.0.0",
+				"v10.1.0",
+				"v10.2.0",
+				"v10.2.1",
+				"v10.2.2",
+				"v10.3.0",
 				"v10.4.0",
 				"v10.4.1"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "<= 10.4.1",
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/05/GHSA-347x-877p-hcwx/GHSA-347x-877p-hcwx.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "10.0.0"
+						},
+						{
+							"fixed": "10.4.2"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v10.0.0",
+				"v10.1.0",
+				"v10.2.0",
+				"v10.2.1",
+				"v10.2.2",
+				"v10.3.0",
+				"v10.4.0",
+				"v10.4.1"
+			],
+			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/05/GHSA-347x-877p-hcwx/GHSA-347x-877p-hcwx.json"
 			}
 		}
@@ -53,6 +91,18 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11063"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2020-11063.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2020-11063.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://typo3.org/security/advisory/typo3-core-sa-2020-001"
 		}
 	],
 	"database_specific": {

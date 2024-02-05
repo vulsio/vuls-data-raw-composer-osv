@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hhfw-xxhm-pf32",
-	"modified": "2024-01-10T18:56:36.126661Z",
+	"modified": "2024-02-05T10:48:21.815180Z",
 	"published": "2022-05-17T02:37:30Z",
 	"aliases": [
 		"CVE-2016-4855"
@@ -64,6 +64,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/ADOdb/ADOdb"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/adodb/adodb-php/CVE-2016-4855.yaml"
 		},
 		{
 			"type": "WEB",

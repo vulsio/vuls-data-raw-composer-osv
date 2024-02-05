@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qw36-p97w-vcqr",
-	"modified": "2023-12-06T01:01:35.789724Z",
+	"modified": "2024-02-05T11:16:03.585516Z",
 	"published": "2021-11-24T20:05:22Z",
 	"aliases": [
 		"BIT-symfony-2021-41268",
@@ -47,6 +47,43 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/11/GHSA-qw36-p97w-vcqr/GHSA-qw36-p97w-vcqr.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "symfony/symfony",
+				"purl": "pkg:composer/symfony/symfony"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "5.3.0"
+						},
+						{
+							"fixed": "5.3.12"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v5.3.0",
+				"v5.3.1",
+				"v5.3.10",
+				"v5.3.11",
+				"v5.3.2",
+				"v5.3.3",
+				"v5.3.4",
+				"v5.3.5",
+				"v5.3.6",
+				"v5.3.7",
+				"v5.3.8",
+				"v5.3.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/11/GHSA-qw36-p97w-vcqr/GHSA-qw36-p97w-vcqr.json"
+			}
 		}
 	],
 	"references": [
@@ -67,12 +104,24 @@
 			"url": "https://github.com/symfony/symfony/commit/36a808b857cd3240244f4b224452fb1e70dc6dfc"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/security-bundle/CVE-2021-41268.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/symfony/CVE-2021-41268.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/symfony/symfony"
 		},
 		{
 			"type": "WEB",
 			"url": "https://github.com/symfony/symfony/releases/tag/v5.3.12"
+		},
+		{
+			"type": "WEB",
+			"url": "https://symfony.com/cve-2021-41268"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wjx8-cgrm-hh8p",
-	"modified": "2023-11-08T04:01:29.409113Z",
+	"modified": "2024-02-05T11:19:00.212224Z",
 	"published": "2019-12-17T22:53:10Z",
 	"aliases": [
 		"CVE-2019-19745"
@@ -198,6 +198,117 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/12/GHSA-wjx8-cgrm-hh8p/GHSA-wjx8-cgrm-hh8p.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "contao/contao",
+				"purl": "pkg:composer/contao/contao"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.0.0"
+						},
+						{
+							"fixed": "4.4.46"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.4.22",
+				"4.4.23",
+				"4.4.24",
+				"4.4.25",
+				"4.4.26",
+				"4.4.27",
+				"4.4.28",
+				"4.4.29",
+				"4.4.30",
+				"4.4.31",
+				"4.4.32",
+				"4.4.33",
+				"4.4.34",
+				"4.4.35",
+				"4.4.36",
+				"4.4.37",
+				"4.4.38",
+				"4.4.39",
+				"4.4.40",
+				"4.4.41",
+				"4.4.42",
+				"4.4.43",
+				"4.4.44",
+				"4.4.45"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/12/GHSA-wjx8-cgrm-hh8p/GHSA-wjx8-cgrm-hh8p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "contao/contao",
+				"purl": "pkg:composer/contao/contao"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.5.0"
+						},
+						{
+							"fixed": "4.8.6"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.5.13",
+				"4.5.14",
+				"4.6.0",
+				"4.6.1",
+				"4.6.10",
+				"4.6.11",
+				"4.6.12",
+				"4.6.13",
+				"4.6.14",
+				"4.6.2",
+				"4.6.3",
+				"4.6.4",
+				"4.6.5",
+				"4.6.6",
+				"4.6.7",
+				"4.6.8",
+				"4.6.9",
+				"4.7.0",
+				"4.7.0-RC1",
+				"4.7.0-RC2",
+				"4.7.0-RC3",
+				"4.7.0-RC4",
+				"4.7.1",
+				"4.7.2",
+				"4.7.3",
+				"4.7.4",
+				"4.7.5",
+				"4.7.6",
+				"4.7.7",
+				"4.8.0",
+				"4.8.0-RC1",
+				"4.8.0-RC2",
+				"4.8.1",
+				"4.8.2",
+				"4.8.3",
+				"4.8.4",
+				"4.8.5"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/12/GHSA-wjx8-cgrm-hh8p/GHSA-wjx8-cgrm-hh8p.json"
+			}
 		}
 	],
 	"references": [
@@ -219,6 +330,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/contao/CVE-2019-19745.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/core-bundle/CVE-2019-19745.yaml"
 		},
 		{
@@ -232,7 +347,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2019-12-17T19:42:31Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2019-12-17T15:15:25Z",
 		"severity": "HIGH"
 	}
 }

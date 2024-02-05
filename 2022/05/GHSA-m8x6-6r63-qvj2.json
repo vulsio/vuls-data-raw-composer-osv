@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m8x6-6r63-qvj2",
-	"modified": "2023-11-08T04:08:39.843541Z",
+	"modified": "2024-02-05T10:48:37.600601Z",
 	"published": "2022-05-20T19:54:56Z",
 	"aliases": [
 		"CVE-2022-24899"
@@ -42,6 +42,34 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-m8x6-6r63-qvj2/GHSA-m8x6-6r63-qvj2.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "contao/contao",
+				"purl": "pkg:composer/contao/contao"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.13.0"
+						},
+						{
+							"fixed": "4.13.3"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.13.0",
+				"4.13.1",
+				"4.13.2"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-m8x6-6r63-qvj2/GHSA-m8x6-6r63-qvj2.json"
+			}
 		}
 	],
 	"references": [
@@ -60,6 +88,14 @@
 		{
 			"type": "WEB",
 			"url": "https://contao.org/en/security-advisories/cross-site-scripting-via-canonical-url.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/contao/CVE-2022-24899.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/core-bundle/CVE-2022-24899.yaml"
 		},
 		{
 			"type": "PACKAGE",

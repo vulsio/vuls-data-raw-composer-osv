@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fqx8-v33p-4qcc",
-	"modified": "2023-11-08T04:08:26.050610Z",
+	"modified": "2024-02-05T10:46:23.642944Z",
 	"published": "2022-02-14T22:54:18Z",
 	"aliases": [
 		"CVE-2022-23638"
@@ -93,6 +93,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/darylldoyle/svg-sanitizer/commit/17e12ba9c2881caa6b167d0fbea555c11207fbb0"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/enshrined/svg-sanitize/CVE-2022-23638.yaml"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-fqx8-v33p-4qcc"
 		},
 		{
 			"type": "PACKAGE",

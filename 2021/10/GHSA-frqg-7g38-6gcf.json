@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-frqg-7g38-6gcf",
-	"modified": "2023-12-06T01:01:32.787233Z",
+	"modified": "2024-02-05T10:47:32.602799Z",
 	"published": "2021-10-05T20:23:18Z",
 	"aliases": [
 		"BIT-composer-2021-41116",
@@ -143,7 +143,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "2.0"
+							"introduced": "2.0.0-alpha1"
 						},
 						{
 							"fixed": "2.1.9"
@@ -200,6 +200,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/composer/composer/commit/ca5e2f8d505fd3bfac6f7c85b82f2740becbc0aa"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/composer/composer/CVE-2021-41116.yaml"
 		},
 		{
 			"type": "PACKAGE",

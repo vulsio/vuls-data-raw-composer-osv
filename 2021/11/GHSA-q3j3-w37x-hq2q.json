@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q3j3-w37x-hq2q",
-	"modified": "2023-12-06T01:01:35.729405Z",
+	"modified": "2024-02-05T11:16:20.283278Z",
 	"published": "2021-11-24T20:04:25Z",
 	"aliases": [
 		"BIT-symfony-2021-41267",
@@ -21,6 +21,63 @@
 				"ecosystem": "Packagist",
 				"name": "symfony/http-kernel",
 				"purl": "pkg:composer/symfony/http-kernel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "5.2.0"
+						},
+						{
+							"fixed": "5.3.12"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v5.2.0",
+				"v5.2.1",
+				"v5.2.10",
+				"v5.2.11",
+				"v5.2.12",
+				"v5.2.13",
+				"v5.2.14",
+				"v5.2.2",
+				"v5.2.3",
+				"v5.2.4",
+				"v5.2.5",
+				"v5.2.6",
+				"v5.2.7",
+				"v5.2.8",
+				"v5.2.9",
+				"v5.3.0",
+				"v5.3.0-BETA1",
+				"v5.3.0-BETA2",
+				"v5.3.0-BETA3",
+				"v5.3.0-BETA4",
+				"v5.3.0-RC1",
+				"v5.3.1",
+				"v5.3.10",
+				"v5.3.11",
+				"v5.3.2",
+				"v5.3.3",
+				"v5.3.4",
+				"v5.3.5",
+				"v5.3.6",
+				"v5.3.7",
+				"v5.3.8",
+				"v5.3.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/11/GHSA-q3j3-w37x-hq2q/GHSA-q3j3-w37x-hq2q.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "symfony/symfony",
+				"purl": "pkg:composer/symfony/symfony"
 			},
 			"ranges": [
 				{
@@ -93,7 +150,19 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/http-kernel/CVE-2021-41267.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/symfony/CVE-2021-41267.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/symfony/symfony/releases/tag/v5.3.12"
+		},
+		{
+			"type": "WEB",
+			"url": "https://symfony.com/cve-2021-41267"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q7rv-6hp3-vh96",
-	"modified": "2023-12-06T01:02:05.243825Z",
+	"modified": "2024-02-05T10:47:15.425487Z",
 	"published": "2022-03-25T19:26:33Z",
 	"aliases": [
 		"BIT-drupal-2022-24775",
@@ -110,6 +110,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/guzzle/psr7/pull/486/commits/9a96d9db668b485361ed9de7b5bf1e54895df1dc"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/guzzlehttp/psr7/CVE-2022-24775.yaml"
 		},
 		{
 			"type": "PACKAGE",
