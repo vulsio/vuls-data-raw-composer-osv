@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xcrg-29h7-h4cj",
-	"modified": "2023-11-27T22:16:17.421148Z",
+	"modified": "2024-02-06T10:17:22.741434Z",
 	"published": "2019-11-20T01:38:52Z",
 	"aliases": [
 		"CVE-2018-19277"
@@ -72,6 +72,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/0f8f071e24ee8b114d894ac172f77dc250e5bfa4"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpoffice/phpspreadsheet/CVE-2018-19277.yaml"
 		},
 		{
 			"type": "PACKAGE",

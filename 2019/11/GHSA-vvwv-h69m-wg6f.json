@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vvwv-h69m-wg6f",
-	"modified": "2023-11-23T03:46:35.808092Z",
+	"modified": "2024-02-06T10:17:43.148387Z",
 	"published": "2019-11-20T01:39:57Z",
 	"aliases": [
 		"CVE-2019-12331"
@@ -68,6 +68,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/0e6238c69e863b58aeece61e48ea032696c6dccd"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpoffice/phpspreadsheet/CVE-2019-12331.yaml"
 		},
 		{
 			"type": "PACKAGE",
