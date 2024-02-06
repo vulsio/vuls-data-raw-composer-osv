@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9f46-5r25-5wfm",
-	"modified": "2023-11-08T04:05:57.479746Z",
+	"modified": "2024-02-06T13:31:49.640926Z",
 	"published": "2021-06-29T03:13:28Z",
 	"aliases": [
 		"CVE-2021-32708"
@@ -230,6 +230,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/thephpleague/flysystem/commit/f3ad69181b8afed2c9edf7be5a2918144ff4ea32"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/league/flysystem/CVE-2021-32708.yaml"
 		},
 		{
 			"type": "PACKAGE",

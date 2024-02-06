@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r7cj-8hjg-x622",
-	"modified": "2023-11-08T04:07:11.077056Z",
+	"modified": "2024-02-06T12:01:10.573098Z",
 	"published": "2021-11-16T17:25:57Z",
 	"aliases": [
 		"CVE-2021-43608"
@@ -58,6 +58,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/doctrine/dbal/commit/9dcfa4cb6c03250b78a84737ba7ceb82f4b7ba4d"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/doctrine/dbal/CVE-2021-43608.yaml"
 		},
 		{
 			"type": "PACKAGE",

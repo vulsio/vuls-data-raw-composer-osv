@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x752-qjv4-c4hc",
-	"modified": "2023-11-08T04:09:04.371401Z",
+	"modified": "2024-02-06T12:01:48.217183Z",
 	"published": "2022-04-04T00:00:55Z",
 	"aliases": [
 		"CVE-2022-28368"
@@ -77,6 +77,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/dompdf/dompdf/commit/4c70e1025bcd9b7694b95dd552499bd83cd6141d"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/dompdf/dompdf/CVE-2022-28368.yaml"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-x752-qjv4-c4hc"
 		},
 		{
 			"type": "PACKAGE",
