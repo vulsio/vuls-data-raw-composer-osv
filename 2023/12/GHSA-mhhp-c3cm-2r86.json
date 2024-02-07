@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mhhp-c3cm-2r86",
-	"modified": "2023-12-06T03:31:15.480352Z",
+	"modified": "2024-02-07T16:33:13.971534Z",
 	"published": "2023-12-05T22:46:57Z",
 	"aliases": [
 		"CVE-2023-49283"
@@ -67,6 +67,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49283"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/microsoft/microsoft-graph-core/CVE-2023-49283.yaml"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hj4c-vfc4-5f9c",
-	"modified": "2023-12-13T19:17:18.338737Z",
+	"modified": "2024-02-07T16:32:55.637889Z",
 	"published": "2023-12-10T21:30:27Z",
 	"aliases": [
 		"CVE-2022-48614"
@@ -117,6 +117,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki/commit/604968d44fcdfcbb7f1e00c5d662ca5d5a3a5613"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/mediawiki/semantic-media-wiki/CVE-2022-48614.yaml"
 		},
 		{
 			"type": "PACKAGE",
