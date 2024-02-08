@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j6c3-3c4w-qv8p",
-	"modified": "2024-01-23T18:11:45.232195Z",
+	"modified": "2024-02-07T19:01:51.723391Z",
 	"published": "2022-05-13T01:12:49Z",
 	"aliases": [
 		"CVE-2013-7341"
@@ -108,6 +108,77 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-j6c3-3c4w-qv8p/GHSA-j6c3-3c4w-qv8p.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "6.2.0"
+						},
+						{
+							"fixed": "6.2.14"
+						}
+					]
+				}
+			],
+			"versions": [
+				"6.2.0",
+				"6.2.1",
+				"6.2.10",
+				"6.2.10-rc1",
+				"6.2.11",
+				"6.2.12",
+				"6.2.13",
+				"6.2.2",
+				"6.2.3",
+				"6.2.4",
+				"6.2.5",
+				"6.2.6",
+				"6.2.7",
+				"6.2.8",
+				"6.2.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-j6c3-3c4w-qv8p/GHSA-j6c3-3c4w-qv8p.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "typo3/cms",
+				"purl": "pkg:composer/typo3/cms"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "7.0.0"
+						},
+						{
+							"fixed": "7.3.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"7.0.0",
+				"7.0.1",
+				"7.0.2",
+				"7.1.0",
+				"7.2.0",
+				"7.3.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-j6c3-3c4w-qv8p/GHSA-j6c3-3c4w-qv8p.json"
+			}
 		}
 	],
 	"references": [
@@ -136,12 +207,20 @@
 			"url": "https://github.com/moodle/moodle/commit/d65634044ebaa738f55bdec521beb42844d6916a"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2013-7341.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/moodle/moodle"
 		},
 		{
 			"type": "WEB",
 			"url": "https://moodle.org/mod/forum/discuss.php?d=256420"
+		},
+		{
+			"type": "WEB",
+			"url": "https://typo3.org/security/advisory/typo3-core-sa-2015-007"
 		},
 		{
 			"type": "WEB",

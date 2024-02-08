@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7gfx-wxfh-7rvm",
-	"modified": "2023-11-08T03:59:54.547759Z",
+	"modified": "2024-02-07T19:01:04.937438Z",
 	"published": "2022-05-13T01:05:24Z",
 	"aliases": [
 		"CVE-2018-13982"
@@ -95,6 +95,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/smarty-php/smarty/commit/f9ca3c63d1250bb56b2bda609dcc9dd81f0065f8"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/smarty/smarty/CVE-2018-13982.yaml"
 		},
 		{
 			"type": "WEB",

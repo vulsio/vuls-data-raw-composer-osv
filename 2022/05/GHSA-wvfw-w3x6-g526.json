@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wvfw-w3x6-g526",
-	"modified": "2023-11-08T04:01:37.081505Z",
+	"modified": "2024-02-07T18:34:26.188874Z",
 	"published": "2022-05-14T01:10:43Z",
 	"aliases": [
 		"CVE-2019-5715"
@@ -353,6 +353,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/silverstripe/silverstripe-framework/issues/8814"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2019-5715.yaml"
 		},
 		{
 			"type": "PACKAGE",

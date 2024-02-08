@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-72hm-fx78-xwhc",
-	"modified": "2023-11-08T04:05:26.563818Z",
+	"modified": "2024-02-07T18:16:05.729094Z",
 	"published": "2021-09-01T18:40:40Z",
 	"aliases": [
 		"CVE-2021-27911"
@@ -155,6 +155,34 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-72hm-fx78-xwhc/GHSA-72hm-fx78-xwhc.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "mautic/core",
+				"purl": "pkg:composer/mautic/core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.0.0-alpha1"
+						},
+						{
+							"fixed": "4.0.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.0.0-alpha1",
+				"4.0.0-beta",
+				"4.0.0-rc"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-72hm-fx78-xwhc/GHSA-72hm-fx78-xwhc.json"
+			}
 		}
 	],
 	"references": [
@@ -165,6 +193,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27911"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/mautic/core/CVE-2021-27911.yaml"
 		},
 		{
 			"type": "PACKAGE",

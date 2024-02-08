@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gwwq-54qp-9pgp",
-	"modified": "2023-11-08T03:57:50.447038Z",
+	"modified": "2024-02-07T19:01:04.239420Z",
 	"published": "2022-05-17T02:41:23Z",
 	"aliases": [
 		"CVE-2015-1786"
@@ -63,6 +63,14 @@
 		{
 			"type": "WEB",
 			"url": "https://framework.zend.com/changelog/2.3.6"
+		},
+		{
+			"type": "WEB",
+			"url": "https://framework.zend.com/security/advisory/ZF2015-03"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/zendframework/zendframework/CVE-2015-1786.yaml"
 		},
 		{
 			"type": "WEB",

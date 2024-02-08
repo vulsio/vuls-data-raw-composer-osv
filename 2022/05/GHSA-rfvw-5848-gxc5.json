@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rfvw-5848-gxc5",
-	"modified": "2023-11-08T04:01:03.136325Z",
+	"modified": "2024-02-07T18:34:42.794247Z",
 	"published": "2022-05-24T16:56:47Z",
 	"aliases": [
 		"CVE-2019-12205"
@@ -359,7 +359,23 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://forum.silverstripe.org/c/releases"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2019-12205.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.silverstripe.org/download/security-releases/"
+		},
+		{
+			"type": "WEB",
 			"url": "https://www.silverstripe.org/download/security-releases/CVE-2019-12205"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.silverstripe.org/download/security-releases/cve-2019-12205/"
 		}
 	],
 	"database_specific": {

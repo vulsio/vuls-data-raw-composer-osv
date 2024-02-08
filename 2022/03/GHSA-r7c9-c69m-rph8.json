@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r7c9-c69m-rph8",
-	"modified": "2023-11-08T03:59:30.108723Z",
+	"modified": "2024-02-07T18:35:32.723447Z",
 	"published": "2022-03-26T00:19:30Z",
 	"aliases": [
 		"CVE-2017-9841"
@@ -60,7 +60,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "5.0.0"
+							"introduced": "5.0.10"
 						},
 						{
 							"fixed": "5.6.3"
@@ -69,17 +69,7 @@
 				}
 			],
 			"versions": [
-				"5.0.0",
-				"5.0.1",
 				"5.0.10",
-				"5.0.2",
-				"5.0.3",
-				"5.0.4",
-				"5.0.5",
-				"5.0.6",
-				"5.0.7",
-				"5.0.8",
-				"5.0.9",
 				"5.1.0",
 				"5.1.1",
 				"5.1.2",
@@ -153,6 +143,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/sebastianbergmann/phpunit/commit/3aaddb1c5bd9b9b8d070b4cf120e71c36fd08412"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpunit/phpunit/CVE-2017-9841.yaml"
 		},
 		{
 			"type": "PACKAGE",

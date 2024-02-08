@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m5vx-8chx-qvmm",
-	"modified": "2023-11-08T04:05:57.225762Z",
+	"modified": "2024-02-07T18:33:48.101720Z",
 	"published": "2021-06-22T15:15:08Z",
 	"aliases": [
 		"CVE-2021-32697"
@@ -151,6 +151,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/neos/form/commit/69de4219b1f58157e2be6b05811463875d75c246"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/neos/form/CVE-2021-32697.yaml"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p9cm-r7jg-8q3g",
-	"modified": "2023-11-08T03:58:39.515569Z",
+	"modified": "2024-02-07T18:46:38.395898Z",
 	"published": "2020-01-24T21:27:42Z",
 	"aliases": [
 		"CVE-2016-9955"
@@ -67,6 +67,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9955"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/simplesamlphp/simplesamlphp/CVE-2016-9955.yaml"
 		},
 		{
 			"type": "WEB",

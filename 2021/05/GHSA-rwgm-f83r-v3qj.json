@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rwgm-f83r-v3qj",
-	"modified": "2023-12-06T01:01:03.133725Z",
+	"modified": "2024-02-07T19:01:34.973785Z",
 	"published": "2021-05-19T23:03:11Z",
 	"aliases": [
 		"BIT-wp-cli-2021-29504",
@@ -27,7 +27,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "0.12.0"
 						},
 						{
 							"fixed": "2.5.0"
@@ -36,12 +36,6 @@
 				}
 			],
 			"versions": [
-				"v0.10.0",
-				"v0.10.1",
-				"v0.10.2",
-				"v0.11.0",
-				"v0.11.1",
-				"v0.11.2",
 				"v0.12.0",
 				"v0.12.1",
 				"v0.13.0",
@@ -72,9 +66,6 @@
 				"v0.24.0",
 				"v0.24.1",
 				"v0.25.0",
-				"v0.8.0",
-				"v0.9.0",
-				"v0.9.1",
 				"v1.0.0",
 				"v1.1.0",
 				"v1.2.0",
@@ -129,6 +120,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/wp-cli/wp-cli/pull/5523"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/wp-cli/wp-cli/CVE-2021-29504.yaml"
 		}
 	],
 	"database_specific": {

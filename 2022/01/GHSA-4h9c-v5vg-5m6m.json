@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4h9c-v5vg-5m6m",
-	"modified": "2023-11-08T04:04:44.841738Z",
+	"modified": "2024-02-07T19:03:40.266338Z",
 	"published": "2022-01-12T22:43:42Z",
 	"aliases": [
 		"CVE-2021-21408"
@@ -122,6 +122,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/smarty-php/smarty/commit/19ae410bf56007a5ef24441cdc6414619cfaf664"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/smarty/smarty/CVE-2021-21408.yaml"
 		},
 		{
 			"type": "PACKAGE",

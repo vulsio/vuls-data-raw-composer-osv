@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v882-949x-6v28",
-	"modified": "2023-11-08T03:58:54.578765Z",
+	"modified": "2024-02-07T19:02:07.307398Z",
 	"published": "2022-05-14T01:04:04Z",
 	"aliases": [
 		"CVE-2017-12872"
@@ -74,6 +74,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/simplesamlphp/simplesamlphp/commit/b72c79e3070f930d758f5c269333d63ed7509e2e"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/simplesamlphp/simplesamlphp/CVE-2017-12872.yaml"
 		},
 		{
 			"type": "WEB",

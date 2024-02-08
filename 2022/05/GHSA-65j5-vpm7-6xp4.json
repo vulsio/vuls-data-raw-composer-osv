@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-65j5-vpm7-6xp4",
-	"modified": "2023-11-08T04:00:01.676369Z",
+	"modified": "2024-02-07T19:02:53.400732Z",
 	"published": "2022-05-14T01:58:46Z",
 	"aliases": [
 		"CVE-2018-16831"
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.1.33-dev-4"
+							"fixed": "3.1.33"
 						}
 					]
 				}
@@ -83,6 +83,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/smarty-php/smarty/commit/f9ca3c63d1250bb56b2bda609dcc9dd81f0065f8"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/smarty/smarty/CVE-2018-16831.yaml"
 		},
 		{
 			"type": "PACKAGE",

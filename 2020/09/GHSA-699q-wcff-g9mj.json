@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-699q-wcff-g9mj",
-	"modified": "2023-11-08T04:02:31.250597Z",
+	"modified": "2024-02-07T19:01:38.247880Z",
 	"published": "2020-09-15T18:19:56Z",
 	"aliases": [
 		"CVE-2020-15148"
@@ -105,6 +105,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/yiisoft/yii2/commit/9abccb96d7c5ddb569f92d1a748f50ee9b3e2b99"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/yiisoft/yii2/CVE-2020-15148.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.yiiframework.com/news/303/yii-2-0-38"
 		}
 	],
 	"database_specific": {

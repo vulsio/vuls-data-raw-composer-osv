@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-32hw-3pvh-vcvc",
-	"modified": "2023-11-08T04:05:26.438050Z",
+	"modified": "2024-02-07T18:16:22.558139Z",
 	"published": "2021-09-01T18:40:56Z",
 	"aliases": [
 		"CVE-2021-27909"
@@ -155,6 +155,34 @@
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-32hw-3pvh-vcvc/GHSA-32hw-3pvh-vcvc.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "mautic/core",
+				"purl": "pkg:composer/mautic/core"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.0.0-alpha1"
+						},
+						{
+							"fixed": "4.0.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"4.0.0-alpha1",
+				"4.0.0-beta",
+				"4.0.0-rc"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/09/GHSA-32hw-3pvh-vcvc/GHSA-32hw-3pvh-vcvc.json"
+			}
 		}
 	],
 	"references": [
@@ -169,6 +197,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/mautic/mautic/commit/942cb6992df619fdf1c181bfad9e25d5d4178b6f"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/mautic/core/CVE-2021-27909.yaml"
 		},
 		{
 			"type": "PACKAGE",

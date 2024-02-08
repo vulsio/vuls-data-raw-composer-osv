@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7q44-r25x-wm4q",
-	"modified": "2023-12-06T01:01:17.598589Z",
+	"modified": "2024-02-07T18:35:48.755765Z",
 	"published": "2021-06-22T15:17:51Z",
 	"aliases": [
 		"BIT-phpmailer-2021-34551",
@@ -109,7 +109,15 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpmailer/phpmailer/CVE-2021-34551.yaml"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/PHPMailer/PHPMailer/blob/master/SECURITY.md"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/PHPMailer/PHPMailer/releases/tag/v6.5.0"
 		},
 		{
 			"type": "WEB",

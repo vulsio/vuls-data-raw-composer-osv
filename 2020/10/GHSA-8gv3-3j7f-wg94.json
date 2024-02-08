@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8gv3-3j7f-wg94",
-	"modified": "2023-11-08T04:02:34.376782Z",
+	"modified": "2024-02-07T18:36:14.958684Z",
 	"published": "2020-10-02T16:22:19Z",
 	"aliases": [
 		"CVE-2020-15227"
@@ -217,6 +217,14 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15227"
+		},
+		{
+			"type": "WEB",
+			"url": "https://blog.nette.org/en/cve-2020-15227-potential-remote-code-execution-vulnerability"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/nette/application/CVE-2020-15227.yaml"
 		},
 		{
 			"type": "PACKAGE",

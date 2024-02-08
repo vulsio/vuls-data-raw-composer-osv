@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jmhf-9fj8-88gh",
-	"modified": "2023-11-08T04:07:38.441132Z",
+	"modified": "2024-02-07T18:33:13.127511Z",
 	"published": "2022-02-23T21:15:01Z",
 	"aliases": [
 		"CVE-2022-0692"
@@ -104,6 +104,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/rudloff/alltube/commit/bc14b6e45c766c05757fb607ef8d444cbbfba71a"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/rudloff/alltube/CVE-2022-0692.yaml"
 		},
 		{
 			"type": "PACKAGE",

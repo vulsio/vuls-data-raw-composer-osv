@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xp8p-9rq5-4wgv",
-	"modified": "2023-11-08T03:57:56.215100Z",
+	"modified": "2024-02-07T19:31:41.899916Z",
 	"published": "2022-05-17T03:16:37Z",
 	"aliases": [
 		"CVE-2015-5161"
@@ -9,29 +9,6 @@
 	"summary": "ZendXml and Zend Framework contain XXE and XEE Vulnerabilities",
 	"details": "The `Zend_Xml_Security::scan` in ZendXml before 1.0.1 and Zend Framework before 1.12.14, 2.x before 2.4.6, and 2.5.x before 2.5.2, when running under PHP-FPM in a threaded environment, allows remote attackers to bypass security checks and conduct XML external entity (XXE) and XML entity expansion (XEE) attacks via multibyte encoded characters.",
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Packagist",
-				"name": "zendframework/zendframework",
-				"purl": "pkg:composer/zendframework/zendframework"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "0"
-						},
-						{
-							"fixed": "1.12.14"
-						}
-					]
-				}
-			],
-			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-xp8p-9rq5-4wgv/GHSA-xp8p-9rq5-4wgv.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Packagist",
@@ -140,6 +117,45 @@
 		{
 			"package": {
 				"ecosystem": "Packagist",
+				"name": "zendframework/zendframework1",
+				"purl": "pkg:composer/zendframework/zendframework1"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "1.12.0"
+						},
+						{
+							"fixed": "1.12.14"
+						}
+					]
+				}
+			],
+			"versions": [
+				"1.12.0",
+				"1.12.1",
+				"1.12.10",
+				"1.12.11",
+				"1.12.12",
+				"1.12.13",
+				"1.12.2",
+				"1.12.3",
+				"1.12.4",
+				"1.12.5",
+				"1.12.6",
+				"1.12.7",
+				"1.12.8",
+				"1.12.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-xp8p-9rq5-4wgv/GHSA-xp8p-9rq5-4wgv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
 				"name": "zendframework/zendxml",
 				"purl": "pkg:composer/zendframework/zendxml"
 			},
@@ -148,7 +164,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "1.0.0"
 						},
 						{
 							"fixed": "1.0.1"
@@ -158,6 +174,29 @@
 			],
 			"versions": [
 				"1.0.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-xp8p-9rq5-4wgv/GHSA-xp8p-9rq5-4wgv.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "zendframework/zendframework",
+				"purl": "pkg:composer/zendframework/zendframework"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "1.12.0"
+						},
+						{
+							"fixed": "1.12.14"
+						}
+					]
+				}
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-xp8p-9rq5-4wgv/GHSA-xp8p-9rq5-4wgv.json"
@@ -180,6 +219,22 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/zendframework/zf1/commit/ff7edddf1410b44b5ead857c02698aad9f748d1b"
+		},
+		{
+			"type": "WEB",
+			"url": "https://framework.zend.com/security/advisory/ZF2015-06"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/zendframework/zendframework/CVE-2015-5161.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/zendframework/zendframework1/CVE-2015-5161.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/zendframework/zendxml/CVE-2015-5161.yaml"
 		},
 		{
 			"type": "WEB",
@@ -220,6 +275,10 @@
 		{
 			"type": "WEB",
 			"url": "http://www.debian.org/security/2015/dsa-3340"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.securityfocus.com/bid/76177"
 		}
 	],
 	"database_specific": {

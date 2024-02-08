@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cj2f-96jq-phpp",
-	"modified": "2023-11-08T03:58:25.867133Z",
+	"modified": "2024-02-07T18:36:07.209820Z",
 	"published": "2022-05-14T02:46:24Z",
 	"aliases": [
 		"CVE-2016-3109"
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "5.1.5"
+							"fixed": "4.3.7"
 						}
 					]
 				}
@@ -49,14 +49,33 @@
 				"4.3.3",
 				"4.3.4",
 				"4.3.5",
-				"4.3.6",
-				"4.3.7",
+				"4.3.6"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-cj2f-96jq-phpp/GHSA-cj2f-96jq-phpp.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "shopware/shopware",
+				"purl": "pkg:composer/shopware/shopware"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "5.0.0"
+						},
+						{
+							"fixed": "5.1.5"
+						}
+					]
+				}
+			],
+			"versions": [
 				"v5.0.0",
-				"v5.0.0-BETA1",
-				"v5.0.0-BETA2",
-				"v5.0.0-RC1",
-				"v5.0.0-RC2",
-				"v5.0.0-RC3",
 				"v5.0.1",
 				"v5.0.2",
 				"v5.0.2-RC1",
@@ -88,6 +107,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/shopware/shopware/commit/d73e9031a5b2ab6e918eb86d1e2b2e873cd3558d"
+		},
+		{
+			"type": "WEB",
+			"url": "https://community.shopware.com/_detail_1918.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/shopware/shopware/CVE-2016-3109.yaml"
 		},
 		{
 			"type": "WEB",

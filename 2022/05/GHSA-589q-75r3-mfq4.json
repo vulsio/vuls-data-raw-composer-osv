@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-589q-75r3-mfq4",
-	"modified": "2023-12-06T01:00:37.021683Z",
+	"modified": "2024-02-07T19:01:20.006270Z",
 	"published": "2022-05-24T17:23:41Z",
 	"aliases": [
 		"BIT-silverstripe-2020-6165",
@@ -86,6 +86,10 @@
 		{
 			"type": "WEB",
 			"url": "https://docs.silverstripe.org/en/4/changelogs/4.6.0/?_ga=2.170693920.105499209.1689776417-708940272.1689776417"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/graphql/CVE-2020-6165.yaml"
 		},
 		{
 			"type": "WEB",

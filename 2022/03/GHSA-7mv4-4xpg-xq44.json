@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7mv4-4xpg-xq44",
-	"modified": "2023-12-06T01:00:27.270137Z",
+	"modified": "2024-02-07T18:34:59.614363Z",
 	"published": "2022-03-26T00:14:34Z",
 	"aliases": [
 		"BIT-silverstripe-2020-26138",
@@ -287,6 +287,14 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26138"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2020-26138.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.silverstripe.org/download/security-releases/cve-2020-26138"
 		},
 		{
 			"type": "WEB",

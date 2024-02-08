@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fv7m-wc3v-wr3w",
-	"modified": "2023-11-08T03:59:15.254431Z",
+	"modified": "2024-02-07T19:02:24.493092Z",
 	"published": "2022-05-14T01:04:10Z",
 	"aliases": [
 		"CVE-2017-18121"
@@ -26,10 +26,10 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "1.12.0"
 						},
 						{
-							"last_affected": "1.14.15"
+							"fixed": "1.14.16"
 						}
 					]
 				}
@@ -68,6 +68,10 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-18121"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/simplesamlphp/simplesamlphp/CVE-2017-18121.yaml"
 		},
 		{
 			"type": "WEB",

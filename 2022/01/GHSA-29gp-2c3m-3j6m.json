@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-29gp-2c3m-3j6m",
-	"modified": "2023-11-08T04:05:34.685102Z",
+	"modified": "2024-02-07T19:02:09.259709Z",
 	"published": "2022-01-12T22:43:00Z",
 	"aliases": [
 		"CVE-2021-29454"
@@ -120,6 +120,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/smarty-php/smarty/commit/215d81a9fa3cd63d82fb3ab56ecaf97cf1e7db71"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/smarty/smarty/CVE-2021-29454.yaml"
 		},
 		{
 			"type": "PACKAGE",

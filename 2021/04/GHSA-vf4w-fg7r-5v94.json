@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vf4w-fg7r-5v94",
-	"modified": "2023-11-08T04:05:44.808922Z",
+	"modified": "2024-02-07T18:35:16.137935Z",
 	"published": "2021-04-07T20:56:55Z",
 	"aliases": [
 		"CVE-2021-30130"
@@ -89,6 +89,8 @@
 				"1.0.19",
 				"1.0.2",
 				"1.0.20",
+				"1.0.21",
+				"1.0.22",
 				"1.0.3",
 				"1.0.4",
 				"1.0.5",
@@ -141,6 +143,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/phpseclib/phpseclib/pull/1635"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpseclib/phpseclib/CVE-2021-30130.yaml"
 		},
 		{
 			"type": "WEB",
