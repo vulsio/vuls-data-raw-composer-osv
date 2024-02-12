@@ -1,17 +1,14 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-8v75-8jj8-77gf",
-	"modified": "2024-02-12T11:16:17.176560Z",
-	"published": "2022-05-24T16:52:24Z",
-	"aliases": [
-		"CVE-2019-7874"
-	],
+	"id": "GHSA-c45w-p293-7cv6",
+	"modified": "2024-02-12T11:34:58.323662Z",
+	"published": "2022-05-24T16:52:28Z",
 	"summary": "Magento 2 Community Edition XSS Vulnerability",
-	"details": "A cross-site request forgery vulnerability exists in Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2. This can result in unintended deletion of user roles.",
+	"details": "A stored cross-cite scripting vulnerability exists in Magento Open Source prior to 1.9.4.2, and Magento Commerce prior to 1.14.4.2, Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2. An authenticated user with privileges to modify currency symbols can inject malicious javascript.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+			"score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
 		}
 	],
 	"affected": [
@@ -55,7 +52,7 @@
 				"2.1.9"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-8v75-8jj8-77gf/GHSA-8v75-8jj8-77gf.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c45w-p293-7cv6/GHSA-c45w-p293-7cv6.json"
 			}
 		},
 		{
@@ -89,7 +86,7 @@
 				"2.2.8"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-8v75-8jj8-77gf/GHSA-8v75-8jj8-77gf.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c45w-p293-7cv6/GHSA-c45w-p293-7cv6.json"
 			}
 		},
 		{
@@ -116,18 +113,26 @@
 				"2.3.1"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-8v75-8jj8-77gf/GHSA-8v75-8jj8-77gf.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-c45w-p293-7cv6/GHSA-c45w-p293-7cv6.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7874"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7945"
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-7874.yaml"
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/magento1ce/CVE-2019-7945.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/magento1ee/CVE-2019-7945.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-7945.yaml"
 		},
 		{
 			"type": "PACKAGE",
@@ -135,20 +140,19 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-13"
+			"url": "https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-23"
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20211206084839/https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-13"
+			"url": "https://web.archive.org/web/20220121051916/https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-23"
 		}
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-352",
 			"CWE-79"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2023-07-17T21:42:15Z",
+		"github_reviewed_at": "2023-07-14T23:14:51Z",
 		"nvd_published_at": "2019-08-02T22:15:00Z",
 		"severity": "MODERATE"
 	}
