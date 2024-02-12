@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-77mv-p94f-qcq4",
-	"modified": "2023-11-08T04:01:42.520558Z",
+	"modified": "2024-02-12T12:05:45.353795Z",
 	"published": "2022-05-24T16:52:28Z",
 	"aliases": [
 		"CVE-2019-7934"
@@ -126,8 +126,24 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7934"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/magento1ce/CVE-2019-7934.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/magento1ee/CVE-2019-7934.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-7934.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/magento/magento2"
+		},
+		{
+			"type": "WEB",
+			"url": "https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-23"
 		},
 		{
 			"type": "WEB",

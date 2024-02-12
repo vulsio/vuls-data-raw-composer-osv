@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8578-mmf4-f327",
-	"modified": "2023-11-08T04:01:40.443702Z",
+	"modified": "2024-02-12T11:46:14.903305Z",
 	"published": "2022-05-24T16:52:24Z",
 	"aliases": [
 		"CVE-2019-7873"
@@ -127,11 +127,20 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/magento/product-community-edition/CVE-2019-7873.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-33"
+		},
+		{
+			"type": "WEB",
 			"url": "https://web.archive.org/web/20220121011306/https://magento.com/security/patches/magento-2.3.2-2.2.9-and-2.1.18-security-update-33"
 		}
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-352",
 			"CWE-79"
 		],
 		"github_reviewed": true,

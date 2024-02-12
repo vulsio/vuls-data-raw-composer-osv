@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c45w-p293-7cv6",
-	"modified": "2024-02-12T11:34:58.323662Z",
+	"modified": "2024-02-12T11:41:37.410894Z",
 	"published": "2022-05-24T16:52:28Z",
+	"aliases": [
+		"CVE-2019-7945"
+	],
 	"summary": "Magento 2 Community Edition XSS Vulnerability",
 	"details": "A stored cross-cite scripting vulnerability exists in Magento Open Source prior to 1.9.4.2, and Magento Commerce prior to 1.14.4.2, Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2. An authenticated user with privileges to modify currency symbols can inject malicious javascript.",
 	"severity": [

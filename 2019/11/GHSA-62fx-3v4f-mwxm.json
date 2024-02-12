@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-62fx-3v4f-mwxm",
-	"modified": "2023-11-08T04:01:44.491785Z",
+	"modified": "2024-02-12T12:02:02.083093Z",
 	"published": "2019-11-12T22:59:40Z",
 	"aliases": [
 		"CVE-2019-8133"
 	],
 	"summary": "Bypass of sitemp access restrictions",
-	"details": "A security bypass vulnerability exists in Magento 2.2 prior to 2.2.10, Magento 2.3 prior to 2.3.3 or 2.3.2-p1. A user with privileges to generate sitemaps can bypass configuration that restricts directory access. The bypass allows overwrite of a subset of configuration files which can lead to denial of service.",
+	"details": "A security bypass vulnerability exists in Magento 2.2 prior to 2.2.10, Magento 2.3 prior to 2.3.3 or 2.3.2-p1. A user with privileges to generate sitemaps can bypass configuration that restricts directory access. The bypass allows overwrite of a subset of configuration files which can lead to denial of service.\n\nAs per [the Magento Release 2.3.3](https://web.archive.org/web/20201126132230/https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-3-commerce.html#new-security-only-patch-available), if you have already implemented the pre-release version of this patch (2.3.2-p1), it is highly recommended to promptly upgrade to 2.3.2-p2.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
@@ -64,7 +64,7 @@
 							"introduced": "2.3"
 						},
 						{
-							"fixed": "2.3.3"
+							"fixed": "2.3.2-p2"
 						}
 					]
 				}
@@ -72,8 +72,7 @@
 			"versions": [
 				"2.3.0",
 				"2.3.1",
-				"2.3.2",
-				"2.3.2-p2"
+				"2.3.2"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2019/11/GHSA-62fx-3v4f-mwxm/GHSA-62fx-3v4f-mwxm.json"
