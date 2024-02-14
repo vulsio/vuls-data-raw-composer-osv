@@ -1,14 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3gjc-mp82-fj4q",
-	"modified": "2024-01-04T10:11:43.326428Z",
+	"modified": "2024-02-13T19:07:52Z",
 	"published": "2023-12-25T06:30:20Z",
-	"aliases": [
-		"BIT-typo3-2023-30451",
-		"CVE-2023-30451"
-	],
-	"summary": "TYPO3 Arbitrary File Read via Directory Traversal",
-	"details": "In TYPO3 11.5.24, the filelist component allows attackers (who have access to the administrator panel) to read arbitrary files via directory traversal in the baseuri field, as demonstrated by POST `/typo3/record/edit` with `../../../ in data[sys_file_storage]*[data][sDEF][lDEF][basePath][vDEF]`.",
+	"summary": "Duplicate Advisory: TYPO3 Arbitrary File Read via Directory Traversal",
+	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-w6x2-jg8h-p6mp. This link is maintained to preserve external references.\n\n## Original Description\nIn TYPO3 11.5.24, the filelist component allows attackers (who have access to the administrator panel) to read arbitrary files via directory traversal in the baseuri field, as demonstrated by POST `/typo3/record/edit` with `../../../ in data[sys_file_storage]*[data][sDEF][lDEF][basePath][vDEF]`.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
