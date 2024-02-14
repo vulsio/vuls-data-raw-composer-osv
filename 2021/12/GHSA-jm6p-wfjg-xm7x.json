@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jm6p-wfjg-xm7x",
-	"modified": "2023-11-08T04:06:46.907428Z",
+	"modified": "2024-02-14T05:22:59.483619Z",
 	"published": "2021-12-01T18:26:48Z",
 	"aliases": [
 		"CVE-2021-4026"
@@ -186,8 +186,8 @@
 			"url": "https://github.com/BookStackApp/BookStack/releases/tag/v21.11.2"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/bookstackapp/bookstack/"
+			"type": "WEB",
+			"url": "https://github.com/bookstackapp/bookstack"
 		},
 		{
 			"type": "WEB",

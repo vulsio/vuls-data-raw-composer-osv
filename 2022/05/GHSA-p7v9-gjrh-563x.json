@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p7v9-gjrh-563x",
-	"modified": "2023-11-08T03:59:44.364332Z",
+	"modified": "2024-02-14T05:32:12.065074Z",
 	"published": "2022-05-13T01:14:06Z",
 	"aliases": [
 		"CVE-2018-10891"
@@ -199,7 +199,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20210124185945/https://www.securityfocus.com/bid/104739/"
+			"url": "https://web.archive.org/web/20210124185945/https://www.securityfocus.com/bid/104739"
 		}
 	],
 	"database_specific": {

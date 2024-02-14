@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hvpq-7vcc-5hj5",
-	"modified": "2023-11-08T05:30:43.473002Z",
+	"modified": "2024-02-14T05:32:14.347209Z",
 	"published": "2023-09-15T00:30:29Z",
 	"aliases": [
 		"CVE-2023-41592"
@@ -78,15 +78,15 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://hacker.soarescorp.com/cve/2023-41592/"
+			"url": "https://hacker.soarescorp.com/cve/2023-41592"
 		},
 		{
 			"type": "WEB",
-			"url": "https://owasp.org/Top10/A03_2021-Injection/"
+			"url": "https://owasp.org/Top10/A03_2021-Injection"
 		},
 		{
 			"type": "WEB",
-			"url": "https://owasp.org/www-project-top-ten/"
+			"url": "https://owasp.org/www-project-top-ten"
 		}
 	],
 	"database_specific": {

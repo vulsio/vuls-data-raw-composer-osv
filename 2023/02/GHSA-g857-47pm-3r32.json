@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g857-47pm-3r32",
-	"modified": "2023-11-08T04:11:44.063498Z",
+	"modified": "2024-02-14T05:33:12.110487Z",
 	"published": "2023-02-27T21:30:30Z",
 	"aliases": [
 		"CVE-2023-24249"
@@ -128,7 +128,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://flyd.uk/post/cve-2023-24249/"
+			"url": "https://flyd.uk/post/cve-2023-24249"
 		},
 		{
 			"type": "PACKAGE",
@@ -136,7 +136,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://laravel-admin.org/"
+			"url": "https://laravel-admin.org"
 		}
 	],
 	"database_specific": {

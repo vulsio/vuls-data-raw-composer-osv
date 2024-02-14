@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6j9m-rp7m-3gfg",
-	"modified": "2023-11-08T03:59:56.559865Z",
+	"modified": "2024-02-14T05:51:44.305616Z",
 	"published": "2022-05-13T01:19:08Z",
 	"aliases": [
 		"CVE-2018-14716"
@@ -120,11 +120,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/45108/"
+			"url": "https://www.exploit-db.com/exploits/45108"
 		},
 		{
 			"type": "WEB",
-			"url": "http://ha.cker.info/exploitation-of-server-side-template-injection-with-craft-cms-plguin-seomatic/"
+			"url": "http://ha.cker.info/exploitation-of-server-side-template-injection-with-craft-cms-plguin-seomatic"
 		}
 	],
 	"database_specific": {
