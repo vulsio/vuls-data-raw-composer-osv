@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cg8j-8w52-735v",
-	"modified": "2024-02-05T10:46:06.407695Z",
+	"modified": "2024-02-15T05:23:27.331235Z",
 	"published": "2019-11-12T23:01:25Z",
 	"aliases": [
 		"CVE-2019-12204"
@@ -112,7 +112,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",
@@ -120,7 +120,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/cve-2019-12204/"
+			"url": "https://www.silverstripe.org/download/security-releases/cve-2019-12204"
 		}
 	],
 	"database_specific": {

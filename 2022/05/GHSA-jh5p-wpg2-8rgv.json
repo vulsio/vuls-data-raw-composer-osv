@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jh5p-wpg2-8rgv",
-	"modified": "2023-11-08T03:58:23.242697Z",
+	"modified": "2024-02-15T05:20:35.791092Z",
 	"published": "2022-05-17T03:59:11Z",
 	"aliases": [
 		"CVE-2016-1912"
@@ -82,7 +82,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.information-security.fr/xss-dolibarr-version-3-8-3/"
+			"url": "http://www.information-security.fr/xss-dolibarr-version-3-8-3"
 		}
 	],
 	"database_specific": {

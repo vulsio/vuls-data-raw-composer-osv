@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p4qr-vq2g-22wp",
-	"modified": "2023-11-08T04:11:01.095596Z",
+	"modified": "2024-02-15T05:24:59.180318Z",
 	"published": "2022-12-23T21:30:17Z",
 	"aliases": [
 		"CVE-2022-47945"
@@ -160,7 +160,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://tttang.com/archive/1865/"
+			"url": "https://tttang.com/archive/1865"
 		}
 	],
 	"database_specific": {

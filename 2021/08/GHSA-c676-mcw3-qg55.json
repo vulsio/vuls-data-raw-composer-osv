@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c676-mcw3-qg55",
-	"modified": "2023-11-08T04:06:17.837368Z",
+	"modified": "2024-02-15T05:31:15.157138Z",
 	"published": "2021-08-25T14:50:08Z",
 	"aliases": [
 		"CVE-2021-3730"
@@ -297,8 +297,8 @@
 			"url": "https://github.com/firefly-iii/firefly-iii/commit/f80178b1b2b7864d17500a131d570c353c9a26f6"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/firefly-iii/firefly-iii/"
+			"type": "WEB",
+			"url": "https://github.com/firefly-iii/firefly-iii"
 		},
 		{
 			"type": "WEB",

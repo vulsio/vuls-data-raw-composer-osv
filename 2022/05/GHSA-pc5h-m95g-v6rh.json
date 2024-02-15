@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pc5h-m95g-v6rh",
-	"modified": "2023-11-08T04:00:07.024028Z",
+	"modified": "2024-02-15T05:30:24.713913Z",
 	"published": "2022-05-14T01:48:51Z",
 	"aliases": [
 		"CVE-2018-19246"
@@ -64,7 +64,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/45861/"
+			"url": "https://www.exploit-db.com/exploits/45861"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-594h-cx6w-p4jf",
-	"modified": "2024-02-05T15:40:32.311127Z",
+	"modified": "2024-02-15T05:32:37.677474Z",
 	"published": "2022-05-14T04:01:58Z",
 	"aliases": [
 		"CVE-2014-3941"
@@ -145,7 +145,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001/"
+			"url": "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
 		},
 		{
 			"type": "WEB",
@@ -161,7 +161,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001/"
+			"url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
 		},
 		{
 			"type": "WEB",

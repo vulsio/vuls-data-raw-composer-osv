@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m2p5-fwp2-qcw2",
-	"modified": "2024-02-05T15:46:33.401154Z",
+	"modified": "2024-02-15T05:32:51.926783Z",
 	"published": "2022-05-24T16:56:44Z",
 	"aliases": [
 		"CVE-2018-8074"
@@ -113,11 +113,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.yiiframework.com/news/168/releasing-yii-2-0-15-and-database-extensions-with-security-fixes/"
+			"url": "https://www.yiiframework.com/news/168/releasing-yii-2-0-15-and-database-extensions-with-security-fixes"
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.yiiframework.com/news/168/releasing-yii-2-0-15-and-database-extensions-with-security-fixes/"
+			"url": "http://www.yiiframework.com/news/168/releasing-yii-2-0-15-and-database-extensions-with-security-fixes"
 		}
 	],
 	"database_specific": {

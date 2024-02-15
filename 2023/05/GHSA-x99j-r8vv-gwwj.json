@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x99j-r8vv-gwwj",
-	"modified": "2023-11-10T05:25:51.853290Z",
+	"modified": "2024-02-15T05:21:07.539495Z",
 	"published": "2023-05-11T16:39:47Z",
 	"aliases": [
 		"CVE-2023-32075"
@@ -202,7 +202,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/cecd7800-a996-4f3a-8689-e1c2a1e0248a/"
+			"url": "https://huntr.dev/bounties/cecd7800-a996-4f3a-8689-e1c2a1e0248a"
 		}
 	],
 	"database_specific": {

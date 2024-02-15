@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6rjv-xxgr-v57x",
-	"modified": "2023-11-08T04:10:12.973866Z",
+	"modified": "2024-02-15T05:27:04.859014Z",
 	"published": "2022-11-05T19:00:42Z",
 	"aliases": [
 		"CVE-2022-3869"
@@ -97,8 +97,8 @@
 			"url": "https://github.com/froxlor/froxlor/commit/3f10a4adede9df83408d60ded78b51b812a763a8"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/froxlor/froxlor/"
+			"type": "WEB",
+			"url": "https://github.com/froxlor/froxlor"
 		},
 		{
 			"type": "WEB",

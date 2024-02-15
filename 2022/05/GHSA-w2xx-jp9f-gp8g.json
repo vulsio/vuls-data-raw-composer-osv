@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w2xx-jp9f-gp8g",
-	"modified": "2024-02-05T15:50:13.516654Z",
+	"modified": "2024-02-15T05:31:02.867389Z",
 	"published": "2022-05-17T03:30:00Z",
 	"aliases": [
 		"CVE-2015-3397"
@@ -61,7 +61,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.yiiframework.com/news/86/yii-2-0-4-is-released/"
+			"url": "https://www.yiiframework.com/news/86/yii-2-0-4-is-released"
 		},
 		{
 			"type": "WEB",
@@ -69,7 +69,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.yiiframework.com/news/86/yii-2-0-4-is-released/"
+			"url": "http://www.yiiframework.com/news/86/yii-2-0-4-is-released"
 		}
 	],
 	"database_specific": {

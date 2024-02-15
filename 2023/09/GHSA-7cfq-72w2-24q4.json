@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7cfq-72w2-24q4",
-	"modified": "2024-02-05T16:20:03.948123Z",
+	"modified": "2024-02-15T05:21:03.442977Z",
 	"published": "2023-09-21T06:30:25Z",
 	"aliases": [
 		"CVE-2015-5467"
@@ -66,10 +66,6 @@
 		{
 			"type": "WEB",
 			"url": "https://www.yiiframework.com/news/87/yii-2-0-5-is-released-security-fix"
-		},
-		{
-			"type": "WEB",
-			"url": "https://www.yiiframework.com/news/87/yii-2-0-5-is-released-security-fix/"
 		}
 	],
 	"database_specific": {

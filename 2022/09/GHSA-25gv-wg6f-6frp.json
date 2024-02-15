@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-25gv-wg6f-6frp",
-	"modified": "2023-11-08T04:10:22.181001Z",
+	"modified": "2024-02-15T05:32:43.143873Z",
 	"published": "2022-09-27T00:00:20Z",
 	"aliases": [
 		"CVE-2022-40043"
@@ -248,7 +248,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.hakaioffensivesecurity.com/centreon-sqli-and-xss-vulnerability/"
+			"url": "https://www.hakaioffensivesecurity.com/centreon-sqli-and-xss-vulnerability"
 		}
 	],
 	"database_specific": {

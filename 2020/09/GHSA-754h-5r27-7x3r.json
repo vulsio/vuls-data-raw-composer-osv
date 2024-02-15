@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-754h-5r27-7x3r",
-	"modified": "2024-02-05T11:25:08.105718Z",
+	"modified": "2024-02-15T05:32:02.308517Z",
 	"published": "2020-09-02T17:29:56Z",
 	"aliases": [
 		"BIT-symfony-2020-15094",
@@ -240,11 +240,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HNGUWOEETOFVH4PN3I3YO4QZHQ4AUKF3/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HNGUWOEETOFVH4PN3I3YO4QZHQ4AUKF3"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VAQJXAKWPMWB7OL6QPG2ZSEQZYYPU5RC/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VAQJXAKWPMWB7OL6QPG2ZSEQZYYPU5RC"
 		},
 		{
 			"type": "WEB",

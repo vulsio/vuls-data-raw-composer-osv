@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2r2w-jrh2-p4gr",
-	"modified": "2023-11-08T04:05:47.615366Z",
+	"modified": "2024-02-15T05:29:01.400950Z",
 	"published": "2021-09-09T17:08:55Z",
 	"aliases": [
 		"CVE-2021-31274"
@@ -130,10 +130,6 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/librenms/librenms"
-		},
-		{
-			"type": "PACKAGE",
-			"url": "https://github.com/librenms/librenms/"
 		}
 	],
 	"database_specific": {

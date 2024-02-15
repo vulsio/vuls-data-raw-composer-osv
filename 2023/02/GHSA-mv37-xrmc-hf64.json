@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mv37-xrmc-hf64",
-	"modified": "2023-11-08T04:06:02.600828Z",
+	"modified": "2024-02-15T05:32:27.072619Z",
 	"published": "2023-02-21T15:30:23Z",
 	"aliases": [
 		"CVE-2021-32856"
@@ -77,7 +77,7 @@
 		},
 		{
 			"type": "ADVISORY",
-			"url": "https://securitylab.github.com/advisories/GHSL-2021-1005-Microweber/"
+			"url": "https://securitylab.github.com/advisories/GHSL-2021-1005-Microweber"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-582j-m369-hj2f",
-	"modified": "2023-11-08T04:00:09.055862Z",
+	"modified": "2024-02-15T05:31:49.187772Z",
 	"published": "2022-05-14T01:07:06Z",
 	"aliases": [
 		"CVE-2018-19917"
@@ -62,7 +62,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.netsparker.com/web-applications-advisories/ns-18-038-reflected-cross-site-scripting-in-microweber/"
+			"url": "https://www.netsparker.com/web-applications-advisories/ns-18-038-reflected-cross-site-scripting-in-microweber"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vccp-5v5h-p8m6",
-	"modified": "2024-02-05T15:46:32.770498Z",
+	"modified": "2024-02-15T05:25:31.049051Z",
 	"published": "2022-05-17T04:42:47Z",
 	"aliases": [
 		"CVE-2014-3946"
@@ -49,11 +49,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001/"
+			"url": "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
 		},
 		{
 			"type": "WEB",
-			"url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001/"
+			"url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
 		},
 		{
 			"type": "WEB",

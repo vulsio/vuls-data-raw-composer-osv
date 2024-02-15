@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xcmj-xjhg-wvhq",
-	"modified": "2023-11-08T04:00:12.464089Z",
+	"modified": "2024-02-15T05:32:07.288922Z",
 	"published": "2022-05-14T01:39:21Z",
 	"aliases": [
 		"CVE-2018-20682"
@@ -112,7 +112,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.netsparker.com/web-applications-advisories/ns-18-032-stored-cross-site-scripting-in-forkcms/"
+			"url": "https://www.netsparker.com/web-applications-advisories/ns-18-032-stored-cross-site-scripting-in-forkcms"
 		}
 	],
 	"database_specific": {

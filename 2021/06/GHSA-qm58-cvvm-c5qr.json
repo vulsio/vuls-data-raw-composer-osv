@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qm58-cvvm-c5qr",
-	"modified": "2023-11-08T04:05:07.086702Z",
+	"modified": "2024-02-15T05:30:44.224435Z",
 	"published": "2021-06-15T15:51:02Z",
 	"aliases": [
 		"CVE-2021-23394",
@@ -126,7 +126,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.sonarsource.com/elfinder-case-study-of-web-file-manager-vulnerabilities/"
+			"url": "https://blog.sonarsource.com/elfinder-case-study-of-web-file-manager-vulnerabilities"
 		},
 		{
 			"type": "PACKAGE",

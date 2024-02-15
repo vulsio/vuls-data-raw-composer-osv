@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-65qg-f77j-cccf",
-	"modified": "2023-11-08T03:59:49.298401Z",
+	"modified": "2024-02-15T05:16:33.151191Z",
 	"published": "2022-05-14T03:10:52Z",
 	"aliases": [
 		"CVE-2018-12290"
@@ -54,7 +54,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20180624194633/http://www.iwantacve.cn/index.php/archives/40/"
+			"url": "https://web.archive.org/web/20180624194633/http://www.iwantacve.cn/index.php/archives/40"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xmcr-x5x3-gjfx",
-	"modified": "2023-11-08T03:59:40.684532Z",
+	"modified": "2024-02-15T05:29:14.390741Z",
 	"published": "2022-05-14T01:40:50Z",
 	"aliases": [
 		"CVE-2018-1000826"
@@ -66,7 +66,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://0dd.zone/2018/10/28/microweber-XSS/"
+			"url": "https://0dd.zone/2018/10/28/microweber-XSS"
 		},
 		{
 			"type": "PACKAGE",
