@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jvx5-rm6q-gx7p",
-	"modified": "2024-02-05T11:16:35.631910Z",
+	"modified": "2024-02-15T05:37:52.460179Z",
 	"published": "2019-11-12T23:01:50Z",
 	"aliases": [
 		"CVE-2019-12245"
@@ -419,7 +419,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",
@@ -427,7 +427,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/cve-2019-12245/"
+			"url": "https://www.silverstripe.org/download/security-releases/cve-2019-12245"
 		}
 	],
 	"database_specific": {

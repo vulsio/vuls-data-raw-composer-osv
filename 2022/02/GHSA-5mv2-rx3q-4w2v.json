@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5mv2-rx3q-4w2v",
-	"modified": "2024-02-05T11:17:22.699812Z",
+	"modified": "2024-02-15T05:37:30.006351Z",
 	"published": "2022-02-10T22:21:48Z",
 	"aliases": [
 		"CVE-2022-23614"
@@ -156,24 +156,24 @@
 			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/twig/twig/CVE-2022-23614.yaml"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/twigphp/Twig/"
+			"type": "WEB",
+			"url": "https://github.com/twigphp/Twig"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I2PVV5DUTRUECTIHMTWRI5Z7DVNYQ2YO/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I2PVV5DUTRUECTIHMTWRI5Z7DVNYQ2YO"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OTN4273U4RHVIXED64T7DSMJ3VYTPRE7/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OTN4273U4RHVIXED64T7DSMJ3VYTPRE7"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PECHIY2XLWUH2WLCNPDGNFMPHPRPCEDZ/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PECHIY2XLWUH2WLCNPDGNFMPHPRPCEDZ"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SIGZCFSYLPP7UVJ4E4NLHSOQSKYNXSAD/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SIGZCFSYLPP7UVJ4E4NLHSOQSKYNXSAD"
 		},
 		{
 			"type": "WEB",

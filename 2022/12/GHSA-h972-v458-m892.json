@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h972-v458-m892",
-	"modified": "2023-11-08T04:10:09.790117Z",
+	"modified": "2024-02-15T05:33:08.608337Z",
 	"published": "2022-12-05T21:30:41Z",
 	"aliases": [
 		"CVE-2022-37783"
@@ -399,11 +399,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://at-trustit.tuv.at/tuev-trust-it-cves/cve-disclosure-of-password-hashes/"
+			"url": "https://at-trustit.tuv.at/tuev-trust-it-cves/cve-disclosure-of-password-hashes"
 		},
 		{
 			"type": "WEB",
-			"url": "https://cves.at/posts/cve-2022-37783/writeup/"
+			"url": "https://cves.at/posts/cve-2022-37783/writeup"
 		},
 		{
 			"type": "PACKAGE",
