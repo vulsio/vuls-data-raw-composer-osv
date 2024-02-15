@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mgp6-j658-vcw9",
-	"modified": "2024-02-09T22:43:07.375872Z",
+	"modified": "2024-02-15T15:16:01.226516Z",
 	"published": "2024-02-09T21:30:57Z",
 	"aliases": [
 		"CVE-2024-1245"
@@ -81,7 +81,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-20"
+			"CWE-20",
+			"CWE-79"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-02-09T22:17:37Z",
