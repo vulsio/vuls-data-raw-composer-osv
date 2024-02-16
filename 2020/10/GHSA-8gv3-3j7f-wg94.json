@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8gv3-3j7f-wg94",
-	"modified": "2024-02-07T18:36:14.958684Z",
+	"modified": "2024-02-16T08:20:10.160691Z",
 	"published": "2020-10-02T16:22:19Z",
 	"aliases": [
 		"CVE-2020-15227"

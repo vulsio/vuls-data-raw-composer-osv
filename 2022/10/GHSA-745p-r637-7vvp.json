@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-745p-r637-7vvp",
-	"modified": "2023-12-06T01:02:33.297446Z",
+	"modified": "2024-02-16T08:04:07.612498Z",
 	"published": "2022-10-06T20:01:41Z",
 	"aliases": [
 		"BIT-codeigniter-2022-39284",

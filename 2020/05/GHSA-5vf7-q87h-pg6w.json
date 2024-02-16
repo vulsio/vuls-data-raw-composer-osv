@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5vf7-q87h-pg6w",
-	"modified": "2023-11-08T04:02:04.210409Z",
+	"modified": "2024-02-16T08:09:18.117449Z",
 	"published": "2020-05-07T21:10:26Z",
 	"aliases": [
 		"CVE-2020-11055"
@@ -95,7 +95,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://bookstackapp.com/blog/beta-release-v0-29-2/"
+			"url": "https://bookstackapp.com/blog/beta-release-v0-29-2"
 		},
 		{
 			"type": "WEB",

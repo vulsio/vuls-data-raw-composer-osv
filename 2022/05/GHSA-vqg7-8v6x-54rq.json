@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vqg7-8v6x-54rq",
-	"modified": "2024-01-11T18:12:25.405387Z",
+	"modified": "2024-02-16T08:18:33.231401Z",
 	"published": "2022-05-24T17:24:41Z",
 	"aliases": [
 		"BIT-magento-2020-9692",

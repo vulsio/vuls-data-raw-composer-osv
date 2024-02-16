@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cr78-rphw-w73p",
-	"modified": "2023-12-29T21:26:41.792282Z",
+	"modified": "2024-02-16T08:12:41.147474Z",
 	"published": "2022-05-13T01:12:55Z",
 	"aliases": [
 		"CVE-2012-6099"

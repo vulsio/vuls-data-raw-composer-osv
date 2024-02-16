@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w6jr-wj64-mc9x",
-	"modified": "2024-01-24T10:49:23.742771Z",
+	"modified": "2024-02-16T08:17:56.625554Z",
 	"published": "2022-01-06T22:52:41Z",
 	"aliases": [
 		"BIT-codeigniter-2022-21647",

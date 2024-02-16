@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-254q-rqmw-vx45",
-	"modified": "2023-11-08T04:07:36.589187Z",
+	"modified": "2024-02-16T08:16:00.278791Z",
 	"published": "2022-02-16T00:01:52Z",
 	"aliases": [
 		"CVE-2022-0588"

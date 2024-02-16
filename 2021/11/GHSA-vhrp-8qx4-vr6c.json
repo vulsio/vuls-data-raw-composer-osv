@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vhrp-8qx4-vr6c",
-	"modified": "2023-11-08T04:07:15.142369Z",
+	"modified": "2024-02-16T08:20:03.825974Z",
 	"published": "2021-11-19T20:18:20Z",
 	"aliases": [
 		"CVE-2021-43996"

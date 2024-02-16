@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wpgc-5cr5-h9gg",
-	"modified": "2023-11-08T04:10:47.767316Z",
+	"modified": "2024-02-16T08:23:48.000233Z",
 	"published": "2022-12-11T15:30:44Z",
 	"aliases": [
 		"CVE-2022-4409"

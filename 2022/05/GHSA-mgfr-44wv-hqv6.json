@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mgfr-44wv-hqv6",
-	"modified": "2024-02-12T11:34:38.532608Z",
+	"modified": "2024-02-16T08:13:39.410595Z",
 	"published": "2022-05-24T16:52:28Z",
 	"aliases": [
 		"CVE-2019-7938"

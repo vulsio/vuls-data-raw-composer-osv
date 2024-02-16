@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g273-wppx-82w4",
-	"modified": "2024-01-11T15:46:13.538201Z",
+	"modified": "2024-02-16T08:04:59.163344Z",
 	"published": "2024-01-10T15:24:08Z",
 	"aliases": [
 		"CVE-2024-21667"

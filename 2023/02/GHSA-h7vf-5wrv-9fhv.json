@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h7vf-5wrv-9fhv",
-	"modified": "2023-12-06T01:02:06.033606Z",
+	"modified": "2024-02-16T08:15:21.390963Z",
 	"published": "2023-02-01T18:48:09Z",
 	"aliases": [
 		"BIT-symfony-2022-24894",

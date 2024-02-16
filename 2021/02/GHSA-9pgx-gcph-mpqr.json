@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9pgx-gcph-mpqr",
-	"modified": "2023-11-08T04:03:34.623956Z",
+	"modified": "2024-02-16T08:14:52.119959Z",
 	"published": "2021-02-11T20:42:28Z",
 	"aliases": [
 		"CVE-2020-35572"

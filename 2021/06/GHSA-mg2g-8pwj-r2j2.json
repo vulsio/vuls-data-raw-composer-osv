@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mg2g-8pwj-r2j2",
-	"modified": "2024-02-07T19:01:53.724145Z",
+	"modified": "2024-02-16T07:56:37.427347Z",
 	"published": "2021-06-10T17:21:33Z",
 	"aliases": [
 		"BIT-silverstripe-2020-26136",

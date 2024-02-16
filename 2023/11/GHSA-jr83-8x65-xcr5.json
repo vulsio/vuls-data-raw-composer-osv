@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jr83-8x65-xcr5",
-	"modified": "2023-11-18T08:11:29.250711Z",
+	"modified": "2024-02-16T08:16:51.934002Z",
 	"published": "2023-11-09T21:30:39Z",
 	"aliases": [
 		"BIT-moodle-2023-5551",

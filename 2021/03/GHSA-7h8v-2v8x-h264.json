@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7h8v-2v8x-h264",
-	"modified": "2024-02-16T05:31:24.338659Z",
+	"modified": "2024-02-16T08:01:33.744873Z",
 	"published": "2021-03-29T20:42:19Z",
 	"aliases": [
 		"BIT-moodle-2020-25700",

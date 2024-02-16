@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8wj3-cpmr-8whp",
-	"modified": "2023-11-08T04:09:03.089937Z",
+	"modified": "2024-02-16T08:04:13.103329Z",
 	"published": "2022-08-16T00:00:30Z",
 	"aliases": [
 		"CVE-2022-2818"

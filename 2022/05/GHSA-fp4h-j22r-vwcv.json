@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fp4h-j22r-vwcv",
-	"modified": "2024-01-25T21:26:34.819891Z",
+	"modified": "2024-02-16T08:11:23.813549Z",
 	"published": "2022-05-13T01:12:45Z",
 	"aliases": [
 		"CVE-2015-2270"

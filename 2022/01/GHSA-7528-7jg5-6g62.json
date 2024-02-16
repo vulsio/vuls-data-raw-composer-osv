@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7528-7jg5-6g62",
-	"modified": "2024-01-24T10:34:25.604686Z",
+	"modified": "2024-02-16T08:05:07.804629Z",
 	"published": "2022-01-27T15:09:00Z",
 	"aliases": [
 		"BIT-codeigniter-2022-21715",

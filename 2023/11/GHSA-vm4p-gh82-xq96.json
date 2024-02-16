@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vm4p-gh82-xq96",
-	"modified": "2023-12-01T22:49:37.643197Z",
+	"modified": "2024-02-16T08:11:40.472119Z",
 	"published": "2023-11-22T15:31:29Z",
 	"aliases": [
 		"CVE-2023-47380"

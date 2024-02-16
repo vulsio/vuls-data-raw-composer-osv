@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jmwm-w2rm-prv9",
-	"modified": "2023-11-15T23:34:10.145439Z",
+	"modified": "2024-02-16T08:18:50.080801Z",
 	"published": "2023-11-08T18:30:31Z",
 	"aliases": [
 		"CVE-2023-47379"

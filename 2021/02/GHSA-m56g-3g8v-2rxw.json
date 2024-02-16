@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m56g-3g8v-2rxw",
-	"modified": "2023-11-28T21:16:17.775603Z",
+	"modified": "2024-02-16T08:21:52.341475Z",
 	"published": "2021-02-11T20:46:53Z",
 	"summary": "XSS in Adminer",
 	"details": "**Withdrawn:** Duplicate of GHSA-9pgx-gcph-mpqr.\n\nAdminer before 4.7.9 allows XSS via the history parameter to the default URI.",
@@ -70,15 +70,15 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/bugs-and-features/775/"
+			"url": "https://sourceforge.net/p/adminer/bugs-and-features/775"
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/news/"
+			"url": "https://sourceforge.net/p/adminer/news"
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released/"
+			"url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released"
 		}
 	],
 	"database_specific": {

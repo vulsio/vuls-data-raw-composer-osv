@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v6xv-rmqc-wcc8",
-	"modified": "2024-02-15T05:31:16.198363Z",
+	"modified": "2024-02-16T08:19:29.005859Z",
 	"published": "2022-05-17T03:45:52Z",
 	"aliases": [
 		"CVE-2014-9508"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pgwj-prpq-jpc2",
-	"modified": "2023-11-08T04:00:58.767395Z",
+	"modified": "2024-02-16T08:08:02.913292Z",
 	"published": "2019-11-18T17:27:31Z",
 	"aliases": [
 		"CVE-2019-10910"

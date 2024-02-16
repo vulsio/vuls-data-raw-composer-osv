@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6hr3-44gx-g6wh",
-	"modified": "2023-12-06T01:02:54.954995Z",
+	"modified": "2024-02-16T08:17:13.688160Z",
 	"published": "2023-02-13T06:30:59Z",
 	"aliases": [
 		"BIT-phpmyadmin-2023-25727",
@@ -127,7 +127,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.phpmyadmin.net/security/PMASA-2023-1/"
+			"url": "https://www.phpmyadmin.net/security/PMASA-2023-1"
 		}
 	],
 	"database_specific": {

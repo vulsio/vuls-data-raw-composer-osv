@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6qjf-7g3j-qx25",
-	"modified": "2024-01-16T17:16:09.809001Z",
+	"modified": "2024-02-16T08:14:28.212711Z",
 	"published": "2023-09-19T00:30:13Z",
 	"aliases": [
 		"BIT-neos-2023-37611",

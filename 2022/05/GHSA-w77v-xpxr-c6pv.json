@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w77v-xpxr-c6pv",
-	"modified": "2024-01-26T01:26:45.500830Z",
+	"modified": "2024-02-16T08:24:48.924574Z",
 	"published": "2022-05-13T01:12:45Z",
 	"aliases": [
 		"CVE-2015-2273"

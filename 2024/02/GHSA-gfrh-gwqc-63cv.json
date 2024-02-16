@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gfrh-gwqc-63cv",
-	"modified": "2024-02-05T20:43:28.143239Z",
+	"modified": "2024-02-16T08:03:09.170084Z",
 	"published": "2024-02-05T20:24:18Z",
 	"aliases": [
 		"CVE-2024-24807"

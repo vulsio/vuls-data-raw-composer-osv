@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-38vf-35cg-m73w",
-	"modified": "2023-11-08T04:13:26.216034Z",
+	"modified": "2024-02-16T08:17:25.765891Z",
 	"published": "2023-09-09T00:30:48Z",
 	"aliases": [
 		"CVE-2023-41564"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xpfv-89vg-r562",
-	"modified": "2023-12-06T01:01:47.269188Z",
+	"modified": "2024-02-16T07:47:22.779221Z",
 	"published": "2022-01-28T22:07:23Z",
 	"aliases": [
 		"BIT-moodle-2022-0335",

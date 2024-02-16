@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xgpm-q3mq-46rq",
-	"modified": "2024-01-08T22:16:15.940690Z",
+	"modified": "2024-02-16T08:16:44.564054Z",
 	"published": "2024-01-03T21:41:14Z",
 	"aliases": [
 		"CVE-2024-21627"

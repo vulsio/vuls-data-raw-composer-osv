@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7q44-r25x-wm4q",
-	"modified": "2024-02-07T18:35:48.755765Z",
+	"modified": "2024-02-16T08:24:23.537468Z",
 	"published": "2021-06-22T15:17:51Z",
 	"aliases": [
 		"BIT-phpmailer-2021-34551",

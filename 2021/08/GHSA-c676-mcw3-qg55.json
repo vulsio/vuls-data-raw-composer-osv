@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c676-mcw3-qg55",
-	"modified": "2024-02-15T05:31:15.157138Z",
+	"modified": "2024-02-16T08:22:51.124271Z",
 	"published": "2021-08-25T14:50:08Z",
 	"aliases": [
 		"CVE-2021-3730"

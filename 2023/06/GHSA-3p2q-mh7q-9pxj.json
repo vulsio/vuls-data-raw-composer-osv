@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3p2q-mh7q-9pxj",
-	"modified": "2023-11-08T05:31:19.772753Z",
+	"modified": "2024-02-16T08:13:34.080814Z",
 	"published": "2023-06-19T03:30:19Z",
 	"summary": "Duplicate Advisory: elFinder vulnerable to path traversal in LocalVolumeDriver connector",
 	"details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-wm5g-p99q-66g4. This link is maintained to preserve external references.\n\n### Original Description\n_joinPath in elFinderVolumeLocalFileSystem.class.php in elFinder before 2.1.62 allows path traversal in the PHP LocalVolumeDriver connector.",

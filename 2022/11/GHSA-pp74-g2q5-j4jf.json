@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pp74-g2q5-j4jf",
-	"modified": "2023-12-06T01:02:30.804047Z",
+	"modified": "2024-02-16T08:20:40.726514Z",
 	"published": "2022-11-21T23:59:26Z",
 	"aliases": [
 		"BIT-silverstripe-2022-37421",

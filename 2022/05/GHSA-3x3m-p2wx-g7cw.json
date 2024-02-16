@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3x3m-p2wx-g7cw",
-	"modified": "2023-11-08T04:00:08.123771Z",
+	"modified": "2024-02-16T08:21:41.071873Z",
 	"published": "2022-05-14T01:48:04Z",
 	"aliases": [
 		"CVE-2018-19458"
@@ -54,7 +54,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/45780/"
+			"url": "https://www.exploit-db.com/exploits/45780"
 		}
 	],
 	"database_specific": {

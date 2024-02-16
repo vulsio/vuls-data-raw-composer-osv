@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m5vx-8chx-qvmm",
-	"modified": "2024-02-07T18:33:48.101720Z",
+	"modified": "2024-02-16T08:22:59.843815Z",
 	"published": "2021-06-22T15:15:08Z",
 	"aliases": [
 		"CVE-2021-32697"

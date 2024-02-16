@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hv79-p62r-wg3p",
-	"modified": "2023-11-08T04:13:32.346931Z",
+	"modified": "2024-02-16T08:24:52.775257Z",
 	"published": "2023-10-16T14:20:53Z",
 	"aliases": [
 		"CVE-2023-43661"

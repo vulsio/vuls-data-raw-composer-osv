@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vc4f-2g7f-pmqr",
-	"modified": "2023-11-15T19:11:55.379974Z",
+	"modified": "2024-02-16T08:14:36.986001Z",
 	"published": "2022-05-24T17:24:15Z",
 	"aliases": [
 		"CVE-2020-15885"
@@ -106,7 +106,8 @@
 				"v3.2",
 				"v4.0",
 				"v5.0",
-				"v5.0b1"
+				"v5.0b1",
+				"v5.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-vc4f-2g7f-pmqr/GHSA-vc4f-2g7f-pmqr.json"

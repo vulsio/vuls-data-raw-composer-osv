@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-33wf-4crm-2322",
-	"modified": "2023-11-08T04:07:36.464833Z",
+	"modified": "2024-02-16T08:20:40.086558Z",
 	"published": "2022-02-16T00:01:58Z",
 	"aliases": [
 		"CVE-2022-0580"

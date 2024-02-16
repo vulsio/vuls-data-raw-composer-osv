@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5hpw-vcj2-prwg",
-	"modified": "2023-11-08T04:01:08.839881Z",
+	"modified": "2024-02-16T08:16:00.813981Z",
 	"published": "2022-05-24T16:50:37Z",
 	"aliases": [
 		"CVE-2019-13645"

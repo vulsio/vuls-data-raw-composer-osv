@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rwpg-4c4c-v3r4",
-	"modified": "2023-11-06T05:21:11.095815Z",
+	"modified": "2024-02-16T08:11:12.108511Z",
 	"published": "2023-08-21T12:30:19Z",
 	"summary": "Duplicate Advisory: Wallabag user can reset data unintentionally",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-p8gp-899c-jvq9. This link is maintained to preserve external references.\n\n## Original Description\nCross-Site Request Forgery (CSRF) in GitHub repository wallabag/wallabag prior to 2.6.3.",

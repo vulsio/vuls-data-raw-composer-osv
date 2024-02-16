@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3p32-j457-pg5x",
-	"modified": "2024-02-05T11:16:54.309208Z",
+	"modified": "2024-02-16T08:17:55.122233Z",
 	"published": "2021-01-19T19:36:51Z",
 	"aliases": [
 		"BIT-laravel-2021-21263",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fccf-p8fx-vjj4",
-	"modified": "2024-01-24T21:41:45.592367Z",
+	"modified": "2024-02-16T08:23:28.084521Z",
 	"published": "2022-05-13T01:12:40Z",
 	"aliases": [
 		"CVE-2014-3541"

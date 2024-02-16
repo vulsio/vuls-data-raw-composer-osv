@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gvvx-fc6p-2h9x",
-	"modified": "2023-11-06T05:28:02.996566Z",
+	"modified": "2024-02-16T08:22:40.856516Z",
 	"published": "2023-08-21T12:30:19Z",
 	"summary": "Duplicate Advisory: Wallabag user can delete own API client unintentionally",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-gjvc-55fw-v6vq. This link is maintained to preserve external references.\n\n## Original Description\nCross-Site Request Forgery (CSRF) in GitHub repository wallabag/wallabag prior to 2.6.3.",

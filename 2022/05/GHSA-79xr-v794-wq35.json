@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-79xr-v794-wq35",
-	"modified": "2023-11-15T20:41:41.383667Z",
+	"modified": "2024-02-16T08:09:41.293641Z",
 	"published": "2022-05-24T17:24:15Z",
 	"aliases": [
 		"CVE-2020-15883"
@@ -73,7 +73,8 @@
 				"v3.2",
 				"v4.0",
 				"v5.0",
-				"v5.0b1"
+				"v5.0b1",
+				"v5.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-79xr-v794-wq35/GHSA-79xr-v794-wq35.json"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qgpv-86r3-87fh",
-	"modified": "2023-11-08T03:59:36.319452Z",
+	"modified": "2024-02-16T08:21:45.277605Z",
 	"published": "2022-03-30T18:26:22Z",
 	"aliases": [
 		"CVE-2018-1000162"

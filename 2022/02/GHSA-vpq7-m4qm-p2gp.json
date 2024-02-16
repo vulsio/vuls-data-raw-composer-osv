@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vpq7-m4qm-p2gp",
-	"modified": "2023-11-08T04:07:36.714126Z",
+	"modified": "2024-02-16T08:22:39.600611Z",
 	"published": "2022-02-16T00:01:45Z",
 	"aliases": [
 		"CVE-2022-0596"

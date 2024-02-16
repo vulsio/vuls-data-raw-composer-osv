@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3v43-877x-qgmq",
-	"modified": "2024-02-06T13:32:07.554994Z",
+	"modified": "2024-02-16T08:15:08.451853Z",
 	"published": "2019-09-17T22:47:47Z",
 	"aliases": [
 		"CVE-2019-10010"
@@ -109,8 +109,8 @@
 			"url": "https://github.com/advisories/GHSA-3v43-877x-qgmq"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/thephpleague/commonmark/"
+			"type": "WEB",
+			"url": "https://github.com/thephpleague/commonmark"
 		},
 		{
 			"type": "WEB",

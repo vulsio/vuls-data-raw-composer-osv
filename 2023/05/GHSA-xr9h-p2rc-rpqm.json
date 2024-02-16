@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xr9h-p2rc-rpqm",
-	"modified": "2023-11-08T04:12:28.169310Z",
+	"modified": "2024-02-16T08:11:21.848104Z",
 	"published": "2023-05-01T22:30:28Z",
 	"aliases": [
 		"CVE-2023-30860"

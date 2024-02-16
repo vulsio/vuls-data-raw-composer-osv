@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q57g-38pc-jwv8",
-	"modified": "2023-11-14T22:43:48.758764Z",
+	"modified": "2024-02-16T08:25:00.778243Z",
 	"published": "2023-11-14T21:30:51Z",
 	"aliases": [
 		"CVE-2023-5976"

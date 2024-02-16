@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-79gr-58r3-pwm3",
-	"modified": "2024-02-01T16:22:09.331604Z",
+	"modified": "2024-02-16T08:12:33.699189Z",
 	"published": "2019-12-02T18:07:16Z",
 	"aliases": [
 		"CVE-2019-18889"

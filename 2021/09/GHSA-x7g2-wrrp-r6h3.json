@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x7g2-wrrp-r6h3",
-	"modified": "2024-02-05T16:01:14.131941Z",
+	"modified": "2024-02-16T08:21:55.344923Z",
 	"published": "2021-09-01T18:41:06Z",
 	"aliases": [
 		"CVE-2021-27913"

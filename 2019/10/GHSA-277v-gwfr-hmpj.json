@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-277v-gwfr-hmpj",
-	"modified": "2024-02-16T05:32:02.048992Z",
+	"modified": "2024-02-16T08:09:36.457293Z",
 	"published": "2019-10-11T18:43:06Z",
 	"aliases": [
 		"CVE-2019-10668"

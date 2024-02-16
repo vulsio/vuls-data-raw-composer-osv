@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cxvr-r92m-q9hw",
-	"modified": "2024-02-16T05:32:33.976455Z",
+	"modified": "2024-02-16T08:17:06.796603Z",
 	"published": "2020-05-21T21:08:47Z",
 	"aliases": [
 		"CVE-2020-13094"

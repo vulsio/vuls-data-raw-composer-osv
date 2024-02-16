@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v3wp-35g3-m9mm",
-	"modified": "2024-01-25T21:13:38.484831Z",
+	"modified": "2024-02-16T08:21:33.735848Z",
 	"published": "2022-05-13T01:12:45Z",
 	"aliases": [
 		"CVE-2015-2271"

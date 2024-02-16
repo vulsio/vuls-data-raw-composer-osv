@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hpjm-3ww5-6cpf",
-	"modified": "2024-02-07T19:03:28.274283Z",
+	"modified": "2024-02-16T08:17:59.558910Z",
 	"published": "2020-11-18T21:06:07Z",
 	"aliases": [
 		"CVE-2020-26216"

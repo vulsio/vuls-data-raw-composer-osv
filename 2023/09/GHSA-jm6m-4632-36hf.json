@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jm6m-4632-36hf",
-	"modified": "2023-12-06T01:03:13.835449Z",
+	"modified": "2024-02-16T08:22:03.193430Z",
 	"published": "2023-09-29T20:39:21Z",
 	"aliases": [
 		"BIT-composer-2023-43655",

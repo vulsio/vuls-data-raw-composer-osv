@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x962-w72p-mv7q",
-	"modified": "2023-11-08T03:57:24.391661Z",
+	"modified": "2024-02-16T08:13:27.579009Z",
 	"published": "2022-05-17T05:07:49Z",
 	"aliases": [
 		"CVE-2013-4729"

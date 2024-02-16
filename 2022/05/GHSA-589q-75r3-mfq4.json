@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-589q-75r3-mfq4",
-	"modified": "2024-02-07T19:01:20.006270Z",
+	"modified": "2024-02-16T08:09:28.821389Z",
 	"published": "2022-05-24T17:23:41Z",
 	"aliases": [
 		"BIT-silverstripe-2020-6165",

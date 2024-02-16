@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2295-vh28-pphc",
-	"modified": "2023-11-08T04:11:40.259999Z",
+	"modified": "2024-02-16T08:21:31.278485Z",
 	"published": "2023-04-27T19:37:45Z",
 	"aliases": [
 		"CVE-2023-2328"

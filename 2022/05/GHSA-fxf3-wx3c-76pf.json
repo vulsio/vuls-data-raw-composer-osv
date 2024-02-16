@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fxf3-wx3c-76pf",
-	"modified": "2023-11-08T04:02:24.755630Z",
+	"modified": "2024-02-16T08:21:18.746979Z",
 	"published": "2022-05-24T17:24:28Z",
 	"aliases": [
 		"CVE-2020-13971"

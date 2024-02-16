@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3mpg-q26j-83j5",
-	"modified": "2023-11-08T04:03:49.151985Z",
+	"modified": "2024-02-16T08:22:34.339466Z",
 	"published": "2023-01-21T03:30:28Z",
 	"aliases": [
 		"CVE-2020-36655"
@@ -79,7 +79,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://lab.wallarm.com/yii2-gii-remote-code-execution/"
+			"url": "https://lab.wallarm.com/yii2-gii-remote-code-execution"
 		}
 	],
 	"database_specific": {

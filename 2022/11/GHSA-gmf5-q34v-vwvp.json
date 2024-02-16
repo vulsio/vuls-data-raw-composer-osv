@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gmf5-q34v-vwvp",
-	"modified": "2023-11-08T04:10:47.644676Z",
+	"modified": "2024-02-16T08:22:49.786722Z",
 	"published": "2022-11-16T19:00:31Z",
 	"aliases": [
 		"CVE-2022-44073"

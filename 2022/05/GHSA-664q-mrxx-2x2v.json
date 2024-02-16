@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-664q-mrxx-2x2v",
-	"modified": "2024-01-22T21:56:51.450443Z",
+	"modified": "2024-02-16T08:19:20.423769Z",
 	"published": "2022-05-13T01:12:58Z",
 	"aliases": [
 		"CVE-2013-1836"

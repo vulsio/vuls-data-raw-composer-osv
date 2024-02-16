@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pvr5-84gr-g985",
-	"modified": "2023-11-08T03:57:45.660747Z",
+	"modified": "2024-02-16T08:12:08.436106Z",
 	"published": "2022-05-14T02:05:34Z",
 	"aliases": [
 		"CVE-2014-8326"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rcmf-88p4-9wrg",
-	"modified": "2024-02-16T05:27:41.427128Z",
+	"modified": "2024-02-16T08:23:28.608533Z",
 	"published": "2022-05-24T17:21:15Z",
 	"aliases": [
 		"CVE-2019-20891"

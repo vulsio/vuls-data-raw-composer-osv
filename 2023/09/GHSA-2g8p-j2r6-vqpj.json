@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2g8p-j2r6-vqpj",
-	"modified": "2023-11-09T05:45:20.203867Z",
+	"modified": "2024-02-16T08:13:19.858558Z",
 	"published": "2023-09-28T15:30:17Z",
 	"summary": "Withdrawn Advisory: October Cross-site Scripting vulnerability",
 	"details": "## Withdrawn Advisory\nThis advisory has been withdrawn because the vulnerability affects October CMS's installer, not October CMS. The installer deletes all folders and files upon completion of installation. The vulnerability is valid, but because October's installer is not part of one of the GitHub Advisory Database's [supported ecosystems](https://github.com/github/advisory-database/blob/main/README.md#supported-ecosystems), alerts cannot be sent out for the correct package.\n\n## Corrected Description\nA Cross-Site Scripting (XSS) vulnerability in the installer of October CMS allows an attacker to execute arbitrary web scripts via a crafted payload injected into the dbhost field.",

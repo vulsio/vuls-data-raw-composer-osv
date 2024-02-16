@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rxp5-qwrf-pfv3",
-	"modified": "2023-11-08T04:12:58.147280Z",
+	"modified": "2024-02-16T08:08:10.103651Z",
 	"published": "2023-07-14T15:30:26Z",
 	"aliases": [
 		"CVE-2023-3673"

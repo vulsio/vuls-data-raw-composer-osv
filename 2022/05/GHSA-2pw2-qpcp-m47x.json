@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2pw2-qpcp-m47x",
-	"modified": "2024-02-07T18:35:43.247913Z",
+	"modified": "2024-02-16T08:14:28.672028Z",
 	"published": "2022-05-24T17:23:42Z",
 	"aliases": [
 		"BIT-silverstripe-2020-9311",

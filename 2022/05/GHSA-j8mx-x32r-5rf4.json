@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j8mx-x32r-5rf4",
-	"modified": "2023-11-08T03:58:39.027709Z",
+	"modified": "2024-02-16T08:07:07.796408Z",
 	"published": "2022-05-17T02:36:37Z",
 	"aliases": [
 		"CVE-2016-9856"

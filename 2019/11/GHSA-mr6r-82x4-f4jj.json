@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mr6r-82x4-f4jj",
-	"modified": "2023-11-08T04:00:55.691340Z",
+	"modified": "2024-02-16T08:20:42.653583Z",
 	"published": "2019-11-20T01:34:50Z",
 	"aliases": [
 		"CVE-2019-10764",
@@ -59,7 +59,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://minerva.crocs.fi.muni.cz/"
+			"url": "https://minerva.crocs.fi.muni.cz"
 		},
 		{
 			"type": "WEB",

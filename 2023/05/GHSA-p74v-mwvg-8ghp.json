@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p74v-mwvg-8ghp",
-	"modified": "2023-11-08T04:12:41.603820Z",
+	"modified": "2024-02-16T08:24:04.587140Z",
 	"published": "2023-05-31T15:30:18Z",
 	"aliases": [
 		"CVE-2023-33736"

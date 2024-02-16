@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-prrv-r843-4p75",
-	"modified": "2023-11-08T16:18:14.345972Z",
+	"modified": "2024-02-16T07:48:14.694428Z",
 	"published": "2023-10-31T03:31:22Z",
 	"aliases": [
 		"CVE-2023-5867"

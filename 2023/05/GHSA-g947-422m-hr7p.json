@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g947-422m-hr7p",
-	"modified": "2023-11-09T05:36:08.331563Z",
+	"modified": "2024-02-16T08:18:54.309946Z",
 	"published": "2023-05-10T06:30:27Z",
 	"summary": "Duplicate Advisory: Pimcore Cross-site Scripting (XSS) in Static Routes name field",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-mhpj-7m7h-8p6x. This link is maintained to preserve external references.\n\n## Original Description\nCross-site Scripting (XSS) - Generic in GitHub repository pimcore/pimcore prior to 10.5.21.",

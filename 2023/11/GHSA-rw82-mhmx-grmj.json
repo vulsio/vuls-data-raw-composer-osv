@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rw82-mhmx-grmj",
-	"modified": "2023-11-24T05:16:59.749704Z",
+	"modified": "2024-02-16T08:24:38.170745Z",
 	"published": "2023-11-14T18:48:51Z",
 	"aliases": [
 		"CVE-2023-47621"

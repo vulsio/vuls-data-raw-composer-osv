@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-988g-wfwf-5666",
-	"modified": "2023-10-22T05:30:23.843593Z",
+	"modified": "2024-02-16T08:15:15.939097Z",
 	"published": "2022-05-24T17:00:29Z",
 	"summary": "Withdrawn Advisory: Magento 2 Community Edition XSS Vulnerability",
 	"details": "## Withdrawn Advisory\n\nThis advisory has been withdrawn because the vulnerability does not affect a package in one of the GitHub Advisory Database's [supported ecosystems](https://github.com/github/advisory-database/blob/main/README.md#supported-ecosystems). This link is maintained to preserve external references.\n\n## Original Description\n\nIn Magento prior to 1.9.4.3 and Magento prior to 1.14.4.3, an authenticated user with limited administrative privileges can inject arbitrary JavaScript code into transactional email page when creating a new email template or editing existing email template.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fpq5-4vwm-78x4",
-	"modified": "2023-11-20T22:16:40.314444Z",
+	"modified": "2024-02-16T08:17:04.830430Z",
 	"published": "2023-11-17T21:51:57Z",
 	"aliases": [
 		"CVE-2023-48294"

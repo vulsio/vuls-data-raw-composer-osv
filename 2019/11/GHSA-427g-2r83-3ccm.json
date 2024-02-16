@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-427g-2r83-3ccm",
-	"modified": "2024-02-12T12:02:08.142316Z",
+	"modified": "2024-02-16T08:17:16.781951Z",
 	"published": "2019-11-12T22:59:24Z",
 	"aliases": [
 		"CVE-2019-8126"

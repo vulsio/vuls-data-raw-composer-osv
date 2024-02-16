@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hppc-rpfp-r8qw",
-	"modified": "2024-02-02T18:31:31.631800Z",
+	"modified": "2024-02-16T08:24:03.511452Z",
 	"published": "2022-05-24T16:52:27Z",
 	"aliases": [
 		"CVE-2019-7913"

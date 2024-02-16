@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jpr7-q523-hx25",
-	"modified": "2024-01-03T19:34:14.029238Z",
+	"modified": "2024-02-16T08:20:25.366174Z",
 	"published": "2023-11-27T18:31:14Z",
 	"aliases": [
 		"CVE-2023-49316"

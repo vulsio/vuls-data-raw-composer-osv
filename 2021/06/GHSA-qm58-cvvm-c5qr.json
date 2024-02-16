@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qm58-cvvm-c5qr",
-	"modified": "2024-02-15T05:30:44.224435Z",
+	"modified": "2024-02-16T08:21:23.846653Z",
 	"published": "2021-06-15T15:51:02Z",
 	"aliases": [
 		"CVE-2021-23394",

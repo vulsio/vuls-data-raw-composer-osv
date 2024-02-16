@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-72hm-fx78-xwhc",
-	"modified": "2024-02-07T18:16:05.729094Z",
+	"modified": "2024-02-16T08:11:55.619766Z",
 	"published": "2021-09-01T18:40:40Z",
 	"aliases": [
 		"CVE-2021-27911"

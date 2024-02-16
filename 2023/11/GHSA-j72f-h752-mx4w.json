@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j72f-h752-mx4w",
-	"modified": "2024-02-16T05:31:12.745056Z",
+	"modified": "2024-02-16T08:21:04.973586Z",
 	"published": "2023-11-23T00:28:13Z",
 	"aliases": [
 		"CVE-2023-48708"

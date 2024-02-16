@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fq95-rx4q-qgg2",
-	"modified": "2023-11-11T05:42:17.605988Z",
+	"modified": "2024-02-16T08:16:44.268865Z",
 	"published": "2023-04-27T17:12:46Z",
 	"aliases": [
 		"CVE-2023-2341"

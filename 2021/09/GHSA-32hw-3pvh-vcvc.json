@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-32hw-3pvh-vcvc",
-	"modified": "2024-02-07T18:16:22.558139Z",
+	"modified": "2024-02-16T08:14:27.710494Z",
 	"published": "2021-09-01T18:40:56Z",
 	"aliases": [
 		"CVE-2021-27909"

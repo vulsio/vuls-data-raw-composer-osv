@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5m55-g8pv-x8ww",
-	"modified": "2024-01-11T19:41:25.373267Z",
+	"modified": "2024-02-16T08:17:44.507650Z",
 	"published": "2022-08-17T00:00:19Z",
 	"aliases": [
 		"BIT-magento-2022-34258",
@@ -84,7 +84,8 @@
 				"2.4.4-p3",
 				"2.4.4-p4",
 				"2.4.4-p5",
-				"2.4.4-p6"
+				"2.4.4-p6",
+				"2.4.4-p7"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/08/GHSA-5m55-g8pv-x8ww/GHSA-5m55-g8pv-x8ww.json"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j2jp-58gv-g2pg",
-	"modified": "2024-01-11T18:26:35.083583Z",
+	"modified": "2024-02-16T08:20:59.387467Z",
 	"published": "2022-05-24T17:21:48Z",
 	"aliases": [
 		"CVE-2020-9580"

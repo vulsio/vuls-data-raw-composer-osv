@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6mhc-hqr3-w466",
-	"modified": "2023-11-12T05:24:57.739673Z",
+	"modified": "2024-02-16T08:18:17.723676Z",
 	"published": "2023-05-12T00:30:18Z",
 	"summary": "Duplicate Advisory: PrestaShop Cross-site Scripting vulnerability",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-95hx-62rh-gg96. This link is maintained to preserve external references.\n\n## Original Description\nA cross-site scripting (XSS) vulnerability in PrestaShop v1.7.7.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the message parameter in /contactform/contactform.php.",

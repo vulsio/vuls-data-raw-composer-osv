@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-phrq-v4q2-hmq6",
-	"modified": "2023-11-08T04:02:21.625906Z",
+	"modified": "2024-02-16T08:04:52.130346Z",
 	"published": "2022-03-26T00:15:22Z",
 	"aliases": [
 		"CVE-2020-13756"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fx98-8w93-4mxr",
-	"modified": "2023-11-08T04:00:41.451223Z",
+	"modified": "2024-02-16T08:22:00.133430Z",
 	"published": "2022-05-14T01:14:56Z",
 	"aliases": [
 		"CVE-2019-10118"

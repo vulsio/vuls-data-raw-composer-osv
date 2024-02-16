@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-frqg-7g38-6gcf",
-	"modified": "2024-02-15T05:20:50.374324Z",
+	"modified": "2024-02-16T08:08:08.814539Z",
 	"published": "2021-10-05T20:23:18Z",
 	"aliases": [
 		"BIT-composer-2021-41116",

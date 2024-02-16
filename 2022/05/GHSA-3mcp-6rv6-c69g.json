@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3mcp-6rv6-c69g",
-	"modified": "2023-11-08T03:59:30.598762Z",
+	"modified": "2024-02-16T08:04:03.461086Z",
 	"published": "2022-05-14T03:06:07Z",
 	"aliases": [
 		"CVE-2018-0571"
@@ -34,6 +34,10 @@
 					]
 				}
 			],
+			"versions": [
+				"4.0.0",
+				"4.1.0"
+			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 4.1.0.1",
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-3mcp-6rv6-c69g/GHSA-3mcp-6rv6-c69g.json"
@@ -57,6 +61,39 @@
 						}
 					]
 				}
+			],
+			"versions": [
+				"0.0.1",
+				"0.0.2",
+				"0.0.3",
+				"0.0.4",
+				"0.0.5",
+				"0.0.6",
+				"0.0.7",
+				"0.0.8",
+				"1.0.0",
+				"2.0.0",
+				"2.0.0-rc1",
+				"2.0.0-rc2",
+				"2.0.0-rc3",
+				"2.0.0-rc4",
+				"2.0.0-rc5",
+				"2.0.0-rc6",
+				"3.0.0",
+				"3.0.1",
+				"3.0.10",
+				"3.0.11",
+				"3.0.12",
+				"3.0.13",
+				"3.0.14",
+				"3.0.15",
+				"3.0.2",
+				"3.0.3",
+				"3.0.4",
+				"3.0.5",
+				"3.0.6",
+				"3.0.7",
+				"3.0.9"
 			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 3.0.15",

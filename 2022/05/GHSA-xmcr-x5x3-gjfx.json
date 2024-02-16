@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xmcr-x5x3-gjfx",
-	"modified": "2024-02-15T05:29:14.390741Z",
+	"modified": "2024-02-16T08:22:54.994264Z",
 	"published": "2022-05-14T01:40:50Z",
 	"aliases": [
 		"CVE-2018-1000826"

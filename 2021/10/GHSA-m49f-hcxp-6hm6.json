@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m49f-hcxp-6hm6",
-	"modified": "2023-11-08T04:06:53.708050Z",
+	"modified": "2024-02-16T08:20:06.133413Z",
 	"published": "2021-10-25T19:42:46Z",
 	"aliases": [
 		"CVE-2021-41176"

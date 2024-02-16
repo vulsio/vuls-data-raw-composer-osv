@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r7mm-grf3-5fjv",
-	"modified": "2024-01-11T19:57:06.990934Z",
+	"modified": "2024-02-16T08:17:35.767735Z",
 	"published": "2022-08-17T00:00:19Z",
 	"aliases": [
 		"BIT-magento-2022-34256",
@@ -84,7 +84,8 @@
 				"2.4.4-p3",
 				"2.4.4-p4",
 				"2.4.4-p5",
-				"2.4.4-p6"
+				"2.4.4-p6",
+				"2.4.4-p7"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/08/GHSA-r7mm-grf3-5fjv/GHSA-r7mm-grf3-5fjv.json"

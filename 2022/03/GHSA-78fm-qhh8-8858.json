@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-78fm-qhh8-8858",
-	"modified": "2023-12-06T01:01:14.157833Z",
+	"modified": "2024-02-16T08:23:28.696782Z",
 	"published": "2022-03-12T00:00:32Z",
 	"aliases": [
 		"BIT-moodle-2021-32478",

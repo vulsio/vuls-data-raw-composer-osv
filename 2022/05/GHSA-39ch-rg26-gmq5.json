@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-39ch-rg26-gmq5",
-	"modified": "2024-01-11T20:12:25.017520Z",
+	"modified": "2024-02-16T08:02:36.049917Z",
 	"published": "2022-05-24T19:06:25Z",
 	"aliases": [
 		"BIT-magento-2021-28556",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cchx-mfrc-fwqr",
-	"modified": "2023-11-08T04:00:58.828280Z",
+	"modified": "2024-02-16T08:07:16.124191Z",
 	"published": "2020-02-12T18:45:08Z",
 	"aliases": [
 		"CVE-2019-10911"

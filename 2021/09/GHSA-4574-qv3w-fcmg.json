@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4574-qv3w-fcmg",
-	"modified": "2024-02-05T10:46:59.494725Z",
+	"modified": "2024-02-16T08:24:23.525621Z",
 	"published": "2021-09-01T18:36:15Z",
 	"aliases": [
 		"CVE-2021-23420",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w6x2-jg8h-p6mp",
-	"modified": "2024-02-13T19:26:45.079267Z",
+	"modified": "2024-02-16T08:08:41.579712Z",
 	"published": "2024-02-13T19:08:10Z",
 	"aliases": [
 		"BIT-typo3-2023-30451",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vr7m-r9vm-m4wf",
-	"modified": "2024-01-09T08:11:40.139996Z",
+	"modified": "2024-02-16T08:18:44.761985Z",
 	"published": "2024-01-03T21:48:56Z",
 	"aliases": [
 		"BIT-prestashop-2024-21628",

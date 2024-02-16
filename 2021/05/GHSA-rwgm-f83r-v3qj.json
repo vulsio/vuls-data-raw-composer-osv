@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rwgm-f83r-v3qj",
-	"modified": "2024-02-07T19:01:34.973785Z",
+	"modified": "2024-02-16T08:20:03.166712Z",
 	"published": "2021-05-19T23:03:11Z",
 	"aliases": [
 		"BIT-wp-cli-2021-29504",

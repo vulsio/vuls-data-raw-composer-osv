@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5hcx-vg88-hgpm",
-	"modified": "2024-02-12T11:48:29.134023Z",
+	"modified": "2024-02-16T08:21:02.033294Z",
 	"published": "2022-05-24T16:52:26Z",
 	"aliases": [
 		"CVE-2019-7904"

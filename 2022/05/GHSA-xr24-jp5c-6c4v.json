@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xr24-jp5c-6c4v",
-	"modified": "2024-01-22T16:26:52.345307Z",
+	"modified": "2024-02-16T08:24:59.836481Z",
 	"published": "2022-05-13T01:12:57Z",
 	"aliases": [
 		"CVE-2013-1831"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rgcg-28xm-8mmw",
-	"modified": "2024-02-05T11:31:30.181101Z",
+	"modified": "2024-02-16T08:20:10.493823Z",
 	"published": "2021-07-22T19:37:41Z",
 	"aliases": [
 		"BIT-typo3-2021-32669",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cwx6-4wmf-c6xv",
-	"modified": "2024-01-24T21:49:23.198211Z",
+	"modified": "2024-02-16T07:58:01.454487Z",
 	"published": "2024-01-24T20:54:15Z",
 	"aliases": [
 		"CVE-2024-23646"

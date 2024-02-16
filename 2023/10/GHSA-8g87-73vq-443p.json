@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8g87-73vq-443p",
-	"modified": "2023-11-11T05:23:15.184644Z",
+	"modified": "2024-02-16T08:23:04.763609Z",
 	"published": "2023-10-25T18:32:23Z",
 	"aliases": [
 		"CVE-2023-44769"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fx37-56v6-85q6",
-	"modified": "2024-02-07T19:03:09.413222Z",
+	"modified": "2024-02-16T08:10:25.934408Z",
 	"published": "2022-05-24T17:09:19Z",
 	"aliases": [
 		"CVE-2019-12437"

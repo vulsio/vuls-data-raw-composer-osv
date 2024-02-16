@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3fgr-xjr6-xqm8",
-	"modified": "2023-10-28T05:22:48.033075Z",
+	"modified": "2024-02-16T08:10:18.401288Z",
 	"published": "2022-11-28T22:07:33Z",
 	"summary": "code injection in phpxmlrpc/phpxmlrpc",
 	"details": "code injection in `Wrapper::buildClientWrapperCode` via manipulation of the `$client` argument. It was possible to force the client to access local files or connect to undesired urls instead of the intended target server's url.",
