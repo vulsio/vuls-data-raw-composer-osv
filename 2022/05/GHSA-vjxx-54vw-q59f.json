@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vjxx-54vw-q59f",
-	"modified": "2023-11-08T04:01:38.001315Z",
+	"modified": "2024-02-16T05:32:06.108491Z",
 	"published": "2022-05-14T01:17:52Z",
 	"aliases": [
 		"CVE-2019-6970"
@@ -52,7 +52,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://excellium-services.com/cert-xlm-advisory/cve-2019-6970/"
+			"url": "https://excellium-services.com/cert-xlm-advisory/cve-2019-6970"
 		},
 		{
 			"type": "PACKAGE",

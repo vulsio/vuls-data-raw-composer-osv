@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rfh8-25h9-mhgf",
-	"modified": "2023-11-08T04:01:15.978872Z",
+	"modified": "2024-02-16T05:33:03.168642Z",
 	"published": "2019-10-14T21:12:08Z",
 	"aliases": [
 		"CVE-2019-16130"
@@ -71,7 +71,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.iwantacve.cn/index.php/archives/277/"
+			"url": "http://www.iwantacve.cn/index.php/archives/277"
 		}
 	],
 	"database_specific": {

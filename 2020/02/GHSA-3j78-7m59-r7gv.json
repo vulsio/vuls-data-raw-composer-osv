@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3j78-7m59-r7gv",
-	"modified": "2023-11-08T04:03:52.845119Z",
+	"modified": "2024-02-16T05:28:38.404839Z",
 	"published": "2020-02-24T17:18:26Z",
 	"aliases": [
 		"CVE-2020-5244"
@@ -150,7 +150,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://buddypress.org/2020/01/buddypress-5-1-2/"
+			"url": "https://buddypress.org/2020/01/buddypress-5-1-2"
 		}
 	],
 	"database_specific": {

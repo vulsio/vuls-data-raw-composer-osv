@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cm7f-hf2g-ghrp",
-	"modified": "2023-11-08T04:10:09.545012Z",
+	"modified": "2024-02-16T05:25:29.429476Z",
 	"published": "2022-11-25T18:30:25Z",
 	"aliases": [
 		"CVE-2022-37721"
@@ -118,7 +118,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://labs.integrity.pt/advisories/cve-2022-37721/"
+			"url": "https://labs.integrity.pt/advisories/cve-2022-37721"
 		}
 	],
 	"database_specific": {

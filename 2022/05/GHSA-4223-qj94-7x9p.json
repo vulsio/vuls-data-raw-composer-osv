@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4223-qj94-7x9p",
-	"modified": "2024-02-06T17:46:04.011207Z",
+	"modified": "2024-02-16T05:31:59.764580Z",
 	"published": "2022-05-13T01:23:02Z",
 	"aliases": [
 		"CVE-2019-9194"
@@ -127,11 +127,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/46481/"
+			"url": "https://www.exploit-db.com/exploits/46481"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/46539/"
+			"url": "https://www.exploit-db.com/exploits/46539"
 		}
 	],
 	"database_specific": {

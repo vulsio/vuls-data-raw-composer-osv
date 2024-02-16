@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8ccw-f83g-v7g3",
-	"modified": "2023-11-08T04:11:10.612872Z",
+	"modified": "2024-02-16T05:29:55.793169Z",
 	"published": "2023-03-05T21:30:14Z",
 	"aliases": [
 		"CVE-2023-0734"
@@ -132,8 +132,8 @@
 			"url": "https://github.com/wallabag/wallabag/commit/acd285dcbb71b595e6320bb1d0d3a44cdf646ac0"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/wallabag/wallabag/"
+			"type": "WEB",
+			"url": "https://github.com/wallabag/wallabag"
 		},
 		{
 			"type": "WEB",

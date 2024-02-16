@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g9xh-3w5g-229r",
-	"modified": "2023-11-08T04:00:54.104051Z",
+	"modified": "2024-02-16T05:30:29.786336Z",
 	"published": "2019-10-11T18:43:33Z",
 	"aliases": [
 		"CVE-2019-10671"
@@ -91,7 +91,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.darkmatter.ae/xen1thlabs/librenms-multiple-sql-injection-vulnerability-xl-19-025/"
+			"url": "https://www.darkmatter.ae/xen1thlabs/librenms-multiple-sql-injection-vulnerability-xl-19-025"
 		}
 	],
 	"database_specific": {

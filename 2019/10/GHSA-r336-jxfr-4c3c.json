@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r336-jxfr-4c3c",
-	"modified": "2023-11-08T04:01:05.456103Z",
+	"modified": "2024-02-16T05:32:46.162528Z",
 	"published": "2019-10-11T18:43:25Z",
 	"aliases": [
 		"CVE-2019-12464"
@@ -94,7 +94,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.darkmatter.ae/xen1thlabs/librenms-limited-local-file-inclusion-via-directory-traversal-vulnerability-xl-19-019/"
+			"url": "https://www.darkmatter.ae/xen1thlabs/librenms-limited-local-file-inclusion-via-directory-traversal-vulnerability-xl-19-019"
 		}
 	],
 	"database_specific": {

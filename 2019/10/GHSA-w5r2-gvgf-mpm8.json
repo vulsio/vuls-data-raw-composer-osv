@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w5r2-gvgf-mpm8",
-	"modified": "2023-11-08T04:01:05.394225Z",
+	"modified": "2024-02-16T05:32:35.136095Z",
 	"published": "2019-10-11T18:43:13Z",
 	"aliases": [
 		"CVE-2019-12463"
@@ -51,7 +51,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.darkmatter.ae/xen1thlabs/librenms-rrdtool-injection-vulnerability-xl-19-022/"
+			"url": "https://www.darkmatter.ae/xen1thlabs/librenms-rrdtool-injection-vulnerability-xl-19-022"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fwvc-9xhj-26v5",
-	"modified": "2023-11-08T04:10:31.862629Z",
+	"modified": "2024-02-16T05:25:48.501785Z",
 	"published": "2022-10-26T12:00:31Z",
 	"aliases": [
 		"CVE-2022-41711"
@@ -160,7 +160,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/harlow/"
+			"url": "https://fluidattacks.com/advisories/harlow"
 		},
 		{
 			"type": "PACKAGE",

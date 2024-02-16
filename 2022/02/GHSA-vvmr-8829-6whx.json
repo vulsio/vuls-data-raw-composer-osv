@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vvmr-8829-6whx",
-	"modified": "2024-02-06T17:16:02.011412Z",
+	"modified": "2024-02-16T05:31:53.490801Z",
 	"published": "2022-02-01T00:46:57Z",
 	"aliases": [
 		"BIT-symfony-2022-23601",
@@ -201,8 +201,8 @@
 			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/symfony/CVE-2022-23601.yaml"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/symfony/symfony/"
+			"type": "WEB",
+			"url": "https://github.com/symfony/symfony"
 		},
 		{
 			"type": "WEB",

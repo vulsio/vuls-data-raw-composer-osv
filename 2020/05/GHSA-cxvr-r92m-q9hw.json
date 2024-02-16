@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cxvr-r92m-q9hw",
-	"modified": "2023-11-08T04:02:12.387114Z",
+	"modified": "2024-02-16T05:32:33.976455Z",
 	"published": "2020-05-21T21:08:47Z",
 	"aliases": [
 		"CVE-2020-13094"
@@ -135,8 +135,8 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-13094"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/Dolibarr/dolibarr/"
+			"type": "WEB",
+			"url": "https://github.com/Dolibarr/dolibarr"
 		},
 		{
 			"type": "WEB",

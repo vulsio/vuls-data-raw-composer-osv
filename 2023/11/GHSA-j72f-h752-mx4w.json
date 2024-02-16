@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j72f-h752-mx4w",
-	"modified": "2023-11-27T21:49:25.363333Z",
+	"modified": "2024-02-16T05:31:12.745056Z",
 	"published": "2023-11-23T00:28:13Z",
 	"aliases": [
 		"CVE-2023-48708"
@@ -63,7 +63,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://codeigniter4.github.io/shield/getting_started/authenticators/"
+			"url": "https://codeigniter4.github.io/shield/getting_started/authenticators"
 		},
 		{
 			"type": "PACKAGE",

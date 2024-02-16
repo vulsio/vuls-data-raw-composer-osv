@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9cx2-hj6m-fv58",
-	"modified": "2023-11-08T04:10:13.155322Z",
+	"modified": "2024-02-16T05:32:56.153649Z",
 	"published": "2022-11-21T23:58:20Z",
 	"aliases": [
 		"CVE-2022-38724"
@@ -262,7 +262,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

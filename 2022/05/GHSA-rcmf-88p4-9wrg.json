@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rcmf-88p4-9wrg",
-	"modified": "2024-01-10T21:41:37.953964Z",
+	"modified": "2024-02-16T05:27:41.427128Z",
 	"published": "2022-05-24T17:21:15Z",
 	"aliases": [
 		"CVE-2019-20891"
@@ -148,7 +148,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.ripstech.com/2019/woocommerce-csrf-to-stored-xss/"
+			"url": "https://blog.ripstech.com/2019/woocommerce-csrf-to-stored-xss"
 		},
 		{
 			"type": "PACKAGE",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9hmc-87h4-w869",
-	"modified": "2023-11-08T04:09:51.148329Z",
+	"modified": "2024-02-16T05:30:45.279531Z",
 	"published": "2022-08-13T00:00:25Z",
 	"aliases": [
 		"CVE-2022-35585"
@@ -143,7 +143,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/5-other-forkcms/"
+			"url": "https://huntr.dev/bounties/5-other-forkcms"
 		}
 	],
 	"database_specific": {
