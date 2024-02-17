@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wc6r-4ggc-79w5",
-	"modified": "2023-11-08T04:10:08.371079Z",
+	"modified": "2024-02-17T05:18:51.333278Z",
 	"published": "2022-11-21T23:59:47Z",
 	"aliases": [
 		"CVE-2022-37429"
@@ -163,7 +163,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

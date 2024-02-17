@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jf9v-q8vh-3fmc",
-	"modified": "2023-11-08T04:05:53.067860Z",
+	"modified": "2024-02-17T05:33:48.680368Z",
 	"published": "2021-09-09T17:11:11Z",
 	"aliases": [
 		"CVE-2021-32106"
@@ -62,7 +62,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://prophaze.com/cve/icecoder-8-0-multipe-results-php-replace-cross-site-scripting/"
+			"url": "https://prophaze.com/cve/icecoder-8-0-multipe-results-php-replace-cross-site-scripting"
 		}
 	],
 	"database_specific": {

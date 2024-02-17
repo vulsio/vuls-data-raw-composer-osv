@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8qxh-hcr9-2379",
-	"modified": "2024-02-16T08:22:28.317413Z",
+	"modified": "2024-02-17T05:34:27.615630Z",
 	"published": "2022-05-24T22:00:09Z",
 	"aliases": [
 		"CVE-2019-12935"
@@ -144,7 +144,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.netsparker.com/web-applications-advisories/ns-19-004-cross-site-scripting-in-shopware/"
+			"url": "https://www.netsparker.com/web-applications-advisories/ns-19-004-cross-site-scripting-in-shopware"
 		},
 		{
 			"type": "WEB",

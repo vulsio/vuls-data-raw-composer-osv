@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m6j4-8r7p-wpp3",
-	"modified": "2023-11-08T04:04:44.159646Z",
+	"modified": "2024-02-17T05:33:52.328118Z",
 	"published": "2021-10-06T17:46:55Z",
 	"aliases": [
 		"CVE-2021-21389"
@@ -42,6 +42,7 @@
 				"5.1.2",
 				"5.2.0",
 				"5.2.1",
+				"5.2.2",
 				"6.0.0",
 				"6.0.0-RC1",
 				"6.0.0-RC2",
@@ -53,6 +54,7 @@
 				"6.3.0",
 				"6.4.0",
 				"6.4.2",
+				"6.4.3",
 				"7.0.0",
 				"7.0.0-RC1",
 				"7.0.0-RC2",
@@ -77,11 +79,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://buddypress.org/2021/03/buddypress-7-2-1-security-release/"
+			"url": "https://buddypress.org/2021/03/buddypress-7-2-1-security-release"
 		},
 		{
 			"type": "WEB",
-			"url": "https://codex.buddypress.org/releases/version-7-2-1/"
+			"url": "https://codex.buddypress.org/releases/version-7-2-1"
 		},
 		{
 			"type": "PACKAGE",

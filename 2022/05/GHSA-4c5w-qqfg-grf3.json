@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4c5w-qqfg-grf3",
-	"modified": "2024-02-16T08:22:18.737778Z",
+	"modified": "2024-02-17T05:33:50.150452Z",
 	"published": "2022-05-13T01:13:58Z",
 	"aliases": [
 		"CVE-2015-8766"
@@ -70,7 +70,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.getsymphony.com/download/releases/version/2.6.4/"
+			"url": "http://www.getsymphony.com/download/releases/version/2.6.4"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r6fv-56gp-j3r4",
-	"modified": "2024-02-16T08:11:49.390723Z",
+	"modified": "2024-02-17T05:29:45.765129Z",
 	"published": "2022-05-24T22:00:13Z",
 	"aliases": [
 		"CVE-2019-12748"
@@ -231,15 +231,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://typo3.org/cms/release-news/typo3-8-release-notes/"
+			"url": "https://typo3.org/cms/release-news/typo3-8-release-notes"
 		},
 		{
 			"type": "WEB",
 			"url": "https://typo3.org/security/advisory/typo3-core-sa-2019-015"
-		},
-		{
-			"type": "WEB",
-			"url": "https://typo3.org/security/advisory/typo3-core-sa-2019-015/"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f3rf-v9qm-9c89",
-	"modified": "2023-11-08T04:06:16.552403Z",
+	"modified": "2024-02-17T05:42:54.944395Z",
 	"published": "2021-09-01T18:36:51Z",
 	"aliases": [
 		"CVE-2021-36787"
@@ -115,7 +115,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://extensions.typo3.org/extension/femanager/"
+			"url": "https://extensions.typo3.org/extension/femanager"
 		},
 		{
 			"type": "PACKAGE",

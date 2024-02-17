@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5v5h-4w2g-gxxc",
-	"modified": "2023-11-08T04:05:50.602804Z",
+	"modified": "2024-02-17T05:35:17.294908Z",
 	"published": "2021-06-08T20:12:23Z",
 	"aliases": [
 		"CVE-2021-31777"
@@ -63,7 +63,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://excellium-services.com/cert-xlm-advisory/"
+			"url": "https://excellium-services.com/cert-xlm-advisory"
 		},
 		{
 			"type": "WEB",

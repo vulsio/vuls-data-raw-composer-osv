@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v92m-hhhw-vv9v",
-	"modified": "2023-11-08T04:01:27.922817Z",
+	"modified": "2024-02-17T05:31:19.201573Z",
 	"published": "2021-09-01T18:27:12Z",
 	"aliases": [
 		"CVE-2019-19208"
@@ -61,11 +61,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://herolab.usd.de/en/security-advisories/"
+			"url": "https://herolab.usd.de/en/security-advisories"
 		},
 		{
 			"type": "WEB",
-			"url": "https://herolab.usd.de/security-advisories/usd-2019-0049/"
+			"url": "https://herolab.usd.de/security-advisories/usd-2019-0049"
 		},
 		{
 			"type": "WEB",

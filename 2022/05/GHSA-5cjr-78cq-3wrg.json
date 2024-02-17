@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5cjr-78cq-3wrg",
-	"modified": "2023-11-08T04:09:15.855739Z",
+	"modified": "2024-02-17T05:33:35.307006Z",
 	"published": "2022-05-10T00:00:17Z",
 	"aliases": [
 		"CVE-2022-29933"
@@ -806,11 +806,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://sec-consult.com/vulnerability-lab/"
+			"url": "https://sec-consult.com/vulnerability-lab"
 		},
 		{
 			"type": "WEB",
-			"url": "https://sec-consult.com/vulnerability-lab/advisory/password-reset-poisoning-attack-craft-cms/"
+			"url": "https://sec-consult.com/vulnerability-lab/advisory/password-reset-poisoning-attack-craft-cms"
 		},
 		{
 			"type": "WEB",

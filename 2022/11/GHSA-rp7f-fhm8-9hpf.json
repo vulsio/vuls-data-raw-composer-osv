@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rp7f-fhm8-9hpf",
-	"modified": "2023-11-08T04:09:38.747299Z",
+	"modified": "2024-02-17T05:31:51.103560Z",
 	"published": "2022-11-22T15:30:26Z",
 	"aliases": [
 		"CVE-2022-33012"
@@ -72,7 +72,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.jitendrapatro.me/cve-2022-33012-account-takeover-through-password-reset-poisoning/"
+			"url": "https://blog.jitendrapatro.me/cve-2022-33012-account-takeover-through-password-reset-poisoning"
 		},
 		{
 			"type": "PACKAGE",
@@ -84,7 +84,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/"
+			"url": "https://www.pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability"
 		}
 	],
 	"database_specific": {

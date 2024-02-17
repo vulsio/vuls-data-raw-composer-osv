@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mg2g-8pwj-r2j2",
-	"modified": "2024-02-16T07:56:37.427347Z",
+	"modified": "2024-02-17T05:36:28.183403Z",
 	"published": "2021-06-10T17:21:33Z",
 	"aliases": [
 		"BIT-silverstripe-2020-26136",
@@ -116,7 +116,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

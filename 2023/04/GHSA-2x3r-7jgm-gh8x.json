@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2x3r-7jgm-gh8x",
-	"modified": "2024-02-16T08:19:21.557129Z",
+	"modified": "2024-02-17T05:35:42.581827Z",
 	"published": "2023-04-26T21:30:37Z",
 	"aliases": [
 		"CVE-2020-36070"
@@ -81,8 +81,8 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36070"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/the-control-group/voyager/"
+			"type": "WEB",
+			"url": "https://github.com/the-control-group/voyager"
 		}
 	],
 	"database_specific": {

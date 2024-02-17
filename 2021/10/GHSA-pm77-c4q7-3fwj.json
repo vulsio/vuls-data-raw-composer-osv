@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pm77-c4q7-3fwj",
-	"modified": "2023-11-08T04:01:30.568133Z",
+	"modified": "2024-02-17T05:26:24.182590Z",
 	"published": "2021-10-12T16:31:12Z",
 	"aliases": [
 		"CVE-2019-20455"
@@ -81,7 +81,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://winterdragon.ca/global-payments-vulnerability/"
+			"url": "https://winterdragon.ca/global-payments-vulnerability"
 		}
 	],
 	"database_specific": {

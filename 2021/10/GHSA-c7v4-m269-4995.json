@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c7v4-m269-4995",
-	"modified": "2023-12-06T01:00:25.817943Z",
+	"modified": "2024-02-17T05:32:57.703978Z",
 	"published": "2021-10-21T17:49:08Z",
 	"aliases": [
 		"BIT-moodle-2020-25703",
@@ -153,11 +153,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4NNFCHPPHRJNJROIX6SYMHOC6HMKP3GU/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4NNFCHPPHRJNJROIX6SYMHOC6HMKP3GU"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/B55KXBVAT45MDASJ3EK6VIGQOYGJ4NH6/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/B55KXBVAT45MDASJ3EK6VIGQOYGJ4NH6"
 		},
 		{
 			"type": "WEB",

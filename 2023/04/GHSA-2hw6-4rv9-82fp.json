@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2hw6-4rv9-82fp",
-	"modified": "2023-11-08T04:11:06.874089Z",
+	"modified": "2024-02-17T05:34:47.485062Z",
 	"published": "2023-04-05T00:30:39Z",
 	"aliases": [
 		"CVE-2023-0265"
@@ -67,7 +67,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/supply/"
+			"url": "https://fluidattacks.com/advisories/supply"
 		},
 		{
 			"type": "PACKAGE",

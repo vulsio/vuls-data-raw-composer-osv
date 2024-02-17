@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mxh3-2699-98g9",
-	"modified": "2024-02-16T08:03:25.106520Z",
+	"modified": "2024-02-17T05:21:52.894733Z",
 	"published": "2022-02-09T00:00:28Z",
 	"aliases": [
 		"CVE-2022-0510"
@@ -228,8 +228,8 @@
 			"url": "https://github.com/pimcore/pimcore/commit/b5a9ad65e5a4dde1916f02019f8686ad835681ce"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/pimcore/pimcore/"
+			"type": "WEB",
+			"url": "https://github.com/pimcore/pimcore"
 		},
 		{
 			"type": "WEB",

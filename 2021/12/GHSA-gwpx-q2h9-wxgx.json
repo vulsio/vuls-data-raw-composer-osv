@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gwpx-q2h9-wxgx",
-	"modified": "2023-11-08T04:06:37.559022Z",
+	"modified": "2024-02-17T05:32:18.435870Z",
 	"published": "2021-12-03T20:43:25Z",
 	"aliases": [
 		"CVE-2021-3964"
@@ -190,8 +190,8 @@
 			"url": "https://github.com/elgg/elgg/commit/d9fcad76ee380ea17edd61d13d0f87828ea3f744"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/elgg/elgg/"
+			"type": "WEB",
+			"url": "https://github.com/elgg/elgg"
 		},
 		{
 			"type": "WEB",

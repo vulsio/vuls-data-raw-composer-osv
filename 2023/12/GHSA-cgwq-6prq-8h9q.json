@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cgwq-6prq-8h9q",
-	"modified": "2024-02-16T08:22:24.682936Z",
+	"modified": "2024-02-17T05:36:43.327219Z",
 	"published": "2023-12-05T22:46:25Z",
 	"aliases": [
 		"CVE-2023-49282"
@@ -221,7 +221,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://owncloud.com/security-advisories/disclosure-of-sensitive-credentials-and-configuration-in-containerized-deployments/"
+			"url": "https://owncloud.com/security-advisories/disclosure-of-sensitive-credentials-and-configuration-in-containerized-deployments"
 		}
 	],
 	"database_specific": {

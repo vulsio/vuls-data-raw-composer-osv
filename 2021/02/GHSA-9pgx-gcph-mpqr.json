@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9pgx-gcph-mpqr",
-	"modified": "2024-02-16T08:14:52.119959Z",
+	"modified": "2024-02-17T05:35:37.470563Z",
 	"published": "2021-02-11T20:42:28Z",
 	"aliases": [
 		"CVE-2020-35572"
@@ -83,11 +83,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/bugs-and-features/775/"
+			"url": "https://sourceforge.net/p/adminer/bugs-and-features/775"
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released/"
+			"url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released"
 		}
 	],
 	"database_specific": {

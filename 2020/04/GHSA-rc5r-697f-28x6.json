@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rc5r-697f-28x6",
-	"modified": "2024-02-16T08:04:53.053334Z",
+	"modified": "2024-02-17T05:30:15.624943Z",
 	"published": "2020-04-15T21:07:59Z",
 	"aliases": [
 		"CVE-2019-12186"
@@ -623,7 +623,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://sylius.com/blog/cve-2019-12186/"
+			"url": "https://sylius.com/blog/cve-2019-12186"
 		}
 	],
 	"database_specific": {

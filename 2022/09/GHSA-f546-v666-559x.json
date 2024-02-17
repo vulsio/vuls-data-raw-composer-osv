@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f546-v666-559x",
-	"modified": "2023-11-08T04:10:06.995294Z",
+	"modified": "2024-02-17T05:36:06.377881Z",
 	"published": "2022-09-22T00:00:28Z",
 	"aliases": [
 		"CVE-2022-37246"
@@ -125,7 +125,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://labs.integrity.pt/advisories/cve-2022-37246/"
+			"url": "https://labs.integrity.pt/advisories/cve-2022-37246"
 		}
 	],
 	"database_specific": {

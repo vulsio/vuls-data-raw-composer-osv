@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2v82-5746-vwqc",
-	"modified": "2023-11-08T04:05:43.123543Z",
+	"modified": "2024-02-17T05:34:06.694323Z",
 	"published": "2022-03-18T17:49:28Z",
 	"aliases": [
 		"CVE-2021-29625"
@@ -63,7 +63,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/bugs-and-features/797/"
+			"url": "https://sourceforge.net/p/adminer/bugs-and-features/797"
 		}
 	],
 	"database_specific": {

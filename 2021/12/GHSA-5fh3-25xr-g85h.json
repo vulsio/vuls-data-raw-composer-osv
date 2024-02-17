@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5fh3-25xr-g85h",
-	"modified": "2023-11-08T04:06:46.724326Z",
+	"modified": "2024-02-17T05:35:59.591892Z",
 	"published": "2021-12-03T20:40:50Z",
 	"aliases": [
 		"CVE-2021-4018"
@@ -231,8 +231,8 @@
 			"url": "https://github.com/snipe/snipe-it/commit/ff81e6d5366c2cfb15618793ad919ae4cbb3ac57"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/snipe/snipe-it/"
+			"type": "WEB",
+			"url": "https://github.com/snipe/snipe-it"
 		},
 		{
 			"type": "WEB",

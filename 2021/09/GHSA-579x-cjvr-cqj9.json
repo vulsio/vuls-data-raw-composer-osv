@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-579x-cjvr-cqj9",
-	"modified": "2023-11-08T04:06:33.145959Z",
+	"modified": "2024-02-17T05:23:44.606420Z",
 	"published": "2021-09-20T19:53:55Z",
 	"aliases": [
 		"CVE-2021-39189"
@@ -225,7 +225,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/12462a99-ebf8-4e39-80b3-54a16caa3f4c/"
+			"url": "https://huntr.dev/bounties/12462a99-ebf8-4e39-80b3-54a16caa3f4c"
 		}
 	],
 	"database_specific": {

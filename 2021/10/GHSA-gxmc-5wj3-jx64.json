@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gxmc-5wj3-jx64",
-	"modified": "2023-11-08T04:06:59.150618Z",
+	"modified": "2024-02-17T05:33:19.684532Z",
 	"published": "2021-10-04T20:13:25Z",
 	"aliases": [
 		"CVE-2021-41467"
@@ -54,10 +54,6 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/hjue/JustWriting"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/hjue/JustWriting/"
 		}
 	],
 	"database_specific": {

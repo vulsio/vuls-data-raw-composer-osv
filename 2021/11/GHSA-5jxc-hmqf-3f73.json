@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5jxc-hmqf-3f73",
-	"modified": "2023-11-08T04:06:29.486677Z",
+	"modified": "2024-02-17T05:32:30.793039Z",
 	"published": "2021-11-01T19:17:31Z",
 	"aliases": [
 		"CVE-2021-3904"
@@ -292,8 +292,8 @@
 			"url": "https://github.com/getgrav/grav/commit/afc69a3229bb6fe120b2c1ea27bc6f196ed7284d"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/getgrav/grav/"
+			"type": "WEB",
+			"url": "https://github.com/getgrav/grav"
 		},
 		{
 			"type": "WEB",

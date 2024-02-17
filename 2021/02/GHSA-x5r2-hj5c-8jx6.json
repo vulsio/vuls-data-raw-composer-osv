@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x5r2-hj5c-8jx6",
-	"modified": "2023-11-08T04:04:41.035081Z",
+	"modified": "2024-02-17T05:23:07.457577Z",
 	"published": "2021-02-11T20:42:59Z",
 	"aliases": [
 		"CVE-2021-21311"
@@ -91,7 +91,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released/"
+			"url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released"
 		}
 	],
 	"database_specific": {
