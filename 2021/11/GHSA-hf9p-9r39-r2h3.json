@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hf9p-9r39-r2h3",
-	"modified": "2023-11-08T04:02:06.222497Z",
+	"modified": "2024-02-18T05:33:33.439500Z",
 	"published": "2021-11-03T17:29:29Z",
 	"aliases": [
 		"CVE-2020-11476"
@@ -88,7 +88,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://herolab.usd.de/security-advisories/usd-2020-0041/"
+			"url": "https://herolab.usd.de/security-advisories/usd-2020-0041"
 		}
 	],
 	"database_specific": {

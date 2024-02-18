@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rr6v-h7m8-wc9f",
-	"modified": "2024-02-16T08:04:43.403116Z",
+	"modified": "2024-02-18T05:29:09.086328Z",
 	"published": "2021-07-19T21:21:33Z",
 	"aliases": [
 		"CVE-2021-28114"
@@ -105,7 +105,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://froala.com/wysiwyg-editor/"
+			"url": "https://froala.com/wysiwyg-editor"
 		},
 		{
 			"type": "WEB",

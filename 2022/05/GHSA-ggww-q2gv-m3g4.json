@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-ggww-q2gv-m3g4",
-	"modified": "2024-02-16T08:10:59.507459Z",
+	"modified": "2024-02-18T05:29:48.224852Z",
 	"published": "2022-05-14T01:41:09Z",
 	"aliases": [
 		"CVE-2018-19799"
@@ -120,7 +120,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/45945/"
+			"url": "https://www.exploit-db.com/exploits/45945"
 		},
 		{
 			"type": "WEB",

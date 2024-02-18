@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h22q-g2c7-2jwj",
-	"modified": "2024-02-16T08:12:40.037334Z",
+	"modified": "2024-02-18T05:32:50.017312Z",
 	"published": "2022-05-01T18:21:10Z",
 	"aliases": [
 		"CVE-2007-4190"
@@ -51,7 +51,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20071001212343/http://www.joomla.org/content/view/3677/1/"
+			"url": "https://web.archive.org/web/20071001212343/http://www.joomla.org/content/view/3677/1"
 		}
 	],
 	"database_specific": {

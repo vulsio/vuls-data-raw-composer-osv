@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j8p3-8m69-2hqq",
-	"modified": "2023-11-08T03:58:29.239543Z",
+	"modified": "2024-02-18T05:33:47.156722Z",
 	"published": "2022-05-14T02:19:19Z",
 	"aliases": [
 		"CVE-2016-4793"
@@ -276,7 +276,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/39813/"
+			"url": "https://www.exploit-db.com/exploits/39813"
 		},
 		{
 			"type": "WEB",

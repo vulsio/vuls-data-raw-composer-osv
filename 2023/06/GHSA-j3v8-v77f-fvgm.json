@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j3v8-v77f-fvgm",
-	"modified": "2024-02-16T08:08:32.701099Z",
+	"modified": "2024-02-18T05:38:31.332739Z",
 	"published": "2023-06-16T19:36:52Z",
 	"aliases": [
 		"CVE-2023-34253"
@@ -345,7 +345,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/3ef640e6-9e25-4ecb-8ec1-64311d63fe66/"
+			"url": "https://huntr.dev/bounties/3ef640e6-9e25-4ecb-8ec1-64311d63fe66"
 		},
 		{
 			"type": "WEB",

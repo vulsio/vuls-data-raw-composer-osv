@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jjx5-fq5g-8xpc",
-	"modified": "2024-02-16T08:17:16.600430Z",
+	"modified": "2024-02-18T05:32:43.081335Z",
 	"published": "2022-05-17T03:54:47Z",
 	"aliases": [
 		"CVE-2016-1902"
@@ -470,7 +470,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.landaire.net/blog/cve-2016-1902-symfony-securerandom/"
+			"url": "https://www.landaire.net/blog/cve-2016-1902-symfony-securerandom"
 		},
 		{
 			"type": "WEB",

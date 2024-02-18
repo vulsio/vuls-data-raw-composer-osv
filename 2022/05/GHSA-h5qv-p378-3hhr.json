@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-h5qv-p378-3hhr",
-	"modified": "2024-02-16T08:08:45.168738Z",
+	"modified": "2024-02-18T05:33:12.774151Z",
 	"published": "2022-05-24T17:18:43Z",
 	"aliases": [
 		"CVE-2020-10945"
@@ -168,7 +168,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20200625084841/https://sysdream.com/news/lab/2020-05-13-cve-2020-10945-centreon-session-id-exposure/"
+			"url": "https://web.archive.org/web/20200625084841/https://sysdream.com/news/lab/2020-05-13-cve-2020-10945-centreon-session-id-exposure"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p4jj-gwpg-9jwh",
-	"modified": "2024-02-16T08:05:05.048595Z",
+	"modified": "2024-02-18T05:26:12.852210Z",
 	"published": "2023-10-06T15:30:19Z",
 	"aliases": [
 		"CVE-2023-44761"
@@ -100,8 +100,8 @@
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2023-44761"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/concretecms/concretecms/"
+			"type": "WEB",
+			"url": "https://github.com/concretecms/concretecms"
 		},
 		{
 			"type": "WEB",

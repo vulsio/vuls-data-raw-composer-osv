@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gmff-vcv6-mmfr",
-	"modified": "2024-02-16T08:12:37.806266Z",
+	"modified": "2024-02-18T05:31:23.035869Z",
 	"published": "2022-05-14T02:36:48Z",
 	"aliases": [
 		"CVE-2018-14057"
@@ -96,11 +96,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/45208/"
+			"url": "https://www.exploit-db.com/exploits/45208"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.sec-consult.com/en/blog/advisories/sql-injection-xss-csrf-vulnerabilities-in-pimcore-software/"
+			"url": "https://www.sec-consult.com/en/blog/advisories/sql-injection-xss-csrf-vulnerabilities-in-pimcore-software"
 		},
 		{
 			"type": "WEB",
