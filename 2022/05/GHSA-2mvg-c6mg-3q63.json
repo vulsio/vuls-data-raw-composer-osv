@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2mvg-c6mg-3q63",
-	"modified": "2024-02-16T08:24:58.695663Z",
+	"modified": "2024-02-19T05:24:24.430317Z",
 	"published": "2022-05-13T01:08:38Z",
 	"aliases": [
 		"CVE-2017-7725"
@@ -61,11 +61,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://web.archive.org/web/20210124030008/https://www.securityfocus.com/bid/97649/"
+			"url": "https://web.archive.org/web/20210124030008/https://www.securityfocus.com/bid/97649"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/41885/"
+			"url": "https://www.exploit-db.com/exploits/41885"
 		},
 		{
 			"type": "WEB",

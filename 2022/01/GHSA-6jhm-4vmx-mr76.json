@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6jhm-4vmx-mr76",
-	"modified": "2023-12-06T01:01:47.087579Z",
+	"modified": "2024-02-19T05:25:42.466186Z",
 	"published": "2022-01-28T22:08:14Z",
 	"aliases": [
 		"BIT-moodle-2022-0332",
@@ -64,8 +64,8 @@
 			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2043661"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/moodle/moodle/"
+			"type": "WEB",
+			"url": "https://github.com/moodle/moodle"
 		},
 		{
 			"type": "WEB",

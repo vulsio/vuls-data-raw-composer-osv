@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5mwx-f6w6-7w5r",
-	"modified": "2023-11-08T04:08:31.975256Z",
+	"modified": "2024-02-19T05:33:54.548047Z",
 	"published": "2022-03-04T00:00:19Z",
 	"aliases": [
 		"CVE-2022-24563"
@@ -61,7 +61,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://genix.me/"
+			"url": "https://genix.me"
 		},
 		{
 			"type": "PACKAGE",

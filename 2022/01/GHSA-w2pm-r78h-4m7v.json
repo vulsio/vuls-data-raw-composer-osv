@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w2pm-r78h-4m7v",
-	"modified": "2023-11-08T04:02:45.867630Z",
+	"modified": "2024-02-19T05:24:32.920369Z",
 	"published": "2022-01-06T23:13:42Z",
 	"aliases": [
 		"CVE-2020-19316"
@@ -466,7 +466,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.netbytesec.com/advisories/OSCommandInjectionInLaravelFramework/"
+			"url": "http://www.netbytesec.com/advisories/OSCommandInjectionInLaravelFramework"
 		}
 	],
 	"database_specific": {

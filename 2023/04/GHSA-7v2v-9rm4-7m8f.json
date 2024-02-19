@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7v2v-9rm4-7m8f",
-	"modified": "2023-11-08T04:11:21.945745Z",
+	"modified": "2024-02-19T05:32:41.196580Z",
 	"published": "2023-04-18T13:14:20Z",
 	"aliases": [
 		"CVE-2023-2017"
@@ -235,7 +235,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://starlabs.sg/advisories/23/23-2017/"
+			"url": "https://starlabs.sg/advisories/23/23-2017"
 		}
 	],
 	"database_specific": {

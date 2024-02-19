@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9r25-4j77-9wc7",
-	"modified": "2024-02-16T08:15:36.923785Z",
+	"modified": "2024-02-19T05:27:51.687512Z",
 	"published": "2023-07-20T21:30:59Z",
 	"aliases": [
 		"CVE-2023-37649"
@@ -80,7 +80,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.ghostccamm.com/blog/multi_cockpit_vulns/"
+			"url": "https://www.ghostccamm.com/blog/multi_cockpit_vulns"
 		}
 	],
 	"database_specific": {

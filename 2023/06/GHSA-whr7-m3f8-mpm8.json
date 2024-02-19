@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-whr7-m3f8-mpm8",
-	"modified": "2024-02-16T08:23:34.404123Z",
+	"modified": "2024-02-19T05:19:07.046718Z",
 	"published": "2023-06-16T19:37:08Z",
 	"aliases": [
 		"CVE-2023-34448"
@@ -345,7 +345,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/3ef640e6-9e25-4ecb-8ec1-64311d63fe66/"
+			"url": "https://huntr.dev/bounties/3ef640e6-9e25-4ecb-8ec1-64311d63fe66"
 		},
 		{
 			"type": "WEB",

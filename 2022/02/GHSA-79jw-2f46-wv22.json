@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-79jw-2f46-wv22",
-	"modified": "2023-11-08T04:08:08.925501Z",
+	"modified": "2024-02-19T05:32:05.967711Z",
 	"published": "2022-02-23T21:08:44Z",
 	"aliases": [
 		"CVE-2022-21705"
@@ -266,8 +266,8 @@
 			"url": "https://github.com/octobercms/library/commit/c393c5ce9ca2c5acc3ed6c9bb0dab5ffd61965fe"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/octobercms/october/"
+			"type": "WEB",
+			"url": "https://github.com/octobercms/october"
 		}
 	],
 	"database_specific": {

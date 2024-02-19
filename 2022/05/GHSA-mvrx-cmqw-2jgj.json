@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mvrx-cmqw-2jgj",
-	"modified": "2024-02-16T08:17:14.443091Z",
+	"modified": "2024-02-19T05:33:03.846155Z",
 	"published": "2022-05-14T03:49:04Z",
 	"aliases": [
 		"CVE-2017-15374"
@@ -71,7 +71,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/43849/"
+			"url": "https://www.exploit-db.com/exploits/43849"
 		},
 		{
 			"type": "WEB",

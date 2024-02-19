@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4pc3-96mx-wwc8",
-	"modified": "2024-02-16T08:14:18.279356Z",
+	"modified": "2024-02-19T05:37:51.746622Z",
 	"published": "2020-03-05T22:09:14Z",
 	"aliases": [
 		"CVE-2016-10045"
@@ -93,15 +93,15 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/40969/"
+			"url": "https://www.exploit-db.com/exploits/40969"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/40986/"
+			"url": "https://www.exploit-db.com/exploits/40986"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/42221/"
+			"url": "https://www.exploit-db.com/exploits/42221"
 		},
 		{
 			"type": "WEB",

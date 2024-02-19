@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6r86-2jm9-9mh4",
-	"modified": "2023-11-08T04:08:15.851771Z",
+	"modified": "2024-02-19T05:33:14.820017Z",
 	"published": "2022-02-25T00:01:07Z",
 	"aliases": [
 		"CVE-2022-23043"
@@ -120,7 +120,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/simone/"
+			"url": "https://fluidattacks.com/advisories/simone"
 		},
 		{
 			"type": "PACKAGE",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mrq4-7ch7-2465",
-	"modified": "2023-11-08T04:08:07.821559Z",
+	"modified": "2024-02-19T05:33:18.569946Z",
 	"published": "2022-01-27T18:32:47Z",
 	"aliases": [
 		"CVE-2022-21686"
@@ -119,8 +119,8 @@
 			"url": "https://github.com/PrestaShop/PrestaShop/commit/d02b469ec365822e6a9f017e57f588966248bf21"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/PrestaShop/PrestaShop/"
+			"type": "WEB",
+			"url": "https://github.com/PrestaShop/PrestaShop"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-frxp-xxx8-hrg6",
-	"modified": "2023-11-08T04:08:11.486802Z",
+	"modified": "2024-02-19T05:26:35.147310Z",
 	"published": "2022-01-08T00:31:52Z",
 	"aliases": [
 		"CVE-2022-22108"
@@ -54,8 +54,8 @@
 			"url": "https://github.com/Bottelet/DaybydayCRM/commit/fe842ea5ede237443f1f45a99aeb839133115d8b"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/Bottelet/DaybydayCRM/"
+			"type": "WEB",
+			"url": "https://github.com/Bottelet/DaybydayCRM"
 		},
 		{
 			"type": "WEB",

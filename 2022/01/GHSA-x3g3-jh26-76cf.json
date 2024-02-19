@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x3g3-jh26-76cf",
-	"modified": "2023-12-06T01:01:47.569422Z",
+	"modified": "2024-02-19T05:32:18.317709Z",
 	"published": "2022-01-28T23:06:00Z",
 	"aliases": [
 		"BIT-livehelperchat-2022-0375",
@@ -69,8 +69,8 @@
 			"url": "https://github.com/livehelperchat/livehelperchat/commit/bbfaa26ce54a2a86ce1a42a16496038f5bdfc102"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/livehelperchat/livehelperchat/"
+			"type": "WEB",
+			"url": "https://github.com/livehelperchat/livehelperchat"
 		},
 		{
 			"type": "WEB",

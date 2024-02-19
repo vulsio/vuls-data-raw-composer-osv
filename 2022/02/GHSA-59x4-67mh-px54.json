@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-59x4-67mh-px54",
-	"modified": "2023-11-08T04:08:40.524935Z",
+	"modified": "2024-02-19T05:26:53.165893Z",
 	"published": "2022-02-18T00:00:36Z",
 	"aliases": [
 		"CVE-2022-24953"
@@ -69,8 +69,8 @@
 			"url": "https://github.com/pear/Crypt_GPG/commit/74c8f989cefbe0887274b461dc56197e121bfd04"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/pear/Crypt_GPG/"
+			"type": "WEB",
+			"url": "https://github.com/pear/Crypt_GPG"
 		}
 	],
 	"database_specific": {

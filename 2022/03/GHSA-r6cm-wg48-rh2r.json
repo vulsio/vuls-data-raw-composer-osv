@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r6cm-wg48-rh2r",
-	"modified": "2023-11-08T04:07:34.480633Z",
+	"modified": "2024-02-19T05:33:41.330659Z",
 	"published": "2022-03-10T00:00:40Z",
 	"aliases": [
 		"CVE-2022-0482"
@@ -86,7 +86,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://opencirt.com/hacking/securing-easy-appointments-cve-2022-0482/"
+			"url": "https://opencirt.com/hacking/securing-easy-appointments-cve-2022-0482"
 		},
 		{
 			"type": "WEB",

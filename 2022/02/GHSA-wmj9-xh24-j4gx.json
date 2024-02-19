@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wmj9-xh24-j4gx",
-	"modified": "2023-11-08T04:07:35.782747Z",
+	"modified": "2024-02-19T05:33:05.971975Z",
 	"published": "2022-02-11T00:00:47Z",
 	"aliases": [
 		"CVE-2022-0558"
@@ -70,8 +70,8 @@
 			"url": "https://github.com/microweber/microweber/commit/14a1bb971bcb8b5456c2bf0020c3018907a2704d"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/microweber/microweber/"
+			"type": "WEB",
+			"url": "https://github.com/microweber/microweber"
 		},
 		{
 			"type": "WEB",

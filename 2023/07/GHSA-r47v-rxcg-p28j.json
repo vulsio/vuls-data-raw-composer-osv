@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r47v-rxcg-p28j",
-	"modified": "2024-02-16T08:18:15.511305Z",
+	"modified": "2024-02-19T05:31:58.484964Z",
 	"published": "2023-07-26T21:30:19Z",
 	"aliases": [
 		"CVE-2023-37692"
@@ -283,7 +283,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://okankurtulus.com.tr/2023/07/24/october-cms-v3-4-4-stored-cross-site-scripting-xss-authenticated/"
+			"url": "https://okankurtulus.com.tr/2023/07/24/october-cms-v3-4-4-stored-cross-site-scripting-xss-authenticated"
 		}
 	],
 	"database_specific": {
