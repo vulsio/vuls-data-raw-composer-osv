@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-82h9-v8vh-mfpq",
-	"modified": "2023-11-08T04:10:47.033493Z",
+	"modified": "2024-02-20T05:25:34.863002Z",
 	"published": "2022-11-25T18:30:25Z",
 	"aliases": [
 		"CVE-2022-43983"
@@ -175,7 +175,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/khalid/"
+			"url": "https://fluidattacks.com/advisories/khalid"
 		},
 		{
 			"type": "PACKAGE",

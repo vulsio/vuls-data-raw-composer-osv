@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vv3r-fxqp-vr3f",
-	"modified": "2023-11-08T04:10:10.641777Z",
+	"modified": "2024-02-20T05:31:49.434052Z",
 	"published": "2022-11-21T23:58:07Z",
 	"aliases": [
 		"CVE-2022-38147"
@@ -130,7 +130,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

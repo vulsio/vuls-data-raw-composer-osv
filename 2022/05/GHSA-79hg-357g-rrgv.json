@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-79hg-357g-rrgv",
-	"modified": "2024-02-16T08:17:56.137456Z",
+	"modified": "2024-02-20T05:19:34.755205Z",
 	"published": "2022-05-14T00:55:28Z",
 	"aliases": [
 		"CVE-2018-19271"
@@ -84,7 +84,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://www.rootlabs.com.br/authenticated-sql-injection-in-centreon-3-4-x/"
+			"url": "http://www.rootlabs.com.br/authenticated-sql-injection-in-centreon-3-4-x"
 		}
 	],
 	"database_specific": {

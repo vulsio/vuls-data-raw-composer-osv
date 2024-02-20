@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jv64-2m3x-6v4q",
-	"modified": "2023-11-08T04:07:03.362313Z",
+	"modified": "2024-02-20T05:33:09.792016Z",
 	"published": "2022-04-30T00:00:36Z",
 	"aliases": [
 		"CVE-2021-41948"
@@ -65,8 +65,8 @@
 			"url": "https://github.com/intelliants/subrion-plugin-contact_us/issues/8"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/intelliants/subrion-plugin-contact_us/"
+			"type": "WEB",
+			"url": "https://github.com/intelliants/subrion-plugin-contact_us"
 		}
 	],
 	"database_specific": {

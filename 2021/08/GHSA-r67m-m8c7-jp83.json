@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r67m-m8c7-jp83",
-	"modified": "2023-11-08T04:06:32.465117Z",
+	"modified": "2024-02-20T05:33:49.204488Z",
 	"published": "2021-08-30T16:11:33Z",
 	"aliases": [
 		"CVE-2021-39173"
@@ -88,7 +88,9 @@
 				"v2.3.6",
 				"v2.3.7",
 				"v2.3.8",
-				"v2.3.9"
+				"v2.3.9",
+				"v2.4.0",
+				"v2.4.1"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/08/GHSA-r67m-m8c7-jp83/GHSA-r67m-m8c7-jp83.json"
@@ -106,7 +108,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.sonarsource.com/cachet-code-execution-via-laravel-configuration-injection/"
+			"url": "https://blog.sonarsource.com/cachet-code-execution-via-laravel-configuration-injection"
 		},
 		{
 			"type": "PACKAGE",

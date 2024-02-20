@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v5c9-mmw9-829q",
-	"modified": "2023-11-08T03:56:51.673942Z",
+	"modified": "2024-02-20T05:33:33.509332Z",
 	"published": "2022-05-14T02:39:43Z",
 	"aliases": [
 		"CVE-2008-5619"
@@ -52,8 +52,8 @@
 			"url": "https://github.com/PHPMailer/PHPMailer/commit/8beacc646acb67c995aea10ac5585970efc7355a"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/PHPMailer/PHPMailer/"
+			"type": "WEB",
+			"url": "https://github.com/PHPMailer/PHPMailer"
 		},
 		{
 			"type": "WEB",

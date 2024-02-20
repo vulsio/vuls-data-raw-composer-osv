@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-66jf-xm2m-7m8r",
-	"modified": "2023-11-08T04:10:10.520736Z",
+	"modified": "2024-02-20T05:32:32.773895Z",
 	"published": "2022-11-22T00:00:16Z",
 	"aliases": [
 		"CVE-2022-38145"
@@ -106,7 +106,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

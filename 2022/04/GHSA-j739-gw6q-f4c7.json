@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j739-gw6q-f4c7",
-	"modified": "2023-11-08T04:03:31.782215Z",
+	"modified": "2024-02-20T05:33:34.202221Z",
 	"published": "2022-04-14T00:00:19Z",
 	"aliases": [
 		"CVE-2020-29653"
@@ -85,7 +85,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://nozero.io/en/cve-2020-29653-froxlor-html-injection-dangling-markup/"
+			"url": "https://nozero.io/en/cve-2020-29653-froxlor-html-injection-dangling-markup"
 		}
 	],
 	"database_specific": {

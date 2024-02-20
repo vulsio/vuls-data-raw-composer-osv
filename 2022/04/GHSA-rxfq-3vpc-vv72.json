@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rxfq-3vpc-vv72",
-	"modified": "2023-11-08T04:07:08.239469Z",
+	"modified": "2024-02-20T05:34:06.191209Z",
 	"published": "2022-04-06T00:01:33Z",
 	"aliases": [
 		"CVE-2021-43008"
@@ -73,7 +73,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://podalirius.net/en/cves/2021-43008/"
+			"url": "https://podalirius.net/en/cves/2021-43008"
 		},
 		{
 			"type": "WEB",
@@ -81,7 +81,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.adminer.org/"
+			"url": "https://www.adminer.org"
 		}
 	],
 	"database_specific": {

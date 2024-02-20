@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c3j8-q5x6-2855",
-	"modified": "2024-02-16T07:57:44.355546Z",
+	"modified": "2024-02-20T05:33:15.226487Z",
 	"published": "2022-02-10T00:00:32Z",
 	"aliases": [
 		"CVE-2021-45919"
@@ -87,7 +87,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/from-stored-xss-to-rce-using-beef-and-elfinder-cve-2021-45919/"
+			"url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/from-stored-xss-to-rce-using-beef-and-elfinder-cve-2021-45919"
 		}
 	],
 	"database_specific": {

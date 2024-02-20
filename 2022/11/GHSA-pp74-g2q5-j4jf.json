@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pp74-g2q5-j4jf",
-	"modified": "2024-02-16T08:20:40.726514Z",
+	"modified": "2024-02-20T05:25:57.669217Z",
 	"published": "2022-11-21T23:59:26Z",
 	"aliases": [
 		"BIT-silverstripe-2022-37421",
@@ -133,7 +133,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

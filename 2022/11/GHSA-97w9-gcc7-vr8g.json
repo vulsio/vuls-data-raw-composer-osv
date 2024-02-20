@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-97w9-gcc7-vr8g",
-	"modified": "2024-02-16T08:21:26.076918Z",
+	"modified": "2024-02-20T05:32:20.146921Z",
 	"published": "2022-11-16T12:00:20Z",
 	"aliases": [
 		"CVE-2021-4240"
@@ -74,7 +74,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/2-phpservermon/phpservermon/"
+			"url": "https://huntr.dev/bounties/2-phpservermon/phpservermon"
 		},
 		{
 			"type": "WEB",

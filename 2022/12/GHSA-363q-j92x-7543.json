@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-363q-j92x-7543",
-	"modified": "2023-11-08T04:10:48.148010Z",
+	"modified": "2024-02-20T05:34:30.606099Z",
 	"published": "2022-12-25T06:30:21Z",
 	"aliases": [
 		"CVE-2022-44380"
@@ -263,7 +263,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://census-labs.com/news/2022/12/23/multiple-vulnerabilities-in-snipe-it/"
+			"url": "https://census-labs.com/news/2022/12/23/multiple-vulnerabilities-in-snipe-it"
 		},
 		{
 			"type": "PACKAGE",

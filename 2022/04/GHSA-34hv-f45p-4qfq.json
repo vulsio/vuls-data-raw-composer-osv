@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-34hv-f45p-4qfq",
-	"modified": "2023-11-08T04:08:59.891095Z",
+	"modified": "2024-02-20T05:22:20.861379Z",
 	"published": "2022-04-06T00:01:29Z",
 	"aliases": [
 		"CVE-2022-27463"
@@ -59,7 +59,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://avideo.tube/"
+			"url": "https://avideo.tube"
 		},
 		{
 			"type": "PACKAGE",

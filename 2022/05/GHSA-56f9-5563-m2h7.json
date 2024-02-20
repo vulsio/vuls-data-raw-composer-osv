@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-56f9-5563-m2h7",
-	"modified": "2024-02-16T08:11:46.865941Z",
+	"modified": "2024-02-20T05:21:38.031085Z",
 	"published": "2022-05-17T03:59:51Z",
 	"aliases": [
 		"CVE-2015-8755"
@@ -108,7 +108,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2015-011/"
+			"url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2015-011"
 		}
 	],
 	"database_specific": {

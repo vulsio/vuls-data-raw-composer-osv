@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-45hc-r4fj-qj89",
-	"modified": "2023-11-08T04:07:15.635632Z",
+	"modified": "2024-02-20T05:24:28.362977Z",
 	"published": "2022-04-02T00:00:15Z",
 	"aliases": [
 		"CVE-2021-44135"
@@ -87,7 +87,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://huntr.dev/bounties/82f09b08-ceeb-4249-8855-b8bc718c4868/"
+			"url": "https://huntr.dev/bounties/82f09b08-ceeb-4249-8855-b8bc718c4868"
 		}
 	],
 	"database_specific": {

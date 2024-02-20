@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vx35-f379-4q49",
-	"modified": "2024-02-16T08:04:56.432524Z",
+	"modified": "2024-02-20T05:34:39.641041Z",
 	"published": "2023-07-10T21:53:52Z",
 	"aliases": [
 		"CVE-2023-3574"
@@ -206,10 +206,6 @@
 		{
 			"type": "WEB",
 			"url": "https://huntr.dev/bounties/1dcb4f01-e668-4aa3-a6a3-838532e500c6"
-		},
-		{
-			"type": "WEB",
-			"url": "https://huntr.dev/bounties/1dcb4f01-e668-4aa3-a6a3-838532e500c6/"
 		}
 	],
 	"database_specific": {
