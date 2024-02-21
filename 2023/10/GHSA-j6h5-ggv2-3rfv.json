@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j6h5-ggv2-3rfv",
-	"modified": "2024-02-16T08:16:53.877685Z",
+	"modified": "2024-02-21T05:38:46.393848Z",
 	"published": "2023-10-06T15:30:19Z",
 	"aliases": [
 		"CVE-2023-44764"
@@ -73,7 +73,6 @@
 				"8.5.7",
 				"8.5.8",
 				"8.5.9",
-				"8.5.99",
 				"9.0.0",
 				"9.0.0RC1",
 				"9.0.0RC3",
@@ -103,8 +102,8 @@
 			"url": "https://documentation.concretecms.org/developers/introduction/version-history/923-release-notes"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/concretecms/concretecms/"
+			"type": "WEB",
+			"url": "https://github.com/concretecms/concretecms"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p757-4v3p-j74f",
-	"modified": "2023-11-08T04:09:38.683884Z",
+	"modified": "2024-02-21T05:36:14.239398Z",
 	"published": "2022-07-09T00:00:26Z",
 	"aliases": [
 		"CVE-2022-33011"
@@ -52,7 +52,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.jitendrapatro.me/multiple-vulnerabilities-in-idno-known-php-cms-software/"
+			"url": "https://blog.jitendrapatro.me/multiple-vulnerabilities-in-idno-known-php-cms-software"
 		},
 		{
 			"type": "PACKAGE",
@@ -68,7 +68,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/"
+			"url": "https://www.pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability"
 		}
 	],
 	"database_specific": {

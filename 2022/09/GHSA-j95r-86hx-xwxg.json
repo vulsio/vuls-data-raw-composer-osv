@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j95r-86hx-xwxg",
-	"modified": "2023-11-08T04:10:02.639982Z",
+	"modified": "2024-02-21T05:51:31.206273Z",
 	"published": "2022-09-10T00:00:27Z",
 	"aliases": [
 		"CVE-2022-36376"
@@ -112,7 +112,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://rankmath.com/changelog/"
+			"url": "https://rankmath.com/changelog"
 		}
 	],
 	"database_specific": {

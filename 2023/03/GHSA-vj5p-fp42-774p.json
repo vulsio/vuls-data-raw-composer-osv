@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vj5p-fp42-774p",
-	"modified": "2023-12-06T01:02:47.245606Z",
+	"modified": "2024-02-21T05:51:31.547195Z",
 	"published": "2023-03-23T21:30:19Z",
 	"aliases": [
 		"BIT-moodle-2023-1402",
@@ -425,7 +425,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3QZN34VSF4HTCW3C3ZP2OZYSLYUKADPF/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3QZN34VSF4HTCW3C3ZP2OZYSLYUKADPF"
 		},
 		{
 			"type": "WEB",
