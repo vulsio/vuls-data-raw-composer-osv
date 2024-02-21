@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vv7q-mfpc-qgm5",
-	"modified": "2023-04-11T01:44:45.949592Z",
+	"modified": "2024-02-21T05:32:31.961179Z",
 	"published": "2022-06-08T00:00:43Z",
 	"summary": "Unserialized Pop Chain in Laravel",
 	"details": "## Withdrawn\nThis advisory has been withdrawn because it is not a security issue and the CVE has been revoked.\n\n## Original Description\nLaravel 9.1.8, when processing attacker-controlled data for deserialization, allows Remote Code Execution (RCE) via an unserialized pop chain in __destruct in Illuminate\\Broadcasting\\PendingBroadcast.php and __call in Faker\\Generator.php.",
@@ -208,7 +208,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://inhann.top/2022/05/17/bypass_wakeup/"
+			"url": "https://inhann.top/2022/05/17/bypass_wakeup"
 		}
 	],
 	"database_specific": {

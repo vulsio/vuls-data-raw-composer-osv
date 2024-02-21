@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8c2c-jxwj-jqgf",
-	"modified": "2023-11-08T04:10:31.679450Z",
+	"modified": "2024-02-21T05:32:29.831846Z",
 	"published": "2022-11-25T18:30:25Z",
 	"aliases": [
 		"CVE-2022-41706"
@@ -175,11 +175,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/eminem/"
+			"url": "https://fluidattacks.com/advisories/eminem"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/spatie/browsershot/"
+			"type": "WEB",
+			"url": "https://github.com/spatie/browsershot"
 		}
 	],
 	"database_specific": {

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4v4p-87m3-5423",
-	"modified": "2023-11-08T04:09:20.029838Z",
+	"modified": "2024-02-21T05:33:25.760197Z",
 	"published": "2022-07-09T00:00:26Z",
 	"aliases": [
 		"CVE-2022-30852"
@@ -52,7 +52,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.jitendrapatro.me/multiple-vulnerabilities-in-idno-known-php-cms-software/"
+			"url": "https://blog.jitendrapatro.me/multiple-vulnerabilities-in-idno-known-php-cms-software"
 		},
 		{
 			"type": "PACKAGE",
@@ -60,7 +60,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://withknown.com/"
+			"url": "https://withknown.com"
 		}
 	],
 	"database_specific": {

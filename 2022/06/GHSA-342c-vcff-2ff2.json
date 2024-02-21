@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-342c-vcff-2ff2",
-	"modified": "2023-11-08T04:11:03.185983Z",
+	"modified": "2024-02-21T05:33:15.421602Z",
 	"published": "2022-06-02T20:53:43Z",
 	"aliases": [
 		"CVE-2022-48366",
@@ -67,8 +67,8 @@
 			"url": "https://developers.ibexa.co/security-advisories/ibexa-sa-2022-006-vulnerabilities-in-page-builder-login-and-commerce"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/ezsystems/ezplatform-kernel/"
+			"type": "WEB",
+			"url": "https://github.com/ezsystems/ezplatform-kernel"
 		}
 	],
 	"database_specific": {

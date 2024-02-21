@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jmwm-w2rm-prv9",
-	"modified": "2024-02-16T08:18:50.080801Z",
+	"modified": "2024-02-21T05:33:31.463601Z",
 	"published": "2023-11-08T18:30:31Z",
 	"aliases": [
 		"CVE-2023-47379"
@@ -101,7 +101,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.getastra.com/blog/security-audit/stored-xss-vulnerability/"
+			"url": "https://www.getastra.com/blog/security-audit/stored-xss-vulnerability"
 		}
 	],
 	"database_specific": {

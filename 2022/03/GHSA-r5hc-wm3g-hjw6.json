@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r5hc-wm3g-hjw6",
-	"modified": "2024-02-16T08:11:36.300710Z",
+	"modified": "2024-02-21T05:32:09.684993Z",
 	"published": "2022-03-01T22:01:30Z",
 	"aliases": [
 		"CVE-2022-0768"
@@ -115,8 +115,8 @@
 			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/rudloff/alltube/CVE-2022-0768.yaml"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/Rudloff/alltube/"
+			"type": "WEB",
+			"url": "https://github.com/Rudloff/alltube"
 		},
 		{
 			"type": "WEB",

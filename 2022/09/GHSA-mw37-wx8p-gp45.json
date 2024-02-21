@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mw37-wx8p-gp45",
-	"modified": "2023-11-08T04:10:07.250519Z",
+	"modified": "2024-02-21T05:28:42.912868Z",
 	"published": "2022-09-17T00:00:30Z",
 	"aliases": [
 		"CVE-2022-37251"
@@ -196,7 +196,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://labs.integrity.pt/advisories/cve-2022-37251/"
+			"url": "https://labs.integrity.pt/advisories/cve-2022-37251"
 		},
 		{
 			"type": "WEB",

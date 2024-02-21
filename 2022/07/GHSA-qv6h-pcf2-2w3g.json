@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qv6h-pcf2-2w3g",
-	"modified": "2023-04-11T01:35:35.010899Z",
+	"modified": "2024-02-21T05:30:28.392361Z",
 	"published": "2022-07-23T00:00:16Z",
 	"summary": "Duplicate Advisory GHSA-hrgx-p36p-89q4",
 	"details": "## Duplicate Advisory\n\nThis advisory is a duplicate of GHSA-hrgx-p36p-89q4. This link is maintained to preserve external references.\n\n## Original Description\n\nPrestaShop 1.6.0.10 through 1.7.x before 1.7.8.2 allows remote attackers to execute arbitrary code, aka a \"previously unknown vulnerability chain\" related to SQL injection, as exploited in the wild in July 2022.",
@@ -114,7 +114,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://build.prestashop.com/news/major-security-vulnerability-on-prestashop-websites/"
+			"url": "https://build.prestashop.com/news/major-security-vulnerability-on-prestashop-websites"
 		},
 		{
 			"type": "PACKAGE",

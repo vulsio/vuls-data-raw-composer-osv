@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4gpr-p634-922x",
-	"modified": "2024-02-16T08:20:41.344161Z",
+	"modified": "2024-02-21T05:32:40.652782Z",
 	"published": "2023-07-25T17:19:10Z",
 	"aliases": [
 		"CVE-2023-36806"
@@ -402,7 +402,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://herolab.usd.de/security-advisories/usd-2023-0020/"
+			"url": "https://herolab.usd.de/security-advisories/usd-2023-0020"
 		}
 	],
 	"database_specific": {

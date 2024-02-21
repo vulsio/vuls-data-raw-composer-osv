@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cx45-565q-6qx8",
-	"modified": "2023-11-08T04:10:40.624930Z",
+	"modified": "2024-02-21T05:24:20.677574Z",
 	"published": "2022-12-19T18:19:11Z",
 	"aliases": [
 		"CVE-2022-42949"
@@ -76,7 +76,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/"
+			"url": "https://www.silverstripe.org/download/security-releases"
 		},
 		{
 			"type": "WEB",

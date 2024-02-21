@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x7cr-6qr6-2hh6",
-	"modified": "2024-02-16T08:22:36.181997Z",
+	"modified": "2024-02-21T05:32:42.447669Z",
 	"published": "2022-04-22T20:15:38Z",
 	"aliases": [
 		"BIT-composer-2022-24828",
@@ -264,15 +264,15 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/625MT3IKWKFVIWLSYZFSXHVUA2LES7YQ/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/625MT3IKWKFVIWLSYZFSXHVUA2LES7YQ"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GWT6LDSRY7SFMTDZWJ4MS2ZBXHL7VQEF/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GWT6LDSRY7SFMTDZWJ4MS2ZBXHL7VQEF"
 		},
 		{
 			"type": "WEB",
-			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QD7JQWL6C4GVROO25DTXWYWM6BPOPPCG/"
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QD7JQWL6C4GVROO25DTXWYWM6BPOPPCG"
 		},
 		{
 			"type": "WEB",
