@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-79gx-3fm8-qxqq",
-	"modified": "2023-11-08T04:07:38.566217Z",
+	"modified": "2024-02-22T05:33:54.479133Z",
 	"published": "2022-11-25T18:30:25Z",
 	"aliases": [
 		"CVE-2022-0698"
@@ -80,7 +80,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/garrix/"
+			"url": "https://fluidattacks.com/advisories/garrix"
 		},
 		{
 			"type": "PACKAGE",

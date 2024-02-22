@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wph3-44rj-92pr",
-	"modified": "2023-11-08T04:05:56.736636Z",
+	"modified": "2024-02-22T05:34:08.556683Z",
 	"published": "2021-06-16T17:04:29Z",
 	"aliases": [
 		"CVE-2021-32682"
@@ -126,7 +126,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://blog.sonarsource.com/elfinder-case-study-of-web-file-manager-vulnerabilities/"
+			"url": "https://blog.sonarsource.com/elfinder-case-study-of-web-file-manager-vulnerabilities"
 		},
 		{
 			"type": "PACKAGE",

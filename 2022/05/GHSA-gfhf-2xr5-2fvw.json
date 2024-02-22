@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gfhf-2xr5-2fvw",
-	"modified": "2024-02-16T08:16:41.014905Z",
+	"modified": "2024-02-22T05:32:56.172643Z",
 	"published": "2022-05-24T17:11:33Z",
 	"aliases": [
 		"CVE-2019-19211"
@@ -131,7 +131,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://herolab.usd.de/en/security-advisories/usd-2019-0053/"
+			"url": "https://herolab.usd.de/en/security-advisories/usd-2019-0053"
 		},
 		{
 			"type": "WEB",

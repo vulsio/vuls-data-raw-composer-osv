@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4m2g-668v-jwjx",
-	"modified": "2023-11-08T04:09:50.472651Z",
+	"modified": "2024-02-22T05:31:23.327916Z",
 	"published": "2022-08-19T00:00:20Z",
 	"aliases": [
 		"CVE-2022-35174"
@@ -103,7 +103,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://owasp.org/www-community/attacks/xss/"
+			"url": "https://owasp.org/www-community/attacks/xss"
 		},
 		{
 			"type": "WEB",

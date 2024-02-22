@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g389-rf5p-fg56",
-	"modified": "2023-11-08T04:10:31.620110Z",
+	"modified": "2024-02-22T05:34:04.666684Z",
 	"published": "2022-11-25T18:30:25Z",
 	"aliases": [
 		"CVE-2022-41705"
@@ -159,15 +159,11 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://fluidattacks.com/advisories/headhunterz/"
+			"url": "https://fluidattacks.com/advisories/headhunterz"
 		},
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/uasoft-indonesia/badaso"
-		},
-		{
-			"type": "WEB",
-			"url": "https://github.com/uasoft-indonesia/badaso/"
 		}
 	],
 	"database_specific": {

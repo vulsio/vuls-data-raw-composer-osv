@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7j4m-f87g-5r9r",
-	"modified": "2023-11-08T04:11:13.792662Z",
+	"modified": "2024-02-22T05:31:45.064288Z",
 	"published": "2023-03-27T18:30:26Z",
 	"aliases": [
 		"CVE-2023-1069"
@@ -72,8 +72,8 @@
 			"url": "https://wpscan.com/vulnerability/caacc50c-822e-46e9-bc0b-681349fd0dda"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "www.github.com/Really-Simple-Plugins/complianz-gdpr/"
+			"type": "WEB",
+			"url": "www.github.com/Really-Simple-Plugins/complianz-gdpr"
 		}
 	],
 	"database_specific": {

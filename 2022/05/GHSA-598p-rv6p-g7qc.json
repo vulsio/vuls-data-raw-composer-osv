@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-598p-rv6p-g7qc",
-	"modified": "2024-02-16T08:04:39.730176Z",
+	"modified": "2024-02-22T05:33:46.324942Z",
 	"published": "2022-05-24T16:58:56Z",
 	"aliases": [
 		"CVE-2019-16699"
@@ -88,7 +88,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-018/"
+			"url": "https://typo3.org/security/advisory/typo3-ext-sa-2019-018"
 		}
 	],
 	"database_specific": {

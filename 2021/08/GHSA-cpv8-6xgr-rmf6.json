@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cpv8-6xgr-rmf6",
-	"modified": "2023-11-08T04:05:18.570087Z",
+	"modified": "2024-02-22T05:33:26.495181Z",
 	"published": "2021-08-30T16:22:46Z",
 	"aliases": [
 		"CVE-2021-25955"
@@ -154,8 +154,8 @@
 			"url": "https://github.com/Dolibarr/dolibarr/commit/796b2d201acb9938b903fb2afa297db289ecc93e"
 		},
 		{
-			"type": "PACKAGE",
-			"url": "https://github.com/Dolibarr/dolibarr/"
+			"type": "WEB",
+			"url": "https://github.com/Dolibarr/dolibarr"
 		},
 		{
 			"type": "WEB",
