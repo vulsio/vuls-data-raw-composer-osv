@@ -1,17 +1,17 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-xrvh-rvc4-5m43",
-	"modified": "2024-02-26T17:56:54.723389Z",
-	"published": "2024-02-26T16:22:12Z",
+	"id": "GHSA-57f2-8p89-66x6",
+	"modified": "2024-02-26T17:56:54.651726Z",
+	"published": "2024-02-26T17:19:27Z",
 	"aliases": [
-		"CVE-2024-26483"
+		"CVE-2024-26481"
 	],
-	"summary": "Kirby vulnerable to unrestricted file upload of user avatar images",
-	"details": "### TL;DR\n\nThis vulnerability affects all Kirby sites that might have potential attackers in the group of authenticated Panel users.\n\nThe attack requires user interaction by another user or visitor and *cannot* be automated.\n\n----\n\n### Introduction\n\nUnrestricted upload of files with a dangerous type is a type of vulnerability that allows to circumvent expectations and protections in the server setup or backend code. Uploaded files are not checked for their compliance with the intended purpose of the upload target, which can introduce secondary attack vectors.\n\nWhile the vulnerability described here does *not* allow critical attacks like remote code execution (RCE), it can still be abused to upload unexpected file types that could for example make it possible to perform cross-site scripting (XSS) attacks.\n\n### Impact\n\nUsers with Panel access can upload a user avatar in their own account view. This avatar is intended to be an image, however the file type or file extension was not validated on the backend. This effectively allowed to upload many types of files that would then be stored with the filename `profile` and the provided file extension.\n\nWhile the upload is protected against dangerous file types such as HTML files or executable PHP files, this could be abused to upload unexpected files such as PDFs that would then be available via a direct link. These links could be shared to other users.\n\n### Patches\n\nThe problem has been patched in [Kirby 3.6.6.5](https://github.com/getkirby/kirby/releases/tag/3.6.6.5), [Kirby 3.7.5.4](https://github.com/getkirby/kirby/releases/tag/3.7.5.4), [Kirby 3.8.4.3](https://github.com/getkirby/kirby/releases/tag/3.8.4.3), [Kirby 3.9.8.1](https://github.com/getkirby/kirby/releases/tag/3.9.8.1), [Kirby 3.10.0.1](https://github.com/getkirby/kirby/releases/tag/3.10.0.1), and [Kirby 4.1.1](https://github.com/getkirby/kirby/releases/tag/4.1.1). Please update to one of these or a [later version](https://github.com/getkirby/kirby/releases) to fix the vulnerability.\n\nIn all of the mentioned releases, we have added validations that prevent any files that don't have an image file extension or MIME type from being uploaded as a user avatar.\n\n### Credits\n\nThanks to Natwara Archeepsamooth (@PlyNatwara) for responsibly reporting the identified issue.",
+	"summary": "Kirby vulnerable to self cross-site scripting (self-XSS) in the URL field",
+	"details": "### TL;DR\n\nThis vulnerability affects Kirby sites that use the [URL field](https://getkirby.com/docs/reference/panel/fields/url) in any blueprint.\n\nA successful attack commonly requires knowledge of the content structure by the attacker as well as social engineering of a user with access to the Panel. The attack *cannot* be automated.\n\nThe vulnerability is also limited to self-XSS and *cannot* directly affect other users or visitors of the site.\n\n----\n\n### Introduction\n\nCross-site scripting (XSS) is a type of vulnerability that allows to execute any kind of JavaScript code inside the Panel session of the same or other users. In the Panel, a harmful script can for example trigger requests to Kirby's API with the permissions of the victim.\n\nSelf cross-site scripting (self-XSS, also called reflected XSS) typically involves a user inadvertently executing malicious code within their own context, often through social engineering techniques. This can occur when a user is tricked into pasting and executing malicious JavaScript code into the browser's developer console, address bar or form fields.\n\nSuch vulnerabilities are critical as they allow attackers to gain access to the system or to escalate their privileges if they get access to the Panel session of an admin user. Depending on your site, other JavaScript-powered attacks are possible.\n\n### Impact\n\nThe URL field allows users to open the entered link in a new tab by clicking the link icon inside the field. This can be used to quickly verify whether the entered URL is functional and correct.\n\nIn affected versions, Kirby copied the entered URL into the link target of that link button without validating or sanitizing the link. This could be abused by attackers with a `javascript:` URL that would then be executed in the user's context when the link button was clicked with <kbd>Ctrl+Click</kbd>/<kbd>Cmd+Click</kbd>.\n\n### Patches\n\nThe problem has been patched in [Kirby 3.6.6.5](https://github.com/getkirby/kirby/releases/tag/3.6.6.5), [Kirby 3.7.5.4](https://github.com/getkirby/kirby/releases/tag/3.7.5.4), [Kirby 3.8.4.3](https://github.com/getkirby/kirby/releases/tag/3.8.4.3), [Kirby 3.9.8.1](https://github.com/getkirby/kirby/releases/tag/3.9.8.1), [Kirby 3.10.0.1](https://github.com/getkirby/kirby/releases/tag/3.10.0.1), and [Kirby 4.1.1](https://github.com/getkirby/kirby/releases/tag/4.1.1). Please update to one of these or a [later version](https://github.com/getkirby/kirby/releases) to fix the vulnerability.\n\nIn all of the mentioned releases, we have changed the URL field to only make the link button clickable if the entered URL is valid and safe.\n\n### Credits\n\nThanks to Natwara Archeepsamooth (@PlyNatwara) for responsibly reporting the identified issue.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
+			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N"
 		}
 	],
 	"affected": [
@@ -160,7 +160,7 @@
 			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 3.6.6.4",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-xrvh-rvc4-5m43/GHSA-xrvh-rvc4-5m43.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-57f2-8p89-66x6/GHSA-57f2-8p89-66x6.json"
 			}
 		},
 		{
@@ -202,7 +202,7 @@
 			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 3.7.5.3",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-xrvh-rvc4-5m43/GHSA-xrvh-rvc4-5m43.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-57f2-8p89-66x6/GHSA-57f2-8p89-66x6.json"
 			}
 		},
 		{
@@ -240,7 +240,7 @@
 			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 3.8.4.2",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-xrvh-rvc4-5m43/GHSA-xrvh-rvc4-5m43.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-57f2-8p89-66x6/GHSA-57f2-8p89-66x6.json"
 			}
 		},
 		{
@@ -284,7 +284,7 @@
 			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 3.9.8",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-xrvh-rvc4-5m43/GHSA-xrvh-rvc4-5m43.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-57f2-8p89-66x6/GHSA-57f2-8p89-66x6.json"
 			}
 		},
 		{
@@ -310,7 +310,7 @@
 				"3.10.0"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-xrvh-rvc4-5m43/GHSA-xrvh-rvc4-5m43.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-57f2-8p89-66x6/GHSA-57f2-8p89-66x6.json"
 			}
 		},
 		{
@@ -344,18 +344,18 @@
 			],
 			"database_specific": {
 				"last_known_affected_version_range": "<= 4.1.0",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-xrvh-rvc4-5m43/GHSA-xrvh-rvc4-5m43.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/02/GHSA-57f2-8p89-66x6/GHSA-57f2-8p89-66x6.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "WEB",
-			"url": "https://github.com/getkirby/kirby/security/advisories/GHSA-xrvh-rvc4-5m43"
+			"url": "https://github.com/getkirby/kirby/security/advisories/GHSA-57f2-8p89-66x6"
 		},
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26483"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26481"
 		},
 		{
 			"type": "PACKAGE",
@@ -363,7 +363,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://shrouded-trowel-50c.notion.site/Kirby-CMS-4-1-0-Unrestricted-File-Upload-dc60ce3132f04442b73f2dba2631fae0?pvs=4"
+			"url": "https://shrouded-trowel-50c.notion.site/Kirby-CMS-4-1-0-Self-Cross-Site-Scripting-d877183d20af49f8a8f58554bc06d51c?pvs=4"
 		}
 	],
 	"database_specific": {
@@ -371,7 +371,7 @@
 			"CWE-79"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2024-02-26T16:22:12Z",
+		"github_reviewed_at": "2024-02-26T17:19:27Z",
 		"nvd_published_at": null,
 		"severity": "MODERATE"
 	}
