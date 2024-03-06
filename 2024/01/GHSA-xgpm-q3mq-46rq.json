@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xgpm-q3mq-46rq",
-	"modified": "2024-02-16T08:16:44.564054Z",
+	"modified": "2024-03-06T12:27:59.188330Z",
 	"published": "2024-01-03T21:41:14Z",
 	"aliases": [
+		"BIT-prestashop-2024-21627",
 		"CVE-2024-21627"
 	],
 	"summary": "PrestaShop some attribute not escaped in Validate::isCleanHTML method",

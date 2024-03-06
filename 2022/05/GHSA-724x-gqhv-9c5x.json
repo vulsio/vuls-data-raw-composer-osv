@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-724x-gqhv-9c5x",
-	"modified": "2024-02-16T08:10:17.305175Z",
+	"modified": "2024-03-06T12:28:04.791401Z",
 	"published": "2022-05-24T17:21:48Z",
 	"aliases": [
+		"BIT-magento-2020-9578",
 		"CVE-2020-9578"
 	],
 	"summary": "Magento command injection vulnerability",

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9wc9-498w-h8xv",
-	"modified": "2024-02-16T08:16:03.342734Z",
+	"modified": "2024-03-06T12:28:11.293237Z",
 	"published": "2022-05-24T17:07:42Z",
 	"aliases": [
+		"BIT-magento-2020-3716",
 		"CVE-2020-3716"
 	],
 	"summary": "Magento deserialization vulnerability",

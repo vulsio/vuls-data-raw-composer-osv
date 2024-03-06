@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p379-cxqh-q822",
-	"modified": "2024-02-16T07:51:24.363272Z",
+	"modified": "2024-03-06T12:28:13.998275Z",
 	"published": "2023-04-25T19:45:58Z",
 	"aliases": [
+		"BIT-prestashop-2023-30839",
 		"CVE-2023-30839"
 	],
 	"summary": "SQL filter bypass leading to arbitrary write requests using \"SQL Manager\"",

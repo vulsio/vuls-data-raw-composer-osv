@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-874g-pxqp-frqp",
-	"modified": "2024-02-16T08:22:04.314094Z",
+	"modified": "2024-03-06T12:28:04.557086Z",
 	"published": "2022-05-24T17:07:42Z",
 	"aliases": [
+		"BIT-magento-2020-3717",
 		"CVE-2020-3717"
 	],
 	"summary": "Magento Path Traversal",

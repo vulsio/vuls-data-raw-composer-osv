@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8r4m-5p6p-52rp",
-	"modified": "2024-02-16T08:02:54.344855Z",
+	"modified": "2024-03-06T12:27:54.188772Z",
 	"published": "2023-04-26T16:03:45Z",
 	"aliases": [
+		"BIT-prestashop-2023-30545",
 		"CVE-2023-30545"
 	],
 	"summary": "Arbitrary file read via SQL injection",

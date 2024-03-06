@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5j4w-v87m-8r65",
-	"modified": "2024-02-16T08:18:59.049142Z",
+	"modified": "2024-03-06T12:28:04.872906Z",
 	"published": "2022-05-24T17:21:54Z",
 	"aliases": [
+		"BIT-magento-2020-9630",
 		"CVE-2020-9630"
 	],
 	"summary": "Magento business logic error vulnerability",

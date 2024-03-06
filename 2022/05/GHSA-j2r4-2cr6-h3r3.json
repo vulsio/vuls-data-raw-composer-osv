@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j2r4-2cr6-h3r3",
-	"modified": "2024-02-16T08:22:17.714646Z",
+	"modified": "2024-03-06T12:28:11.231073Z",
 	"published": "2022-05-24T17:21:49Z",
 	"aliases": [
+		"BIT-magento-2020-9588",
 		"CVE-2020-9588"
 	],
 	"summary": "Magento Signature verification bypass",

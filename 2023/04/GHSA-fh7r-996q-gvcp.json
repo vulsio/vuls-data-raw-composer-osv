@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fh7r-996q-gvcp",
-	"modified": "2024-02-16T08:14:24.418411Z",
+	"modified": "2024-03-06T12:28:00.986483Z",
 	"published": "2023-04-25T19:47:05Z",
 	"aliases": [
+		"BIT-prestashop-2023-30838",
 		"CVE-2023-30838"
 	],
 	"summary": "Possible XSS injection through Validate::isCleanHTML method",

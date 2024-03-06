@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mgg3-v948-2vgr",
-	"modified": "2024-02-16T08:14:47.755470Z",
+	"modified": "2024-03-06T12:28:04.070737Z",
 	"published": "2022-05-24T17:07:42Z",
 	"aliases": [
+		"BIT-magento-2020-3715",
 		"CVE-2020-3715"
 	],
 	"summary": "Magento stored cross-site scripting vulnerability",

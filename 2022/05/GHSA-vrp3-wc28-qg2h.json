@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vrp3-wc28-qg2h",
-	"modified": "2024-02-16T08:01:12.133688Z",
+	"modified": "2024-03-06T12:28:08.852202Z",
 	"published": "2022-05-24T17:21:48Z",
 	"aliases": [
+		"BIT-magento-2020-9579",
 		"CVE-2020-9579"
 	],
 	"summary": "Magento Security mitigation bypass vulnerability",
