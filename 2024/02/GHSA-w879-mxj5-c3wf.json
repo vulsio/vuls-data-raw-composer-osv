@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w879-mxj5-c3wf",
-	"modified": "2024-02-26T17:56:20.171571Z",
+	"modified": "2024-03-12T15:31:35.794344Z",
 	"published": "2024-02-22T06:30:33Z",
 	"summary": "Duplicate Advisory: Kirby vulnerable to self cross-site scripting (self-XSS) in the URL field",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-57f2-8p89-66x6. This link is maintained to preserve external references.\n\n## Original Description\nKirby CMS v4.1.0 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the URL parameter.",
@@ -238,6 +238,10 @@
 		}
 	],
 	"references": [
+		{
+			"type": "WEB",
+			"url": "https://github.com/getkirby/kirby/security/advisories/GHSA-57f2-8p89-66x6"
+		},
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26481"
