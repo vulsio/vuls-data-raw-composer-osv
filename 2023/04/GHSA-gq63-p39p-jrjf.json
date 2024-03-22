@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gq63-p39p-jrjf",
-	"modified": "2024-02-16T08:13:53.685197Z",
+	"modified": "2024-03-21T17:46:03.320645Z",
 	"published": "2023-04-04T15:30:27Z",
 	"summary": "Withdrawn: SQL injection in Yii 2",
 	"details": "## Withdrawn Advisory\nThis advisory has been withdrawn because the issue originates from a product built on Yii2, not the Yii2 Framework itself. This link is maintained to preserve external references.\n\n## Original Description\nSQL injection vulnerability found in Yii Framework Yii 2 Framework before v.2.0.47 allows the a remote attacker to execute arbitrary code via the runAction function.",
@@ -120,6 +120,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/yiisoft/yii2/issues/19755#issuecomment-1505390813"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/yiisoft/yii2/issues/19755#issuecomment-1505560351"
 		}
 	],
 	"database_specific": {
