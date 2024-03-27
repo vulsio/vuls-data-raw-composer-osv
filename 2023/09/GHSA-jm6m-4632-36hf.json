@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jm6m-4632-36hf",
-	"modified": "2024-02-18T05:31:20.275801Z",
+	"modified": "2024-03-27T13:16:04.294898Z",
 	"published": "2023-09-29T20:39:21Z",
 	"aliases": [
 		"BIT-composer-2023-43655",
@@ -294,6 +294,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/composer/composer"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00030.html"
 		},
 		{
 			"type": "WEB",
