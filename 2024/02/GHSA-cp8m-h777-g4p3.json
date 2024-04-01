@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cp8m-h777-g4p3",
-	"modified": "2024-02-29T03:46:36.795965Z",
+	"modified": "2024-04-01T07:26:47.752447Z",
 	"published": "2024-02-19T18:31:32Z",
 	"aliases": [
+		"BIT-moodle-2024-25980",
 		"CVE-2024-25980"
 	],
 	"summary": "Improper Access Control in moodle",

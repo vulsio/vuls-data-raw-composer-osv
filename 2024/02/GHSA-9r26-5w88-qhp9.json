@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9r26-5w88-qhp9",
-	"modified": "2024-02-29T03:47:14.626216Z",
+	"modified": "2024-04-01T07:26:39.636263Z",
 	"published": "2024-02-19T18:31:32Z",
 	"aliases": [
+		"BIT-moodle-2024-25983",
 		"CVE-2024-25983"
 	],
 	"summary": "Authorization Bypass in moodle",

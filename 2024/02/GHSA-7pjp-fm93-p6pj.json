@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7pjp-fm93-p6pj",
-	"modified": "2024-02-29T03:49:10.743704Z",
+	"modified": "2024-04-01T07:26:39.412783Z",
 	"published": "2024-02-19T18:31:32Z",
 	"aliases": [
+		"BIT-moodle-2024-25982",
 		"CVE-2024-25982"
 	],
 	"summary": "Cross-Site Request Forgery in moodle",

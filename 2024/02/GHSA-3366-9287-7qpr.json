@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3366-9287-7qpr",
-	"modified": "2024-02-21T00:12:59.760354Z",
+	"modified": "2024-04-01T07:26:47.226864Z",
 	"published": "2024-02-21T00:04:24Z",
 	"aliases": [
+		"BIT-prestashop-2024-26129",
 		"CVE-2024-26129"
 	],
 	"summary": "Path disclosure in JavaScript variable",

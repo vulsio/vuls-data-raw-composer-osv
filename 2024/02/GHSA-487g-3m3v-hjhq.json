@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-487g-3m3v-hjhq",
-	"modified": "2024-02-29T03:48:34.683592Z",
+	"modified": "2024-04-01T07:26:46.356920Z",
 	"published": "2024-02-19T18:31:32Z",
 	"aliases": [
+		"BIT-moodle-2024-25978",
 		"CVE-2024-25978"
 	],
 	"summary": "Uncontrolled Resource Consumption in moodle",
