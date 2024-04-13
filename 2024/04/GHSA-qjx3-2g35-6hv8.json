@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qjx3-2g35-6hv8",
-	"modified": "2024-04-12T17:31:31.079695Z",
+	"modified": "2024-04-12T17:42:01.310343Z",
 	"published": "2024-04-12T17:28:52Z",
+	"aliases": [
+		"CVE-2022-25776"
+	],
 	"summary": "Mautic Sensitive Data Exposure due to inadequate user permission settings",
 	"details": "### Impact\nPrior to the patched version, logged in users of Mautic are able to access areas of the application that they should be prevented from accessing.\n\nUsers could potentially access sensitive data such as names and surnames, company names and stage names.\n\n### Patches\nUpdate to 4.4.12 and 5.0.4\n\n### Workarounds\nNo\n\n### References\nhttps://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure\n",
 	"severity": [
