@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qjfw-cvjf-f4fm",
-	"modified": "2024-04-10T18:55:46.162763Z",
+	"modified": "2024-04-17T17:31:45.473274Z",
 	"published": "2024-04-03T18:06:45Z",
 	"aliases": [
 		"CVE-2024-2653"
@@ -83,6 +83,34 @@
 				"last_known_affected_version_range": "<= 1.7.2",
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-qjfw-cvjf-f4fm/GHSA-qjfw-cvjf-f4fm.json"
 			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "amphp/http-client",
+				"purl": "pkg:composer/amphp/http-client"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "4.0.0-rc10"
+						},
+						{
+							"last_affected": "4.0.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v4.0.0",
+				"v4.0.0-rc10",
+				"v4.0.0-rc11"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-qjfw-cvjf-f4fm/GHSA-qjfw-cvjf-f4fm.json"
+			}
 		}
 	],
 	"references": [
@@ -105,6 +133,14 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/amphp/http/commit/881cc33da236fbcd0cb0cf6c2bfc7efcf80ede76"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/amphp/http-client/CVE-2024-2653.yaml"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/amphp/http/CVE-2024-2653.yaml"
 		},
 		{
 			"type": "PACKAGE",
