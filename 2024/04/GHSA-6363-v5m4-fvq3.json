@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6363-v5m4-fvq3",
-	"modified": "2024-04-16T16:11:43.048259Z",
+	"modified": "2024-04-18T16:49:10.797058Z",
 	"published": "2024-04-12T15:15:46Z",
 	"aliases": [
 		"CVE-2024-29800"
@@ -52,7 +52,33 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "1.24.0"
+						},
+						{
+							"fixed": "1.24.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"1.24.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-6363-v5m4-fvq3/GHSA-6363-v5m4-fvq3.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "timber/timber",
+				"purl": "pkg:composer/timber/timber"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0.16.6"
 						},
 						{
 							"fixed": "1.23.1"
@@ -178,33 +204,6 @@
 				"v1.0-rc.1"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "<= 1.23.0",
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-6363-v5m4-fvq3/GHSA-6363-v5m4-fvq3.json"
-			}
-		},
-		{
-			"package": {
-				"ecosystem": "Packagist",
-				"name": "timber/timber",
-				"purl": "pkg:composer/timber/timber"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "1.24.0"
-						},
-						{
-							"fixed": "1.24.1"
-						}
-					]
-				}
-			],
-			"versions": [
-				"1.24.0"
-			],
-			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-6363-v5m4-fvq3/GHSA-6363-v5m4-fvq3.json"
 			}
 		}
@@ -221,6 +220,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/timber/timber/commit/13c6b0f60346304f2eed4da1e0bb51566518de4a"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/timber/timber/CVE-2024-29800.yaml"
 		},
 		{
 			"type": "PACKAGE",
