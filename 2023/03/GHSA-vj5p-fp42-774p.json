@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vj5p-fp42-774p",
-	"modified": "2024-02-21T05:51:31.547195Z",
+	"modified": "2024-04-19T16:31:25.151424Z",
 	"published": "2023-03-23T21:30:19Z",
 	"aliases": [
 		"BIT-moodle-2023-1402",
@@ -417,11 +417,19 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2179427"
+		},
+		{
+			"type": "WEB",
 			"url": "https://git.moodle.org/gw?p=moodle.git;a=commitdiff;h=f0a557bffbdb450648d0e4cedb391d14d8a0a253"
 		},
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/moodle/moodle"
+		},
+		{
+			"type": "WEB",
+			"url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3QZN34VSF4HTCW3C3ZP2OZYSLYUKADPF"
 		},
 		{
 			"type": "WEB",
