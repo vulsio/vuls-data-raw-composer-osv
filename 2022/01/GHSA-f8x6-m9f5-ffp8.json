@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f8x6-m9f5-ffp8",
-	"modified": "2024-02-16T08:17:08.318879Z",
+	"modified": "2024-04-22T19:19:12.404507Z",
 	"published": "2022-01-06T21:08:34Z",
 	"aliases": [
 		"CVE-2021-23814"
@@ -124,6 +124,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/UniSharp/laravel-filemanager/blob/master/src/Controllers/UploadController.php#L26"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/UniSharp/laravel-filemanager/blob/master/src/Controllers/UploadController.php%23L26"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r6mv-ppjc-4hgr",
-	"modified": "2024-02-16T08:15:39.900553Z",
+	"modified": "2024-04-22T19:11:29.471459Z",
 	"published": "2021-08-23T19:41:04Z",
 	"aliases": [
 		"CVE-2021-37626"

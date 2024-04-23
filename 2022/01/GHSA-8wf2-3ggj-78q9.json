@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8wf2-3ggj-78q9",
-	"modified": "2024-02-19T05:26:12.183806Z",
+	"modified": "2024-04-22T19:26:37.079567Z",
 	"published": "2022-01-28T22:44:40Z",
 	"aliases": [
 		"BIT-phpmyadmin-2022-23807",
@@ -90,6 +90,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/phpmyadmin/phpmyadmin"
+		},
+		{
+			"type": "WEB",
+			"url": "https://security.gentoo.org/glsa/202311-17"
 		},
 		{
 			"type": "WEB",
