@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-66xp-28cq-mrf2",
-	"modified": "2024-04-23T22:59:35.020690Z",
+	"modified": "2024-04-23T23:11:27.022181Z",
 	"published": "2022-05-24T17:35:32Z",
 	"aliases": [
 		"BIT-moodle-2020-25630",

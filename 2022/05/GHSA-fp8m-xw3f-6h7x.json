@@ -1,13 +1,13 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-gjx6-58xh-p7pw",
-	"modified": "2024-04-23T23:42:49.018511Z",
-	"published": "2022-05-14T01:42:52Z",
+	"id": "GHSA-fp8m-xw3f-6h7x",
+	"modified": "2024-04-23T23:42:49.234926Z",
+	"published": "2022-05-24T22:00:24Z",
 	"aliases": [
-		"CVE-2018-19933"
+		"CVE-2019-15484"
 	],
-	"summary": "Bolt Cross-site Scripting (XSS) via text input click preview button",
-	"details": "Bolt CMS <3.6.2 allows XSS via text input click preview button as demonstrated by the Title field of a Configured and New Entry.",
+	"summary": "Bolt Cross-site Scripting (XSS) via an image's alt or title field",
+	"details": "Bolt before 3.6.10 has XSS via an image's alt or title field.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
@@ -29,7 +29,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.6.2"
+							"fixed": "3.6.10"
 						}
 					]
 				}
@@ -177,17 +177,29 @@
 				"v3.6.0-beta.5",
 				"v3.6.0-beta.6",
 				"v3.6.0-beta.7",
-				"v3.6.1"
+				"v3.6.1",
+				"v3.6.2",
+				"v3.6.3",
+				"v3.6.4",
+				"v3.6.5",
+				"v3.6.6",
+				"v3.6.7",
+				"v3.6.8",
+				"v3.6.9"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-gjx6-58xh-p7pw/GHSA-gjx6-58xh-p7pw.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-fp8m-xw3f-6h7x/GHSA-fp8m-xw3f-6h7x.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19933"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15484"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/bolt/bolt/pull/7801"
 		},
 		{
 			"type": "PACKAGE",
@@ -195,15 +207,7 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/rdincel1/Bolt-CMS-3.6.2---Cross-Site-Scripting"
-		},
-		{
-			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/46014"
-		},
-		{
-			"type": "WEB",
-			"url": "https://www.raifberkaydincel.com/bolt-cms-xss-vulnerability.html"
+			"url": "https://github.com/bolt/bolt/releases/tag/v3.6.10"
 		}
 	],
 	"database_specific": {
@@ -211,8 +215,8 @@
 			"CWE-79"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2024-04-23T23:15:49Z",
-		"nvd_published_at": "2018-12-17T19:29:00Z",
+		"github_reviewed_at": "2024-04-23T23:16:18Z",
+		"nvd_published_at": "2019-08-23T13:15:00Z",
 		"severity": "MODERATE"
 	}
 }

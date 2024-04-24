@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-2g23-qmmp-fvmr",
-	"modified": "2024-04-23T23:16:11Z",
+	"modified": "2024-04-23T23:42:49.384889Z",
 	"published": "2022-05-24T17:05:27Z",
+	"aliases": [
+		"CVE-2019-9553"
+	],
 	"summary": "Bolt Cross-site Scripting via the slug, teaser or title parameters",
 	"details": "Bolt 3.6.4 has XSS via the slug, teaser, or title parameter to `editcontent/pages`, a related issue to CVE-2017-11128 and CVE-2018-19933.",
 	"severity": [

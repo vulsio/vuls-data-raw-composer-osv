@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5r9j-698h-2h5m",
-	"modified": "2024-04-23T23:15:45Z",
+	"modified": "2024-04-23T23:42:48.848913Z",
 	"published": "2022-05-17T02:27:47Z",
+	"aliases": [
+		"CVE-2017-11128"
+	],
 	"summary": "Bolt stored Cross-site Scripting (XSS)",
 	"details": "Bolt CMS 3.2.14 allows stored XSS via text input, as demonstrated by the Title field of a New Entry.",
 	"severity": [

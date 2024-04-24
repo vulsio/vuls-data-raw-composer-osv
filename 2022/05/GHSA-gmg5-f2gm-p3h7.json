@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gmg5-f2gm-p3h7",
-	"modified": "2024-04-23T23:31:18.514303Z",
+	"modified": "2024-04-23T23:42:49.302380Z",
 	"published": "2022-05-13T01:12:17Z",
+	"aliases": [
+		"CVE-2019-9185"
+	],
 	"summary": "Bolt Unrestricted Upload of File with Dangerous Type",
 	"details": "`Controller/Async/FilesystemManager.php` in the filemanager in Bolt before 3.6.5 allows remote attackers to execute arbitrary PHP code by renaming a previously uploaded file to have a `.php` extension.",
 	"severity": [

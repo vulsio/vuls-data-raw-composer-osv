@@ -1,17 +1,17 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-gjx6-58xh-p7pw",
-	"modified": "2024-04-23T23:42:49.018511Z",
-	"published": "2022-05-14T01:42:52Z",
+	"id": "GHSA-wr23-m9m2-jjf4",
+	"modified": "2024-04-23T23:42:48.943131Z",
+	"published": "2022-05-13T01:12:16Z",
 	"aliases": [
-		"CVE-2018-19933"
+		"CVE-2017-16754"
 	],
-	"summary": "Bolt Cross-site Scripting (XSS) via text input click preview button",
-	"details": "Bolt CMS <3.6.2 allows XSS via text input click preview button as demonstrated by the Title field of a Configured and New Entry.",
+	"summary": "Bolt Improper Access Control",
+	"details": "Bolt before 3.3.6 does not properly restrict access to `_profiler` routes, related to `EventListener/ProfilerListener.php` and `Provider/EventListenerServiceProvider.php`.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+			"score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
 		}
 	],
 	"affected": [
@@ -29,13 +29,12 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "3.6.2"
+							"fixed": "3.3.6"
 						}
 					]
 				}
 			],
 			"versions": [
-				"3.5.7",
 				"v0.8.4",
 				"v0.8.5",
 				"v0.9.10",
@@ -148,46 +147,21 @@
 				"v3.3.2",
 				"v3.3.3",
 				"v3.3.4",
-				"v3.3.5",
-				"v3.3.6",
-				"v3.4.0",
-				"v3.4.1",
-				"v3.4.10",
-				"v3.4.11",
-				"v3.4.2",
-				"v3.4.3",
-				"v3.4.4",
-				"v3.4.5",
-				"v3.4.6",
-				"v3.4.7",
-				"v3.4.8",
-				"v3.4.9",
-				"v3.5.0",
-				"v3.5.1",
-				"v3.5.2",
-				"v3.5.3",
-				"v3.5.4",
-				"v3.5.5",
-				"v3.5.6",
-				"v3.6.0",
-				"v3.6.0-beta.1",
-				"v3.6.0-beta.2",
-				"v3.6.0-beta.3",
-				"v3.6.0-beta.4",
-				"v3.6.0-beta.5",
-				"v3.6.0-beta.6",
-				"v3.6.0-beta.7",
-				"v3.6.1"
+				"v3.3.5"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-gjx6-58xh-p7pw/GHSA-gjx6-58xh-p7pw.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-wr23-m9m2-jjf4/GHSA-wr23-m9m2-jjf4.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19933"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16754"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/bolt/bolt/commit/aa21787241945457a2e4abc8b079672935fe0840"
 		},
 		{
 			"type": "PACKAGE",
@@ -195,24 +169,20 @@
 		},
 		{
 			"type": "WEB",
-			"url": "https://github.com/rdincel1/Bolt-CMS-3.6.2---Cross-Site-Scripting"
+			"url": "https://github.com/bolt/bolt/releases/tag/v3.3.6"
 		},
 		{
 			"type": "WEB",
-			"url": "https://www.exploit-db.com/exploits/46014"
-		},
-		{
-			"type": "WEB",
-			"url": "https://www.raifberkaydincel.com/bolt-cms-xss-vulnerability.html"
+			"url": "http://www.securityfocus.com/bid/101777"
 		}
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-79"
+			"CWE-732"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2024-04-23T23:15:49Z",
-		"nvd_published_at": "2018-12-17T19:29:00Z",
+		"github_reviewed_at": "2024-04-23T23:16:04Z",
+		"nvd_published_at": "2017-11-10T02:29:00Z",
 		"severity": "MODERATE"
 	}
 }
