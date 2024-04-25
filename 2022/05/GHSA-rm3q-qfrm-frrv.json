@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rm3q-qfrm-frrv",
-	"modified": "2024-04-24T22:32:04.804213Z",
+	"modified": "2024-04-24T22:43:39.556015Z",
 	"published": "2022-05-17T00:17:47Z",
+	"aliases": [
+		"CVE-2017-15054"
+	],
 	"summary": "TeamPass arbitrary file upload vulnerability",
 	"details": "An arbitrary file upload vulnerability, present in TeamPass before 2.1.27.9, allows remote authenticated users to upload arbitrary files leading to Remote Command Execution. To exploit this vulnerability, an authenticated attacker has to tamper with parameters of a request to upload.files.php, in order to select the correct branch and be able to upload any arbitrary file. From there, it can simply access the file to execute code on the server.",
 	"severity": [

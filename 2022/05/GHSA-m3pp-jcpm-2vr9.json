@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m3pp-jcpm-2vr9",
-	"modified": "2024-04-24T22:31:15.955420Z",
+	"modified": "2024-04-24T22:43:39.876936Z",
 	"published": "2022-05-24T16:52:39Z",
+	"aliases": [
+		"CVE-2019-12950"
+	],
 	"summary": "TeamPass Cross-site Scripting (XSS)",
 	"details": "An issue was discovered in TeamPass 2.1.27.35. From the sources/items.queries.php \"Import items\" feature, it is possible to load a crafted CSV file with an XSS payload.",
 	"severity": [

@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qx37-225j-qr89",
-	"modified": "2024-04-24T22:33:38.600120Z",
+	"modified": "2024-04-24T22:43:40.079397Z",
 	"published": "2022-05-24T16:57:55Z",
+	"aliases": [
+		"CVE-2019-17204"
+	],
 	"summary": "TeamPass Stored Cross-site Scripting",
 	"details": "TeamPass 2.1.27.36 allows Stored XSS by setting a crafted Knowledge Base label and adding any available item.",
 	"severity": [

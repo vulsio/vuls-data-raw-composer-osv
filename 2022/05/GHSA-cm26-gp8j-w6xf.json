@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cm26-gp8j-w6xf",
-	"modified": "2024-04-24T22:33:54.534774Z",
+	"modified": "2024-04-24T22:43:39.729273Z",
 	"published": "2022-05-17T02:41:29Z",
+	"aliases": [
+		"CVE-2017-9436"
+	],
 	"summary": "TeamPass SQL injection in users.queries.php",
 	"details": "TeamPass before 2.1.27.5 is vulnerable to a SQL injection in users.queries.php.",
 	"severity": [

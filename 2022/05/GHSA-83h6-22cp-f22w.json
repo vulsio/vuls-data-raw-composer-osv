@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-83h6-22cp-f22w",
-	"modified": "2024-04-24T22:28:12Z",
+	"modified": "2024-04-24T22:43:40.215168Z",
 	"published": "2022-05-24T17:16:59Z",
+	"aliases": [
+		"CVE-2020-12478"
+	],
 	"summary": "TeamPass files are available without authentication",
 	"details": "TeamPass 2.1.27.36 allows an unauthenticated attacker to retrieve files from the TeamPass web root. This may include backups or LDAP debug files.",
 	"severity": [

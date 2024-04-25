@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pqx8-q35p-pgcv",
-	"modified": "2024-04-24T22:34:09.071910Z",
+	"modified": "2024-04-24T22:43:40.007466Z",
 	"published": "2022-05-24T16:57:55Z",
+	"aliases": [
+		"CVE-2019-17203"
+	],
 	"summary": "TeamPass Stored Cross-site Scripting",
 	"details": "TeamPass 2.1.27.36 allows Stored XSS at the Search page by setting a crafted password for an item in any folder.",
 	"severity": [

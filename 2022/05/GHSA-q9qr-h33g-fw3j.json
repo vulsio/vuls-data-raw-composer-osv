@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q9qr-h33g-fw3j",
-	"modified": "2024-04-24T22:32:36.347476Z",
+	"modified": "2024-04-24T22:43:39.808492Z",
 	"published": "2022-05-13T01:21:42Z",
+	"aliases": [
+		"CVE-2019-1000001"
+	],
 	"summary": "TeamPass Storing Passwords in a Recoverable Format vulnerability",
 	"details": "TeamPass version 2.1.27 and earlier contains a Storing Passwords in a Recoverable Format vulnerability in Shared password vaults that can result in all shared passwords are recoverable server side. This attack appears to be exploitable via any vulnerability that can bypass authentication or role assignment and can lead to shared password leakage.",
 	"severity": [

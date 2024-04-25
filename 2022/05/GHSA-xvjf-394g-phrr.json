@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xvjf-394g-phrr",
-	"modified": "2024-04-24T22:31:31.338119Z",
+	"modified": "2024-04-24T22:43:39.347092Z",
 	"published": "2022-05-13T01:43:37Z",
+	"aliases": [
+		"CVE-2017-15053"
+	],
 	"summary": "TeamPass Improper Privilege Management",
 	"details": "TeamPass before 2.1.27.9 does not properly enforce manager access control when requesting roles.queries.php. It is then possible for a manager user to modify any arbitrary roles within the application, or delete any arbitrary role. To exploit the vulnerability, an authenticated attacker must have the manager rights on the application, then tamper with the requests sent directly, for example by changing the \"id\" parameter when invoking \"delete_role\" on roles.queries.php.",
 	"severity": [

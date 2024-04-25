@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v969-5v7f-pmg2",
-	"modified": "2024-04-24T22:31:00.264558Z",
+	"modified": "2024-04-24T22:43:40.146893Z",
 	"published": "2022-05-24T16:57:56Z",
+	"aliases": [
+		"CVE-2019-17205"
+	],
 	"summary": "TeamPass Stored Cross-site Scripting",
 	"details": "TeamPass 2.1.27.36 allows Stored XSS by placing a payload in the username field during a login attempt. When an administrator looks at the log of failed logins, the XSS payload will be executed.",
 	"severity": [
