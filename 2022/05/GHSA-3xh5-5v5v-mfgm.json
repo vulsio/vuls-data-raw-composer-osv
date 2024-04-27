@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3xh5-5v5v-mfgm",
-	"modified": "2024-04-23T22:59:06.075092Z",
+	"modified": "2024-04-26T23:16:20.249321Z",
 	"published": "2022-05-24T17:11:48Z",
 	"aliases": [
 		"CVE-2019-14884"
@@ -26,7 +26,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.7"
+							"introduced": "3.7.0"
 						},
 						{
 							"fixed": "3.7.3"
@@ -36,9 +36,6 @@
 			],
 			"versions": [
 				"v3.7.0",
-				"v3.7.0-beta",
-				"v3.7.0-rc1",
-				"v3.7.0-rc2",
 				"v3.7.1",
 				"v3.7.2"
 			],
@@ -57,7 +54,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.6"
+							"introduced": "3.6.0"
 						},
 						{
 							"fixed": "3.6.7"
@@ -67,10 +64,6 @@
 			],
 			"versions": [
 				"v3.6.0",
-				"v3.6.0-beta",
-				"v3.6.0-rc1",
-				"v3.6.0-rc2",
-				"v3.6.0-rc3",
 				"v3.6.1",
 				"v3.6.2",
 				"v3.6.3",
@@ -93,54 +86,26 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.5"
+							"introduced": "3.5.0"
 						},
 						{
-							"fixed": "3.6.73.5.9"
+							"fixed": "3.5.9"
 						}
 					]
 				}
 			],
 			"versions": [
 				"v3.5.0",
-				"v3.5.0-beta",
-				"v3.5.0-rc1",
 				"v3.5.1",
-				"v3.5.10",
-				"v3.5.11",
-				"v3.5.12",
-				"v3.5.13",
-				"v3.5.14",
-				"v3.5.15",
-				"v3.5.16",
-				"v3.5.17",
-				"v3.5.18",
 				"v3.5.2",
 				"v3.5.3",
 				"v3.5.4",
 				"v3.5.5",
 				"v3.5.6",
 				"v3.5.7",
-				"v3.5.8",
-				"v3.5.9",
-				"v3.6.0",
-				"v3.6.0-beta",
-				"v3.6.0-rc1",
-				"v3.6.0-rc2",
-				"v3.6.0-rc3",
-				"v3.6.1",
-				"v3.6.10",
-				"v3.6.2",
-				"v3.6.3",
-				"v3.6.4",
-				"v3.6.5",
-				"v3.6.6",
-				"v3.6.7",
-				"v3.6.8",
-				"v3.6.9"
+				"v3.5.8"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "< 3.5.9",
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-3xh5-5v5v-mfgm/GHSA-3xh5-5v5v-mfgm.json"
 			}
 		}
