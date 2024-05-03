@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qjfw-cvjf-f4fm",
-	"modified": "2024-04-17T17:31:45.473274Z",
+	"modified": "2024-05-02T19:04:36.643232Z",
 	"published": "2024-04-03T18:06:45Z",
 	"aliases": [
 		"CVE-2024-2653"
@@ -149,6 +149,10 @@
 		{
 			"type": "WEB",
 			"url": "https://www.kb.cert.org/vuls/id/421644"
+		},
+		{
+			"type": "WEB",
+			"url": "http://www.openwall.com/lists/oss-security/2024/04/03/16"
 		}
 	],
 	"database_specific": {
