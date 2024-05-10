@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hg35-mp25-qf6h",
-	"modified": "2024-03-21T03:46:05.450211Z",
+	"modified": "2024-05-10T14:58:25.023641Z",
 	"published": "2024-03-02T00:31:33Z",
 	"aliases": [
 		"CVE-2024-27354"
@@ -202,6 +202,14 @@
 		{
 			"type": "WEB",
 			"url": "https://gist.github.com/katzj/ee72f3c2a00590812b2ea3c0c8890e0b"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpseclib/phpseclib/CVE-2024-27354.yaml"
+		},
+		{
+			"type": "ADVISORY",
+			"url": "https://github.com/advisories/GHSA-hg35-mp25-qf6h"
 		},
 		{
 			"type": "PACKAGE",
