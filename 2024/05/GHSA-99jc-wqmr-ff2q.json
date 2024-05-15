@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-99jc-wqmr-ff2q",
-	"modified": "2024-05-13T15:11:08.089410Z",
+	"modified": "2024-05-14T20:30:56.069527Z",
 	"published": "2024-05-13T14:57:36Z",
 	"summary": "MantisBT Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
 	"details": "If an issue references a note that belongs to another issue that the user doesn't have access to, then it gets hyperlinked. Clicking on the link gives an access denied error as expected, yet some information remains available via the link, link label, and tooltip.\n\n### Impact\nDisclosure of the following information:\n- existence of the note\n- note author name\n- note creation timestamp\n- issue id the note belongs to\n\n### Patches\nSee PR https://github.com/mantisbt/mantisbt/pull/2000\n\n### Workarounds\nNone\n\n### References\nhttps://mantisbt.org/bugs/view.php?id=34434\n",
@@ -111,6 +111,10 @@
 			"url": "https://github.com/mantisbt/mantisbt/security/advisories/GHSA-99jc-wqmr-ff2q"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34080"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/mantisbt/mantisbt/pull/2000"
 		},
@@ -133,7 +137,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-05-13T14:57:36Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-05-14T15:38:29Z",
 		"severity": "MODERATE"
 	}
 }
