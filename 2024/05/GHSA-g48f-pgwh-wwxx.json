@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g48f-pgwh-wwxx",
-	"modified": "2024-05-17T23:16:52.701254Z",
+	"modified": "2024-05-19T02:24:40.688273Z",
 	"published": "2024-05-17T23:06:55Z",
+	"aliases": [
+		"CVE-2016-1000253"
+	],
 	"summary": "onelogin/php-saml signature wrapping attacks",
 	"details": "Vulnerability in onelogin/php-saml versions prior to 2.10.0 allows signature Wrapping attacks which may result in a malicious user gaining unauthorized access to a system.",
 	"affected": [

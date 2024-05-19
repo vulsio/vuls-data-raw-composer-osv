@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x42g-82pp-4v6g",
-	"modified": "2024-05-15T18:16:04.515020Z",
+	"modified": "2024-05-19T02:24:43.204726Z",
 	"published": "2022-05-24T17:00:26Z",
+	"aliases": [
+		"CVE-2019-8130"
+	],
 	"summary": "Magento SQL injection vulnerability",
 	"details": "A SQL injection vulnerability exists in Magento 2.2 prior to 2.2.10, Magento 2.3 prior to 2.3.3 or 2.3.2-p1. A user with store manipulation privileges can execute arbitrary SQL queries by getting access to the database connection through group instance in email templates.",
 	"severity": [

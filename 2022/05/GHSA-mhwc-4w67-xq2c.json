@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mhwc-4w67-xq2c",
-	"modified": "2024-05-15T23:04:02.455596Z",
+	"modified": "2024-05-19T02:24:43.086701Z",
 	"published": "2022-05-24T17:00:26Z",
+	"aliases": [
+		"CVE-2019-8128"
+	],
 	"summary": "Magento Cross-Site Scripting via store name",
 	"details": "A stored cross-site scripting (XSS) vulnerability exists in Magento 2.2 prior to 2.2.10, Magento 2.3 prior to 2.3.3 or 2.3.2-p1. An authenticated user can exploit it by injecting malicious Javascript into the name of main website.",
 	"severity": [

@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qcv6-h33g-hvrc",
-	"modified": "2024-05-15T21:31:33.854137Z",
+	"modified": "2024-05-19T02:24:44.440561Z",
 	"published": "2022-03-31T00:00:15Z",
+	"aliases": [
+		"CVE-2022-23800"
+	],
 	"summary": "Cross-site Scripting (XSS) within joomla/filter class",
 	"details": "An issue was discovered in Joomla! 4.0.0 through 4.1.0. Inadequate content filtering leads to XSS vulnerabilities in various components.",
 	"severity": [

@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rc8q-45v8-x6xc",
-	"modified": "2024-05-15T21:17:24.930020Z",
+	"modified": "2024-05-19T02:24:44.318345Z",
 	"published": "2022-03-31T00:00:15Z",
+	"aliases": [
+		"CVE-2022-23794"
+	],
 	"summary": "Path Disclosure within joomla/filesystem class",
 	"details": "An issue was discovered in Joomla! 3.0.0 through 3.10.6 & 4.0.0 through 4.1.0. Uploading a file name of an excess length causes the error. This error brings up the screen with the path of the source code of the web application.",
 	"severity": [

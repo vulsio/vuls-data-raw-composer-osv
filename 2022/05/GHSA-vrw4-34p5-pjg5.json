@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vrw4-34p5-pjg5",
-	"modified": "2024-05-15T23:01:40.061146Z",
+	"modified": "2024-05-19T02:24:43.450643Z",
 	"published": "2022-05-24T17:00:29Z",
+	"aliases": [
+		"CVE-2019-8157"
+	],
 	"summary": "Magento Cross-Site Scripting via admin panel",
 	"details": "A stored cross-site scripting (XSS) vulnerability exists in Magento 2.2 prior to 2.2.10, Magento 2.3 prior to 2.3.3 or 2.3.2-p1. An authenticated user can manipulate downloadable link and cause an invocation of error handling that acceses user input without sanitization.",
 	"severity": [

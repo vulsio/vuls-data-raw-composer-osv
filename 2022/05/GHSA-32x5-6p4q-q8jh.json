@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-32x5-6p4q-q8jh",
-	"modified": "2024-05-15T23:19:08.360908Z",
+	"modified": "2024-05-19T02:24:42.967238Z",
 	"published": "2022-05-24T17:00:24Z",
+	"aliases": [
+		"CVE-2019-8093"
+	],
 	"summary": "Magento Information Disclosure via File upload functionality",
 	"details": "An arbitrary file access vulnerability exists in Magento 2.2 prior to 2.2.10, Magento 2.3 prior to 2.3.3 or 2.3.2-p1. An authenticated user can leverage file upload controller for downloadable products to read/delete an arbitary files.",
 	"severity": [

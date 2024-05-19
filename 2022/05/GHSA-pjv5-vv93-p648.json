@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pjv5-vv93-p648",
-	"modified": "2024-05-15T23:02:44.728913Z",
+	"modified": "2024-05-19T02:24:42.603593Z",
 	"published": "2022-05-24T17:03:17Z",
+	"aliases": [
+		"CVE-2019-19709"
+	],
 	"summary": "Possible to circumvent title-blacklist",
 	"details": "MediaWiki through 1.33.1 allows attackers to bypass the Title_blacklist protection mechanism by starting with an arbitrary title, establishing a non-resolvable redirect for the associated page, and using redirect=1 in the action API when editing that page.",
 	"severity": [

@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-733q-m38x-q7cc",
-	"modified": "2024-05-15T23:03:00.265601Z",
+	"modified": "2024-05-19T02:24:42.222472Z",
 	"published": "2022-05-24T16:49:58Z",
+	"aliases": [
+		"CVE-2019-12470"
+	],
 	"summary": "Wikimedia MediaWik exposed suppressed log in RevisionDelete page",
 	"details": "Wikimedia MediaWiki through 1.32.1 has Incorrect Access Control. Suppressed log in RevisionDelete page is exposed. Fixed in 1.32.2, 1.31.2, 1.30.2 and 1.27.6.",
 	"severity": [

@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jm67-jh3g-cg3f",
-	"modified": "2024-05-15T21:17:41.848006Z",
+	"modified": "2024-05-19T02:24:44.253454Z",
 	"published": "2022-03-31T00:00:16Z",
+	"aliases": [
+		"CVE-2022-23793"
+	],
 	"summary": "Path Traversal within joomla/archive tar class",
 	"details": "An issue was discovered in Joomla! 3.0.0 through 3.10.6 & 4.0.0 through 4.1.0. Extracting an specifilcy crafted tar package could write files outside of the intended path.",
 	"severity": [

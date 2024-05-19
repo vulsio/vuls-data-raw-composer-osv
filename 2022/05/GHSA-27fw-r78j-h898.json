@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-27fw-r78j-h898",
-	"modified": "2024-05-15T22:50:26.894565Z",
+	"modified": "2024-05-19T02:24:41.981247Z",
 	"published": "2022-05-24T16:49:58Z",
+	"aliases": [
+		"CVE-2019-12466"
+	],
 	"summary": "Wikimedia MediaWiki allows CSRF",
 	"details": "Wikimedia MediaWiki through 1.32.1 allows CSRF in logout feature. ",
 	"severity": [

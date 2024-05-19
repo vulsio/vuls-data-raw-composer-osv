@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vpj8-xfqc-jcv9",
-	"modified": "2024-05-14T21:46:45.415606Z",
+	"modified": "2024-05-19T02:24:47.887663Z",
 	"published": "2024-05-14T18:30:57Z",
+	"aliases": [
+		"CVE-2024-4825"
+	],
 	"summary": "Cockpit CMS contains an arbitrary file upload vulenrability",
 	"details": "A vulnerability has been discovered in Agentejo Cockpit CMS v0.5.5 that consists in an arbitrary file upload in ‘/media/api’ parameter via post request. An attacker could upload files to the server, compromising the entire infrastructure.",
 	"severity": [

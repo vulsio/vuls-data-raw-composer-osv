@@ -1,11 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fg52-xjfc-9rh8",
-	"modified": "2023-11-08T04:00:42.617845Z",
+	"modified": "2024-05-19T02:24:04.681536Z",
 	"published": "2022-05-24T16:51:37Z",
 	"aliases": [
-		"CVE-2019-1020002",
-		"GHSA-vcm9-hx3q-qwj8"
+		"CVE-2019-1020002"
 	],
 	"summary": "Pterodactyl vulnerable to 2FA Sniffing",
 	"details": "**Pterodactyl version 0.7.13 and lower - 2FA Sniffing**\n\nUsers who have enabled 2FA protections on their account can unintentionally have their account's existence sniffed by malicious users who enter random credentials into the login fields.\n\n### Impact\nUsers who have enabled 2FA protections on their account can unintentionally have their account's existence sniffed by malicious users who enter random credentials into the login fields.\n\nA logical mistake was made when the original code was written that would wait to verify the user's password until they had provided 2FA credentials if it was enabled on their account. However, because of this you could enter a bad password for a known email and determine if the account exists if you got redirected to a 2FA page.\n\n### For more information\nIf you have any questions or comments about this advisory please react out on Discord or email dane@[project name].io.",

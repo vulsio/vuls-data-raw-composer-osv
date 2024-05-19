@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fqw7-839j-hvxj",
-	"modified": "2024-05-14T22:03:06.508815Z",
+	"modified": "2024-05-19T02:24:47.080051Z",
 	"published": "2024-05-14T18:31:02Z",
+	"aliases": [
+		"CVE-2024-34914"
+	],
 	"summary": "PHP Censor uses a weak hashing algorithm for the remember me key",
 	"details": "php-censor v2.1.4 and fixed in v.2.1.5 was discovered to utilize a weak hashing algorithm for its remember_key value. This allows attackers to bruteforce to bruteforce the remember_key value to gain access to accounts that have checked \"remember me\" when logging in.",
 	"severity": [

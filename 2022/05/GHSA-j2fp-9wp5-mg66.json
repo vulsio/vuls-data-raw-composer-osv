@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j2fp-9wp5-mg66",
-	"modified": "2024-05-17T22:47:21.908102Z",
+	"modified": "2024-05-19T02:24:41.129462Z",
 	"published": "2022-05-14T03:50:13Z",
+	"aliases": [
+		"CVE-2017-1000442"
+	],
 	"summary": "Passbolt API is vulnerable to XSS in the url field on the password workspace grid and sidebar",
 	"details": "Passbolt API version 1.6.4 and older are vulnerable to a XSS in the url field on the password workspace",
 	"severity": [

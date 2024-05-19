@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c7rm-w2hj-x8g3",
-	"modified": "2024-05-15T20:31:04.789304Z",
+	"modified": "2024-05-19T02:23:57.443909Z",
 	"published": "2022-05-24T17:27:24Z",
+	"aliases": [
+		"BIT-laravel-2020-24940",
+		"CVE-2020-24940"
+	],
 	"summary": "Guard bypass in Eloquent models affecting Laravel illuminate database component",
 	"details": "An issue was discovered in Laravel before 6.18.34 and 7.x before 7.23.2. Unvalidated values are saved to the database component in some situations in which table names are stripped during a mass assignment.",
 	"severity": [

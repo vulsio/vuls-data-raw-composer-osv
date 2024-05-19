@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-33xw-x3pr-rvqj",
-	"modified": "2024-05-15T23:11:28.761901Z",
+	"modified": "2024-05-19T02:24:42.421861Z",
 	"published": "2022-05-24T16:49:58Z",
+	"aliases": [
+		"CVE-2019-12473"
+	],
 	"summary": "Wikimedia Potential DOS due to slow WatchedItemStore::countVisitingWatchersMultiple",
 	"details": "Wikimedia MediaWiki 1.27.0 through 1.32.1 might allow DoS. Passing invalid titles to the API could cause a DoS by querying the entire watchlist table. Fixed in 1.32.2, 1.31.2, 1.30.2 and 1.27.6.",
 	"severity": [

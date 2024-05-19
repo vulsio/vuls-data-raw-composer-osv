@@ -1,8 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c533-c843-67h8",
-	"modified": "2024-05-15T21:01:19.699252Z",
+	"modified": "2024-05-19T02:24:11.858821Z",
 	"published": "2022-02-12T00:00:47Z",
+	"aliases": [
+		"BIT-drupal-2020-13669",
+		"CVE-2020-13669"
+	],
 	"summary": "Drupal core Cross-site Scripting (XSS) vulnerability in ckeditor",
 	"details": "Cross-site Scripting (XSS) vulnerability in ckeditor of Drupal Core allows attacker to inject XSS. This issue affects: Drupal Core 8.8.x versions prior to 8.8.10.; 8.9.x versions prior to 8.9.6; 9.0.x versions prior to 9.0.6.",
 	"severity": [

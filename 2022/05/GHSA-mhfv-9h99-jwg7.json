@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mhfv-9h99-jwg7",
-	"modified": "2024-05-15T23:11:35.020513Z",
+	"modified": "2024-05-19T02:24:41.678615Z",
 	"published": "2022-05-13T01:31:05Z",
+	"aliases": [
+		"CVE-2018-0503"
+	],
 	"summary": "Mediawiki Improper Privilege Management",
 	"details": "Mediawiki 1.31 before 1.31.1, 1.30.1, 1.29.3 and 1.27.5 contains a flaw where contrary to the documentation, $wgRateLimits entry for 'user' overrides that for 'newbie'.",
 	"severity": [

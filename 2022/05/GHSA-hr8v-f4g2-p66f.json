@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hr8v-f4g2-p66f",
-	"modified": "2024-05-15T23:02:28.637306Z",
+	"modified": "2024-05-19T02:24:41.739123Z",
 	"published": "2022-05-13T01:30:59Z",
+	"aliases": [
+		"CVE-2018-0504"
+	],
 	"summary": "Mediawiki information disclosure vulnerability",
 	"details": "Mediawiki 1.31 before 1.31.1, 1.30.1, 1.29.3 and 1.27.5 contains an information disclosure flaw in the Special:Redirect/logid",
 	"severity": [

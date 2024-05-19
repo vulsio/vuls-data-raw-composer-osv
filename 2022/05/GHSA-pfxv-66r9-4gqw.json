@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pfxv-66r9-4gqw",
-	"modified": "2024-05-15T23:25:11.970973Z",
+	"modified": "2024-05-19T02:24:42.726921Z",
 	"published": "2022-05-24T16:52:24Z",
+	"aliases": [
+		"CVE-2019-7872"
+	],
 	"summary": "Magento Insufficient authorization check when adding users to company accounts",
 	"details": "An insecure direct object reference (IDOR) vulnerability exists in Magento 2.1 prior to 2.1.18, Magento 2.2 prior to 2.2.9, Magento 2.3 prior to 2.3.2 due to insufficient authorizations checks. This can be abused by a user with admin privileges to add users to company accounts or modify existing user details.",
 	"severity": [

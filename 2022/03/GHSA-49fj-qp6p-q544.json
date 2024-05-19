@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-49fj-qp6p-q544",
-	"modified": "2024-05-15T21:34:11.154790Z",
+	"modified": "2024-05-19T02:24:44.378340Z",
 	"published": "2022-03-31T00:00:15Z",
+	"aliases": [
+		"CVE-2022-23799"
+	],
 	"summary": "Variable Tampering within joomla/input class",
 	"details": "An issue was discovered in Joomla! 4.0.0 through 4.1.0. Under specific circumstances, JInput pollutes method-specific input bags with $_REQUEST data.",
 	"severity": [
