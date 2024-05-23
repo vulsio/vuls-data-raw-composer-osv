@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gm5x-hpmw-xpxg",
-	"modified": "2024-02-17T05:35:03.465888Z",
+	"modified": "2024-05-22T19:42:01.053688Z",
 	"published": "2022-05-24T17:23:41Z",
 	"aliases": [
 		"BIT-silverstripe-2020-6164",
@@ -368,6 +368,14 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/silverstripe/silverstripe-framework/commit/91d30db88f68b9b87980ef9a59e208a81980b72c"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/silverstripe/silverstripe-framework/commit/cce2b1630937895aa28c2914837651e7cd56d74b"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2020-6164.yaml"
 		},
 		{
@@ -377,10 +385,6 @@
 		{
 			"type": "WEB",
 			"url": "https://www.silverstripe.org/download/security-releases/CVE-2020-6164"
-		},
-		{
-			"type": "WEB",
-			"url": "https://www.silverstripe.org/download/security-releases/cve-2020-6164"
 		}
 	],
 	"database_specific": {
