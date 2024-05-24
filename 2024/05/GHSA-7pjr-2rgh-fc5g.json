@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7pjr-2rgh-fc5g",
-	"modified": "2024-05-19T02:24:47.020619Z",
+	"modified": "2024-05-24T12:12:42.238108Z",
 	"published": "2024-05-14T20:17:27Z",
 	"aliases": [
+		"BIT-prestashop-2024-34717",
 		"CVE-2024-34717"
 	],
 	"summary": "Anonymous PrestaShop customer can download other customers' invoices",

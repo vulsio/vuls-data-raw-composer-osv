@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-45vm-3j38-7p78",
-	"modified": "2024-05-19T02:24:46.956018Z",
+	"modified": "2024-05-24T12:12:41.267802Z",
 	"published": "2024-05-14T20:17:12Z",
 	"aliases": [
+		"BIT-prestashop-2024-34716",
 		"CVE-2024-34716"
 	],
 	"summary": "PrestaShop cross-site scripting via customer contact form in FO, through file upload",
