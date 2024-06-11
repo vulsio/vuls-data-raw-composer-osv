@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qvqm-h22r-4cp9",
-	"modified": "2024-02-16T08:21:44.302698Z",
+	"modified": "2024-06-10T19:10:44.097008Z",
 	"published": "2022-05-14T00:56:30Z",
 	"aliases": [
 		"CVE-2018-15133"
@@ -11,7 +11,7 @@
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+			"score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
 		}
 	],
 	"affected": [
