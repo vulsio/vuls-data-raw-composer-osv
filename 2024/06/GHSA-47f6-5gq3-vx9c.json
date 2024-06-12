@@ -1,9 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-47f6-5gq3-vx9c",
-	"modified": "2024-06-11T18:31:03.917193Z",
+	"modified": "2024-06-12T08:57:11.835665Z",
 	"published": "2024-06-10T21:36:32Z",
 	"aliases": [
+		"BIT-composer-2024-35241",
+		"CGA-g75w-3gxm-gj8g",
 		"CVE-2024-35241"
 	],
 	"summary": "Composer has a command injection via malicious git branch name",
