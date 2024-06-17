@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m8cj-3v68-3cxj",
-	"modified": "2024-06-13T19:57:20.529177Z",
+	"modified": "2024-06-17T12:27:09.404963Z",
 	"published": "2024-06-13T09:31:00Z",
 	"aliases": [
+		"BIT-magento-2024-34102",
 		"CVE-2024-34102"
 	],
 	"summary": "Magento Open Source affected by an Improper Restriction of XML External Entity Reference ('XXE') vulnerability",
