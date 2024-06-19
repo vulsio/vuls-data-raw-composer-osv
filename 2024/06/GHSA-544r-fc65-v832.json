@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-544r-fc65-v832",
-	"modified": "2024-06-18T19:57:44.956637Z",
+	"modified": "2024-06-19T14:58:23.908659Z",
 	"published": "2024-06-14T12:30:50Z",
 	"aliases": [
 		"CVE-2024-5685"
@@ -287,6 +287,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/snipe/snipe-it/commit/34f1ea1c0ecd403047cd1327569ee391a7201cc1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://advisory.checkmarx.net/?search=CVE-2024-5685"
 		},
 		{
 			"type": "WEB",
