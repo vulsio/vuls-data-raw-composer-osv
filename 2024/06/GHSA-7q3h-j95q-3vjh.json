@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7q3h-j95q-3vjh",
-	"modified": "2024-06-24T20:57:45.304221Z",
+	"modified": "2024-06-25T12:44:27.732942Z",
 	"published": "2024-06-22T06:30:37Z",
 	"aliases": [
+		"BIT-opencart-2024-21519",
 		"CVE-2024-21519"
 	],
 	"summary": "Arbitrary File Creation in opencart",

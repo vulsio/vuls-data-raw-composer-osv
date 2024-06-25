@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pqhq-77pw-763c",
-	"modified": "2024-06-24T20:57:45.070464Z",
+	"modified": "2024-06-25T12:44:23.163903Z",
 	"published": "2024-06-22T06:30:36Z",
 	"aliases": [
+		"BIT-opencart-2024-21516",
 		"CVE-2024-21516"
 	],
 	"summary": "Cross site scripting in opencart",

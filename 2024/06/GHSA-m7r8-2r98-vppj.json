@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m7r8-2r98-vppj",
-	"modified": "2024-06-24T20:57:45.219955Z",
+	"modified": "2024-06-25T12:44:28.204534Z",
 	"published": "2024-06-22T06:30:37Z",
 	"aliases": [
+		"BIT-opencart-2024-21518",
 		"CVE-2024-21518"
 	],
 	"summary": "Zip slip in opencart",
