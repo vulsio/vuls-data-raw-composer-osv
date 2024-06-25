@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cr7j-rwmv-vgch",
-	"modified": "2024-06-20T16:46:20.039694Z",
+	"modified": "2024-06-25T02:29:03.463144Z",
 	"published": "2024-06-07T21:31:54Z",
 	"summary": "Duplicate Advisory: aimeos-core arbitrary file upload vulnerability",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-rhc2-23c2-ww7c. This link is maintained to preserve external references.\n\n## Original Description\nAn arbitrary file upload vulnerability in the image upload function of aimeos-core v2024.04 allows attackers to execute arbitrary code via uploading a crafted PHP file.",

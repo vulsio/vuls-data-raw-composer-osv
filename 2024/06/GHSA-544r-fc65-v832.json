@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-544r-fc65-v832",
-	"modified": "2024-06-19T14:58:23.908659Z",
+	"modified": "2024-06-25T02:40:11.159580Z",
 	"published": "2024-06-14T12:30:50Z",
 	"aliases": [
 		"CVE-2024-5685"

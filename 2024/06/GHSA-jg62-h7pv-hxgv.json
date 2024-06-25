@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jg62-h7pv-hxgv",
-	"modified": "2024-06-24T21:31:04.819325Z",
+	"modified": "2024-06-25T02:32:57.770801Z",
 	"published": "2024-06-21T09:30:26Z",
 	"aliases": [
 		"CVE-2024-38873"
