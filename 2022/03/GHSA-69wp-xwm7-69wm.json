@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-69wp-xwm7-69wm",
-	"modified": "2023-11-08T04:08:46.858215Z",
+	"modified": "2024-07-03T21:21:33.786567Z",
 	"published": "2022-03-22T00:00:43Z",
 	"aliases": [
 		"CVE-2022-25481"
@@ -86,6 +86,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-284",
 			"CWE-668"
 		],
 		"github_reviewed": true,
