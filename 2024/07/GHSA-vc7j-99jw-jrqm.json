@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vc7j-99jw-jrqm",
-	"modified": "2024-07-02T21:42:22.628692Z",
+	"modified": "2024-07-05T18:03:16.249687Z",
 	"published": "2024-07-02T21:20:33Z",
 	"aliases": [
 		"CVE-2024-39323"
@@ -121,6 +121,10 @@
 			"url": "https://github.com/aimeos/ai-admin-graphql/security/advisories/GHSA-vc7j-99jw-jrqm"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39323"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/aimeos/ai-admin-graphql/commit/2d89d98cdcad880a9244b50736b08c1a171379ca"
 		},
@@ -144,7 +148,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-02T21:20:33Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-07-02T16:15:04Z",
 		"severity": "HIGH"
 	}
 }

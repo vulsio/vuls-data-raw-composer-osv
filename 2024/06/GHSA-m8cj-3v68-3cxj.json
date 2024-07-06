@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m8cj-3v68-3cxj",
-	"modified": "2024-06-17T12:27:09.404963Z",
+	"modified": "2024-07-05T21:32:29.524745Z",
 	"published": "2024-06-13T09:31:00Z",
 	"aliases": [
 		"BIT-magento-2024-34102",
@@ -330,6 +330,10 @@
 		{
 			"type": "WEB",
 			"url": "https://helpx.adobe.com/security/products/magento/apsb24-40.html"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.vicarius.io/vsociety/posts/cosmicsting-critical-unauthenticated-xxe-vulnerability-in-adobe-commerce-and-magento-cve-2024-34102"
 		}
 	],
 	"database_specific": {

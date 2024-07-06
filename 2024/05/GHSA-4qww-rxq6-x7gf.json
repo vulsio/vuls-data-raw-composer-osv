@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4qww-rxq6-x7gf",
-	"modified": "2024-06-04T16:11:53.948776Z",
+	"modified": "2024-07-05T21:32:46.215271Z",
 	"published": "2024-05-31T21:30:52Z",
 	"aliases": [
 		"CVE-2024-33996"
 	],
 	"summary": "Moodle broken access control when setting calendar event type",
 	"details": "Incorrect validation of allowed event types in a calendar web service made it possible for some users to create events with types/audiences they did not have permission to publish to.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:N/I:H/A:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
