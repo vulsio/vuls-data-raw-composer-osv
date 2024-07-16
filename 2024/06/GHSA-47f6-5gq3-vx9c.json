@@ -1,12 +1,14 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-47f6-5gq3-vx9c",
-	"modified": "2024-06-25T02:34:34.654962Z",
+	"modified": "2024-07-15T22:12:04.160457Z",
 	"published": "2024-06-10T21:36:32Z",
 	"aliases": [
 		"BIT-composer-2024-35241",
-		"CGA-g75w-3gxm-gj8g",
 		"CVE-2024-35241"
+	],
+	"related": [
+		"CGA-g75w-3gxm-gj8g"
 	],
 	"summary": "Composer has a command injection via malicious git branch name",
 	"details": "### Impact\n\nThe `status`, `reinstall` and `remove` commands with packages installed from source via git containing specially crafted branch names in the repository can be used to execute code.\n\n### Patches\n\n2.2.24 for 2.2 LTS or 2.7.7 for mainline\n\n### Workarounds\n\nAvoid installing dependencies via git by using `--prefer-dist` or the `preferred-install: dist` config setting.\n",
