@@ -1,0 +1,90 @@
+{
+	"schema_version": "1.6.0",
+	"id": "GHSA-xrh7-2gfq-4rcq",
+	"modified": "2024-07-17T23:56:56.497194Z",
+	"published": "2024-07-17T21:31:38Z",
+	"aliases": [
+		"CVE-2024-40420"
+	],
+	"summary": "openCart Server-Side Template Injection (SSTI) vulnerability",
+	"details": "A Server-Side Template Injection (SSTI) vulnerability in the edit theme function of openCart project v4.0.2.3 allows attackers to execute arbitrary code via injecting a crafted payload.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:H/UI:N/VC:N/VI:N/VA:N/SC:H/SI:H/SA:H"
+		}
+	],
+	"affected": [
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "opencart/opencart",
+				"purl": "pkg:composer/opencart/opencart"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"last_affected": "4.0.2.3"
+						}
+					]
+				}
+			],
+			"versions": [
+				"2.2.0.0",
+				"2.3.0.0",
+				"2.3.0.1",
+				"2.3.0.2",
+				"3.0.0.0",
+				"3.0.0.2",
+				"3.0.1.1",
+				"3.0.1.2",
+				"3.0.2.0",
+				"3.0.3.0",
+				"3.0.3.1",
+				"3.0.3.2",
+				"3.0.3.3",
+				"3.0.3.4",
+				"3.0.3.5",
+				"3.0.3.6",
+				"3.0.3.7",
+				"3.0.3.8",
+				"3.0.3.9"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-xrh7-2gfq-4rcq/GHSA-xrh7-2gfq-4rcq.json"
+			}
+		}
+	],
+	"references": [
+		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40420"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/A3h1nt/CVEs/blob/main/OpenCart/Readme.md"
+		},
+		{
+			"type": "PACKAGE",
+			"url": "https://github.com/opencart/opencart"
+		}
+	],
+	"database_specific": {
+		"cwe_ids": [
+			"CWE-1336"
+		],
+		"github_reviewed": true,
+		"github_reviewed_at": "2024-07-17T23:36:49Z",
+		"nvd_published_at": "2024-07-17T19:15:11Z",
+		"severity": "HIGH"
+	}
+}
