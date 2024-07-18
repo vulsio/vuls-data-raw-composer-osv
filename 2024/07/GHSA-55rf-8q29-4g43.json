@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-55rf-8q29-4g43",
-	"modified": "2024-07-17T15:11:55.569943Z",
+	"modified": "2024-07-17T19:23:15.380649Z",
 	"published": "2024-07-17T14:32:18Z",
 	"aliases": [
 		"CVE-2024-40633"
@@ -332,6 +332,10 @@
 			"url": "https://github.com/Sylius/Sylius/security/advisories/GHSA-55rf-8q29-4g43"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40633"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/Sylius/Sylius/commit/d833b2871caa3b8d1f0a8207378bb778f0b90464"
 		},
@@ -347,7 +351,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-17T14:32:18Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-07-17T18:15:04Z",
 		"severity": "HIGH"
 	}
 }
