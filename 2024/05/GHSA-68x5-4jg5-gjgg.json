@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-68x5-4jg5-gjgg",
-	"modified": "2024-06-04T17:57:01.526962Z",
+	"modified": "2024-07-18T20:01:02.317035Z",
 	"published": "2024-05-31T21:30:55Z",
 	"aliases": [
 		"CVE-2024-34008"
 	],
 	"summary": "Moodle CSRF risk in analytics management of models",
 	"details": "Actions in the admin management of analytics models did not include the necessary token to prevent a CSRF risk.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -463,6 +469,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-06-04T17:36:33Z",
 		"nvd_published_at": "2024-05-31T21:15:09Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
