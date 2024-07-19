@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-68x5-4jg5-gjgg",
-	"modified": "2024-07-18T20:01:02.317035Z",
+	"modified": "2024-07-19T08:11:45.232283Z",
 	"published": "2024-05-31T21:30:55Z",
 	"aliases": [
+		"BIT-moodle-2024-34008",
 		"CVE-2024-34008"
 	],
 	"summary": "Moodle CSRF risk in analytics management of models",
