@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-chx7-9x8h-r5mg",
-	"modified": "2024-07-17T22:00:48.124373Z",
+	"modified": "2024-07-22T17:01:34.600448Z",
 	"published": "2024-07-17T14:27:37Z",
 	"aliases": [
 		"CVE-2024-32981"
@@ -482,6 +482,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/silverstripe/silverstripe-framework/commit/b8d20dc9d531550e06fd7da7a0eafa551922e2e1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2024-32981.yaml"
 		},
 		{
 			"type": "PACKAGE",
