@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-68jc-v27h-vhmw",
-	"modified": "2024-02-16T08:18:28.241870Z",
+	"modified": "2024-07-25T15:19:56.095875Z",
 	"published": "2021-10-12T16:28:25Z",
 	"aliases": [
 		"BIT-drupal-2020-13671",
