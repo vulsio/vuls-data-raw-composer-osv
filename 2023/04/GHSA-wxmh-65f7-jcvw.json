@@ -1,14 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wxmh-65f7-jcvw",
-	"modified": "2024-02-16T08:15:38.995218Z",
+	"modified": "2024-07-31T19:27:27.177373Z",
 	"published": "2023-04-19T18:25:53Z",
 	"aliases": [
-		"BIT-drupal-2022-24775",
-		"CVE-2022-24775",
 		"CVE-2023-29197",
 		"CVE-2023-29530",
-		"GHSA-q7rv-6hp3-vh96",
 		"GHSA-xv3h-4844-9h36"
 	],
 	"summary": "Improper header name validation in guzzlehttp/psr7",
