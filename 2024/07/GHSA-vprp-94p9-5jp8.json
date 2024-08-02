@@ -1,13 +1,23 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vprp-94p9-5jp8",
-	"modified": "2024-07-25T17:42:01.022633Z",
+	"modified": "2024-08-02T16:06:38.743272Z",
 	"published": "2024-07-24T21:31:30Z",
 	"aliases": [
 		"CVE-2024-40137"
 	],
 	"summary": "Dolibarr ERP CRM vulnerable to remote code execution (RCE) ",
 	"details": "Dolibarr ERP CRM before 19.0.2 was discovered to contain a remote code execution (RCE) vulnerability via the Computed field parameter under the Users Module Setup function.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -21,6 +31,9 @@
 					"events": [
 						{
 							"introduced": "0"
+						},
+						{
+							"fixed": "19.0.2"
 						}
 					]
 				}
@@ -140,7 +153,6 @@
 				"9.0.4"
 			],
 			"database_specific": {
-				"last_known_affected_version_range": "< 19.0.2",
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-vprp-94p9-5jp8/GHSA-vprp-94p9-5jp8.json"
 			}
 		}
@@ -160,10 +172,12 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-74"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-25T16:44:50Z",
 		"nvd_published_at": "2024-07-24T19:15:04Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
