@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3cpf-jmmc-8jm3",
-	"modified": "2024-08-02T13:42:03.353020Z",
+	"modified": "2024-08-08T15:20:28.431139Z",
 	"published": "2024-08-01T21:31:40Z",
 	"aliases": [
 		"CVE-2024-4353"
@@ -78,6 +78,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/concretecms/concretecms/commit/ff5a2aba7fbc1ff0368202a2c0afddea47136daf"
+		},
+		{
+			"type": "WEB",
+			"url": "https://documentation.concretecms.org/9-x/developers/introduction/version-history/933-release-notes"
 		},
 		{
 			"type": "PACKAGE",
