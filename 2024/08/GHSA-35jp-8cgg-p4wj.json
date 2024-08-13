@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-35jp-8cgg-p4wj",
-	"modified": "2024-08-08T17:24:15.126580Z",
+	"modified": "2024-08-12T19:20:46.405857Z",
 	"published": "2024-08-08T14:50:11Z",
 	"aliases": [
 		"CVE-2024-42356"
@@ -406,7 +406,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-1336"
+			"CWE-1336",
+			"CWE-94"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-08-08T14:50:11Z",
