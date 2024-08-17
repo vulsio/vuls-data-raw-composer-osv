@@ -1,13 +1,19 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-969f-v7jv-pgj3",
-	"modified": "2024-06-12T17:48:10.935732Z",
+	"modified": "2024-08-16T22:20:33.436728Z",
 	"published": "2024-05-04T21:30:33Z",
 	"aliases": [
 		"CVE-2024-34467"
 	],
 	"summary": "ThinkPHP Cross-Site Scripting Vulnerability",
 	"details": "ThinkPHP 8.0.3 allows remote attackers to exploit XSS due to inadequate filtering of function argument values in think_exception.tpl.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -182,6 +188,7 @@
 				"v6.0.13",
 				"v6.0.14",
 				"v6.0.15",
+				"v6.0.16",
 				"v6.0.2",
 				"v6.0.3",
 				"v6.0.4",
@@ -223,7 +230,9 @@
 		}
 	],
 	"database_specific": {
-		"cwe_ids": [],
+		"cwe_ids": [
+			"CWE-79"
+		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-05-06T14:24:22Z",
 		"nvd_published_at": "2024-05-04T20:15:07Z",
