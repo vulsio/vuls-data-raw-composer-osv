@@ -1,13 +1,23 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g9wg-98c2-qv3v",
-	"modified": "2024-04-15T18:43:52.534156Z",
+	"modified": "2024-08-19T21:09:33.122491Z",
 	"published": "2024-04-15T06:30:35Z",
 	"aliases": [
 		"CVE-2024-32489"
 	],
 	"summary": "TCPDF Cross-site Scripting vulnerability",
 	"details": "TCPDF before 6.7.4 mishandles calls that use HTML syntax.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:L/VI:L/VA:N/SC:L/SI:L/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -154,10 +164,7 @@
 				"6.5.0",
 				"6.6.0",
 				"6.6.1",
-				"6.6.2",
-				"6.6.5",
-				"6.7.2",
-				"6.7.3"
+				"6.6.2"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-g9wg-98c2-qv3v/GHSA-g9wg-98c2-qv3v.json"
@@ -188,7 +195,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-79"
+			"CWE-79",
+			"CWE-80"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-04-15T18:12:08Z",

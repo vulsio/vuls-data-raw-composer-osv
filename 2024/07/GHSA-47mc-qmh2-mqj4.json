@@ -1,17 +1,17 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-47mc-qmh2-mqj4",
-	"modified": "2024-07-19T22:57:15.939400Z",
+	"modified": "2024-08-19T21:29:10.151530Z",
 	"published": "2024-07-19T21:31:11Z",
 	"aliases": [
 		"CVE-2024-40400"
 	],
 	"summary": "Automad arbitrary file upload vulnerability",
-	"details": "An arbitrary file upload vulnerability in the image upload function of Automad v2.0.0 allows attackers to execute arbitrary code via a crafted file.",
+	"details": "An arbitrary file upload vulnerability in the image upload function of Automad v2.0.0 allows attackers to execute arbitrary code via a crafted file.\n\nThe malicious file has to be prepared and uploaded manually by the admin. Usually there is only one admin per site and that is the owner.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+			"score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H"
 		},
 		{
 			"type": "CVSS_V4",
@@ -33,7 +33,7 @@
 							"introduced": "0"
 						},
 						{
-							"last_affected": "2.0.0-alpha.5"
+							"fixed": "2.0.0-alpha.5"
 						}
 					]
 				}
@@ -43,8 +43,7 @@
 				"2.0.0-alpha.1",
 				"2.0.0-alpha.2",
 				"2.0.0-alpha.3",
-				"2.0.0-alpha.4",
-				"2.0.0-alpha.5"
+				"2.0.0-alpha.4"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-47mc-qmh2-mqj4/GHSA-47mc-qmh2-mqj4.json"
@@ -76,6 +75,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-07-19T22:39:49Z",
 		"nvd_published_at": "2024-07-19T19:15:09Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
