@@ -1,13 +1,23 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wfm3-gq9h-mrjm",
-	"modified": "2024-02-23T18:13:30.306537Z",
+	"modified": "2024-08-21T22:04:35.666645Z",
 	"published": "2024-02-23T00:30:33Z",
 	"aliases": [
 		"CVE-2022-25377"
 	],
 	"summary": "Appwrite Directory Traversal vulnerability",
 	"details": "The ACME-challenge endpoint in Appwrite 0.5.0 through 0.12.x before 0.12.2 allows remote attackers to read arbitrary local files via ../ directory traversal. In order to be vulnerable, `APP_STORAGE_CERTIFICATES/.well-known/acme-challenge` must exist on disk. (This pathname is automatically created if the user chooses to install Let's Encrypt certificates via Appwrite.)",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -98,6 +108,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-02-23T17:45:23Z",
 		"nvd_published_at": "2024-02-22T22:15:47Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
