@@ -1,11 +1,8 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g8h2-j9pm-4xx2",
-	"modified": "2024-08-23T23:12:17.161632Z",
+	"modified": "2024-08-26T15:55:35.012324Z",
 	"published": "2024-08-23T21:30:42Z",
-	"aliases": [
-		"CVE-2024-40111"
-	],
 	"summary": "Automad Cross-site Scripting vulnerability",
 	"details": "A persistent (stored) cross-site scripting (XSS) vulnerability has been identified in Automad 2.0.0-alpha.4. This vulnerability enables an attacker to inject malicious JavaScript code into the template body. The injected code is stored within the flat file CMS and is executed in the browser of any user visiting the forum.",
 	"severity": [
