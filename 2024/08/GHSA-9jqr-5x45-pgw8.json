@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9jqr-5x45-pgw8",
-	"modified": "2024-08-29T21:26:13.897409Z",
+	"modified": "2024-08-30T15:14:51.652285Z",
 	"published": "2024-08-29T00:31:35Z",
 	"aliases": [
 		"CVE-2024-45233"
@@ -280,6 +280,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-284",
 			"CWE-285"
 		],
 		"github_reviewed": true,
