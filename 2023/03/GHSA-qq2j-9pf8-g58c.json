@@ -1,10 +1,12 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qq2j-9pf8-g58c",
-	"modified": "2024-05-19T02:24:00.160688Z",
+	"modified": "2024-09-02T01:26:46.921289Z",
 	"published": "2023-03-12T06:30:21Z",
 	"aliases": [
-		"CVE-2022-48365"
+		"CVE-2022-48365",
+		"GHSA-8h83-chh2-fchp",
+		"GHSA-99r3-xmmq-7q7g"
 	],
 	"summary": "Company admin role gives excessive privileges in eZ Platform Ibexa",
 	"details": "Users with the Company admin role (introduced by the company account feature in v4) can assign any role to any user. This also applies to any other user that has the role / assign policy. Any subtree limitation in place does not have any effect.\n\nThe role / assign policy is typically only given to administrators, which limits the scope in most cases, but please verify who has this policy in your installaton. The fix ensures that subtree limitations are working as intended.",
