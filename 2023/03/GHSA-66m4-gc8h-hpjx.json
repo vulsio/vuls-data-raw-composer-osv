@@ -1,12 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-66m4-gc8h-hpjx",
-	"modified": "2023-11-08T04:11:03.185983Z",
+	"modified": "2024-09-03T04:56:51.321380Z",
 	"published": "2023-03-12T06:30:21Z",
 	"aliases": [
-		"CVE-2022-48366",
-		"GHSA-342c-vcff-2ff2",
-		"GHSA-xfqg-p48g-hh94"
+		"CVE-2022-48366"
 	],
 	"summary": "Timing attack in eZ Platform Ibexa",
 	"details": "Ibexa DXP is using random execution time to hinder timing attacks against user accounts, a method of discovering whether a given account exists in a system without knowing its password, thus affecting privacy. This implementation was found to not be good enough in some situations. The fix replaces this with constant time functionality, configured in the new security.yml parameter 'ibexa.security.authentication.constant_auth_time'. It will log a warning if the constant time is exceeded. If this happens the setting should be increased.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7pfc-cx3m-v22x",
-	"modified": "2023-11-08T04:08:04.225472Z",
+	"modified": "2024-09-03T04:12:12.946135Z",
 	"published": "2022-05-03T00:00:46Z",
 	"aliases": [
 		"CVE-2022-21149",
