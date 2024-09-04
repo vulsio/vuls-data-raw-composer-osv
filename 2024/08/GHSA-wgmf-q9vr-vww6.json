@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wgmf-q9vr-vww6",
-	"modified": "2024-08-29T21:39:41.756854Z",
+	"modified": "2024-09-04T14:53:43.992129Z",
 	"published": "2024-08-29T17:56:56Z",
 	"aliases": [
 		"CVE-2024-45046"
@@ -30,10 +30,36 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "2.0.0"
 						},
 						{
 							"fixed": "2.1.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"2.0.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-wgmf-q9vr-vww6/GHSA-wgmf-q9vr-vww6.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "phpoffice/phpspreadsheet",
+				"purl": "pkg:composer/phpoffice/phpspreadsheet"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.29.1"
 						}
 					]
 				}
@@ -84,8 +110,7 @@
 				"1.8.0",
 				"1.8.1",
 				"1.8.2",
-				"1.9.0",
-				"2.0.0"
+				"1.9.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-wgmf-q9vr-vww6/GHSA-wgmf-q9vr-vww6.json"
