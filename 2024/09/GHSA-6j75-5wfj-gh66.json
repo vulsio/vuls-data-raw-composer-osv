@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6j75-5wfj-gh66",
-	"modified": "2024-09-09T22:00:46.340300Z",
+	"modified": "2024-09-10T17:23:38.912663Z",
 	"published": "2024-09-09T20:19:26Z",
 	"aliases": [
 		"CVE-2024-45411"
@@ -259,10 +259,37 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.0.0"
+							"introduced": "3.12.0"
 						},
 						{
 							"fixed": "3.14.0"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v3.12.0",
+				"v3.13.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-6j75-5wfj-gh66/GHSA-6j75-5wfj-gh66.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "twig/twig",
+				"purl": "pkg:composer/twig/twig"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "3.0.0"
+						},
+						{
+							"fixed": "3.11.1"
 						}
 					]
 				}
@@ -281,8 +308,6 @@
 				"v3.10.2",
 				"v3.10.3",
 				"v3.11.0",
-				"v3.12.0",
-				"v3.13.0",
 				"v3.2.1",
 				"v3.3.0",
 				"v3.3.1",
@@ -332,6 +357,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/twigphp/Twig/commit/2102dd135986db79192d26fb5f5817a566e0a7de"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/twigphp/Twig/commit/41103dcdc2daab4c83cdd05b5b4fde5b7e41e635"
 		},
 		{
 			"type": "WEB",
