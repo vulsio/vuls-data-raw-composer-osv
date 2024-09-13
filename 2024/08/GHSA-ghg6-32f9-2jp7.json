@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-ghg6-32f9-2jp7",
-	"modified": "2024-09-04T15:08:13.900760Z",
+	"modified": "2024-09-13T13:49:07.094391Z",
 	"published": "2024-08-29T17:58:27Z",
 	"aliases": [
 		"CVE-2024-45048"
@@ -19,34 +19,6 @@
 		}
 	],
 	"affected": [
-		{
-			"package": {
-				"ecosystem": "Packagist",
-				"name": "phpoffice/phpspreadsheet",
-				"purl": "pkg:composer/phpoffice/phpspreadsheet"
-			},
-			"ranges": [
-				{
-					"type": "ECOSYSTEM",
-					"events": [
-						{
-							"introduced": "2.0.0"
-						},
-						{
-							"fixed": "2.2.1"
-						}
-					]
-				}
-			],
-			"versions": [
-				"2.0.0",
-				"2.1.0",
-				"2.2.0"
-			],
-			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-ghg6-32f9-2jp7/GHSA-ghg6-32f9-2jp7.json"
-			}
-		},
 		{
 			"package": {
 				"ecosystem": "Packagist",
@@ -113,6 +85,59 @@
 				"1.8.1",
 				"1.8.2",
 				"1.9.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-ghg6-32f9-2jp7/GHSA-ghg6-32f9-2jp7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "phpoffice/phpspreadsheet",
+				"purl": "pkg:composer/phpoffice/phpspreadsheet"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.2.0"
+						},
+						{
+							"fixed": "2.2.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"2.2.0"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-ghg6-32f9-2jp7/GHSA-ghg6-32f9-2jp7.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "phpoffice/phpspreadsheet",
+				"purl": "pkg:composer/phpoffice/phpspreadsheet"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.0.0"
+						},
+						{
+							"fixed": "2.1.1"
+						}
+					]
+				}
+			],
+			"versions": [
+				"2.0.0",
+				"2.1.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-ghg6-32f9-2jp7/GHSA-ghg6-32f9-2jp7.json"
