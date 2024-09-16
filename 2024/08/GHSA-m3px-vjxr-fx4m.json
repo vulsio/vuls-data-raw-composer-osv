@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m3px-vjxr-fx4m",
-	"modified": "2024-08-12T18:57:06.007322Z",
+	"modified": "2024-09-16T15:01:49.508848Z",
 	"published": "2024-08-12T18:36:10Z",
 	"aliases": [
 		"CVE-2024-42485"
@@ -30,10 +30,54 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "2.0.0-alpha"
 						},
 						{
 							"fixed": "2.3.3"
+						}
+					]
+				}
+			],
+			"versions": [
+				"v2.0.0",
+				"v2.0.0-alpha",
+				"v2.0.1",
+				"v2.1.0",
+				"v2.1.1",
+				"v2.1.2",
+				"v2.1.3",
+				"v2.1.4",
+				"v2.1.5",
+				"v2.1.6",
+				"v2.1.7",
+				"v2.1.8",
+				"v2.2.0",
+				"v2.2.1",
+				"v2.2.2",
+				"v2.2.3",
+				"v2.3.0",
+				"v2.3.1",
+				"v2.3.2"
+			],
+			"database_specific": {
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-m3px-vjxr-fx4m/GHSA-m3px-vjxr-fx4m.json"
+			}
+		},
+		{
+			"package": {
+				"ecosystem": "Packagist",
+				"name": "pxlrbt/filament-excel",
+				"purl": "pkg:composer/pxlrbt/filament-excel"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "0"
+						},
+						{
+							"fixed": "1.1.14"
 						}
 					]
 				}
@@ -62,26 +106,7 @@
 				"v1.1.6",
 				"v1.1.7",
 				"v1.1.8",
-				"v1.1.9",
-				"v2.0.0",
-				"v2.0.0-alpha",
-				"v2.0.1",
-				"v2.1.0",
-				"v2.1.1",
-				"v2.1.2",
-				"v2.1.3",
-				"v2.1.4",
-				"v2.1.5",
-				"v2.1.6",
-				"v2.1.7",
-				"v2.1.8",
-				"v2.2.0",
-				"v2.2.1",
-				"v2.2.2",
-				"v2.2.3",
-				"v2.3.0",
-				"v2.3.1",
-				"v2.3.2"
+				"v1.1.9"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/08/GHSA-m3px-vjxr-fx4m/GHSA-m3px-vjxr-fx4m.json"
@@ -99,11 +124,19 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/pxlrbt/filament-excel/commit/af36f933b032aefccc87d17431b6e74673b04af5"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/pxlrbt/filament-excel/commit/bda42891a4b0c15d5dab5da8c53a006ddadccfb7"
 		},
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/pxlrbt/filament-excel"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/pxlrbt/filament-excel/releases/tag/v1.1.14"
 		}
 	],
 	"database_specific": {
