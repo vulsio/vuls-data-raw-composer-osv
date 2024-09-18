@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vm6r-j788-hjh5",
-	"modified": "2024-09-17T15:28:24.130923Z",
+	"modified": "2024-09-17T22:34:10.501676Z",
 	"published": "2024-09-17T14:58:35Z",
 	"aliases": [
 		"CVE-2024-45398"
@@ -452,6 +452,10 @@
 			"url": "https://github.com/contao/contao/security/advisories/GHSA-vm6r-j788-hjh5"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45398"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/contao/contao/commit/9445d509f12a7f1b68a4794dcc5e3e459b363ebb"
 		},
@@ -478,7 +482,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-09-17T14:58:35Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-09-17T20:15:04Z",
 		"severity": "HIGH"
 	}
 }
