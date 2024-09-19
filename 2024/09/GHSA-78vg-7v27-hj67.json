@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-78vg-7v27-hj67",
-	"modified": "2024-09-10T19:05:49.920060Z",
+	"modified": "2024-09-18T19:45:57.312291Z",
 	"published": "2024-09-10T15:53:10Z",
 	"aliases": [
 		"CVE-2024-45592"
@@ -33,7 +33,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "6.0.0"
+							"fixed": "5.2.6"
 						}
 					]
 				}
@@ -117,6 +117,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/DamienHarper/auditor-bundle/commit/42ba2940d8b99467de0c806ea5655cc1c6882cd1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/DamienHarper/auditor-bundle/commit/e7deb377fa89677d44973b486d26d6a7374233ae"
 		},
 		{
 			"type": "PACKAGE",
