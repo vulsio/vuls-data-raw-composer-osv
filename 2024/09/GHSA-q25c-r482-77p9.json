@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q25c-r482-77p9",
-	"modified": "2024-09-17T21:44:21.858393Z",
+	"modified": "2024-09-23T16:45:58.406699Z",
 	"published": "2024-09-17T15:31:23Z",
 	"aliases": [
 		"CVE-2024-47047"
@@ -218,7 +218,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "11.0.0"
+							"introduced": "12.0.0"
 						},
 						{
 							"fixed": "12.4.1"
@@ -227,10 +227,6 @@
 				}
 			],
 			"versions": [
-				"11.0.0",
-				"11.0.1",
-				"11.1.0",
-				"11.2.0",
 				"12.0.0",
 				"12.0.1",
 				"12.0.2",
@@ -272,6 +268,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/in2code-de/powermail/commit/bbadb8d7a71ddb469d07d106551938c91465b811"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/in2code/powermail/CVE-2024-47047.yaml"
 		},
 		{
 			"type": "PACKAGE",
