@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6773-rfjv-c54w",
-	"modified": "2024-02-16T08:13:19.785603Z",
+	"modified": "2024-09-25T19:32:18.265261Z",
 	"published": "2023-09-20T03:30:17Z",
 	"aliases": [
 		"CVE-2023-38886"
@@ -173,6 +173,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-78",
 			"CWE-94"
 		],
 		"github_reviewed": true,
