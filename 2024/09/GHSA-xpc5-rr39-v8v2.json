@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xpc5-rr39-v8v2",
-	"modified": "2024-09-19T15:33:59.727272Z",
+	"modified": "2024-09-27T17:24:09.654362Z",
 	"published": "2024-09-18T22:05:59Z",
 	"aliases": [
 		"CVE-2021-27917"
@@ -352,6 +352,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-09-18T22:05:59Z",
 		"nvd_published_at": "2024-09-18T22:15:03Z",
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
