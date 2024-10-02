@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x8gm-j36p-fppf",
-	"modified": "2024-10-01T22:35:38.792480Z",
+	"modified": "2024-10-01T22:44:35.437003Z",
 	"published": "2024-10-01T22:27:32Z",
+	"aliases": [
+		"CVE-2024-47528"
+	],
 	"summary": "LibreNMS vulnerable to Stored Cross-site Scripting via File Upload",
 	"details": "### Summary\nStored Cross-Site Scripting (XSS) can archive via Uploading a new Background for a Custom Map.\n\n### Details\nUsers with \"admin\" role can set background for a custom map, this allow the upload of SVG file that can contain XSS payload which will trigger onload. This led to Stored Cross-Site Scripting (XSS).\n\n### PoC\n1. Login using an Admin role account.\n\n2. Go over to \"$URL/maps/custom\", the Manage Custom Maps.\n![image](https://github.com/user-attachments/assets/9d621532-7880-4010-b12d-efd377f0cfdd)\n\n3. Create a new map then choose to edit it.\n4. Choose the \"Set Background\" option.\n![image](https://github.com/user-attachments/assets/dc2e9453-ef3e-4649-a42f-60b7a2ad8189)\n\n5. Choose to upload a SVG file that have this content.\n```svg\n<svg xmlns=\"http://www.w3.org/2000/svg\" onload=\"alert(document.domain)\">\n  <circle cx=\"50\" cy=\"50\" r=\"40\" />\n</svg>\n```\n\n6. Once uploaded, there should be a link to the SVG return in the POST request to the API \"$URL/maps/custom/1/background\".\n![image](https://github.com/user-attachments/assets/dc224960-0bd3-42c9-ad49-2ec85b065939)\n\n7. Go over to that link on browser, should see a pop-up.\n![image](https://github.com/user-attachments/assets/47a7db14-bd89-48fe-885a-fd80a052115e)\n\n### Impact\nAttacker can use this to perform malicious java script code for malicious intent.\nThis would impact other Admin role users and the Global Read role users. Normal users does not have permission to read the file, so they are not affected.\n",
 	"severity": [
