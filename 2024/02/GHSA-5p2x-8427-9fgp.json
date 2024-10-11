@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5p2x-8427-9fgp",
-	"modified": "2024-02-16T08:17:05.571720Z",
+	"modified": "2024-10-11T07:41:56.064721Z",
 	"published": "2024-02-12T12:30:32Z",
 	"aliases": [
+		"BIT-moodle-2024-1439",
 		"CVE-2024-1439"
 	],
 	"summary": "Moodle Improper Access Control vulnerability",
