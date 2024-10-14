@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xg36-8c2v-jpxh",
-	"modified": "2024-10-11T18:42:20.476183Z",
+	"modified": "2024-10-14T08:41:53.140883Z",
 	"published": "2024-10-10T12:31:12Z",
 	"aliases": [
+		"BIT-magento-2024-45125",
 		"CVE-2024-45125"
 	],
 	"summary": "Magento Open Source Incorrect Authorization vulnerability",

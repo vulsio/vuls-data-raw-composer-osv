@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v3v6-jfvw-m576",
-	"modified": "2024-10-11T19:27:16.549192Z",
+	"modified": "2024-10-14T08:42:00.714199Z",
 	"published": "2024-10-10T12:31:12Z",
 	"aliases": [
+		"BIT-magento-2024-45130",
 		"CVE-2024-45130"
 	],
 	"summary": "Magento Open Source Improper Access Control vulnerability",

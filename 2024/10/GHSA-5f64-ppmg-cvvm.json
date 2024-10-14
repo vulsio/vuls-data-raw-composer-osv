@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5f64-ppmg-cvvm",
-	"modified": "2024-10-11T18:27:20.617558Z",
+	"modified": "2024-10-14T08:41:49.091909Z",
 	"published": "2024-10-10T12:31:13Z",
 	"aliases": [
+		"BIT-magento-2024-45132",
 		"CVE-2024-45132"
 	],
 	"summary": "Magento Open Source Improper Authorization vulnerability",
