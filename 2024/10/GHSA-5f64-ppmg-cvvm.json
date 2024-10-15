@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5f64-ppmg-cvvm",
-	"modified": "2024-10-14T08:41:49.091909Z",
+	"modified": "2024-10-14T20:24:04.776540Z",
 	"published": "2024-10-10T12:31:13Z",
 	"aliases": [
 		"BIT-magento-2024-45132",
@@ -359,7 +359,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-285"
+			"CWE-285",
+			"CWE-863"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-10-11T18:17:14Z",
