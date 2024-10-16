@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c7xm-rwqj-pgcj",
-	"modified": "2024-10-07T19:42:09.847920Z",
+	"modified": "2024-10-16T08:57:10.958055Z",
 	"published": "2024-10-07T18:31:07Z",
 	"aliases": [
+		"BIT-limesurvey-2024-28709",
 		"CVE-2024-28709"
 	],
 	"summary": "LimeSurvey Cross Site Scripting vulnerability",
