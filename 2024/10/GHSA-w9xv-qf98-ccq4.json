@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w9xv-qf98-ccq4",
-	"modified": "2024-10-07T22:33:25.271459Z",
+	"modified": "2024-10-16T22:24:57.800136Z",
 	"published": "2024-10-07T15:58:06Z",
 	"aliases": [
 		"CVE-2024-45291"
@@ -175,6 +175,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-22",
 			"CWE-36",
 			"CWE-918"
 		],
