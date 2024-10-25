@@ -1,8 +1,11 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qxgx-hvg3-v92w",
-	"modified": "2024-10-24T18:00:52.699578Z",
+	"modified": "2024-10-24T22:06:36.312546Z",
 	"published": "2024-10-24T17:48:40Z",
+	"aliases": [
+		"CVE-2024-47173"
+	],
 	"summary": "ai-admin-graphql has a Denial of service vulnerability in SaaS and marketplace setups",
 	"details": "All SaaS and marketplace setups using Aimeos version from 2024.04 up to 2024.07.1 are affected by a potential denial of service attack",
 	"severity": [
@@ -52,6 +55,10 @@
 			"url": "https://github.com/aimeos/ai-admin-graphql/security/advisories/GHSA-qxgx-hvg3-v92w"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47173"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/aimeos/ai-admin-graphql"
 		}
@@ -62,7 +69,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-10-24T17:48:40Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-10-24T19:15:14Z",
 		"severity": "MODERATE"
 	}
 }
