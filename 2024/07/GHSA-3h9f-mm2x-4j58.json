@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3h9f-mm2x-4j58",
-	"modified": "2024-07-30T17:29:20.300901Z",
+	"modified": "2024-10-25T22:10:55.531754Z",
 	"published": "2024-07-30T15:31:28Z",
 	"aliases": [
 		"CVE-2024-38909"
@@ -129,6 +129,10 @@
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/Studio-42/elFinder"
+		},
+		{
+			"type": "WEB",
+			"url": "http://elfinder.com"
 		}
 	],
 	"database_specific": {
