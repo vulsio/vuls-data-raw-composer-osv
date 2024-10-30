@@ -1,13 +1,23 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6j8f-88mh-r9vq",
-	"modified": "2024-10-25T22:27:06.556757Z",
+	"modified": "2024-10-29T22:00:55.086109Z",
 	"published": "2024-10-25T21:31:27Z",
 	"aliases": [
 		"CVE-2024-48224"
 	],
 	"summary": "SQL injection in funadmin",
 	"details": "Funadmin v5.0.2 has an arbitrary file read vulnerability in /curd/index/editfile.",
+	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+		},
+		{
+			"type": "CVSS_V4",
+			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:P"
+		}
+	],
 	"affected": [
 		{
 			"package": {
@@ -92,6 +102,7 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-22",
 			"CWE-89"
 		],
 		"github_reviewed": true,
