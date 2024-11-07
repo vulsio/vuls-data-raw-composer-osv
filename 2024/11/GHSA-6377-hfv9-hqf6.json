@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6377-hfv9-hqf6",
-	"modified": "2024-11-06T20:12:11.018238Z",
+	"modified": "2024-11-07T00:00:10.578293Z",
 	"published": "2024-11-06T19:52:31Z",
 	"aliases": [
 		"CVE-2024-51754"
@@ -30,7 +30,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "1.0.0"
 						},
 						{
 							"fixed": "3.11.2"
@@ -275,7 +275,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.12"
+							"introduced": "3.12.0"
 						},
 						{
 							"fixed": "3.14.1"
@@ -299,12 +299,24 @@
 			"url": "https://github.com/twigphp/Twig/security/advisories/GHSA-6377-hfv9-hqf6"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51754"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/twigphp/Twig/commit/2bb8c2460a2c519c498df9b643d5277117155a73"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/twig/twig/CVE-2024-51754.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/twigphp/Twig"
+		},
+		{
+			"type": "WEB",
+			"url": "https://symfony.com/blog/unguarded-calls-to-__tostring-when-nesting-an-object-into-an-array"
 		}
 	],
 	"database_specific": {
@@ -313,7 +325,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-11-06T19:52:31Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-11-06T20:15:05Z",
 		"severity": "LOW"
 	}
 }

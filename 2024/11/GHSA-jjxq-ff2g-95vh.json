@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jjxq-ff2g-95vh",
-	"modified": "2024-11-06T20:12:11.099675Z",
+	"modified": "2024-11-06T23:47:52.232016Z",
 	"published": "2024-11-06T19:52:55Z",
 	"aliases": [
 		"CVE-2024-51755"
@@ -30,7 +30,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "0"
+							"introduced": "1.0.0"
 						},
 						{
 							"fixed": "3.11.2"
@@ -275,7 +275,7 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "3.12"
+							"introduced": "3.12.0"
 						},
 						{
 							"fixed": "3.14.1"
@@ -299,12 +299,24 @@
 			"url": "https://github.com/twigphp/Twig/security/advisories/GHSA-jjxq-ff2g-95vh"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51755"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/twigphp/Twig/commit/831c148e786178e5f2fde9db67266be3bf241c21"
 		},
 		{
+			"type": "WEB",
+			"url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/twig/twig/CVE-2024-51755.yaml"
+		},
+		{
 			"type": "PACKAGE",
 			"url": "https://github.com/twigphp/Twig"
+		},
+		{
+			"type": "WEB",
+			"url": "https://symfony.com/blog/unguarded-calls-to-__isset-and-to-array-accesses-when-the-sandbox-is-enabled"
 		}
 	],
 	"database_specific": {
@@ -313,7 +325,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-11-06T19:52:55Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-11-06T20:15:06Z",
 		"severity": "LOW"
 	}
 }
