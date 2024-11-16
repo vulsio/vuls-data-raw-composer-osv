@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p66q-ppwr-q5j8",
-	"modified": "2024-11-15T16:12:21.550326Z",
+	"modified": "2024-11-15T21:24:46.573386Z",
 	"published": "2024-11-15T15:44:27Z",
 	"aliases": [
 		"CVE-2024-51495"
@@ -178,6 +178,10 @@
 			"url": "https://github.com/librenms/librenms/security/advisories/GHSA-p66q-ppwr-q5j8"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51495"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/librenms/librenms/commit/4568188ce9097a2e3a3b563311077f2bb82455c0"
 		},
@@ -192,7 +196,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-11-15T15:44:27Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-11-15T16:15:37Z",
 		"severity": "HIGH"
 	}
 }

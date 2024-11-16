@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-888j-pjqh-fx58",
-	"modified": "2024-11-15T16:27:46.821646Z",
+	"modified": "2024-11-15T21:11:01.143304Z",
 	"published": "2024-11-15T15:25:56Z",
 	"aliases": [
 		"CVE-2024-49759"
@@ -178,6 +178,10 @@
 			"url": "https://github.com/librenms/librenms/security/advisories/GHSA-888j-pjqh-fx58"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49759"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/librenms/librenms/commit/237f4d2e818170171dfad6efad36a275cd2ba8d0"
 		},
@@ -192,7 +196,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-11-15T15:25:56Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-11-15T16:15:35Z",
 		"severity": "HIGH"
 	}
 }

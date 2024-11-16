@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xh4g-c9p6-5jxg",
-	"modified": "2024-11-15T16:12:21.263686Z",
+	"modified": "2024-11-15T21:10:07.055737Z",
 	"published": "2024-11-15T15:30:05Z",
 	"aliases": [
 		"CVE-2024-50350"
@@ -178,6 +178,10 @@
 			"url": "https://github.com/librenms/librenms/security/advisories/GHSA-xh4g-c9p6-5jxg"
 		},
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50350"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/librenms/librenms/commit/82a744bfe29017b8b58b5752ab9e1b335bedf0a0"
 		},
@@ -192,7 +196,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-11-15T15:30:05Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-11-15T16:15:35Z",
 		"severity": "HIGH"
 	}
 }
