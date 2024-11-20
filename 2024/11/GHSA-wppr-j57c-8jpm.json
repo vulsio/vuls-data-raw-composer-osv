@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wppr-j57c-8jpm",
-	"modified": "2024-11-15T21:13:39.513959Z",
+	"modified": "2024-11-19T21:01:33.834964Z",
 	"published": "2024-11-15T12:31:44Z",
 	"aliases": [
 		"CVE-2021-3991"
@@ -169,7 +169,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-285"
+			"CWE-285",
+			"CWE-639"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-11-15T20:58:30Z",
