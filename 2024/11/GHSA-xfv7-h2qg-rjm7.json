@@ -1,21 +1,21 @@
 {
 	"schema_version": "1.6.0",
-	"id": "GHSA-x3x9-349x-2485",
-	"modified": "2024-11-20T18:34:57.218152Z",
-	"published": "2024-11-18T12:30:43Z",
+	"id": "GHSA-xfv7-h2qg-rjm7",
+	"modified": "2024-11-20T22:10:54.646094Z",
+	"published": "2024-11-20T12:30:35Z",
 	"aliases": [
-		"CVE-2024-48897"
+		"CVE-2024-45691"
 	],
-	"summary": "moodle: IDOR in edit/delete RSS feed",
-	"details": "A vulnerability was found in Moodle. Additional checks are required to ensure users can only edit or delete RSS feeds that they have permission to modify.",
+	"summary": "Moodle Lesson activity password bypass through PHP loose comparison",
+	"details": "A flaw was found in Moodle. When restricting access to a lesson activity with a password, certain passwords could be bypassed or less secure due to a loose comparison in the password-checking logic. This issue only affected passwords set to \"magic hash\" values.",
 	"severity": [
 		{
 			"type": "CVSS_V3",
-			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+			"score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
 		},
 		{
 			"type": "CVSS_V4",
-			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N"
+			"score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
 		}
 	],
 	"affected": [
@@ -33,7 +33,7 @@
 							"introduced": "0"
 						},
 						{
-							"fixed": "4.1.14"
+							"fixed": "4.1.13"
 						}
 					]
 				}
@@ -376,7 +376,6 @@
 				"v4.1.10",
 				"v4.1.11",
 				"v4.1.12",
-				"v4.1.13",
 				"v4.1.2",
 				"v4.1.3",
 				"v4.1.4",
@@ -387,7 +386,7 @@
 				"v4.1.9"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-x3x9-349x-2485/GHSA-x3x9-349x-2485.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-xfv7-h2qg-rjm7/GHSA-xfv7-h2qg-rjm7.json"
 			}
 		},
 		{
@@ -401,18 +400,20 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "4.2.0"
+							"introduced": "4.2.0-beta"
 						},
 						{
-							"fixed": "4.2.11"
+							"fixed": "4.2.10"
 						}
 					]
 				}
 			],
 			"versions": [
 				"v4.2.0",
+				"v4.2.0-beta",
+				"v4.2.0-rc1",
+				"v4.2.0-rc2",
 				"v4.2.1",
-				"v4.2.10",
 				"v4.2.2",
 				"v4.2.3",
 				"v4.2.4",
@@ -423,7 +424,7 @@
 				"v4.2.9"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-x3x9-349x-2485/GHSA-x3x9-349x-2485.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-xfv7-h2qg-rjm7/GHSA-xfv7-h2qg-rjm7.json"
 			}
 		},
 		{
@@ -437,26 +438,28 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "4.3.0"
+							"introduced": "4.3.0-beta"
 						},
 						{
-							"fixed": "4.3.8"
+							"fixed": "4.3.7"
 						}
 					]
 				}
 			],
 			"versions": [
 				"v4.3.0",
+				"v4.3.0-beta",
+				"v4.3.0-rc1",
+				"v4.3.0-rc2",
 				"v4.3.1",
 				"v4.3.2",
 				"v4.3.3",
 				"v4.3.4",
 				"v4.3.5",
-				"v4.3.6",
-				"v4.3.7"
+				"v4.3.6"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-x3x9-349x-2485/GHSA-x3x9-349x-2485.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-xfv7-h2qg-rjm7/GHSA-xfv7-h2qg-rjm7.json"
 			}
 		},
 		{
@@ -470,47 +473,61 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
-							"introduced": "4.4.0"
+							"introduced": "4.4.0-beta"
 						},
 						{
-							"fixed": "4.4.4"
+							"fixed": "4.4.3"
 						}
 					]
 				}
 			],
 			"versions": [
 				"v4.4.0",
+				"v4.4.0-beta",
+				"v4.4.0-rc1",
+				"v4.4.0-rc2",
 				"v4.4.1",
-				"v4.4.2",
-				"v4.4.3"
+				"v4.4.2"
 			],
 			"database_specific": {
-				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-x3x9-349x-2485/GHSA-x3x9-349x-2485.json"
+				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-xfv7-h2qg-rjm7/GHSA-xfv7-h2qg-rjm7.json"
 			}
 		}
 	],
 	"references": [
 		{
 			"type": "ADVISORY",
-			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48897"
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45691"
 		},
 		{
 			"type": "WEB",
-			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2318821"
+			"url": "https://github.com/moodle/moodle/commit/3fc1073d304f660d2552b591c5fb92547ed01e92"
+		},
+		{
+			"type": "WEB",
+			"url": "https://bugzilla.redhat.com/show_bug.cgi?id=2309940"
 		},
 		{
 			"type": "PACKAGE",
 			"url": "https://github.com/moodle/moodle"
+		},
+		{
+			"type": "WEB",
+			"url": "https://moodle.org/mod/forum/discuss.php?d=461897#p1854494"
+		},
+		{
+			"type": "WEB",
+			"url": "https://moodle.org/security"
 		}
 	],
 	"database_specific": {
 		"cwe_ids": [
 			"CWE-285",
-			"CWE-863"
+			"CWE-289"
 		],
 		"github_reviewed": true,
-		"github_reviewed_at": "2024-11-18T23:46:24Z",
-		"nvd_published_at": "2024-11-18T12:15:18Z",
+		"github_reviewed_at": "2024-11-20T18:25:26Z",
+		"nvd_published_at": "2024-11-20T11:15:05Z",
 		"severity": "MODERATE"
 	}
 }
