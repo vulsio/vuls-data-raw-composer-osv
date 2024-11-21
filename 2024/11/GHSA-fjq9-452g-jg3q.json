@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fjq9-452g-jg3q",
-	"modified": "2024-11-19T00:12:17.821846Z",
+	"modified": "2024-11-21T07:56:53.391560Z",
 	"published": "2024-11-18T12:30:43Z",
 	"aliases": [
+		"BIT-moodle-2024-48898",
 		"CVE-2024-48898"
 	],
 	"summary": "moodle: Some users can delete audiences of other reports",

@@ -1,9 +1,10 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cq5f-wv7p-5gfc",
-	"modified": "2024-11-19T00:12:17.684798Z",
+	"modified": "2024-11-21T07:56:53.627021Z",
 	"published": "2024-11-18T12:30:43Z",
 	"aliases": [
+		"BIT-moodle-2024-48896",
 		"CVE-2024-48896"
 	],
 	"summary": "Moodle leaks user names",
