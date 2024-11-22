@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xcr9-pm5w-gvh2",
-	"modified": "2024-08-02T13:42:03.286681Z",
+	"modified": "2024-11-22T05:42:49.430823Z",
 	"published": "2024-07-26T18:30:38Z",
 	"aliases": [
 		"CVE-2024-41374"
@@ -68,6 +68,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-08-02T13:19:58Z",
 		"nvd_published_at": "2024-07-26T17:15:12Z",
-		"severity": "MODERATE"
+		"severity": "HIGH"
 	}
 }
