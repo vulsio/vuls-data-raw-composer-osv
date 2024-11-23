@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fwhc-mm9q-mqq8",
-	"modified": "2024-11-12T22:00:53.994957Z",
+	"modified": "2024-11-23T05:24:09.496082Z",
 	"published": "2024-05-22T21:30:34Z",
 	"aliases": [
 		"CVE-2024-25737"
@@ -114,8 +114,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-918",
-			"CWE-79"
+			"CWE-79",
+			"CWE-918"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-05-23T14:13:15Z",
