@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f7q4-9gwv-6774",
-	"modified": "2024-08-07T17:56:47.678170Z",
+	"modified": "2024-11-27T05:24:45.567579Z",
 	"published": "2024-06-13T09:31:00Z",
 	"aliases": [
 		"BIT-magento-2024-34103",
@@ -343,6 +343,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-08-07T17:43:00Z",
 		"nvd_published_at": "2024-06-13T09:15:10Z",
-		"severity": "HIGH"
+		"severity": "CRITICAL"
 	}
 }
