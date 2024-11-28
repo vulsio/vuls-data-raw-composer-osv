@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mx3p-fhpw-x6rv",
-	"modified": "2024-06-11T21:34:06.070276Z",
+	"modified": "2024-11-28T05:29:46.950136Z",
 	"published": "2024-04-19T18:31:11Z",
 	"aliases": [
 		"CVE-2024-22640"

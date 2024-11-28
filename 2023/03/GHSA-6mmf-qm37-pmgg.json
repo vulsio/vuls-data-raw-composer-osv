@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6mmf-qm37-pmgg",
-	"modified": "2023-04-11T01:46:32.105169Z",
+	"modified": "2024-11-28T05:41:16.165906Z",
 	"published": "2023-03-29T18:30:29Z",
 	"summary": "Duplicate Advisory: Pimcore vulnerable to Reflected XSS in Predefined Properties module in Settings",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of [GHSA-7r35-chv4-xr3r](https://github.com/advisories/GHSA-7r35-chv4-xr3r). This link is maintained ot preserve external references.\n\n## Original Description\nCross-site Scripting (XSS) - Reflected in GitHub repository pimcore/pimcore prior to 10.5.20.",

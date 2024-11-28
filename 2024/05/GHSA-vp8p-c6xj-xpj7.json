@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vp8p-c6xj-xpj7",
-	"modified": "2024-05-23T17:15:46.379696Z",
+	"modified": "2024-11-28T05:51:23.328707Z",
 	"published": "2024-05-23T17:12:13Z",
 	"summary": "Silverstripe External redirection risk in Security?ReturnURL",
 	"details": "A vulnerability has been found in the SilverStripe framework where a login url can be potentially redirected to an external site.\n\nFor example, the url http://www.my-silverstripe-site.com/Security/login?BackURL=/\\attacker-site.com will redirect successful logins to the page http://attacker-site.com. If that website were set up to look identical to the first with \"login failed\" then the user will likely just enter their user/pass again.",

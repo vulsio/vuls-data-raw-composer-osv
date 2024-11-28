@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-69fc-v223-6rjw",
-	"modified": "2023-04-11T01:49:45.444020Z",
+	"modified": "2024-11-28T05:33:50.936665Z",
 	"published": "2023-03-29T18:30:29Z",
 	"summary": "Duplicate Advisory: Pimcore Cross-site scripting in Predefined Asset Metadata module in Settings",
 	"details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of [GHSA-6qjm-39vh-729w](https://github.com/advisories/GHSA-6qjm-39vh-729w). This link is maintained ot preserve external references.\n\n## Original Description\nCross-site Scripting (XSS) - Generic in GitHub repository pimcore/pimcore prior to 10.5.20.",

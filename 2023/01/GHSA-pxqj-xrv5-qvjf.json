@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pxqj-xrv5-qvjf",
-	"modified": "2023-04-11T01:48:47.786599Z",
+	"modified": "2024-11-28T05:38:57.339179Z",
 	"published": "2023-01-11T23:51:00Z",
 	"summary": "XML-RPC for PHP's debugger vulnerable to possible XSS attack",
 	"details": "The bundled xml-rpc debugger is susceptible to XSS attacks.\n\nSince the debugger is not designed to be exposed to end users but only to the developers using this library, and in the default configuration it is not exposed to requests from the web, the likelihood of exploitation may be low.",

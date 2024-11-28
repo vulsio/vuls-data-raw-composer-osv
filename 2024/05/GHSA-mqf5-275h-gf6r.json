@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mqf5-275h-gf6r",
-	"modified": "2024-05-23T17:31:16.336869Z",
+	"modified": "2024-11-28T05:33:28.929622Z",
 	"published": "2024-05-23T17:27:19Z",
 	"summary": "Silverstripe framework is vulnerable to XSS in install.php",
 	"details": "During installation, certain parameters (admin_username and admin_password) are not escaped in the setup form.\n\nThis issue is resolved in 3.1.14 stable, although existing users are advised to remove this file prior to deploying to a production server.",

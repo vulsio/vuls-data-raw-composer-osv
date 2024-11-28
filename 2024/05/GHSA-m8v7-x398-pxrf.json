@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m8v7-x398-pxrf",
-	"modified": "2024-05-23T19:49:07.486517Z",
+	"modified": "2024-11-28T05:38:34.388350Z",
 	"published": "2024-05-23T19:33:34Z",
 	"summary": "Silverstripe XSS in CMS Edit Page",
 	"details": "Due to a lack of parameter sanitisation a carefully crafted URL could be used to inject arbitrary HTML into the CMS Edit page.\n\nAn attacker could create a URL and share it with a site administrator to perform an attack.",

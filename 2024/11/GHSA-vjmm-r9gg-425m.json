@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vjmm-r9gg-425m",
-	"modified": "2024-11-07T18:42:15.624176Z",
+	"modified": "2024-11-28T05:41:05.235299Z",
 	"published": "2024-11-07T15:31:52Z",
 	"aliases": [
 		"CVE-2024-43426"

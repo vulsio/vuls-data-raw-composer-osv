@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vj2j-6g3w-4662",
-	"modified": "2024-05-23T19:49:07.179206Z",
+	"modified": "2024-11-28T05:31:51.042310Z",
 	"published": "2024-05-23T19:41:41Z",
 	"summary": "Silverstripe Missing CSRF protection in login form",
 	"details": "LoginForm calls disableSecurityToken(), which causes a \"shared host domain\" vulnerability: http://stackoverflow.com/a/15350123.",

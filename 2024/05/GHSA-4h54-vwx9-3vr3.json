@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4h54-vwx9-3vr3",
-	"modified": "2024-05-23T15:30:46.389964Z",
+	"modified": "2024-11-28T05:38:03.782562Z",
 	"published": "2024-05-23T15:23:50Z",
 	"summary": "Silverstripe XSS In FormAction",
 	"details": "A cross-site scripting vulnerability has been discovered in the FormAction field where a user-specified title may be specified.",

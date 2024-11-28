@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qf6m-6m4g-rmrc",
-	"modified": "2024-09-18T22:27:17.025539Z",
+	"modified": "2024-11-28T05:39:50.154296Z",
 	"published": "2024-09-18T22:06:13Z",
 	"aliases": [
 		"CVE-2024-47051"
@@ -349,6 +349,6 @@
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-09-18T22:06:13Z",
 		"nvd_published_at": null,
-		"severity": "HIGH"
+		"severity": "MODERATE"
 	}
 }
