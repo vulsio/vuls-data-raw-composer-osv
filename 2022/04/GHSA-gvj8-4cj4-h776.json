@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gvj8-4cj4-h776",
-	"modified": "2023-04-11T01:41:45.514965Z",
+	"modified": "2024-11-29T05:42:44.191217Z",
 	"published": "2022-04-29T15:40:48Z",
 	"summary": "Object state limitation has no effect",
 	"details": "Object state limitation is a policy you can use in your roles to limit access to content based on specific object state values. Due to a flawed earlier update, these limitations were ineffective in releases made since February 16th 2022. They would grant access to the given content regardless of the object state. Depending on how your frontent is designed, knowing the URL to the content may or may not be required to access it. If you are using object state limitations in your roles, this issue is critical. Please apply the fix as soon as possible.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-65xh-hh78-6454",
-	"modified": "2024-05-15T18:17:06.976044Z",
+	"modified": "2024-11-29T05:41:25.167078Z",
 	"published": "2024-05-15T18:03:12Z",
 	"summary": "Denial of Service in extension \"Code Highlight\" (codehighlight)",
 	"details": "The codehighlight extension bundles a vulnerable version of the 3rd party JavaScript component “prism” which is known to be vulnerable against Regular expression Denial of Service (ReDoS).",

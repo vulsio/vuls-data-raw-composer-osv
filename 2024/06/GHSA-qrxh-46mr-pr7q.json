@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qrxh-46mr-pr7q",
-	"modified": "2024-06-03T15:08:28.696069Z",
+	"modified": "2024-11-29T05:30:25.025588Z",
 	"published": "2024-06-03T14:39:16Z",
 	"summary": "TYPO3 is susceptible to Cross-Site Flashing",
 	"details": "The flashplayer misses to validate flash and image files. Therefore it is possible to embed flash videos from external domains.",

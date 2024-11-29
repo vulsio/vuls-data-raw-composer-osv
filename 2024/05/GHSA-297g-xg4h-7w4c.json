@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-297g-xg4h-7w4c",
-	"modified": "2024-05-15T22:02:36.417743Z",
+	"modified": "2024-11-29T05:23:08.769002Z",
 	"published": "2024-05-15T21:54:05Z",
 	"summary": "Laravel Cross-site Scripting vulnerability in blade templating",
 	"details": "Laravel is prone to a Cross-site Scripting vulnerability in blade templating.",

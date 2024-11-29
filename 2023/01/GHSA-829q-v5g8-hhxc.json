@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-829q-v5g8-hhxc",
-	"modified": "2023-04-11T01:46:52.101210Z",
+	"modified": "2024-11-29T05:49:50.887363Z",
 	"published": "2023-01-20T23:02:02Z",
 	"summary": "CakePHP has incorrect Cross-Site Request Forgery validation",
 	"details": "CsrfComponent fails to invalidate requests that are missing both the CSRF token, and CSRF post data.",

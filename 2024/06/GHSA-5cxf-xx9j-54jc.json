@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5cxf-xx9j-54jc",
-	"modified": "2024-06-03T14:57:56.308483Z",
+	"modified": "2024-11-29T05:42:25.697334Z",
 	"published": "2024-06-03T14:29:56Z",
 	"summary": "Multiple Cross-Site Scripting vulnerabilities in TYPO3 backend",
 	"details": "Failing to properly encode user input, several backend components are susceptible to Cross-Site Scripting, allowing authenticated editors to inject arbitrary HTML or JavaScript.",

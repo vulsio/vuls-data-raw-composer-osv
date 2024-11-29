@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9wv8-3h8h-x2wc",
-	"modified": "2024-05-15T19:01:25.835499Z",
+	"modified": "2024-11-29T05:40:17.341383Z",
 	"published": "2024-05-15T18:45:10Z",
 	"summary": "doctrine/doctrine-module zero-valued authentication credentials vulnerability",
 	"details": "it is possible (under certain circumstances) to obtain a valid `Zend\\Authentication` identity even without knowing the user's credentials by using a numerically valued credential in `DoctrineModule\\Authentication\\Adapter\\ObjectRepository`.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-fgrx-4637-fcf5",
-	"modified": "2024-05-15T22:02:51.927647Z",
+	"modified": "2024-11-29T05:41:40.264116Z",
 	"published": "2024-05-15T21:46:56Z",
 	"summary": "fuel/core Crypt encryption compromised.",
 	"details": "In fuel/core versions pior to 1.8.1, with the right knowledge, code, and GPU calculation power, Crypt encryption can be broken in minutes.\n\n",

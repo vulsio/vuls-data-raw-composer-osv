@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7fjv-25q9-2w88",
-	"modified": "2024-05-15T22:31:17.546806Z",
+	"modified": "2024-11-29T05:40:04.775960Z",
 	"published": "2024-05-15T22:26:19Z",
 	"summary": "State Guessing Vulnerability in laravel/socialite",
 	"details": "laravel/socialite versions prior to 2.0.10 are susceptible to a security vulnerability related to state guessing during OAuth authentication. This vulnerability could potentially lead to session hijacking, allowing attackers to compromise user sessions. The issue has been addressed and fixed in version 2.0.10.\n\n",

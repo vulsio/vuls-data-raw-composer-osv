@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jwvj-pwww-3mj5",
-	"modified": "2024-05-15T22:31:50.158684Z",
+	"modified": "2024-11-29T05:39:56.521856Z",
 	"published": "2024-05-15T22:19:51Z",
 	"summary": "laravel framework Unexpected database bindings via requests",
 	"details": "This is a follow-up to the security advisory https://github.com/laravel/framework/security/advisories/GHSA-3p32-j457-pg5x which addresses a few additional edge cases.\n\nIf a request is crafted where a field that is normally a non-array value is an array, and that input is not validated or cast to its expected type before being passed to the query builder, an unexpected number of query bindings can be added to the query. In some situations, this will simply lead to no results being returned by the query builder; however, it is possible certain queries could be affected in a way that causes the query to return unexpected results.",

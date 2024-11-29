@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8j7c-682x-r9f2",
-	"modified": "2024-05-15T22:49:52.862701Z",
+	"modified": "2024-11-29T05:40:59.936750Z",
 	"published": "2024-05-15T22:34:11Z",
 	"summary": "Magento RCE,XSS and other vulnerabilities",
 	"details": "Magento Commerce and Open Source 2.3.0, 2.2.7 and 2.1.16 contain multiple security enhancements that help close Remote Code Execution (RCE), Cross-Site Scripting (XSS) and other vulnerabilities.\n\n",

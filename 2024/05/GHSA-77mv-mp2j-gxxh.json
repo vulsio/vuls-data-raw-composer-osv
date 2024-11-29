@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-77mv-mp2j-gxxh",
-	"modified": "2024-05-15T18:04:10.052904Z",
+	"modified": "2024-11-29T05:25:19.558773Z",
 	"published": "2024-05-15T17:36:47Z",
 	"summary": "pygmentize Remote Code Execution",
 	"details": "pygmentize is prone to remote code execution due to an unsafe sanitazation of user input when passed to the `highlight` function.",

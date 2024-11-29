@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qf65-hph9-453r",
-	"modified": "2024-05-15T21:16:20.016929Z",
+	"modified": "2024-11-29T05:42:35.616152Z",
 	"published": "2024-05-15T21:02:55Z",
 	"summary": "Drupal Cross-Site Scripting (XSS) affecting CKEditor Third-party library",
 	"details": "The Drupal project uses the CKEditor, library for WYSIWYG editing. CKEditor has released a security update that impacts Drupal.\n\nVulnerabilities are possible if Drupal is configured to allow use of the CKEditor library for WYSIWYG editing. An attacker that can create or edit content (even without access to CKEditor themselves) may be able to exploit one or more Cross-Site Scripting (XSS) vulnerabilities to target users with access to the WYSIWYG CKEditor, including site admins with privileged access.",

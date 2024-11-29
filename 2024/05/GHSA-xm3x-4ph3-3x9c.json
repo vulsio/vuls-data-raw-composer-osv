@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xm3x-4ph3-3x9c",
-	"modified": "2024-05-15T21:46:50.960155Z",
+	"modified": "2024-11-29T05:29:39.220098Z",
 	"published": "2024-05-15T21:39:29Z",
 	"summary": "friendsofsymfony/oauth2-php open redirection in oauth",
 	"details": "An open redirection vulnerability has been identified in the friendsofsymfony/oauth2-php library, which could potentially expose users to unauthorized redirects during the OAuth authentication process. This vulnerability has been addressed by implementing an exact check for the domain and port, ensuring more secure redirection.",

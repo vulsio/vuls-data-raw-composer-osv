@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w333-5f96-mjrr",
-	"modified": "2024-05-15T21:18:42.442660Z",
+	"modified": "2024-11-29T05:41:33.784831Z",
 	"published": "2024-05-15T20:59:57Z",
 	"summary": "Drupal core Denial of Service",
 	"details": "A visit to install.php can cause cached data to become corrupted. This could cause a site to be impaired until caches are rebuilt.",

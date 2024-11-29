@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7f4f-p7mq-p4fv",
-	"modified": "2024-05-15T20:31:37.039339Z",
+	"modified": "2024-11-29T05:49:13.822092Z",
 	"published": "2024-05-15T20:24:16Z",
 	"summary": "Drupal External URL injection through URL aliases leading to Open Redirect",
 	"details": "The path module in Drupal allows users with the 'administer paths' to create pretty URLs for content.\nIn certain circumstances the user can enter a particular path that triggers an open redirect to a malicious url.",

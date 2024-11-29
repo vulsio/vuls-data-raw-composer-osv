@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-32rx-xvvr-4xv9",
-	"modified": "2024-05-15T18:01:33.763547Z",
+	"modified": "2024-11-29T05:30:47.362576Z",
 	"published": "2024-05-15T17:45:51Z",
 	"summary": "easyadmin-extension-bundle action case insensitivity",
 	"details": "In alterphp/easyadmin-extension-bundle, role based access rules do not handle action name case sensitivity which may lead to unauthorized access.",

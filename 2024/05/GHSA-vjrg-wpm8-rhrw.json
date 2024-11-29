@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vjrg-wpm8-rhrw",
-	"modified": "2024-05-15T20:32:24.845218Z",
+	"modified": "2024-11-29T05:42:43.555345Z",
 	"published": "2024-05-15T20:19:47Z",
 	"summary": "doctrine/orm Regression in Query Parenthesis can have Security Implications",
 	"details": "An issue identified in doctrine/orm project related to statement in Where-Clause were not wrapped in brackets due to improper hadandling of case insensitive check.",

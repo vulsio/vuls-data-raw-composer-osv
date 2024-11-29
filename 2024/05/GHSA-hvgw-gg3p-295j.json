@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hvgw-gg3p-295j",
-	"modified": "2024-05-15T22:16:35.539763Z",
+	"modified": "2024-11-29T05:40:37.431105Z",
 	"published": "2024-05-15T22:03:47Z",
 	"summary": "Read private customer data reclaiming carts in Klaviyo Magento",
 	"details": "A researcher identified an endpoint in a thirth party module Klaviyo Magento 2 which allows to read private customer data from stores. It works by reclaiming any guest-cart as your own and reading the private data for the orders in the Magento API.\n\n",

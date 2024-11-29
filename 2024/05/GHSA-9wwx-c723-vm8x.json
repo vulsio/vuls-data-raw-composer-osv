@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9wwx-c723-vm8x",
-	"modified": "2024-05-15T21:45:59.467376Z",
+	"modified": "2024-11-29T05:35:46.897085Z",
 	"published": "2024-05-15T21:17:31Z",
 	"summary": "eZ Platform REST API returns list of all SiteAccesses",
 	"details": "This security advisory fixes a vulnerability in eZ Platform, and we recommend that you install it as soon as possible. The issue is that the REST API may be made to disclose the names of all available site accesses. The severity of this depends on your installation, please consider your response accordingly.\n\nTo install, use Composer to update \"ezsystems/ezpublish-kernel\" to one of the \"Resolving versions\" mentioned above, or apply this patch manually:\nhttps://github.com/ezsystems/ezpublish-kernel/commit/1551723ec134878a4cb598bfc5d900ba6164117a",

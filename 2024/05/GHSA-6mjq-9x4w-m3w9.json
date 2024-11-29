@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6mjq-9x4w-m3w9",
-	"modified": "2024-05-15T21:46:49.340500Z",
+	"modified": "2024-11-29T05:40:46.397504Z",
 	"published": "2024-05-15T21:42:56Z",
 	"summary": "FOSUserBundle Session Hijacking Vulnerability",
 	"details": "Versions of FOSUserBundle from 1.2.x to 1.2.4 have been found to contain a security vulnerability related to session hijacking. This issue has been addressed in version 1.2.4, and users are strongly advised to upgrade to the latest version to prevent potential session-related security risks.",

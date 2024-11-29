@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q79m-c546-2g63",
-	"modified": "2023-04-11T01:27:57.047785Z",
+	"modified": "2024-11-29T05:40:08.569689Z",
 	"published": "2023-01-20T23:23:26Z",
 	"summary": "CakePHP vulnerable to Denial of Service attack through XML payloads",
 	"details": "RequestHandlerComponent had a vulnerability that would allow well crafted requests to create a denial of service attack. RequestHandlerComponent leverages `Xml::build()` which allows reading local files. We recommend that all applications using RequestHandlerComponent upgrade, or disable parsing XML payloads.",

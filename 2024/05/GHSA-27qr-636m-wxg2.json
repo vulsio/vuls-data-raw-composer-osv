@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-27qr-636m-wxg2",
-	"modified": "2024-05-15T18:17:38.147562Z",
+	"modified": "2024-11-29T05:35:58.343147Z",
 	"published": "2024-05-15T18:09:41Z",
 	"summary": "codeigniter/framework SQL injection in ODBC database driver",
 	"details": "CodeIgniter 3.1.0 addressed a critical security issue within the ODBC database driver. This update includes crucial fixes to mitigate a SQL injection vulnerability, preventing potential exploitation by attackers. It is noteworthy that these fixes render the query builder and escape() functions incompatible with the ODBC driver. However, the update introduces actual query binding as a more secure alternative.",

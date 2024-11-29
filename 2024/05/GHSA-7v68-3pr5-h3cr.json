@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7v68-3pr5-h3cr",
-	"modified": "2024-05-15T20:48:17.953887Z",
+	"modified": "2024-11-29T05:42:17.530643Z",
 	"published": "2024-05-15T20:37:17Z",
 	"summary": "Drupal Core Insufficient Contextual Links validation leads to Remote Code Execution",
 	"details": "The Contextual Links module doesn't sufficiently validate the requested contextual links.\nThis vulnerability is mitigated by the fact that an attacker must have a role with the permission \"access contextual links\".",

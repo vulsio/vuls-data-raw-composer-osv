@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j9q2-f9q7-jhgq",
-	"modified": "2023-04-11T01:37:09.563144Z",
+	"modified": "2024-11-29T05:31:03.662873Z",
 	"published": "2023-01-20T23:22:09Z",
 	"summary": "CakePHP SecurityComponent cross form submission issue",
 	"details": "Prior to versions 2.4.8 and 1.3.18, forms secured by SecurityComponent could be submitted to any action without triggering SecurityComponent’s tampering protection. If an application contained multiple POST forms to manipulate the same models, it could be vulnerable to mass assignment issues.",
