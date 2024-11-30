@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m6m9-gr85-79vm",
-	"modified": "2023-11-08T04:11:59.682454Z",
+	"modified": "2024-11-30T05:32:12.984690Z",
 	"published": "2023-05-10T21:26:32Z",
 	"aliases": [
 		"CVE-2023-2614"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5j86-5xvg-7q93",
-	"modified": "2024-06-03T19:48:13.264862Z",
+	"modified": "2024-11-30T05:32:25.853781Z",
 	"published": "2024-06-03T19:42:12Z",
 	"summary": "TYPO3 Cross-Site Scripting (XSS) in form component",
 	"details": "Failing to sanitize content from unauthenticated  website visitors, the form component is susceptible to Cross-Site Scripting.",

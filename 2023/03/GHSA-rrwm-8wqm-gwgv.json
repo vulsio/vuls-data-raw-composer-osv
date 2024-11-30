@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rrwm-8wqm-gwgv",
-	"modified": "2023-04-11T01:45:24.520066Z",
+	"modified": "2024-11-30T05:52:18.219129Z",
 	"published": "2023-03-16T18:33:28Z",
 	"summary": "Cross-site Scripting (XSS) - stored in Print Documents",
 	"details": "### Impact\nStored xss leads to steal cookies and other information of other users\n\n### Patches\nUpdate to version 10.5.19 or apply this patch manually https://github.com/pimcore/pimcore/pull/14560.patch\n\n### Workarounds\nApply https://github.com/pimcore/pimcore/pull/14560.patch manually.\n\n### References\nhttps://huntr.dev/bounties/31d97442-3f87-439f-83f0-1c7862ef0c7c/\n",

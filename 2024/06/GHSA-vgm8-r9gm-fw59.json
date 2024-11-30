@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vgm8-r9gm-fw59",
-	"modified": "2024-06-03T19:47:51.503461Z",
+	"modified": "2024-11-30T05:37:55.231148Z",
 	"published": "2024-06-03T19:41:40Z",
 	"summary": "TYPO3 Cross-Site Scripting in legacy form component",
 	"details": "Failing to sanitize content from editors, the legacy form component is susceptible to Cross-Site Scripting. A valid editor account with access to a form content element is required to exploit this vulnerability.",
