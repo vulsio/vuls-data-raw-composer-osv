@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qffc-gwpp-m2xr",
-	"modified": "2024-06-04T15:11:49.037906Z",
+	"modified": "2024-12-01T05:44:07.735721Z",
 	"published": "2024-06-04T14:47:00Z",
 	"summary": "XML External Entity (XXE) Processing in TYPO3 Core",
 	"details": "All XML processing within the TYPO3 CMS are vulnerable to XEE processing. This can lead to load internal and/or external (file) content within an XML structure. Furthermore it is possible to inject arbitrary files for an XML Denial of Service attack. For more information on that topic see https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing.",

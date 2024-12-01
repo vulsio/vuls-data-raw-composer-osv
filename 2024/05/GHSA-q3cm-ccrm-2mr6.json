@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q3cm-ccrm-2mr6",
-	"modified": "2024-06-04T16:26:56.956990Z",
+	"modified": "2024-12-01T05:30:13.381312Z",
 	"published": "2024-05-31T21:30:55Z",
 	"aliases": [
 		"CVE-2024-34004"

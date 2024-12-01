@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3jxq-5xhh-9jr3",
-	"modified": "2024-06-04T15:11:20.999050Z",
+	"modified": "2024-12-01T05:32:00.234575Z",
 	"published": "2024-06-04T14:45:20Z",
 	"summary": "Cross-Site Scripting (XSS) in TYPO3 component Backend",
 	"details": "Failing to properly encode incoming data, the bookmark toolbar is susceptible to Cross-Site Scripting.",
