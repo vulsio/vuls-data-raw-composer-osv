@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r9vp-fp72-xgf7",
-	"modified": "2024-05-27T19:06:08.025353Z",
+	"modified": "2024-12-02T05:39:38.734396Z",
 	"published": "2024-05-27T18:58:08Z",
 	"summary": "silverstripe/framework's `Member.Name` is not escaped",
 	"details": "The core template `framework/templates/Includes/GridField_print.ss` uses \"Printed by $Member.Name\".\n\nIf the currently logged in members first name or surname contain XSS, this prints the raw HTML out, because Member->getName() just returns the raw FirstName + Surname as a string, which is injected directly.",

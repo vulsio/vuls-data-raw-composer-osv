@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c4c3-j73v-634r",
-	"modified": "2024-05-27T20:49:16.484559Z",
+	"modified": "2024-12-02T05:45:40.754909Z",
 	"published": "2024-05-27T20:31:59Z",
 	"summary": "silverstripe/framework has Cross-site Scripting vulnerability in page history comparison",
 	"details": "Authenticated user with page edit permission can craft HTML, which when rendered in a page history comparison can execute client scripts.",

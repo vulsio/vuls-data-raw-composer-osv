@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vh7q-j8p5-2h4h",
-	"modified": "2024-05-27T23:31:21.638381Z",
+	"modified": "2024-12-02T05:48:12.095322Z",
 	"published": "2024-05-27T23:21:53Z",
 	"summary": "silverstripe/framework sends passwords back to browsers under some circumstances",
 	"details": "Under some circumstances a form may populate a PasswordField with submitted data, reflecting submitted data back to a user. The user will only see their own submissions for password data, which is not considered best practice. We are not aware of data leaks to other users, devices or sessions.",

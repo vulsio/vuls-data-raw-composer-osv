@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xgpf-p52j-pf7m",
-	"modified": "2023-11-08T04:05:27.116516Z",
+	"modified": "2024-12-02T05:49:22.917580Z",
 	"published": "2021-03-24T17:42:02Z",
 	"aliases": [
 		"CVE-2021-27938"

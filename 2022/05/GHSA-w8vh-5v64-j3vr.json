@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-w8vh-5v64-j3vr",
-	"modified": "2024-02-16T08:22:53.350641Z",
+	"modified": "2024-12-02T05:35:06.219402Z",
 	"published": "2022-05-24T17:00:29Z",
 	"summary": "Withdrawn Advisory: Magento 2 Community Edition RCE Vulnerability",
 	"details": "## Withdrawn Advisory\n\nThis advisory has been withdrawn because the vulnerability does not affect a package in one of the GitHub Advisory Database's [supported ecosystems](https://github.com/github/advisory-database/blob/main/README.md#supported-ecosystems). This link is maintained to preserve external references.\n\n## Original Description\n\nIn Magento prior to 1.9.4.3, and Magento prior to 1.14.4.3, an authenticated user with administrative privileges to edit product attributes can execute arbitrary code through crafted layout updates.",

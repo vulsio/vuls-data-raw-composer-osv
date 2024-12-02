@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p5c5-gmj4-g48f",
-	"modified": "2024-06-05T15:18:40.856011Z",
+	"modified": "2024-12-02T05:43:25.064087Z",
 	"published": "2024-06-05T15:04:23Z",
 	"summary": "Cross-Site Scripting (XSS) vulnerability in typolinks",
 	"details": "All link fields within the TYPO3 installation are vulnerable to Cross-Site Scripting as authorized editors can insert data commands by using the url scheme \"data:\".",

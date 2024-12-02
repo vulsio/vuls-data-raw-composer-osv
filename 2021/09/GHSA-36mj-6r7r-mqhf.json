@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-36mj-6r7r-mqhf",
-	"modified": "2023-04-11T01:38:00.609781Z",
+	"modified": "2024-12-02T05:49:38.734493Z",
 	"published": "2021-09-29T17:09:23Z",
 	"summary": "User can obtain JWT token even if account is disabled",
 	"details": "Users can authenticate this way even if their user account is disabled. This is a high risk vulnerability when account disabling is used to block users' access to the system. (Someone who never had an account cannot exploit this vulnerability.) The fix ensures tokens are generated only for enabled user accounts, and is distributed via Composer as ezsystems/ezplatform-rest v1.3.8",

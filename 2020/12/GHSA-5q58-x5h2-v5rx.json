@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5q58-x5h2-v5rx",
-	"modified": "2023-04-11T01:38:40.335429Z",
+	"modified": "2024-12-02T05:52:12.232362Z",
 	"published": "2020-12-21T18:01:08Z",
 	"summary": "Authenticated Privilege Escalation",
 	"details": "### Impact\nAuthenticated Privilege Escalation\n\n### Patches\nWe recommend to update to the current version 6.3.4.1. You can get the update to 6.3.4.1 regularly via the Auto-Updater or directly via the download overview.\n\nhttps://www.shopware.com/en/download/#shopware-6\n\n### Workarounds\nFor older versions of 6.1 and 6.2 the corresponding changes are also available via plugin:\n\nhttps://store.shopware.com/en/detail/index/sArticle/518463/number/Swag136939272659\n\n### For more information\nhttps://docs.shopware.com/en/shopware-6-en/security-updates/security-update-12-2020",

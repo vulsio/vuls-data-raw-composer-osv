@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c7rj-92xr-wprg",
-	"modified": "2024-06-05T17:17:54.847308Z",
+	"modified": "2024-12-02T05:40:18.145622Z",
 	"published": "2024-06-05T17:04:41Z",
 	"summary": "Insecure Unserialize in TYPO3 Backend",
 	"details": "Failing to properly validate incoming data, the suggest wizard is susceptible to insecure unserialize. To exploit this vulnerability a valid backend user account is needed.",

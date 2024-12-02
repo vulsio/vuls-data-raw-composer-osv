@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5r8w-66hq-rc39",
-	"modified": "2024-05-27T19:05:43.189397Z",
+	"modified": "2024-12-02T05:26:33.015789Z",
 	"published": "2024-05-27T18:53:40Z",
 	"summary": "silverstripe/framework's pre-existing alc_enc cookies log users in if remember me is disabled",
 	"details": "If remember me is on and users log in with the box checked, if the developer then disabled \"remember me\" function, any pre-existing cookies will continue to authenticate users.",

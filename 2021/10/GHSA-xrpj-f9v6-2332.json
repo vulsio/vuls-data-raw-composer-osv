@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xrpj-f9v6-2332",
-	"modified": "2023-04-11T01:40:46.031653Z",
+	"modified": "2024-12-02T05:44:43.287959Z",
 	"published": "2021-10-04T20:12:45Z",
 	"summary": "CSV injection in Craft CMS",
 	"details": "# Withdrawn \n\nDuplicate of GHSA-h7vq-5qgw-jwwq",

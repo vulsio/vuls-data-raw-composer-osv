@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-c7p6-3c9c-f88q",
-	"modified": "2024-06-05T15:18:57.626917Z",
+	"modified": "2024-12-02T05:45:55.811019Z",
 	"published": "2024-06-05T15:11:36Z",
 	"summary": "Information Disclosure in TYPO3 CMS",
 	"details": "HTTP requests being performed using the TYPO3 API expose the specific TYPO3 version to the called endpoint.",

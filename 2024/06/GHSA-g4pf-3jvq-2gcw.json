@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g4pf-3jvq-2gcw",
-	"modified": "2024-06-05T15:18:09.132737Z",
+	"modified": "2024-12-02T05:48:18.818304Z",
 	"published": "2024-06-05T15:08:03Z",
 	"summary": "TYPO3 Remote Code Execution in third party library swiftmailer",
 	"details": "TYPO3 uses the package swiftmailer/swiftmailer for mail actions. This package is known to be vulnerable to Remote Code Execution.",

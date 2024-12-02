@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g46h-v2cc-6c94",
-	"modified": "2024-06-05T16:46:22.649210Z",
+	"modified": "2024-12-02T05:44:44.356917Z",
 	"published": "2024-06-05T16:43:50Z",
 	"summary": "Information Disclosure in TYPO3 CMS",
 	"details": "Failing to properly check user permission on file storages, editors could gain knowledge of protected storages and its folders as well as using them in a file collection being rendered in the frontend. A valid backend user account is needed to exploit this vulnerability.",

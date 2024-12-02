@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m5q3-mvcr-gc5m",
-	"modified": "2024-05-27T23:16:30.346627Z",
+	"modified": "2024-12-02T05:33:12.974827Z",
 	"published": "2024-05-27T23:02:56Z",
 	"summary": "silverstripe/framework BackURL validation bypass with malformed URLs",
 	"details": "A carefully constructed malformed URL can be used to circumvent the offsite redirection protection used on `BackURL` parameters. This could lead to users entering sensitive data in malicious websites instead of the intended one.",

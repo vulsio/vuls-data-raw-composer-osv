@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6pq8-67pw-j6hw",
-	"modified": "2024-05-17T23:16:36.462692Z",
+	"modified": "2024-12-02T05:39:36.336585Z",
 	"published": "2024-05-17T23:03:25Z",
 	"summary": "Time-Based Information Disclosure Vulnerability in Flow",
 	"details": "The PersistedUsernamePasswordProvider was prone to a information disclosure of account existance based on timing attacks as the hashing of passwords was only done in case an account was found. We changed the core so that the provider always does a password comparison in case credentials were submitted at all.\n\n",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r2r8-36pq-27cm",
-	"modified": "2024-05-17T23:15:45.740285Z",
+	"modified": "2024-12-02T05:51:28.774651Z",
 	"published": "2024-05-17T23:06:52Z",
 	"summary": "nzo/url-encryptor-bundle Insecure default secret key and IV allowing anyone to decrypt values",
 	"details": "Versions of nzo/url-encryptor-bundle prior to 5.0.1 and 4.3.2 are affected by a security vulnerability related to the lack of mandatory key and IV requirements. By default, the bundle uses the aes-256-ctr algorithm, which is susceptible to malleability attacks, potentially leading to Insecure Direct Object Reference (IDOR) vulnerabilities. Additionally, the reuse of keys enables users to decrypt and modify encrypted data if they can guess the plaintext of one ciphertext.\n\n",

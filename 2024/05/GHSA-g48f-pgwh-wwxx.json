@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g48f-pgwh-wwxx",
-	"modified": "2024-05-19T02:24:40.688273Z",
+	"modified": "2024-12-02T05:43:41.569634Z",
 	"published": "2024-05-17T23:06:55Z",
 	"aliases": [
 		"CVE-2016-1000253"

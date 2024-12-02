@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wr3c-6c22-m9v6",
-	"modified": "2024-06-05T17:31:48.336371Z",
+	"modified": "2024-12-02T05:52:15.858946Z",
 	"published": "2024-06-05T17:28:04Z",
 	"summary": "Privilege Escalation in TYPO3 Neos",
 	"details": "It has been discovered that TYPO3 Neos is vulnerable to Privilege Escalation. Logged in editors could access, create and modify content nodes that exist in the workspace of other editors.",

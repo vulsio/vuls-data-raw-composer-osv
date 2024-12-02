@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5vj8-g3qg-4qh6",
-	"modified": "2024-11-01T22:27:13.497766Z",
+	"modified": "2024-12-02T05:45:16.993356Z",
 	"published": "2023-03-31T21:30:40Z",
 	"aliases": [
 		"BIT-mediawiki-2023-29141",

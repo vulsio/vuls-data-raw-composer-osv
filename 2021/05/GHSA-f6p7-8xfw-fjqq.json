@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f6p7-8xfw-fjqq",
-	"modified": "2023-04-11T01:49:00.394854Z",
+	"modified": "2024-12-02T05:38:31.621069Z",
 	"published": "2021-05-21T14:29:26Z",
 	"summary": "Authenticated Stored XSS in Administration",
 	"details": "### Impact\nAuthenticated Stored XSS in Administration\n\n### Patches\nWe recommend updating to the current version 5.6.10. You can get the update to 5.6.10 regularly via the Auto-Updater or directly via the download overview.\n\nFor older versions you can use the Security Plugin:\nhttps://store.shopware.com/en/swag575294366635f/shopware-security-plugin.html\n\n\n### References\nhttps://docs.shopware.com/en/shopware-5-en/security-updates/security-update-05-2021",

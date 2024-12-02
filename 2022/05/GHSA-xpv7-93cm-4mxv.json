@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xpv7-93cm-4mxv",
-	"modified": "2024-11-01T23:26:54.185227Z",
+	"modified": "2024-12-02T05:51:39.267984Z",
 	"published": "2022-05-24T17:21:40Z",
 	"aliases": [
 		"BIT-mediawiki-2020-15005",

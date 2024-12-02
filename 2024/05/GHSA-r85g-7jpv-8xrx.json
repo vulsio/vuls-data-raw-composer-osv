@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r85g-7jpv-8xrx",
-	"modified": "2024-05-27T20:18:08.543106Z",
+	"modified": "2024-12-02T05:46:20.441545Z",
 	"published": "2024-05-27T19:44:40Z",
 	"summary": "silverstripe/framework has Cross-site Scripting vulnerability in CMSSecurity BackURL",
 	"details": "In follow up to [SS-2016-001](https://www.silverstripe.org/download/security-releases/ss-2016-001/) there is yet a minor unresolved fix to incorrectly encoded URL.",

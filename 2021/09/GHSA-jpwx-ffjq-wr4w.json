@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-jpwx-ffjq-wr4w",
-	"modified": "2023-04-11T01:43:43.115331Z",
+	"modified": "2024-12-02T05:54:42.708773Z",
 	"published": "2021-09-07T22:54:23Z",
 	"summary": "Content object state fetch functions open to SQL injection",
 	"details": "### Impact\nThis Security Update is about a vulnerability in eZ Publish Legacy. The content object state code could be vulnerable to SQL injection. There is no known exploit, but one might be possible. If you use Legacy in any way, we strongly recommend that you install this update as soon as possible.\n\n### Patches\nThe fix is distributed via Composer, see \"Patched versions\".\n\n",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cfcv-q4qq-2ph4",
-	"modified": "2023-04-11T01:45:52.005853Z",
+	"modified": "2024-12-02T05:38:28.452432Z",
 	"published": "2021-08-23T19:42:05Z",
 	"summary": "CKEditor 4 vulnerabilities in versions <4.16.1",
 	"details": "Details see: \n\nhttps://github.com/ckeditor/ckeditor4/security/advisories/GHSA-m94c-37g6-cjhc ( CVE-2021-37695 )\nhttps://github.com/ckeditor/ckeditor4/security/advisories/GHSA-6226-h7ff-ch6c ( CVE-2021-32808 )\nhttps://github.com/ckeditor/ckeditor4/security/advisories/GHSA-7889-rm5j-hpgg  ( CVE-2021-32809 )\n\nPatch: \nhttps://github.com/pimcore/pimcore/pull/10032",

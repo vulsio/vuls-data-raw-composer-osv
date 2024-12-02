@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m96r-7vqm-j95g",
-	"modified": "2024-06-05T17:17:38.074443Z",
+	"modified": "2024-12-02T05:45:53.613261Z",
 	"published": "2024-06-05T17:09:30Z",
 	"summary": "Typo3 Information Disclosure in User Authentication",
 	"details": "It has been discovered that login failures have been logged on the default stream with log level \"warning\" including plain-text user credentials.",

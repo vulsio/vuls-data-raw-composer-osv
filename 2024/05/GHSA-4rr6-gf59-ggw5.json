@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4rr6-gf59-ggw5",
-	"modified": "2024-05-17T22:47:04.067768Z",
+	"modified": "2024-12-02T05:44:28.871094Z",
 	"published": "2024-05-17T22:31:44Z",
 	"summary": "namshi/jose - Verification bypass",
 	"details": "Several widely-used JSON Web Token (JWT) libraries, including node-jsonwebtoken, pyjwt, namshi/jose, php-jwt, and jsjwt, are affected by critical vulnerabilities that could allow attackers to bypass the verification step when using asymmetric keys (RS256, RS384, RS512, ES256, ES384, ES512).",

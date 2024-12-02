@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-58h5-h554-429q",
-	"modified": "2023-04-11T01:23:55.750094Z",
+	"modified": "2024-12-02T05:28:28.710690Z",
 	"published": "2022-11-10T21:42:09Z",
 	"summary": "ezplatform-admin-ui vulnerable to Cross-Site Scripting (XSS) ",
 	"details": "It is possible to inject JavaScript XSS in the content type entries \"name\" and \"short name\". To exploit this, one must already have permission to edit content types, which limits it in many cases to people who are already administrators. However, please verify which users have this permission. The fix ensures any injections are escaped.",

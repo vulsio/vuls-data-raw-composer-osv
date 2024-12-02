@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hxhc-wmg8-xrqf",
-	"modified": "2024-05-17T22:47:37.820373Z",
+	"modified": "2024-12-02T05:44:05.646157Z",
 	"published": "2024-05-17T22:31:42Z",
 	"summary": "namshi/jose insecure JSON Web Signatures (JWS)",
 	"details": "namshi/jose allows the acceptance of unsecure JSON Web Signatures (JWS) by default. The vulnerability arises from the $allowUnsecure flag, which, when set to true during the loading of JWSes, permits tokens signed with 'none' algorithms to be processed. This behavior poses a significant security risk as it could allow an attacker to impersonate users by crafting a valid jwt token.",

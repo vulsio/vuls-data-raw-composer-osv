@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xjw3-5r5c-m5ph",
-	"modified": "2024-06-05T21:04:24.540076Z",
+	"modified": "2024-12-02T05:46:56.409211Z",
 	"published": "2024-06-05T20:47:53Z",
 	"summary": "typo3 Security fix for Flow Swift Mailer package",
 	"details": "A remote code execution vulnerability has been found in the Swift Mailer library (swiftmailer/swiftmailer) recently. See this advisory for details. If you are not using the default mail() transport, this particular problem  does not affect you. Upgrading is of course still recommended!",

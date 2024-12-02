@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qr5f-6fcv-w69q",
-	"modified": "2024-06-05T17:18:08.648186Z",
+	"modified": "2024-12-02T05:54:11.145755Z",
 	"published": "2024-06-05T17:12:58Z",
 	"summary": "Typo3 Security Misconfiguration in Frontend Session Handling",
 	"details": "It has been discovered session data of properly authenticated and logged in frontend users is kept and transformed into an anonymous user session during the logout process. This way the next user using the same client application gains access to previous session data.\n",

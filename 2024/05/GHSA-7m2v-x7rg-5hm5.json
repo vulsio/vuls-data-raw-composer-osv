@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7m2v-x7rg-5hm5",
-	"modified": "2024-05-27T22:10:50.794761Z",
+	"modified": "2024-12-02T05:47:34.644237Z",
 	"published": "2024-05-27T21:45:27Z",
 	"summary": "silverstripe/framework vulnerable to user enumeration via timing attack on login and password reset forms",
 	"details": "User enumeration is possible by performing a timing attack on the login or password reset pages with user credentials.",

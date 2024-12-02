@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pp7q-6j3f-74vj",
-	"modified": "2024-05-27T20:33:03.068723Z",
+	"modified": "2024-12-02T05:46:26.024464Z",
 	"published": "2024-05-27T20:05:34Z",
 	"summary": "silverstripe/framework has Cross-site Scripting vulnerability in RedirectorPage",
 	"details": "RedirectorPage will allow users to specify a non-url malicious script as the redirection path without validation. Users which follow this url may allow this script to execute within their browser.",

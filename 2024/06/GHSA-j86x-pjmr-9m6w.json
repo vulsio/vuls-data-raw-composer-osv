@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-j86x-pjmr-9m6w",
-	"modified": "2024-06-05T14:41:04.585507Z",
+	"modified": "2024-12-02T05:42:03.710721Z",
 	"published": "2024-06-05T14:23:20Z",
 	"summary": "SQL Injection in TYPO3 Frontend Login",
 	"details": "Failing to properly escape user input, the frontend login component is vulnerable to SQL Injection. A valid frontend user account is needed to exploit this vulnerability.",

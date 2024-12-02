@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vc9f-mgxr-h32r",
-	"modified": "2024-11-01T22:27:22.180873Z",
+	"modified": "2024-12-02T05:27:37.807685Z",
 	"published": "2024-03-09T00:31:14Z",
 	"aliases": [
 		"CVE-2024-28754"

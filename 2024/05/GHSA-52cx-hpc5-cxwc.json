@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-52cx-hpc5-cxwc",
-	"modified": "2024-05-27T19:13:19.971666Z",
+	"modified": "2024-12-02T05:55:38.158009Z",
 	"published": "2024-05-27T18:44:47Z",
 	"summary": "silverstripe/framework missing ACL on reports",
 	"details": "The SS_Report, and the reports CMS section only checks `canView()` when listing the reports that can be viewed by the current user.\n\nIt does not (and should) perform `canView` checks when the report is actually viewed, so if you know the URL to a report and can otherwise access the Reports section of the CMS, you can view any report.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3fmq-x9q6-wm39",
-	"modified": "2024-05-17T23:30:44.488167Z",
+	"modified": "2024-12-02T05:42:56.201685Z",
 	"published": "2024-05-17T23:27:19Z",
 	"summary": "random_compat Uses insecure CSPRNG",
 	"details": "random_compat versions prior to 2.0 are affected by a security vulnerability related to the insecure usage of Cryptographically Secure Pseudo-Random Number Generators (CSPRNG). The affected versions use openssl_random_pseudo_bytes(), which may result in insufficient entropy and compromise the security of generated random numbers.",

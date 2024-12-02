@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xvcp-33rc-j8gq",
-	"modified": "2024-06-05T14:41:49.362938Z",
+	"modified": "2024-12-02T05:45:13.611037Z",
 	"published": "2024-06-05T14:21:12Z",
 	"summary": "Insecure Unserialize in TYPO3 Import/Export",
 	"details": "Failing to properly validate incoming import data, the Import/Export component is susceptible to insecure unserialize. To exploit this vulnerability a valid backend user account is needed.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3pcr-4982-548m",
-	"modified": "2023-04-11T01:44:14.734330Z",
+	"modified": "2024-12-02T05:41:34.390456Z",
 	"published": "2021-04-13T15:13:37Z",
 	"summary": "Exposure of .env if project root is configured as web root in shopware/production",
 	"details": "### Impact\n\nThe .env and other sensitive files can be leaked if the project root and not `/public` is configured as the web root.\n\n### Patches\nWe recommend to update to the current version 6.3.5.3. You can get the update to 6.3.5.3 regularly via the Auto-Updater or directly via the download overview.\n\nhttps://www.shopware.com/en/download/#shopware-6\n\n### Workarounds\n\nYou should always use `/public` as the web root.\n\nFor older versions of 6.1 and 6.2, corresponding security measures are also available via a plugin. For the full range of functions, we recommend updating to the latest Shopware version.\n\nhttps://store.shopware.com/en/detail/index/sArticle/518463/number/Swag136939272659\n\n### For more information\nhttps://docs.shopware.com/en/shopware-6-en/security-updates/security-update-04-2021",

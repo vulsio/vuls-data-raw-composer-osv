@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-26rr-v2j2-25fh",
-	"modified": "2023-11-08T04:05:59.287697Z",
+	"modified": "2024-12-02T05:27:09.018307Z",
 	"published": "2021-08-30T17:20:52Z",
 	"aliases": [
 		"CVE-2021-32758"

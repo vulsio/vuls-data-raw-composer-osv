@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r3pr-fh25-wrfc",
-	"modified": "2024-05-27T23:04:21.149377Z",
+	"modified": "2024-12-02T05:54:10.660338Z",
 	"published": "2024-05-27T22:54:06Z",
 	"summary": "silverstripe/framework's install.php script discloses sensitive data by pre-populating DB credential forms",
 	"details": "When accessing the `install.php` script it is possible to extract any pre-configured database or default admin account password by viewing the source of the page, and inspecting the `value` property of the password fields.\n\n",

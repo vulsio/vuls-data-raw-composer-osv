@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xpff-c35g-j3cr",
-	"modified": "2024-05-27T22:33:13.878839Z",
+	"modified": "2024-12-02T05:43:12.514977Z",
 	"published": "2024-05-27T22:28:13Z",
 	"summary": "silverstripe/framework Privilege Escalation Risk in Member Edit form",
 	"details": "A member with the permission `EDIT_PERMISSIONS` and access to the \"Security\" section is able to re-assign themselves (or another member) to `ADMIN` level.\n\nCMS Fields for the member are constructed using DirectGroups instead of Groups relation which results in bypassing security logic preventing privilege escalation.",

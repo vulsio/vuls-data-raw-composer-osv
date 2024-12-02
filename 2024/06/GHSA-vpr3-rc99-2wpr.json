@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vpr3-rc99-2wpr",
-	"modified": "2024-06-05T15:29:01.389456Z",
+	"modified": "2024-12-02T05:54:01.514850Z",
 	"published": "2024-06-05T15:01:46Z",
 	"summary": "Information Disclosure in TYPO3 Backend",
 	"details": "The TYPO3 backend module stores the username of an authenticated backend user in its cache files. By guessing the file path to the cache files it is possible to receive valid backend usernames.",
