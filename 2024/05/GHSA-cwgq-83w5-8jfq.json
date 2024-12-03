@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cwgq-83w5-8jfq",
-	"modified": "2024-05-28T13:15:47.285561Z",
+	"modified": "2024-12-03T06:03:19.904244Z",
 	"published": "2024-05-28T12:59:05Z",
 	"summary": "silverstripe/framework has possible denial of service attack vector when flushing",
 	"details": "A possible denial of service attack vector has been identified in the dev/build system controller.\n\ndev/build now has its own URL token, similar to flushtoken, to ensure users are authenticated when running dev/build outside of dev environments.",

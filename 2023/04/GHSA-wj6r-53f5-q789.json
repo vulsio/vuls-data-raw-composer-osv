@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wj6r-53f5-q789",
-	"modified": "2024-02-16T08:04:55.147482Z",
+	"modified": "2024-12-03T06:15:25.473986Z",
 	"published": "2023-04-25T18:30:23Z",
 	"summary": "Duplicate Advisory: AVideo contains Command injection when embedding a video link",
 	"details": "## Duplicate Advisory\n\nThis advisory has been withdrawn because it is a duplicate of GHSA-pgvh-p3g4-86jw. This link is maintained to preserve external references.\n\n## Original Description\n\nImpact:\n\nAn attacker could execute remote code on a system running wwbn/avideo\n\nStep to Reproduce:\n\n1. Go to the `My Videos` tab\n\nhttps://demo.avideo.com/mvideos\n\n2. Click \"Embed a video link\"\n\nAppend a command to the url as a query string. eg. `?whoami`\n\n\nthen click Save\n\nThis issue has been resolved in commit `236228f15`",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-99r3-xmmq-7q7g",
-	"modified": "2023-04-11T01:43:43.634293Z",
+	"modified": "2024-12-03T06:14:31.309916Z",
 	"published": "2022-11-10T23:59:24Z",
 	"summary": "eZ Platform users with the Company admin role can assign any role to any user",
 	"details": "Critical severity. Users with the Company admin role (introduced by the company account feature in v4) can assign any role to any user. This also applies to any other user that has the role / assign policy. Any subtree limitation in place does not have any effect.\n\nThe role / assign policy is typically only given to administrators, which limits the scope in most cases, but please verify who has this policy in your installaton. The fix ensures that subtree limitations are working as intended.",

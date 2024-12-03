@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-p2v5-xcqm-4fv6",
-	"modified": "2024-05-28T17:49:30.212742Z",
+	"modified": "2024-12-03T06:09:12.665528Z",
 	"published": "2024-05-28T17:29:03Z",
 	"summary": "silverstripe/taxonomy SQL Injection vulnerability",
 	"details": "There is a vulnerability in silverstripe/taxonomy module that allows SQL injection. This affected controller (`TaxonomyDirectoryController`) is disabled by default and must be enabled by a developer for the exploit to be possible.\n\n",
