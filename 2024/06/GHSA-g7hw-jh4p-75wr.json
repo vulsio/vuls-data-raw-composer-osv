@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-g7hw-jh4p-75wr",
-	"modified": "2024-06-07T17:15:56.617135Z",
+	"modified": "2024-12-04T05:38:40.883875Z",
 	"published": "2024-06-07T17:10:28Z",
 	"summary": "TYPO3 Cross-Site Scripting in Filelist Module",
 	"details": "It has been discovered that the output table listing in the “Files” backend module is vulnerable to cross-site scripting when a file extension contains malicious sequences.\n\nAccess to the file system of the server - either directly or through synchronization - is required to exploit the vulnerability.",

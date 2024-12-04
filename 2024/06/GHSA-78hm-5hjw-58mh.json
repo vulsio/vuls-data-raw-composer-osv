@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-78hm-5hjw-58mh",
-	"modified": "2024-06-07T22:32:33.014114Z",
+	"modified": "2024-12-04T05:45:02.512198Z",
 	"published": "2024-06-07T22:14:49Z",
 	"summary": "ua-parser/uap-php ReDoS vulnerability",
 	"details": "A regex expression in ua-parser/uap-php could lead to a ReDoS vulnerability in versions prior to 3.8.0.",

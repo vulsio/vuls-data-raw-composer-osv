@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-x86x-qhf8-f37w",
-	"modified": "2024-06-07T22:31:46.219704Z",
+	"modified": "2024-12-04T05:41:32.616331Z",
 	"published": "2024-06-07T22:20:27Z",
 	"summary": "willdurand/js-translation-bundle potential path traversal attack and remote code injection",
 	"details": "A path traversal and a javascript code injection vulnerabilities were identified in willdurand/js-translation-bundle versions prior to 2.1.1. ",

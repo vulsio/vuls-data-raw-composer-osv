@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-54hw-mhgh-x4vc",
-	"modified": "2023-11-08T04:06:59.088186Z",
+	"modified": "2024-12-04T05:42:01.116664Z",
 	"published": "2022-01-26T22:09:49Z",
 	"aliases": [
 		"CVE-2021-4146"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f624-8hfq-5fh3",
-	"modified": "2024-06-07T18:30:58.528523Z",
+	"modified": "2024-12-04T05:27:43.617176Z",
 	"published": "2024-06-07T18:28:06Z",
 	"summary": "TYPO3 Information Disclosure of Installed Extensions",
 	"details": "It has been discovered that mechanisms used for configuration of RequireJS package loading are susceptible to information disclosure. This way a potential attack can retrieve additional information about installed system and third party extensions.",

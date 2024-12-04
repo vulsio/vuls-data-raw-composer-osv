@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-4xww-6h7v-29jg",
-	"modified": "2023-12-06T01:01:45.992225Z",
+	"modified": "2024-12-04T05:24:24.580025Z",
 	"published": "2022-01-21T23:37:07Z",
 	"aliases": [
 		"BIT-livehelperchat-2022-0083",

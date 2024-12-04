@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-gff2-p6vm-3p8g",
-	"modified": "2024-06-07T21:26:58.730569Z",
+	"modified": "2024-12-04T05:39:06.674820Z",
 	"published": "2024-06-07T20:47:30Z",
 	"summary": "ZendFramework potential remote code execution in zend-mail via Sendmail adapter",
 	"details": "When using the zend-mail component to send email via the `Zend\\Mail\\Transport\\Sendmail transport`, a malicious user may be able to inject arbitrary parameters to the system sendmail program. The attack is performed by providing additional quote characters within an address; when unsanitized, they can be interpreted as additional command line arguments, leading to the vulnerability.\n\n",

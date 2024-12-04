@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-772m-43f3-hmf8",
-	"modified": "2024-06-07T17:33:03.035432Z",
+	"modified": "2024-12-04T05:42:00.128871Z",
 	"published": "2024-06-07T17:15:33Z",
 	"summary": "TYPO3 Broken Access Control in Localization Handling",
 	"details": "It has been discovered that backend users having limited access to specific languages are capable of modifying and creating pages in the default language which actually should be disallowed. A valid backend user account is needed in order to exploit this vulnerability.",

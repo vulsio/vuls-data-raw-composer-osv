@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-97h7-mf38-g9mf",
-	"modified": "2024-06-07T22:33:21.406891Z",
+	"modified": "2024-12-04T05:32:41.435262Z",
 	"published": "2024-06-07T22:19:44Z",
 	"summary": "Adminer file disclosure vulnerability",
 	"details": "Adminer script versions up to 4.6.2 contains file disclosure vulnerability.",

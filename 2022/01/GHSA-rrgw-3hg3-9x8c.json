@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rrgw-3hg3-9x8c",
-	"modified": "2023-04-11T01:31:05.310619Z",
+	"modified": "2024-12-04T05:26:33.750101Z",
 	"published": "2022-01-12T21:49:49Z",
 	"summary": "XSS vulnerability in translations",
 	"details": "### Summary\n\nAn attacker with admin privileges and access to Translations management functionality may add JS payload to translation values via: \n - Translation management UI.\n - Translations downloaded via the Crowdin service may also contain JS strings used for XSS attacks, for a successful attack poisoned translation should be enabled, downloaded, and installed.\n - Translations uploaded via Upload translation file on the All Languages grid\n\n### Workarounds\n\nThere are no workarounds that address this vulnerability.",

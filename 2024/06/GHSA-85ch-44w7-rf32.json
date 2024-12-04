@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-85ch-44w7-rf32",
-	"modified": "2024-06-07T17:16:10.700733Z",
+	"modified": "2024-12-04T05:31:26.997984Z",
 	"published": "2024-06-07T17:08:39Z",
 	"summary": "TYPO3 Cross-Site Scripting in Fluid ViewHelpers",
 	"details": "Failing to properly encode user input, templates using built-in Fluid ViewHelpers are vulnerable to cross-site scripting.",

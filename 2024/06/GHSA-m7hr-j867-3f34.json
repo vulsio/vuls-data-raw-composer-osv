@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-m7hr-j867-3f34",
-	"modified": "2024-06-07T21:07:42.411702Z",
+	"modified": "2024-12-04T05:28:39.938286Z",
 	"published": "2024-06-07T20:58:08Z",
 	"summary": "ZendFramework has potential Cross-site Scripting vector in multiple view helpers",
 	"details": "Many Zend Framework 2 view helpers were using the `escapeHtml()` view helper in order to escape HTML attributes, instead of the more appropriate `escapeHtmlAttr()`. In situations where user data and/or JavaScript is used to seed attributes, this can lead to potential cross site scripting (XSS) attack vectors.\n\nVulnerable view helpers include:\n\n- All `Zend\\Form` view helpers.\n- Most `Zend\\Navigation` (aka `Zend\\View\\Helper\\Navigation\\*`) view helpers.\n- All \"HTML Element\" view helpers: `htmlFlash()`, `htmlPage()`, `htmlQuickTime()`.\n- `Zend\\View\\Helper\\Gravatar`",

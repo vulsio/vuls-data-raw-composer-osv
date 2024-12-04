@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v8m4-3w37-ghxx",
-	"modified": "2024-06-07T18:31:12.954810Z",
+	"modified": "2024-12-04T05:41:30.350747Z",
 	"published": "2024-06-07T18:26:07Z",
 	"summary": "TYPO3 Cross-Site Scripting in Form Framework validation handling",
 	"details": "It has been discovered that the output of field validation errors in the Form Framework is vulnerable to cross-site scripting.",

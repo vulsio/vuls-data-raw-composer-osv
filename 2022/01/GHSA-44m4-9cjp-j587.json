@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-44m4-9cjp-j587",
-	"modified": "2024-02-19T05:31:45.142684Z",
+	"modified": "2024-12-04T05:42:04.230003Z",
 	"published": "2022-01-21T23:24:14Z",
 	"summary": "IBX-1392: Image filenames sanitization",
 	"details": "ezsystems/ezpublish-kernel versions 7.5.* before 7.5.26 are vulnerable to certain injection attacks and unauthorized access to some image files.",

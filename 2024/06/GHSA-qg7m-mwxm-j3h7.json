@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-qg7m-mwxm-j3h7",
-	"modified": "2024-06-07T22:17:41.931659Z",
+	"modified": "2024-12-04T05:38:44.827392Z",
 	"published": "2024-06-07T22:10:19Z",
 	"summary": "Zend-developer-tools information disclosure vulnerability",
 	"details": "The package zendframework/zend-developer-tools provides a web-based toolbar for introspecting an application. When updating the package to support PHP 7.3, a change was made that could potentially prevent toolbar entries that are enabled by default from being disabled.",

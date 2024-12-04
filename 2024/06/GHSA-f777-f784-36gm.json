@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-f777-f784-36gm",
-	"modified": "2024-06-07T20:06:02.423588Z",
+	"modified": "2024-12-04T05:26:49.484217Z",
 	"published": "2024-06-07T19:52:43Z",
 	"summary": "TYPO3 Security Misconfiguration in Install Tool Cookie",
 	"details": "It has been discovered that cookies created in the Install Tool are not hardened to be submitted only via HTTP. In combination with other vulnerabilities such as cross-site scripting it can lead to hijacking an active and valid session in the Install Tool.",

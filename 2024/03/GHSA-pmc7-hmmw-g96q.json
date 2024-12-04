@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-pmc7-hmmw-g96q",
-	"modified": "2024-03-15T21:28:35.499138Z",
+	"modified": "2024-12-04T05:40:10.415255Z",
 	"published": "2024-03-13T21:31:02Z",
 	"aliases": [
 		"CVE-2023-36238"

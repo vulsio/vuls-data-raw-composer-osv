@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xrw3-wqph-3fxg",
-	"modified": "2023-04-11T01:40:34.499121Z",
+	"modified": "2024-12-04T05:30:45.212676Z",
 	"published": "2023-02-01T12:32:41Z",
 	"summary": "Withdrawn: wallabag subject to Improper Authorization via annotations",
 	"details": "## Duplicate advisory\nThis advisory has been withdrawn because it is a duplicate of [GHSA-mrqx-mjc4-vfh3](https://github.com/advisories/GHSA-mrqx-mjc4-vfh3). This link is maintained to preserve external references.\n\n## Original Description\n\nImproper Authorization in GitHub repository wallabag/wallabag prior to 2.5.3.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-8m6j-p5jv-v69w",
-	"modified": "2024-06-07T19:49:24.578699Z",
+	"modified": "2024-12-04T05:41:01.996060Z",
 	"published": "2024-06-07T19:43:19Z",
 	"summary": "TYPO3 Cross-Site Scripting in Online Media Asset Rendering",
 	"details": "Failing to properly encode user input, online media asset rendering (`*.youtube` and `*.vimeo` files) is vulnerable to cross-site scripting. A valid backend user account or write access on the server system (e.g. SFTP) is needed in order to exploit this vulnerability.\n",
