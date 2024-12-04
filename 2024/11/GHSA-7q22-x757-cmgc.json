@@ -1,11 +1,15 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-7q22-x757-cmgc",
-	"modified": "2024-12-03T16:22:20.270149Z",
+	"modified": "2024-12-03T21:45:55.560145Z",
 	"published": "2024-11-29T21:31:03Z",
 	"summary": "Withdrawn Advisory: Symfony http-security has authentication bypass",
 	"details": "## Withdrawn Advisory\nThis advisory has been withdrawn because the report is not part of a valid vulnerability. This link is maintained to preserve external references. For more information, see advisory-database/pull/5046.\n\n## Original Description\nIn Symfony, a security vulnerability was identified in the FormLoginAuthenticator component, where it failed to adequately handle cases where the username or password field of a login request is empty. This flaw could lead to various security risks, including improper authentication logic handling or denial of service.",
 	"severity": [
+		{
+			"type": "CVSS_V3",
+			"score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+		},
 		{
 			"type": "CVSS_V4",
 			"score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
@@ -606,6 +610,10 @@
 		},
 		{
 			"type": "WEB",
+			"url": "https://github.com/symfony/symfony/issues/59077#issuecomment-2513935018"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/github/advisory-database/pull/5046"
 		},
 		{
@@ -623,7 +631,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-287"
+			"CWE-287",
+			"CWE-863"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-12-02T20:21:10Z",

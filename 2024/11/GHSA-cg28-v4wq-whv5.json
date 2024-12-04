@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cg28-v4wq-whv5",
-	"modified": "2024-12-03T16:22:39.176232Z",
+	"modified": "2024-12-03T21:46:59.383288Z",
 	"published": "2024-11-29T21:31:04Z",
 	"summary": "Withdrawn Advisory: Symfony's VarDumper vulnerable to unsafe deserialization",
 	"details": "## Withdrawn Advisory\nThis advisory has been withdrawn because the report is not part of a valid vulnerability. This link is maintained to preserve external references. For more information, see advisory-database/pull/5048.\n\n## Original Description\nA deserialization vulnerability exists in the Stub class of the VarDumper module in Symfony. The vulnerability stems from deficiencies in the original implementation when handling properties with null or uninitialized values. An attacker could construct specific serialized data and use this vulnerability to execute unauthorized code.",
@@ -582,6 +582,14 @@
 		{
 			"type": "ADVISORY",
 			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36610"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/symfony/symfony/issues/59077#issuecomment-2513935018"
+		},
+		{
+			"type": "WEB",
+			"url": "https://github.com/github/advisory-database/pull/5046"
 		},
 		{
 			"type": "WEB",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-347x-877p-hcwx",
-	"modified": "2024-12-03T13:32:29.008015Z",
+	"modified": "2024-12-03T21:46:18.310768Z",
 	"published": "2020-05-13T22:19:21Z",
 	"aliases": [
 		"BIT-typo3-2020-11063",
@@ -86,6 +86,10 @@
 	"references": [
 		{
 			"type": "WEB",
+			"url": "https://github.com/TYPO3/TYPO3.CMS/security/advisories/GHSA-347x-877p-hcwx"
+		},
+		{
+			"type": "WEB",
 			"url": "https://github.com/TYPO3/typo3/security/advisories/GHSA-347x-877p-hcwx"
 		},
 		{
@@ -115,11 +119,12 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
+			"CWE-203",
 			"CWE-204"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2020-05-13T22:16:54Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2020-05-13T23:15:11Z",
 		"severity": "LOW"
 	}
 }
