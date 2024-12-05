@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-r82w-3phg-qvr4",
-	"modified": "2024-06-27T03:47:53.165732Z",
+	"modified": "2024-12-04T22:25:07.174261Z",
 	"published": "2024-06-18T21:30:36Z",
 	"aliases": [
 		"CVE-2024-38277"
@@ -526,7 +526,8 @@
 	],
 	"database_specific": {
 		"cwe_ids": [
-			"CWE-324"
+			"CWE-324",
+			"CWE-326"
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-06-18T22:45:45Z",
