@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-674v-3g2w-84gx",
-	"modified": "2023-11-08T04:07:26.202647Z",
+	"modified": "2024-12-05T05:49:33.933128Z",
 	"published": "2022-03-29T00:01:15Z",
 	"aliases": [
 		"CVE-2021-46433"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wvvp-jwf5-qcpc",
-	"modified": "2024-05-30T16:31:08.513420Z",
+	"modified": "2024-12-05T05:43:51.971339Z",
 	"published": "2024-05-30T16:24:19Z",
 	"summary": "TYPO3 Information Disclosure in Page Tree",
 	"details": "It has been discovered backend users not having read access to specific pages still could see them in the page tree which actually should be disallowed. A valid backend user account is needed in order to exploit this vulnerability.",

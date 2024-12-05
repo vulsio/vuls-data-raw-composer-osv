@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mmcv-fvq8-r9x3",
-	"modified": "2024-05-30T12:46:06.636701Z",
+	"modified": "2024-12-05T05:43:51.359420Z",
 	"published": "2024-05-30T12:17:20Z",
 	"summary": "Symfony XML decoding attack vector through external entities",
 	"details": "The XMLEncoder component of Symfony 2.0.x fails to disable external entities when parsing XML. In the Symfony2 framework the XML class may be used to deserialize objects or as part of a client/server API. By using external entities it is possible to include arbitrary files from the file system.",

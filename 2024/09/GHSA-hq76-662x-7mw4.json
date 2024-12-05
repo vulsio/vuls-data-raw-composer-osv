@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hq76-662x-7mw4",
-	"modified": "2024-09-03T20:14:34.002146Z",
+	"modified": "2024-12-05T05:28:51.120085Z",
 	"published": "2024-09-03T19:45:26Z",
 	"summary": "Pimcore includes vulnerable PHPOffice/PhpSpreadsheet",
 	"details": "### Summary\nPimcore 10.6.x and Enterprise 10.6.x versions currently depend on PHPOffice/PhpSpreadsheet version 1.x, which has recently been identified with a security vulnerability (CVE-2024-45048). To mitigate this issue, it is recommended to update to the latest version 2.2.2. For more details, please refer to the official advisory: [GHSA-ghg6-32f9-2jp7](https://github.com/advisories/GHSA-ghg6-32f9-2jp7).\n\n",

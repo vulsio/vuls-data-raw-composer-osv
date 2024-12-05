@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3vhm-q4w3-rw8q",
-	"modified": "2024-05-20T14:46:07.223314Z",
+	"modified": "2024-12-05T05:27:23.246057Z",
 	"published": "2024-05-20T14:22:09Z",
 	"summary": "OroPlatform Forced Redirect to External Website",
 	"details": "OroPlatform is prone to open redirection which could allow attackers to redirect users to external website.",

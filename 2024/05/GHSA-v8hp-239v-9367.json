@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-v8hp-239v-9367",
-	"modified": "2024-05-20T15:01:55.489666Z",
+	"modified": "2024-12-05T05:39:42.111241Z",
 	"published": "2024-05-20T14:19:27Z",
 	"summary": "OroCRM Forced Redirect to External Website",
 	"details": "OroCRM is prone to open redirection which could allow attackers to redirect users to external website.",

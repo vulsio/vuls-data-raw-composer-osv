@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3988-h75v-hwf6",
-	"modified": "2023-04-11T01:50:28.654652Z",
+	"modified": "2024-12-05T05:40:06.764087Z",
 	"published": "2022-03-26T00:06:45Z",
 	"summary": "Arbitrary shell execution",
 	"details": "A properly crafted filename would allow for arbitrary code execution when using the --filter=gitmodified command line option",

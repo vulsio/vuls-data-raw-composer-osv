@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vq4j-qcx7-ppc6",
-	"modified": "2024-05-30T13:32:32.359090Z",
+	"modified": "2024-12-05T05:43:11.417092Z",
 	"published": "2024-05-30T13:17:46Z",
 	"summary": "Thelia Cross-site Scripting vulnerability in BackOffice",
 	"details": "The BackOffice of Thelia (`error.html` template) has a cross-site scripting vulnerability in version 2.1.0 and 2.1.1 but not version 2.0.X. Version 2.1.2 contains a patch for the issue.",

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-76rh-xv36-9mrc",
-	"modified": "2024-02-16T07:58:01.051036Z",
+	"modified": "2024-12-05T05:26:48.018821Z",
 	"published": "2022-05-01T06:43:23Z",
 	"aliases": [
 		"CVE-2006-0868"

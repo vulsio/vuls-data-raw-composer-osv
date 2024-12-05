@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mhfv-8rc9-w38c",
-	"modified": "2023-04-11T01:24:57.274685Z",
+	"modified": "2024-12-05T05:39:47.186469Z",
 	"published": "2022-03-26T00:06:00Z",
 	"summary": "Arbitrary shell execution",
 	"details": "Uses of shell_exec() and exec() were not escaping filenames and configuration settings in most cases",

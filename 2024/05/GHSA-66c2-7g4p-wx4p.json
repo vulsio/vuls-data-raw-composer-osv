@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-66c2-7g4p-wx4p",
-	"modified": "2024-05-30T15:15:43.963776Z",
+	"modified": "2024-12-05T05:42:01.994594Z",
 	"published": "2024-05-30T15:13:09Z",
 	"summary": "TYPO3 Information Disclosure in Install Tool",
 	"details": "The Install Tool exposes the current TYPO3 version number to non-authenticated users.",

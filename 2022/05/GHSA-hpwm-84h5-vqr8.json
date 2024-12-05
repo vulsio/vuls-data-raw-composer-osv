@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-hpwm-84h5-vqr8",
-	"modified": "2024-04-23T23:58:48.436991Z",
+	"modified": "2024-12-05T05:41:42.464183Z",
 	"published": "2022-05-13T01:48:49Z",
 	"aliases": [
 		"CVE-2018-1043"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3494-cfwf-56hw",
-	"modified": "2024-11-04T21:32:39.835441Z",
+	"modified": "2024-12-05T05:49:06.376791Z",
 	"published": "2024-04-28T00:30:22Z",
 	"aliases": [
 		"CVE-2024-33851"

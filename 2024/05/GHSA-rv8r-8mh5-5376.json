@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rv8r-8mh5-5376",
-	"modified": "2024-05-30T18:32:12.900625Z",
+	"modified": "2024-12-05T05:41:11.157340Z",
 	"published": "2024-05-30T18:19:56Z",
 	"summary": "TYPO3 Information Disclosure in Backend User Interface",
 	"details": "The element information component used to display properties of a certain record is susceptible to information disclosure. The list of references from or to the record is not properly checked for the backend user’s permissions. A valid backend user account is needed in order to exploit this vulnerability.",

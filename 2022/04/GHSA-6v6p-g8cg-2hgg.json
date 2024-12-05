@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6v6p-g8cg-2hgg",
-	"modified": "2023-04-11T01:33:05.442268Z",
+	"modified": "2024-12-05T05:39:36.659473Z",
 	"published": "2022-04-01T12:56:28Z",
 	"summary": "Improper Certificate Validation in node-sass affects eZ Platform",
 	"details": "Certificate validation in node-sass 2.0.0 to 4.14.1 is disabled when requesting binaries even if the user is not specifying an alternative download path. This affects eZ Platform v2.5 only. The maintainers resolved it by replacing node-sass 4.11 with sass 1.32.13. This issue also affects ezsystems/ezplatform and ezsystems/ezplatform-page-builder.",
