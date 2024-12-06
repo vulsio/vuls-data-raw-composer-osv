@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6wr6-54mw-mvhr",
-	"modified": "2024-02-16T08:22:13.612636Z",
+	"modified": "2024-01-15T18:41:35.475545Z",
 	"published": "2022-05-13T01:08:49Z",
 	"aliases": [
 		"CVE-2011-2674"
@@ -27,17 +27,6 @@
 						}
 					]
 				}
-			],
-			"versions": [
-				"0.0.1",
-				"0.0.2",
-				"0.0.3",
-				"0.0.4",
-				"0.0.5",
-				"0.0.6",
-				"0.0.7",
-				"0.0.8",
-				"1.0.0"
 			],
 			"database_specific": {
 				"source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/05/GHSA-6wr6-54mw-mvhr/GHSA-6wr6-54mw-mvhr.json"

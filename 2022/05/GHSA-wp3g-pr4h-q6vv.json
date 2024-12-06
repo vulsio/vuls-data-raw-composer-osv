@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-wp3g-pr4h-q6vv",
-	"modified": "2024-02-16T08:02:31.336006Z",
+	"modified": "2024-12-06T05:47:38.454493Z",
 	"published": "2022-05-13T01:12:59Z",
 	"aliases": [
 		"CVE-2013-2082"

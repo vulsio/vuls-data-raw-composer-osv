@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-9mpf-g3fc-9rgv",
-	"modified": "2024-04-23T23:26:46.638260Z",
+	"modified": "2024-12-06T05:33:16.697212Z",
 	"published": "2022-05-17T05:00:37Z",
 	"aliases": [
 		"CVE-2013-5750"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-q3g4-2vw9-xv27",
-	"modified": "2024-05-21T19:00:44.693737Z",
+	"modified": "2024-12-06T05:38:17.931613Z",
 	"published": "2024-05-21T18:50:07Z",
 	"summary": "Shopware Remote Code Execution Vulnerability",
 	"details": "Under certain circumstances, it’s possible to execute an unauthorized foreign code in Shopware. This is a critical security vulnerability that could affect the entire system. All Shopware versions including Shopware 5.2.14 are affected.\n",

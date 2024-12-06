@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-rv6m-chvv-wmxg",
-	"modified": "2024-04-24T18:28:57.751276Z",
+	"modified": "2024-12-06T05:32:23.073722Z",
 	"published": "2022-05-14T03:14:46Z",
 	"aliases": [
 		"CVE-2016-6618"
