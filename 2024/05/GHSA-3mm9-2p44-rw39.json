@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-3mm9-2p44-rw39",
-	"modified": "2024-05-22T19:15:43.905573Z",
+	"modified": "2024-12-07T05:42:56.284253Z",
 	"published": "2024-05-22T19:03:54Z",
 	"summary": "Silverstripe SiteTree Creation Permission Vulnerability",
 	"details": "A vulnerability exists in the permission validation for SiteTree object creation. By default user permissions are not validated by the SiteTree::canCreate method, unless overridden by user code or via the configuration system.\n\nThis vulnerability will allow users, or unauthenticated guests, to create new SiteTree objects in the database. This vulnerability is present when such users are given CMS access via other means, or if there is another mechanism (such as RestfulServer module) which allows model editing and relies on model-level permission checks.\n\nThis vulnerability is restricted to the creation of draft or live pages, and does not allow users to edit, publish, or unpublish existing pages.\n\nAll users should upgrade as soon as possible.",

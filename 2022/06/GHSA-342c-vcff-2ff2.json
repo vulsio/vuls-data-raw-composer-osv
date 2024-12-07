@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-342c-vcff-2ff2",
-	"modified": "2024-02-21T05:33:15.421602Z",
+	"modified": "2024-12-07T05:42:54.254489Z",
 	"published": "2022-06-02T20:53:43Z",
 	"summary": "Login timing attack in ezsystems/ezplatform-kernel",
 	"details": "Ibexa DXP is using random execution time to hinder timing attacks against user accounts, a method of discovering whether a given account exists in a system without knowing its password, thus affecting privacy. This implementation was found to not be good enough in some situations. The fix replaces this with constant time functionality, configured in the new security.yml parameter 'ibexa.security.authentication.constant_auth_time'. It will log a warning if the constant time is exceeded. If this happens the setting should be increased.",

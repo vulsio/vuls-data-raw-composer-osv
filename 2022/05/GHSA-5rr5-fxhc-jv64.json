@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-5rr5-fxhc-jv64",
-	"modified": "2024-02-16T08:18:40.398523Z",
+	"modified": "2024-12-07T05:42:54.899352Z",
 	"published": "2022-05-13T01:12:51Z",
 	"aliases": [
 		"CVE-2014-0129"

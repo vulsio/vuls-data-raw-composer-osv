@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-mphj-h2fc-62x3",
-	"modified": "2024-02-16T08:10:39.654076Z",
+	"modified": "2024-12-07T05:40:49.392874Z",
 	"published": "2022-05-13T01:12:41Z",
 	"aliases": [
 		"CVE-2014-7832"
