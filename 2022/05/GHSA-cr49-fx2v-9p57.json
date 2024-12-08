@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cr49-fx2v-9p57",
-	"modified": "2024-04-25T22:28:47.574354Z",
+	"modified": "2024-12-08T05:28:14.866258Z",
 	"published": "2022-05-17T04:19:02Z",
 	"aliases": [
 		"CVE-2013-5958"

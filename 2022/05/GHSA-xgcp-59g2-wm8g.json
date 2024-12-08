@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-xgcp-59g2-wm8g",
-	"modified": "2024-02-16T08:10:30.286580Z",
+	"modified": "2024-12-08T05:31:12.653013Z",
 	"published": "2022-05-24T17:00:26Z",
 	"aliases": [
 		"CVE-2019-8136"

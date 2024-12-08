@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-cp39-43xr-2wrp",
-	"modified": "2024-02-16T07:59:26.343425Z",
+	"modified": "2024-12-08T05:30:39.481665Z",
 	"published": "2022-05-13T01:12:45Z",
 	"aliases": [
 		"CVE-2015-2269"

@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-6f85-3f8q-qc94",
-	"modified": "2023-04-11T01:34:11.617441Z",
+	"modified": "2024-12-08T05:39:08.302350Z",
 	"published": "2022-07-15T19:25:06Z",
 	"summary": "OroCommerce vulnerable to XSS when adding class name to Selector Manager on pages that use GrapeJS editor",
 	"details": "# Impact\nDue to insufficient class name validation in GrapeJS library it's possible to add executable JS code in class name through Selector Manager\n\n# Relates to\n - [https://github.com/artf/grapesjs/issues/4411](https://github.com/artf/grapesjs/issues/4411)\n\n# Patch\nUpdate GrapeJS dependency to >=[v0.19.5](https://github.com/artf/grapesjs/releases/tag/v0.19.5)\n",
