@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.6.0",
 	"id": "GHSA-vwv2-9wcj-64vx",
-	"modified": "2024-02-16T08:24:32.215771Z",
+	"modified": "2024-12-17T14:55:51.793833Z",
 	"published": "2024-01-05T03:30:37Z",
 	"aliases": [
 		"CVE-2024-22075"
@@ -377,6 +377,10 @@
 		{
 			"type": "WEB",
 			"url": "https://github.com/firefly-iii/firefly-iii/releases/tag/v6.1.1"
+		},
+		{
+			"type": "WEB",
+			"url": "https://www.sonarsource.com/blog/front-end-frameworks-when-bypassing-built-in-sanitization-might-backfire"
 		}
 	],
 	"database_specific": {
